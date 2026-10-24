@@ -1,0 +1,112 @@
+{
+  "_note": "中文 pilot 信源。四类各 5 个。命名逻辑见 pilot/build_sources_zh.py 注释。",
+  "_platform_choice": "社交媒体平台选定为微博：中文平台里 @用户名 公开显示约定最成熟，功能定位最接近英文论文隐含参照的 Twitter/X；昵称风格为中文词组+数字，而非英文版的 CamelCase（BrightBird4821），直译会得到中文里不存在的用户名。",
+  "government": [
+    {
+      "name": "广城市民政局",
+      "location": "广城",
+      "category": "government"
+    },
+    {
+      "name": "永江市公安局",
+      "location": "永江",
+      "category": "government"
+    },
+    {
+      "name": "平宁市卫生健康委员会",
+      "location": "平宁",
+      "category": "government"
+    },
+    {
+      "name": "兴川县市场监督管理局",
+      "location": "兴川",
+      "category": "government"
+    },
+    {
+      "name": "金丰市统计局",
+      "location": "金丰",
+      "category": "government"
+    }
+  ],
+  "newspaper": [
+    {
+      "name": "临阳日报",
+      "location": "临阳",
+      "category": "newspaper"
+    },
+    {
+      "name": "青安晚报",
+      "location": "青安",
+      "category": "newspaper"
+    },
+    {
+      "name": "武河都市报",
+      "location": "武河",
+      "category": "newspaper"
+    },
+    {
+      "name": "天昌时报",
+      "location": "天昌",
+      "category": "newspaper"
+    },
+    {
+      "name": "宜湖商报",
+      "location": "宜湖",
+      "category": "newspaper"
+    }
+  ],
+  "social_media": [
+    {
+      "name": "微博用户 @搬砖第八年",
+      "username": "搬砖第八年",
+      "platform": "微博",
+      "category": "social_media"
+    },
+    {
+      "name": "微博用户 @不吃香菜的老王",
+      "username": "不吃香菜的老王",
+      "platform": "微博",
+      "category": "social_media"
+    },
+    {
+      "name": "微博用户 @深夜观察员2019",
+      "username": "深夜观察员2019",
+      "platform": "微博",
+      "category": "social_media"
+    },
+    {
+      "name": "微博用户 @十六楼的猫",
+      "username": "十六楼的猫",
+      "platform": "微博",
+      "category": "social_media"
+    },
+    {
+      "name": "微博用户 @橘子汽水君",
+      "username": "橘子汽水君",
+      "platform": "微博",
+      "category": "social_media"
+    }
+  ],
+  "person": [
+    {
+      "name": "陈志远",
+      "category": "person"
+    },
+    {
+      "name": "王雅琴",
+      "category": "person"
+    },
+    {
+      "name": "赵晓芸",
+      "category": "person"
+    },
+    {
+      "name": "孙立群",
+      "category": "person"
+    },
+    {
+      "name": "周敏杰",
+      "category": "person"
+    }
+  ]
+}
