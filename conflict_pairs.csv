@@ -1,0 +1,605 @@
+﻿entity_id,entity_type,entity_name_zh,entity_name_en,attribute_zh,attribute_en,original_zh,original_en,alternative_index,alternative_zh,alternative_en,tested_in_pilot
+PERSON-1,person,郑淑芬,Zheng Shufen,出生日期,Date of birth,1987年8月14日,1987-08-14,1,1986年10月15日,1986-10-15,yes
+PERSON-1,person,郑淑芬,Zheng Shufen,出生日期,Date of birth,1987年8月14日,1987-08-14,2,1987年5月19日,1987-05-19,no
+PERSON-1,person,郑淑芬,Zheng Shufen,出生日期,Date of birth,1987年8月14日,1987-08-14,3,1986年8月31日,1986-08-31,no
+PERSON-1,person,郑淑芬,Zheng Shufen,出生日期,Date of birth,1987年8月14日,1987-08-14,4,1987年2月11日,1987-02-11,no
+PERSON-1,person,郑淑芬,Zheng Shufen,职业,Occupation,中学语文教师,Secondary-school Chinese-language teacher,1,小学教务主任,Primary-school academic affairs director,yes
+PERSON-1,person,郑淑芬,Zheng Shufen,职业,Occupation,中学语文教师,Secondary-school Chinese-language teacher,2,职业学校德育教师,Vocational-school moral education teacher,no
+PERSON-1,person,郑淑芬,Zheng Shufen,职业,Occupation,中学语文教师,Secondary-school Chinese-language teacher,3,县教研室教研员,County teaching and research office adviser (school instruction),no
+PERSON-1,person,郑淑芬,Zheng Shufen,职业,Occupation,中学语文教师,Secondary-school Chinese-language teacher,4,教辅机构课程顾问,Tutoring-provider course adviser,no
+PERSON-1,person,郑淑芬,Zheng Shufen,学历,Education,本科（汉语言文学）,Bachelor's level (Chinese Language and Literature),1,硕士研究生（学科教学·语文）,Master's level (Subject Teaching: Chinese),yes
+PERSON-1,person,郑淑芬,Zheng Shufen,学历,Education,本科（汉语言文学）,Bachelor's level (Chinese Language and Literature),2,本科（教育学）,Bachelor's level (Education),no
+PERSON-1,person,郑淑芬,Zheng Shufen,学历,Education,本科（汉语言文学）,Bachelor's level (Chinese Language and Literature),3,大专（初等教育）,College diploma level (dazhuan; below bachelor's level) (Primary Education),no
+PERSON-1,person,郑淑芬,Zheng Shufen,学历,Education,本科（汉语言文学）,Bachelor's level (Chinese Language and Literature),4,硕士研究生（课程与教学论）,Master's level (Curriculum and Instruction),no
+PERSON-1,person,郑淑芬,Zheng Shufen,身高,Height,162厘米,162 cm,1,168厘米,168 cm,yes
+PERSON-1,person,郑淑芬,Zheng Shufen,身高,Height,162厘米,162 cm,2,155厘米,155 cm,no
+PERSON-1,person,郑淑芬,Zheng Shufen,身高,Height,162厘米,162 cm,3,170厘米,170 cm,no
+PERSON-1,person,郑淑芬,Zheng Shufen,身高,Height,162厘米,162 cm,4,158厘米,158 cm,no
+PERSON-1,person,郑淑芬,Zheng Shufen,体重,Body weight,54公斤,54 kg,1,61公斤,61 kg,yes
+PERSON-1,person,郑淑芬,Zheng Shufen,体重,Body weight,54公斤,54 kg,2,48公斤,48 kg,no
+PERSON-1,person,郑淑芬,Zheng Shufen,体重,Body weight,54公斤,54 kg,3,57公斤,57 kg,no
+PERSON-1,person,郑淑芬,Zheng Shufen,体重,Body weight,54公斤,54 kg,4,63公斤,63 kg,no
+PERSON-1,person,郑淑芬,Zheng Shufen,婚姻状况,Marital status,已婚,Married,1,离异,Divorced,yes
+PERSON-1,person,郑淑芬,Zheng Shufen,婚姻状况,Marital status,已婚,Married,2,未婚,Never married,no
+PERSON-1,person,郑淑芬,Zheng Shufen,婚姻状况,Marital status,已婚,Married,3,再婚,Remarried,no
+PERSON-1,person,郑淑芬,Zheng Shufen,婚姻状况,Marital status,已婚,Married,4,丧偶,Widowed,no
+PERSON-1,person,郑淑芬,Zheng Shufen,现居城市,Current city of residence,双陵,Shuangling,1,龙泽,Longze,yes
+PERSON-1,person,郑淑芬,Zheng Shufen,现居城市,Current city of residence,双陵,Shuangling,2,清山,Qingshan,no
+PERSON-1,person,郑淑芬,Zheng Shufen,现居城市,Current city of residence,双陵,Shuangling,3,惠明,Huiming,no
+PERSON-1,person,郑淑芬,Zheng Shufen,现居城市,Current city of residence,双陵,Shuangling,4,白原,Baiyuan,no
+PERSON-2,person,冯国栋,Feng Guodong,出生日期,Date of birth,1975年2月22日,1975-02-22,1,1974年12月1日,1974-12-01,yes
+PERSON-2,person,冯国栋,Feng Guodong,出生日期,Date of birth,1975年2月22日,1975-02-22,2,1976年2月18日,1976-02-18,no
+PERSON-2,person,冯国栋,Feng Guodong,出生日期,Date of birth,1975年2月22日,1975-02-22,3,1974年9月18日,1974-09-18,no
+PERSON-2,person,冯国栋,Feng Guodong,出生日期,Date of birth,1975年2月22日,1975-02-22,4,1974年10月28日,1974-10-28,no
+PERSON-2,person,冯国栋,Feng Guodong,职业,Occupation,货运车队调度员,Freight-fleet dispatcher,1,冷链物流仓管,Cold-chain warehouse clerk,yes
+PERSON-2,person,冯国栋,Feng Guodong,职业,Occupation,货运车队调度员,Freight-fleet dispatcher,2,长途客运驾驶员,Long-distance coach driver,no
+PERSON-2,person,冯国栋,Feng Guodong,职业,Occupation,货运车队调度员,Freight-fleet dispatcher,3,港口集装箱理货员,Port container tally clerk,no
+PERSON-2,person,冯国栋,Feng Guodong,职业,Occupation,货运车队调度员,Freight-fleet dispatcher,4,快递分拨中心主管,Parcel sorting-centre supervisor,no
+PERSON-2,person,冯国栋,Feng Guodong,学历,Education,中专（汽车运用与维修）,Secondary vocational education (zhongzhuan) (Automotive Operation and Maintenance),1,大专（物流管理）,College diploma level (dazhuan; below bachelor's level) (Logistics Management),yes
+PERSON-2,person,冯国栋,Feng Guodong,学历,Education,中专（汽车运用与维修）,Secondary vocational education (zhongzhuan) (Automotive Operation and Maintenance),2,高中,Senior secondary school,no
+PERSON-2,person,冯国栋,Feng Guodong,学历,Education,中专（汽车运用与维修）,Secondary vocational education (zhongzhuan) (Automotive Operation and Maintenance),3,大专（道路运输管理）,College diploma level (dazhuan; below bachelor's level) (Road Transport Management),no
+PERSON-2,person,冯国栋,Feng Guodong,学历,Education,中专（汽车运用与维修）,Secondary vocational education (zhongzhuan) (Automotive Operation and Maintenance),4,本科（交通运输）,Bachelor's level (Transportation),no
+PERSON-2,person,冯国栋,Feng Guodong,身高,Height,176厘米,176 cm,1,181厘米,181 cm,yes
+PERSON-2,person,冯国栋,Feng Guodong,身高,Height,176厘米,176 cm,2,169厘米,169 cm,no
+PERSON-2,person,冯国栋,Feng Guodong,身高,Height,176厘米,176 cm,3,173厘米,173 cm,no
+PERSON-2,person,冯国栋,Feng Guodong,身高,Height,176厘米,176 cm,4,185厘米,185 cm,no
+PERSON-2,person,冯国栋,Feng Guodong,体重,Body weight,78公斤,78 kg,1,85公斤,85 kg,yes
+PERSON-2,person,冯国栋,Feng Guodong,体重,Body weight,78公斤,78 kg,2,72公斤,72 kg,no
+PERSON-2,person,冯国栋,Feng Guodong,体重,Body weight,78公斤,78 kg,3,69公斤,69 kg,no
+PERSON-2,person,冯国栋,Feng Guodong,体重,Body weight,78公斤,78 kg,4,91公斤,91 kg,no
+PERSON-2,person,冯国栋,Feng Guodong,婚姻状况,Marital status,已婚,Married,1,丧偶,Widowed,yes
+PERSON-2,person,冯国栋,Feng Guodong,婚姻状况,Marital status,已婚,Married,2,离异,Divorced,no
+PERSON-2,person,冯国栋,Feng Guodong,婚姻状况,Marital status,已婚,Married,3,再婚,Remarried,no
+PERSON-2,person,冯国栋,Feng Guodong,婚姻状况,Marital status,已婚,Married,4,未婚,Never married,no
+PERSON-2,person,冯国栋,Feng Guodong,现居城市,Current city of residence,上泉,Shangquan,1,乐水,Leshui,yes
+PERSON-2,person,冯国栋,Feng Guodong,现居城市,Current city of residence,上泉,Shangquan,2,新定,Xinding,no
+PERSON-2,person,冯国栋,Feng Guodong,现居城市,Current city of residence,上泉,Shangquan,3,双陵,Shuangling,no
+PERSON-2,person,冯国栋,Feng Guodong,现居城市,Current city of residence,上泉,Shangquan,4,龙泽,Longze,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,出生日期,Date of birth,1990年3月12日,1990-03-12,1,1989年4月24日,1989-04-24,yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,出生日期,Date of birth,1990年3月12日,1990-03-12,2,1989年12月15日,1989-12-15,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,出生日期,Date of birth,1990年3月12日,1990-03-12,3,1989年10月24日,1989-10-24,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,出生日期,Date of birth,1990年3月12日,1990-03-12,4,1990年7月3日,1990-07-03,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,职业,Occupation,三甲医院护士长,Head nurse at a Grade III Class A hospital,1,社区卫生服务中心全科医生,Community health-centre general practitioner,yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,职业,Occupation,三甲医院护士长,Head nurse at a Grade III Class A hospital,2,县医院药剂师,County-hospital pharmacist,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,职业,Occupation,三甲医院护士长,Head nurse at a Grade III Class A hospital,3,妇幼保健院助产士,Maternal and child health-hospital midwife,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,职业,Occupation,三甲医院护士长,Head nurse at a Grade III Class A hospital,4,疾控中心流调员,Disease-control centre epidemiological investigator,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,学历,Education,本科（护理学）,Bachelor's level (Nursing),1,大专（护理）,College diploma level (dazhuan; below bachelor's level) (Nursing),yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,学历,Education,本科（护理学）,Bachelor's level (Nursing),2,硕士研究生（护理学）,Master's level (Nursing),no
+PERSON-3,person,蒋雨柔,Jiang Yurou,学历,Education,本科（护理学）,Bachelor's level (Nursing),3,本科（助产学）,Bachelor's level (Midwifery),no
+PERSON-3,person,蒋雨柔,Jiang Yurou,学历,Education,本科（护理学）,Bachelor's level (Nursing),4,大专（医学检验技术）,College diploma level (dazhuan; below bachelor's level) (Medical Laboratory Technology),no
+PERSON-3,person,蒋雨柔,Jiang Yurou,身高,Height,165厘米,165 cm,1,159厘米,159 cm,yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,身高,Height,165厘米,165 cm,2,172厘米,172 cm,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,身高,Height,165厘米,165 cm,3,161厘米,161 cm,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,身高,Height,165厘米,165 cm,4,167厘米,167 cm,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,体重,Body weight,58公斤,58 kg,1,52公斤,52 kg,yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,体重,Body weight,58公斤,58 kg,2,64公斤,64 kg,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,体重,Body weight,58公斤,58 kg,3,55公斤,55 kg,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,体重,Body weight,58公斤,58 kg,4,60公斤,60 kg,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,婚姻状况,Marital status,未婚,Never married,1,已婚,Married,yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,婚姻状况,Marital status,未婚,Never married,2,离异,Divorced,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,婚姻状况,Marital status,未婚,Never married,3,再婚,Remarried,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,婚姻状况,Marital status,未婚,Never married,4,丧偶,Widowed,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,现居城市,Current city of residence,白原,Baiyuan,1,通溪,Tongxi,yes
+PERSON-3,person,蒋雨柔,Jiang Yurou,现居城市,Current city of residence,白原,Baiyuan,2,长源,Changyuan,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,现居城市,Current city of residence,白原,Baiyuan,3,上泉,Shangquan,no
+PERSON-3,person,蒋雨柔,Jiang Yurou,现居城市,Current city of residence,白原,Baiyuan,4,乐水,Leshui,no
+PERSON-4,person,韩宝山,Han Baoshan,出生日期,Date of birth,1968年11月5日,1968-11-05,1,1969年1月20日,1969-01-20,yes
+PERSON-4,person,韩宝山,Han Baoshan,出生日期,Date of birth,1968年11月5日,1968-11-05,2,1967年12月9日,1967-12-09,no
+PERSON-4,person,韩宝山,Han Baoshan,出生日期,Date of birth,1968年11月5日,1968-11-05,3,1968年6月27日,1968-06-27,no
+PERSON-4,person,韩宝山,Han Baoshan,出生日期,Date of birth,1968年11月5日,1968-11-05,4,1969年4月16日,1969-04-16,no
+PERSON-4,person,韩宝山,Han Baoshan,职业,Occupation,农业技术推广员,Agricultural extension officer,1,种子公司区域销售,Regional seed-company salesperson,yes
+PERSON-4,person,韩宝山,Han Baoshan,职业,Occupation,农业技术推广员,Agricultural extension officer,2,农机合作社技术员,Agricultural machinery cooperative technician,no
+PERSON-4,person,韩宝山,Han Baoshan,职业,Occupation,农业技术推广员,Agricultural extension officer,3,水产养殖场场长,Aquaculture farm manager,no
+PERSON-4,person,韩宝山,Han Baoshan,职业,Occupation,农业技术推广员,Agricultural extension officer,4,林业站护林员,Forestry-station forest ranger,no
+PERSON-4,person,韩宝山,Han Baoshan,学历,Education,大专（作物生产技术）,College diploma level (dazhuan; below bachelor's level) (Crop Production Technology),1,本科（农学）,Bachelor's level (Agronomy),yes
+PERSON-4,person,韩宝山,Han Baoshan,学历,Education,大专（作物生产技术）,College diploma level (dazhuan; below bachelor's level) (Crop Production Technology),2,中专（农业机械化）,Secondary vocational education (zhongzhuan) (Agricultural Mechanisation),no
+PERSON-4,person,韩宝山,Han Baoshan,学历,Education,大专（作物生产技术）,College diploma level (dazhuan; below bachelor's level) (Crop Production Technology),3,硕士研究生（作物栽培学）,Master's level (Crop Cultivation),no
+PERSON-4,person,韩宝山,Han Baoshan,学历,Education,大专（作物生产技术）,College diploma level (dazhuan; below bachelor's level) (Crop Production Technology),4,本科（园艺）,Bachelor's level (Horticulture),no
+PERSON-4,person,韩宝山,Han Baoshan,身高,Height,171厘米,171 cm,1,178厘米,178 cm,yes
+PERSON-4,person,韩宝山,Han Baoshan,身高,Height,171厘米,171 cm,2,166厘米,166 cm,no
+PERSON-4,person,韩宝山,Han Baoshan,身高,Height,171厘米,171 cm,3,183厘米,183 cm,no
+PERSON-4,person,韩宝山,Han Baoshan,身高,Height,171厘米,171 cm,4,174厘米,174 cm,no
+PERSON-4,person,韩宝山,Han Baoshan,体重,Body weight,73公斤,73 kg,1,80公斤,80 kg,yes
+PERSON-4,person,韩宝山,Han Baoshan,体重,Body weight,73公斤,73 kg,2,67公斤,67 kg,no
+PERSON-4,person,韩宝山,Han Baoshan,体重,Body weight,73公斤,73 kg,3,88公斤,88 kg,no
+PERSON-4,person,韩宝山,Han Baoshan,体重,Body weight,73公斤,73 kg,4,76公斤,76 kg,no
+PERSON-4,person,韩宝山,Han Baoshan,婚姻状况,Marital status,已婚,Married,1,再婚,Remarried,yes
+PERSON-4,person,韩宝山,Han Baoshan,婚姻状况,Marital status,已婚,Married,2,丧偶,Widowed,no
+PERSON-4,person,韩宝山,Han Baoshan,婚姻状况,Marital status,已婚,Married,3,离异,Divorced,no
+PERSON-4,person,韩宝山,Han Baoshan,婚姻状况,Marital status,已婚,Married,4,未婚,Never married,no
+PERSON-4,person,韩宝山,Han Baoshan,现居城市,Current city of residence,龙泽,Longze,1,清山,Qingshan,yes
+PERSON-4,person,韩宝山,Han Baoshan,现居城市,Current city of residence,龙泽,Longze,2,惠明,Huiming,no
+PERSON-4,person,韩宝山,Han Baoshan,现居城市,Current city of residence,龙泽,Longze,3,白原,Baiyuan,no
+PERSON-4,person,韩宝山,Han Baoshan,现居城市,Current city of residence,龙泽,Longze,4,通溪,Tongxi,no
+PERSON-5,person,褚文静,Chu Wenjing,出生日期,Date of birth,1993年6月30日,1993-06-30,1,1992年9月8日,1992-09-08,yes
+PERSON-5,person,褚文静,Chu Wenjing,出生日期,Date of birth,1993年6月30日,1993-06-30,2,1993年11月22日,1993-11-22,no
+PERSON-5,person,褚文静,Chu Wenjing,出生日期,Date of birth,1993年6月30日,1993-06-30,3,1994年1月4日,1994-01-04,no
+PERSON-5,person,褚文静,Chu Wenjing,出生日期,Date of birth,1993年6月30日,1993-06-30,4,1992年3月17日,1992-03-17,no
+PERSON-5,person,褚文静,Chu Wenjing,职业,Occupation,会计师事务所审计员,Accounting-firm auditor,1,制造企业成本会计,Manufacturing-company cost accountant,yes
+PERSON-5,person,褚文静,Chu Wenjing,职业,Occupation,会计师事务所审计员,Accounting-firm auditor,2,税务师事务所税务顾问,Tax-firm tax adviser,no
+PERSON-5,person,褚文静,Chu Wenjing,职业,Occupation,会计师事务所审计员,Accounting-firm auditor,3,银行对公客户经理,Bank corporate relationship manager,no
+PERSON-5,person,褚文静,Chu Wenjing,职业,Occupation,会计师事务所审计员,Accounting-firm auditor,4,证券公司投资顾问,Securities-firm investment adviser,no
+PERSON-5,person,褚文静,Chu Wenjing,学历,Education,本科（会计学）,Bachelor's level (Accounting),1,硕士研究生（会计硕士MPAcc）,Master's level (Professional Accounting (MPAcc)),yes
+PERSON-5,person,褚文静,Chu Wenjing,学历,Education,本科（会计学）,Bachelor's level (Accounting),2,本科（财务管理）,Bachelor's level (Financial Management),no
+PERSON-5,person,褚文静,Chu Wenjing,学历,Education,本科（会计学）,Bachelor's level (Accounting),3,大专（会计电算化）,College diploma level (dazhuan; below bachelor's level) (Computerised Accounting),no
+PERSON-5,person,褚文静,Chu Wenjing,学历,Education,本科（会计学）,Bachelor's level (Accounting),4,本科（审计学）,Bachelor's level (Auditing),no
+PERSON-5,person,褚文静,Chu Wenjing,身高,Height,160厘米,160 cm,1,164厘米,164 cm,yes
+PERSON-5,person,褚文静,Chu Wenjing,身高,Height,160厘米,160 cm,2,157厘米,157 cm,no
+PERSON-5,person,褚文静,Chu Wenjing,身高,Height,160厘米,160 cm,3,169厘米,169 cm,no
+PERSON-5,person,褚文静,Chu Wenjing,身高,Height,160厘米,160 cm,4,163厘米,163 cm,no
+PERSON-5,person,褚文静,Chu Wenjing,体重,Body weight,50公斤,50 kg,1,56公斤,56 kg,yes
+PERSON-5,person,褚文静,Chu Wenjing,体重,Body weight,50公斤,50 kg,2,47公斤,47 kg,no
+PERSON-5,person,褚文静,Chu Wenjing,体重,Body weight,50公斤,50 kg,3,62公斤,62 kg,no
+PERSON-5,person,褚文静,Chu Wenjing,体重,Body weight,50公斤,50 kg,4,53公斤,53 kg,no
+PERSON-5,person,褚文静,Chu Wenjing,婚姻状况,Marital status,未婚,Never married,1,离异,Divorced,yes
+PERSON-5,person,褚文静,Chu Wenjing,婚姻状况,Marital status,未婚,Never married,2,已婚,Married,no
+PERSON-5,person,褚文静,Chu Wenjing,婚姻状况,Marital status,未婚,Never married,3,再婚,Remarried,no
+PERSON-5,person,褚文静,Chu Wenjing,婚姻状况,Marital status,未婚,Never married,4,丧偶,Widowed,no
+PERSON-5,person,褚文静,Chu Wenjing,现居城市,Current city of residence,乐水,Leshui,1,新定,Xinding,yes
+PERSON-5,person,褚文静,Chu Wenjing,现居城市,Current city of residence,乐水,Leshui,2,双陵,Shuangling,no
+PERSON-5,person,褚文静,Chu Wenjing,现居城市,Current city of residence,乐水,Leshui,3,龙泽,Longze,no
+PERSON-5,person,褚文静,Chu Wenjing,现居城市,Current city of residence,乐水,Leshui,4,清山,Qingshan,no
+PERSON-6,person,沈培元,Shen Peiyuan,出生日期,Date of birth,1981年4月9日,1981-04-09,1,1980年7月25日,1980-07-25,yes
+PERSON-6,person,沈培元,Shen Peiyuan,出生日期,Date of birth,1981年4月9日,1981-04-09,2,1981年12月2日,1981-12-02,no
+PERSON-6,person,沈培元,Shen Peiyuan,出生日期,Date of birth,1981年4月9日,1981-04-09,3,1982年2月14日,1982-02-14,no
+PERSON-6,person,沈培元,Shen Peiyuan,出生日期,Date of birth,1981年4月9日,1981-04-09,4,1980年11月30日,1980-11-30,no
+PERSON-6,person,沈培元,Shen Peiyuan,职业,Occupation,市政道桥工程师,Municipal roads and bridges engineer,1,建筑设计院结构工程师,Architectural design-institute structural engineer,yes
+PERSON-6,person,沈培元,Shen Peiyuan,职业,Occupation,市政道桥工程师,Municipal roads and bridges engineer,2,房地产项目监理,Property-project construction supervisor,no
+PERSON-6,person,沈培元,Shen Peiyuan,职业,Occupation,市政道桥工程师,Municipal roads and bridges engineer,3,水利勘测设计员,Water-resources survey and design technician,no
+PERSON-6,person,沈培元,Shen Peiyuan,职业,Occupation,市政道桥工程师,Municipal roads and bridges engineer,4,轨道交通信号调试员,Rail-transit signalling commissioning technician,no
+PERSON-6,person,沈培元,Shen Peiyuan,学历,Education,硕士研究生（桥梁与隧道工程）,Master's level (Bridge and Tunnel Engineering),1,本科（土木工程）,Bachelor's level (Civil Engineering),yes
+PERSON-6,person,沈培元,Shen Peiyuan,学历,Education,硕士研究生（桥梁与隧道工程）,Master's level (Bridge and Tunnel Engineering),2,博士研究生（结构工程）,Doctoral level (Structural Engineering),no
+PERSON-6,person,沈培元,Shen Peiyuan,学历,Education,硕士研究生（桥梁与隧道工程）,Master's level (Bridge and Tunnel Engineering),3,本科（道路桥梁与渡河工程）,"Bachelor's level (Road, Bridge and River-crossing Engineering)",no
+PERSON-6,person,沈培元,Shen Peiyuan,学历,Education,硕士研究生（桥梁与隧道工程）,Master's level (Bridge and Tunnel Engineering),4,大专（建筑工程技术）,College diploma level (dazhuan; below bachelor's level) (Building Construction Technology),no
+PERSON-6,person,沈培元,Shen Peiyuan,身高,Height,179厘米,179 cm,1,172厘米,172 cm,yes
+PERSON-6,person,沈培元,Shen Peiyuan,身高,Height,179厘米,179 cm,2,186厘米,186 cm,no
+PERSON-6,person,沈培元,Shen Peiyuan,身高,Height,179厘米,179 cm,3,175厘米,175 cm,no
+PERSON-6,person,沈培元,Shen Peiyuan,身高,Height,179厘米,179 cm,4,168厘米,168 cm,no
+PERSON-6,person,沈培元,Shen Peiyuan,体重,Body weight,82公斤,82 kg,1,75公斤,75 kg,yes
+PERSON-6,person,沈培元,Shen Peiyuan,体重,Body weight,82公斤,82 kg,2,90公斤,90 kg,no
+PERSON-6,person,沈培元,Shen Peiyuan,体重,Body weight,82公斤,82 kg,3,70公斤,70 kg,no
+PERSON-6,person,沈培元,Shen Peiyuan,体重,Body weight,82公斤,82 kg,4,86公斤,86 kg,no
+PERSON-6,person,沈培元,Shen Peiyuan,婚姻状况,Marital status,已婚,Married,1,离异,Divorced,yes
+PERSON-6,person,沈培元,Shen Peiyuan,婚姻状况,Marital status,已婚,Married,2,再婚,Remarried,no
+PERSON-6,person,沈培元,Shen Peiyuan,婚姻状况,Marital status,已婚,Married,3,未婚,Never married,no
+PERSON-6,person,沈培元,Shen Peiyuan,婚姻状况,Marital status,已婚,Married,4,丧偶,Widowed,no
+PERSON-6,person,沈培元,Shen Peiyuan,现居城市,Current city of residence,通溪,Tongxi,1,长源,Changyuan,yes
+PERSON-6,person,沈培元,Shen Peiyuan,现居城市,Current city of residence,通溪,Tongxi,2,上泉,Shangquan,no
+PERSON-6,person,沈培元,Shen Peiyuan,现居城市,Current city of residence,通溪,Tongxi,3,乐水,Leshui,no
+PERSON-6,person,沈培元,Shen Peiyuan,现居城市,Current city of residence,通溪,Tongxi,4,新定,Xinding,no
+PERSON-7,person,曹丽娟,Cao Lijuan,出生日期,Date of birth,1979年9月18日,1979-09-18,1,1978年12月6日,1978-12-06,yes
+PERSON-7,person,曹丽娟,Cao Lijuan,出生日期,Date of birth,1979年9月18日,1979-09-18,2,1980年3月23日,1980-03-23,no
+PERSON-7,person,曹丽娟,Cao Lijuan,出生日期,Date of birth,1979年9月18日,1979-09-18,3,1979年5月11日,1979-05-11,no
+PERSON-7,person,曹丽娟,Cao Lijuan,出生日期,Date of birth,1979年9月18日,1979-09-18,4,1978年8月29日,1978-08-29,no
+PERSON-7,person,曹丽娟,Cao Lijuan,职业,Occupation,社区网格员,Community grid-based services worker [contextual gloss],1,街道民政助理,Subdistrict civil affairs assistant,yes
+PERSON-7,person,曹丽娟,Cao Lijuan,职业,Occupation,社区网格员,Community grid-based services worker [contextual gloss],2,养老服务中心社工,Elder-care service-centre social worker,no
+PERSON-7,person,曹丽娟,Cao Lijuan,职业,Occupation,社区网格员,Community grid-based services worker [contextual gloss],3,妇联干事,Women's Federation officer,no
+PERSON-7,person,曹丽娟,Cao Lijuan,职业,Occupation,社区网格员,Community grid-based services worker [contextual gloss],4,居民委员会主任,Residents' committee director,no
+PERSON-7,person,曹丽娟,Cao Lijuan,学历,Education,大专（社区管理与服务）,College diploma level (dazhuan; below bachelor's level) (Community Management and Services),1,本科（社会工作）,Bachelor's level (Social Work),yes
+PERSON-7,person,曹丽娟,Cao Lijuan,学历,Education,大专（社区管理与服务）,College diploma level (dazhuan; below bachelor's level) (Community Management and Services),2,中专（民政管理）,Secondary vocational education (zhongzhuan) (Civil Affairs Management),no
+PERSON-7,person,曹丽娟,Cao Lijuan,学历,Education,大专（社区管理与服务）,College diploma level (dazhuan; below bachelor's level) (Community Management and Services),3,本科（行政管理）,Bachelor's level (Public Administration),no
+PERSON-7,person,曹丽娟,Cao Lijuan,学历,Education,大专（社区管理与服务）,College diploma level (dazhuan; below bachelor's level) (Community Management and Services),4,大专（老年服务与管理）,College diploma level (dazhuan; below bachelor's level) (Elder-care Services and Management),no
+PERSON-7,person,曹丽娟,Cao Lijuan,身高,Height,158厘米,158 cm,1,166厘米,166 cm,yes
+PERSON-7,person,曹丽娟,Cao Lijuan,身高,Height,158厘米,158 cm,2,162厘米,162 cm,no
+PERSON-7,person,曹丽娟,Cao Lijuan,身高,Height,158厘米,158 cm,3,171厘米,171 cm,no
+PERSON-7,person,曹丽娟,Cao Lijuan,身高,Height,158厘米,158 cm,4,154厘米,154 cm,no
+PERSON-7,person,曹丽娟,Cao Lijuan,体重,Body weight,59公斤,59 kg,1,65公斤,65 kg,yes
+PERSON-7,person,曹丽娟,Cao Lijuan,体重,Body weight,59公斤,59 kg,2,51公斤,51 kg,no
+PERSON-7,person,曹丽娟,Cao Lijuan,体重,Body weight,59公斤,59 kg,3,68公斤,68 kg,no
+PERSON-7,person,曹丽娟,Cao Lijuan,体重,Body weight,59公斤,59 kg,4,62公斤,62 kg,no
+PERSON-7,person,曹丽娟,Cao Lijuan,婚姻状况,Marital status,离异,Divorced,1,已婚,Married,yes
+PERSON-7,person,曹丽娟,Cao Lijuan,婚姻状况,Marital status,离异,Divorced,2,丧偶,Widowed,no
+PERSON-7,person,曹丽娟,Cao Lijuan,婚姻状况,Marital status,离异,Divorced,3,再婚,Remarried,no
+PERSON-7,person,曹丽娟,Cao Lijuan,婚姻状况,Marital status,离异,Divorced,4,未婚,Never married,no
+PERSON-7,person,曹丽娟,Cao Lijuan,现居城市,Current city of residence,清山,Qingshan,1,惠明,Huiming,yes
+PERSON-7,person,曹丽娟,Cao Lijuan,现居城市,Current city of residence,清山,Qingshan,2,白原,Baiyuan,no
+PERSON-7,person,曹丽娟,Cao Lijuan,现居城市,Current city of residence,清山,Qingshan,3,通溪,Tongxi,no
+PERSON-7,person,曹丽娟,Cao Lijuan,现居城市,Current city of residence,清山,Qingshan,4,长源,Changyuan,no
+PERSON-8,person,许建平,Xu Jianping,出生日期,Date of birth,1995年1月26日,1995-01-26,1,1994年4月7日,1994-04-07,yes
+PERSON-8,person,许建平,Xu Jianping,出生日期,Date of birth,1995年1月26日,1995-01-26,2,1995年10月13日,1995-10-13,no
+PERSON-8,person,许建平,Xu Jianping,出生日期,Date of birth,1995年1月26日,1995-01-26,3,1996年2月2日,1996-02-02,no
+PERSON-8,person,许建平,Xu Jianping,出生日期,Date of birth,1995年1月26日,1995-01-26,4,1994年12月19日,1994-12-19,no
+PERSON-8,person,许建平,Xu Jianping,职业,Occupation,电商平台运营主管,E-commerce platform operations supervisor,1,短视频账号编导,Scriptwriter/director for a short-video account,yes
+PERSON-8,person,许建平,Xu Jianping,职业,Occupation,电商平台运营主管,E-commerce platform operations supervisor,2,品牌市场策划,Brand marketing planner,no
+PERSON-8,person,许建平,Xu Jianping,职业,Occupation,电商平台运营主管,E-commerce platform operations supervisor,3,跨境电商选品专员,Cross-border e-commerce product-selection specialist,no
+PERSON-8,person,许建平,Xu Jianping,职业,Occupation,电商平台运营主管,E-commerce platform operations supervisor,4,供应链采购经理,Supply-chain procurement manager,no
+PERSON-8,person,许建平,Xu Jianping,学历,Education,本科（市场营销）,Bachelor's level (Marketing),1,大专（电子商务）,College diploma level (dazhuan; below bachelor's level) (E-commerce),yes
+PERSON-8,person,许建平,Xu Jianping,学历,Education,本科（市场营销）,Bachelor's level (Marketing),2,硕士研究生（工商管理MBA）,Master's level (Business Administration (MBA)),no
+PERSON-8,person,许建平,Xu Jianping,学历,Education,本科（市场营销）,Bachelor's level (Marketing),3,本科（国际经济与贸易）,Bachelor's level (International Economics and Trade),no
+PERSON-8,person,许建平,Xu Jianping,学历,Education,本科（市场营销）,Bachelor's level (Marketing),4,本科（网络与新媒体）,Bachelor's level (Internet and New Media),no
+PERSON-8,person,许建平,Xu Jianping,身高,Height,174厘米,174 cm,1,180厘米,180 cm,yes
+PERSON-8,person,许建平,Xu Jianping,身高,Height,174厘米,174 cm,2,177厘米,177 cm,no
+PERSON-8,person,许建平,Xu Jianping,身高,Height,174厘米,174 cm,3,169厘米,169 cm,no
+PERSON-8,person,许建平,Xu Jianping,身高,Height,174厘米,174 cm,4,183厘米,183 cm,no
+PERSON-8,person,许建平,Xu Jianping,体重,Body weight,70公斤,70 kg,1,77公斤,77 kg,yes
+PERSON-8,person,许建平,Xu Jianping,体重,Body weight,70公斤,70 kg,2,83公斤,83 kg,no
+PERSON-8,person,许建平,Xu Jianping,体重,Body weight,70公斤,70 kg,3,66公斤,66 kg,no
+PERSON-8,person,许建平,Xu Jianping,体重,Body weight,70公斤,70 kg,4,74公斤,74 kg,no
+PERSON-8,person,许建平,Xu Jianping,婚姻状况,Marital status,未婚,Never married,1,已婚,Married,yes
+PERSON-8,person,许建平,Xu Jianping,婚姻状况,Marital status,未婚,Never married,2,离异,Divorced,no
+PERSON-8,person,许建平,Xu Jianping,婚姻状况,Marital status,未婚,Never married,3,再婚,Remarried,no
+PERSON-8,person,许建平,Xu Jianping,婚姻状况,Marital status,未婚,Never married,4,丧偶,Widowed,no
+PERSON-8,person,许建平,Xu Jianping,现居城市,Current city of residence,新定,Xinding,1,双陵,Shuangling,yes
+PERSON-8,person,许建平,Xu Jianping,现居城市,Current city of residence,新定,Xinding,2,龙泽,Longze,no
+PERSON-8,person,许建平,Xu Jianping,现居城市,Current city of residence,新定,Xinding,3,清山,Qingshan,no
+PERSON-8,person,许建平,Xu Jianping,现居城市,Current city of residence,新定,Xinding,4,惠明,Huiming,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],成立时间,Date established,1998年3月,1998-03,1,1995年7月,1995-07,yes
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],成立时间,Date established,1998年3月,1998-03,2,2001年11月,2001-11,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],成立时间,Date established,1998年3月,1998-03,3,1993年5月,1993-05,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],成立时间,Date established,1998年3月,1998-03,4,2004年9月,2004-09,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],所属行业,Industry,纺织服装制造,Textile and clothing manufacturing,1,食品加工,Food processing,yes
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],所属行业,Industry,纺织服装制造,Textile and clothing manufacturing,2,建筑材料,Building materials,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],所属行业,Industry,纺织服装制造,Textile and clothing manufacturing,3,通用设备制造,General-purpose equipment manufacturing,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],所属行业,Industry,纺织服装制造,Textile and clothing manufacturing,4,医药制造,Pharmaceutical manufacturing,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],员工人数,Number of employees,1200人,"1,200 people",1,860人,860 people,yes
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],员工人数,Number of employees,1200人,"1,200 people",2,1550人,"1,550 people",no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],员工人数,Number of employees,1200人,"1,200 people",3,2100人,"2,100 people",no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],员工人数,Number of employees,1200人,"1,200 people",4,640人,640 people,no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],年营业额,Annual revenue,3.7亿元人民币,"370,000,000 CNY",1,5.2亿元人民币,"520,000,000 CNY",yes
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],年营业额,Annual revenue,3.7亿元人民币,"370,000,000 CNY",2,2.1亿元人民币,"210,000,000 CNY",no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],年营业额,Annual revenue,3.7亿元人民币,"370,000,000 CNY",3,6.8亿元人民币,"680,000,000 CNY",no
+ORGANIZATION-1,organization,晟远集团,Shengyuan Group [brand reading provisional],年营业额,Annual revenue,3.7亿元人民币,"370,000,000 CNY",4,4.4亿元人民币,"440,000,000 CNY",no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,成立时间,Date established,2006年5月,2006-05,1,2003年8月,2003-08,yes
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,成立时间,Date established,2006年5月,2006-05,2,2009年2月,2009-02,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,成立时间,Date established,2006年5月,2006-05,3,2000年12月,2000-12,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,成立时间,Date established,2006年5月,2006-05,4,2011年6月,2011-06,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,所属行业,Industry,食品加工,Food processing,1,饮料制造,Beverage manufacturing,yes
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,所属行业,Industry,食品加工,Food processing,2,农副产品加工,Agricultural and sideline product processing,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,所属行业,Industry,食品加工,Food processing,3,日用化学品制造,Household chemical manufacturing,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,所属行业,Industry,食品加工,Food processing,4,包装印刷,Packaging printing,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,员工人数,Number of employees,480人,480 people,1,720人,720 people,yes
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,员工人数,Number of employees,480人,480 people,2,310人,310 people,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,员工人数,Number of employees,480人,480 people,3,950人,950 people,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,员工人数,Number of employees,480人,480 people,4,560人,560 people,no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,年营业额,Annual revenue,1.9亿元人民币,"190,000,000 CNY",1,2.6亿元人民币,"260,000,000 CNY",yes
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,年营业额,Annual revenue,1.9亿元人民币,"190,000,000 CNY",2,1.2亿元人民币,"120,000,000 CNY",no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,年营业额,Annual revenue,1.9亿元人民币,"190,000,000 CNY",3,3.3亿元人民币,"330,000,000 CNY",no
+ORGANIZATION-2,organization,屹嘉股份有限公司,Yijia Company Limited by Shares,年营业额,Annual revenue,1.9亿元人民币,"190,000,000 CNY",4,2.2亿元人民币,"220,000,000 CNY",no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,成立时间,Date established,2012年9月,2012-09,1,2010年4月,2010-04,yes
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,成立时间,Date established,2012年9月,2012-09,2,2014年1月,2014-01,no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,成立时间,Date established,2012年9月,2012-09,3,2008年11月,2008-11,no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,成立时间,Date established,2012年9月,2012-09,4,2015年7月,2015-07,no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,所属行业,Industry,仓储物流,Warehousing and logistics,1,道路货物运输,Road freight transport,yes
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,所属行业,Industry,仓储物流,Warehousing and logistics,2,供应链管理,Supply-chain management,no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,所属行业,Industry,仓储物流,Warehousing and logistics,3,快递服务,Express delivery services,no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,所属行业,Industry,仓储物流,Warehousing and logistics,4,港口服务,Port services,no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,员工人数,Number of employees,3400人,"3,400 people",1,2800人,"2,800 people",yes
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,员工人数,Number of employees,3400人,"3,400 people",2,4100人,"4,100 people",no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,员工人数,Number of employees,3400人,"3,400 people",3,1900人,"1,900 people",no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,员工人数,Number of employees,3400人,"3,400 people",4,3050人,"3,050 people",no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,年营业额,Annual revenue,12.4亿元人民币,"1,240,000,000 CNY",1,9.8亿元人民币,"980,000,000 CNY",yes
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,年营业额,Annual revenue,12.4亿元人民币,"1,240,000,000 CNY",2,15.1亿元人民币,"1,510,000,000 CNY",no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,年营业额,Annual revenue,12.4亿元人民币,"1,240,000,000 CNY",3,7.6亿元人民币,"760,000,000 CNY",no
+ORGANIZATION-3,organization,弘砺实业集团,Hongli Industrial Group,年营业额,Annual revenue,12.4亿元人民币,"1,240,000,000 CNY",4,11.0亿元人民币,"1,100,000,000 CNY",no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,成立时间,Date established,1989年6月,1989-06,1,1992年10月,1992-10,yes
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,成立时间,Date established,1989年6月,1989-06,2,1986年3月,1986-03,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,成立时间,Date established,1989年6月,1989-06,3,1994年8月,1994-08,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,成立时间,Date established,1989年6月,1989-06,4,1991年1月,1991-01,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,所属行业,Industry,建筑材料,Building materials,1,水泥制品制造,Cement-product manufacturing,yes
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,所属行业,Industry,建筑材料,Building materials,2,新型墙体材料,New-type wall materials,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,所属行业,Industry,建筑材料,Building materials,3,建筑陶瓷制造,Architectural ceramics manufacturing,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,所属行业,Industry,建筑材料,Building materials,4,玻璃制品制造,Glass-product manufacturing,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,员工人数,Number of employees,760人,760 people,1,1100人,"1,100 people",yes
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,员工人数,Number of employees,760人,760 people,2,520人,520 people,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,员工人数,Number of employees,760人,760 people,3,890人,890 people,no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,员工人数,Number of employees,760人,760 people,4,1380人,"1,380 people",no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,年营业额,Annual revenue,4.1亿元人民币,"410,000,000 CNY",1,6.0亿元人民币,"600,000,000 CNY",yes
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,年营业额,Annual revenue,4.1亿元人民币,"410,000,000 CNY",2,2.9亿元人民币,"290,000,000 CNY",no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,年营业额,Annual revenue,4.1亿元人民币,"410,000,000 CNY",3,5.5亿元人民币,"550,000,000 CNY",no
+ORGANIZATION-4,organization,瑞屹股份有限公司,Ruiyi Company Limited by Shares,年营业额,Annual revenue,4.1亿元人民币,"410,000,000 CNY",4,3.4亿元人民币,"340,000,000 CNY",no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,成立时间,Date established,1978年10月,1978-10,1,1982年4月,1982-04,yes
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,成立时间,Date established,1978年10月,1978-10,2,1975年12月,1975-12,no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,成立时间,Date established,1978年10月,1978-10,3,1985年7月,1985-07,no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,成立时间,Date established,1978年10月,1978-10,4,1980年2月,1980-02,no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,所属行业,Industry,通用设备制造,General-purpose equipment manufacturing,1,专用设备制造,Special-purpose equipment manufacturing,yes
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,所属行业,Industry,通用设备制造,General-purpose equipment manufacturing,2,汽车零部件制造,Automotive parts manufacturing,no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,所属行业,Industry,通用设备制造,General-purpose equipment manufacturing,3,金属加工机械制造,Metalworking machinery manufacturing,no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,所属行业,Industry,通用设备制造,General-purpose equipment manufacturing,4,轴承制造,Bearing manufacturing,no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,员工人数,Number of employees,2150人,"2,150 people",1,1700人,"1,700 people",yes
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,员工人数,Number of employees,2150人,"2,150 people",2,2600人,"2,600 people",no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,员工人数,Number of employees,2150人,"2,150 people",3,1250人,"1,250 people",no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,员工人数,Number of employees,2150人,"2,150 people",4,3000人,"3,000 people",no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,年营业额,Annual revenue,8.3亿元人民币,"830,000,000 CNY",1,6.7亿元人民币,"670,000,000 CNY",yes
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,年营业额,Annual revenue,8.3亿元人民币,"830,000,000 CNY",2,10.2亿元人民币,"1,020,000,000 CNY",no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,年营业额,Annual revenue,8.3亿元人民币,"830,000,000 CNY",3,5.1亿元人民币,"510,000,000 CNY",no
+ORGANIZATION-5,organization,越鼎集团,Yueding Group,年营业额,Annual revenue,8.3亿元人民币,"830,000,000 CNY",4,9.0亿元人民币,"900,000,000 CNY",no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,成立时间,Date established,2015年4月,2015-04,1,2013年9月,2013-09,yes
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,成立时间,Date established,2015年4月,2015-04,2,2017年3月,2017-03,no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,成立时间,Date established,2015年4月,2015-04,3,2011年11月,2011-11,no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,成立时间,Date established,2015年4月,2015-04,4,2018年8月,2018-08,no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,所属行业,Industry,软件和信息技术服务,Software and IT services,1,电子元器件制造,Electronic component manufacturing,yes
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,所属行业,Industry,软件和信息技术服务,Software and IT services,2,通信设备制造,Communication equipment manufacturing,no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,所属行业,Industry,软件和信息技术服务,Software and IT services,3,计算机整机制造,Computer manufacturing (complete systems),no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,所属行业,Industry,软件和信息技术服务,Software and IT services,4,互联网信息服务,Internet information services,no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,员工人数,Number of employees,950人,950 people,1,1400人,"1,400 people",yes
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,员工人数,Number of employees,950人,950 people,2,620人,620 people,no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,员工人数,Number of employees,950人,950 people,3,2100人,"2,100 people",no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,员工人数,Number of employees,950人,950 people,4,1180人,"1,180 people",no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,年营业额,Annual revenue,2.4亿元人民币,"240,000,000 CNY",1,3.8亿元人民币,"380,000,000 CNY",yes
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,年营业额,Annual revenue,2.4亿元人民币,"240,000,000 CNY",2,1.6亿元人民币,"160,000,000 CNY",no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,年营业额,Annual revenue,2.4亿元人民币,"240,000,000 CNY",3,5.0亿元人民币,"500,000,000 CNY",no
+ORGANIZATION-6,organization,锐拓股份有限公司,Ruituo Company Limited by Shares,年营业额,Annual revenue,2.4亿元人民币,"240,000,000 CNY",4,3.1亿元人民币,"310,000,000 CNY",no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,成立时间,Date established,2009年11月,2009-11,1,2007年6月,2007-06,yes
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,成立时间,Date established,2009年11月,2009-11,2,2012年2月,2012-02,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,成立时间,Date established,2009年11月,2009-11,3,2005年10月,2005-10,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,成立时间,Date established,2009年11月,2009-11,4,2014年5月,2014-05,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,所属行业,Industry,医药制造,Pharmaceutical manufacturing,1,生物制品制造,Biological-product manufacturing,yes
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,所属行业,Industry,医药制造,Pharmaceutical manufacturing,2,医疗器械制造,Medical-device manufacturing,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,所属行业,Industry,医药制造,Pharmaceutical manufacturing,3,中成药生产,Manufacturing of prepared traditional Chinese medicines,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,所属行业,Industry,医药制造,Pharmaceutical manufacturing,4,化学药品制剂制造,Chemical pharmaceutical preparation manufacturing,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,员工人数,Number of employees,670人,670 people,1,430人,430 people,yes
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,员工人数,Number of employees,670人,670 people,2,880人,880 people,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,员工人数,Number of employees,670人,670 people,3,1020人,"1,020 people",no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,员工人数,Number of employees,670人,670 people,4,540人,540 people,no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,年营业额,Annual revenue,5.8亿元人民币,"580,000,000 CNY",1,3.9亿元人民币,"390,000,000 CNY",yes
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,年营业额,Annual revenue,5.8亿元人民币,"580,000,000 CNY",2,7.4亿元人民币,"740,000,000 CNY",no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,年营业额,Annual revenue,5.8亿元人民币,"580,000,000 CNY",3,2.7亿元人民币,"270,000,000 CNY",no
+ORGANIZATION-7,organization,宸祁实业集团,Chenqi Industrial Group,年营业额,Annual revenue,5.8亿元人民币,"580,000,000 CNY",4,6.3亿元人民币,"630,000,000 CNY",no
+LOCATION-1,location,双陵,Shuangling,人口,Population,42.6万人,"426,000 people",1,58.3万人,"583,000 people",yes
+LOCATION-1,location,双陵,Shuangling,人口,Population,42.6万人,"426,000 people",2,31.0万人,"310,000 people",no
+LOCATION-1,location,双陵,Shuangling,人口,Population,42.6万人,"426,000 people",3,67.9万人,"679,000 people",no
+LOCATION-1,location,双陵,Shuangling,人口,Population,42.6万人,"426,000 people",4,25.4万人,"254,000 people",no
+LOCATION-1,location,双陵,Shuangling,面积,Area,1286平方公里,"1,286 km²",1,1740平方公里,"1,740 km²",yes
+LOCATION-1,location,双陵,Shuangling,面积,Area,1286平方公里,"1,286 km²",2,962平方公里,962 km²,no
+LOCATION-1,location,双陵,Shuangling,面积,Area,1286平方公里,"1,286 km²",3,2130平方公里,"2,130 km²",no
+LOCATION-1,location,双陵,Shuangling,面积,Area,1286平方公里,"1,286 km²",4,1495平方公里,"1,495 km²",no
+LOCATION-1,location,双陵,Shuangling,海拔,Elevation,312米,312 m,1,486米,486 m,yes
+LOCATION-1,location,双陵,Shuangling,海拔,Elevation,312米,312 m,2,195米,195 m,no
+LOCATION-1,location,双陵,Shuangling,海拔,Elevation,312米,312 m,3,640米,640 m,no
+LOCATION-1,location,双陵,Shuangling,海拔,Elevation,312米,312 m,4,378米,378 m,no
+LOCATION-1,location,双陵,Shuangling,下辖乡镇数,Number of subordinate towns/townships,下辖12个乡镇,12 subordinate towns/townships,1,下辖15个乡镇,15 subordinate towns/townships,yes
+LOCATION-1,location,双陵,Shuangling,下辖乡镇数,Number of subordinate towns/townships,下辖12个乡镇,12 subordinate towns/townships,2,下辖9个乡镇,9 subordinate towns/townships,no
+LOCATION-1,location,双陵,Shuangling,下辖乡镇数,Number of subordinate towns/townships,下辖12个乡镇,12 subordinate towns/townships,3,下辖18个乡镇,18 subordinate towns/townships,no
+LOCATION-1,location,双陵,Shuangling,下辖乡镇数,Number of subordinate towns/townships,下辖12个乡镇,12 subordinate towns/townships,4,下辖13个乡镇,13 subordinate towns/townships,no
+LOCATION-2,location,上泉,Shangquan,人口,Population,18.7万人,"187,000 people",1,24.2万人,"242,000 people",yes
+LOCATION-2,location,上泉,Shangquan,人口,Population,18.7万人,"187,000 people",2,12.5万人,"125,000 people",no
+LOCATION-2,location,上泉,Shangquan,人口,Population,18.7万人,"187,000 people",3,30.8万人,"308,000 people",no
+LOCATION-2,location,上泉,Shangquan,人口,Population,18.7万人,"187,000 people",4,21.3万人,"213,000 people",no
+LOCATION-2,location,上泉,Shangquan,面积,Area,604平方公里,604 km²,1,830平方公里,830 km²,yes
+LOCATION-2,location,上泉,Shangquan,面积,Area,604平方公里,604 km²,2,471平方公里,471 km²,no
+LOCATION-2,location,上泉,Shangquan,面积,Area,604平方公里,604 km²,3,1025平方公里,"1,025 km²",no
+LOCATION-2,location,上泉,Shangquan,面积,Area,604平方公里,604 km²,4,716平方公里,716 km²,no
+LOCATION-2,location,上泉,Shangquan,海拔,Elevation,58米,58 m,1,126米,126 m,yes
+LOCATION-2,location,上泉,Shangquan,海拔,Elevation,58米,58 m,2,23米,23 m,no
+LOCATION-2,location,上泉,Shangquan,海拔,Elevation,58米,58 m,3,184米,184 m,no
+LOCATION-2,location,上泉,Shangquan,海拔,Elevation,58米,58 m,4,91米,91 m,no
+LOCATION-2,location,上泉,Shangquan,下辖乡镇数,Number of subordinate towns/townships,下辖7个乡镇,7 subordinate towns/townships,1,下辖10个乡镇,10 subordinate towns/townships,yes
+LOCATION-2,location,上泉,Shangquan,下辖乡镇数,Number of subordinate towns/townships,下辖7个乡镇,7 subordinate towns/townships,2,下辖5个乡镇,5 subordinate towns/townships,no
+LOCATION-2,location,上泉,Shangquan,下辖乡镇数,Number of subordinate towns/townships,下辖7个乡镇,7 subordinate towns/townships,3,下辖12个乡镇,12 subordinate towns/townships,no
+LOCATION-2,location,上泉,Shangquan,下辖乡镇数,Number of subordinate towns/townships,下辖7个乡镇,7 subordinate towns/townships,4,下辖8个乡镇,8 subordinate towns/townships,no
+LOCATION-3,location,白原,Baiyuan,人口,Population,73.1万人,"731,000 people",1,61.5万人,"615,000 people",yes
+LOCATION-3,location,白原,Baiyuan,人口,Population,73.1万人,"731,000 people",2,88.4万人,"884,000 people",no
+LOCATION-3,location,白原,Baiyuan,人口,Population,73.1万人,"731,000 people",3,54.0万人,"540,000 people",no
+LOCATION-3,location,白原,Baiyuan,人口,Population,73.1万人,"731,000 people",4,79.6万人,"796,000 people",no
+LOCATION-3,location,白原,Baiyuan,面积,Area,2450平方公里,"2,450 km²",1,1980平方公里,"1,980 km²",yes
+LOCATION-3,location,白原,Baiyuan,面积,Area,2450平方公里,"2,450 km²",2,3120平方公里,"3,120 km²",no
+LOCATION-3,location,白原,Baiyuan,面积,Area,2450平方公里,"2,450 km²",3,1660平方公里,"1,660 km²",no
+LOCATION-3,location,白原,Baiyuan,面积,Area,2450平方公里,"2,450 km²",4,2740平方公里,"2,740 km²",no
+LOCATION-3,location,白原,Baiyuan,海拔,Elevation,1240米,"1,240 m",1,980米,980 m,yes
+LOCATION-3,location,白原,Baiyuan,海拔,Elevation,1240米,"1,240 m",2,1560米,"1,560 m",no
+LOCATION-3,location,白原,Baiyuan,海拔,Elevation,1240米,"1,240 m",3,820米,820 m,no
+LOCATION-3,location,白原,Baiyuan,海拔,Elevation,1240米,"1,240 m",4,1105米,"1,105 m",no
+LOCATION-3,location,白原,Baiyuan,下辖乡镇数,Number of subordinate towns/townships,下辖21个乡镇,21 subordinate towns/townships,1,下辖17个乡镇,17 subordinate towns/townships,yes
+LOCATION-3,location,白原,Baiyuan,下辖乡镇数,Number of subordinate towns/townships,下辖21个乡镇,21 subordinate towns/townships,2,下辖24个乡镇,24 subordinate towns/townships,no
+LOCATION-3,location,白原,Baiyuan,下辖乡镇数,Number of subordinate towns/townships,下辖21个乡镇,21 subordinate towns/townships,3,下辖15个乡镇,15 subordinate towns/townships,no
+LOCATION-3,location,白原,Baiyuan,下辖乡镇数,Number of subordinate towns/townships,下辖21个乡镇,21 subordinate towns/townships,4,下辖19个乡镇,19 subordinate towns/townships,no
+LOCATION-4,location,龙泽,Longze,人口,Population,9.4万人,"94,000 people",1,13.8万人,"138,000 people",yes
+LOCATION-4,location,龙泽,Longze,人口,Population,9.4万人,"94,000 people",2,6.2万人,"62,000 people",no
+LOCATION-4,location,龙泽,Longze,人口,Population,9.4万人,"94,000 people",3,16.1万人,"161,000 people",no
+LOCATION-4,location,龙泽,Longze,人口,Population,9.4万人,"94,000 people",4,11.0万人,"110,000 people",no
+LOCATION-4,location,龙泽,Longze,面积,Area,318平方公里,318 km²,1,465平方公里,465 km²,yes
+LOCATION-4,location,龙泽,Longze,面积,Area,318平方公里,318 km²,2,242平方公里,242 km²,no
+LOCATION-4,location,龙泽,Longze,面积,Area,318平方公里,318 km²,3,590平方公里,590 km²,no
+LOCATION-4,location,龙泽,Longze,面积,Area,318平方公里,318 km²,4,387平方公里,387 km²,no
+LOCATION-4,location,龙泽,Longze,海拔,Elevation,745米,745 m,1,612米,612 m,yes
+LOCATION-4,location,龙泽,Longze,海拔,Elevation,745米,745 m,2,890米,890 m,no
+LOCATION-4,location,龙泽,Longze,海拔,Elevation,745米,745 m,3,530米,530 m,no
+LOCATION-4,location,龙泽,Longze,海拔,Elevation,745米,745 m,4,820米,820 m,no
+LOCATION-4,location,龙泽,Longze,下辖乡镇数,Number of subordinate towns/townships,下辖4个乡镇,4 subordinate towns/townships,1,下辖6个乡镇,6 subordinate towns/townships,yes
+LOCATION-4,location,龙泽,Longze,下辖乡镇数,Number of subordinate towns/townships,下辖4个乡镇,4 subordinate towns/townships,2,下辖3个乡镇,3 subordinate towns/townships,no
+LOCATION-4,location,龙泽,Longze,下辖乡镇数,Number of subordinate towns/townships,下辖4个乡镇,4 subordinate towns/townships,3,下辖8个乡镇,8 subordinate towns/townships,no
+LOCATION-4,location,龙泽,Longze,下辖乡镇数,Number of subordinate towns/townships,下辖4个乡镇,4 subordinate towns/townships,4,下辖5个乡镇,5 subordinate towns/townships,no
+LOCATION-5,location,乐水,Leshui,人口,Population,35.2万人,"352,000 people",1,47.6万人,"476,000 people",yes
+LOCATION-5,location,乐水,Leshui,人口,Population,35.2万人,"352,000 people",2,28.9万人,"289,000 people",no
+LOCATION-5,location,乐水,Leshui,人口,Population,35.2万人,"352,000 people",3,52.3万人,"523,000 people",no
+LOCATION-5,location,乐水,Leshui,人口,Population,35.2万人,"352,000 people",4,40.1万人,"401,000 people",no
+LOCATION-5,location,乐水,Leshui,面积,Area,1053平方公里,"1,053 km²",1,1420平方公里,"1,420 km²",yes
+LOCATION-5,location,乐水,Leshui,面积,Area,1053平方公里,"1,053 km²",2,798平方公里,798 km²,no
+LOCATION-5,location,乐水,Leshui,面积,Area,1053平方公里,"1,053 km²",3,1675平方公里,"1,675 km²",no
+LOCATION-5,location,乐水,Leshui,面积,Area,1053平方公里,"1,053 km²",4,1210平方公里,"1,210 km²",no
+LOCATION-5,location,乐水,Leshui,海拔,Elevation,163米,163 m,1,247米,247 m,yes
+LOCATION-5,location,乐水,Leshui,海拔,Elevation,163米,163 m,2,88米,88 m,no
+LOCATION-5,location,乐水,Leshui,海拔,Elevation,163米,163 m,3,320米,320 m,no
+LOCATION-5,location,乐水,Leshui,海拔,Elevation,163米,163 m,4,205米,205 m,no
+LOCATION-5,location,乐水,Leshui,下辖乡镇数,Number of subordinate towns/townships,下辖11个乡镇,11 subordinate towns/townships,1,下辖14个乡镇,14 subordinate towns/townships,yes
+LOCATION-5,location,乐水,Leshui,下辖乡镇数,Number of subordinate towns/townships,下辖11个乡镇,11 subordinate towns/townships,2,下辖8个乡镇,8 subordinate towns/townships,no
+LOCATION-5,location,乐水,Leshui,下辖乡镇数,Number of subordinate towns/townships,下辖11个乡镇,11 subordinate towns/townships,3,下辖16个乡镇,16 subordinate towns/townships,no
+LOCATION-5,location,乐水,Leshui,下辖乡镇数,Number of subordinate towns/townships,下辖11个乡镇,11 subordinate towns/townships,4,下辖12个乡镇,12 subordinate towns/townships,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,设计师,Architect,田文斌,Tian Wenbin,1,薛庆国,Xue Qingguo,yes
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,设计师,Architect,田文斌,Tian Wenbin,2,苗春燕,Miao Chunyan,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,设计师,Architect,田文斌,Tian Wenbin,3,柳宏伟,Liu Hongwei,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,设计师,Architect,田文斌,Tian Wenbin,4,乔月华,Qiao Yuehua,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,建成年份,Year built,2011年,2011,1,2008年,2008,yes
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,建成年份,Year built,2011年,2011,2,2014年,2014,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,建成年份,Year built,2011年,2011,3,2006年,2006,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,建成年份,Year built,2011年,2011,4,2016年,2016,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,高度,Building height,38米,38 m,1,45米,45 m,yes
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,高度,Building height,38米,38 m,2,31米,31 m,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,高度,Building height,38米,38 m,3,52米,52 m,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,高度,Building height,38米,38 m,4,42米,42 m,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,层数,Number of storeys,4层,4 storeys,1,6层,6 storeys,yes
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,层数,Number of storeys,4层,4 storeys,2,3层,3 storeys,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,层数,Number of storeys,4层,4 storeys,3,7层,7 storeys,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,层数,Number of storeys,4层,4 storeys,4,5层,5 storeys,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,主体结构,Main structural system,钢筋混凝土框架,Reinforced-concrete frame,1,钢结构,Steel structure,yes
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,主体结构,Main structural system,钢筋混凝土框架,Reinforced-concrete frame,2,钢筋混凝土剪力墙,Reinforced-concrete shear-wall structure,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,主体结构,Main structural system,钢筋混凝土框架,Reinforced-concrete frame,3,预应力混凝土,Prestressed concrete,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,主体结构,Main structural system,钢筋混凝土框架,Reinforced-concrete frame,4,钢混组合结构,Steel-concrete composite structure,no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,容纳人数,Capacity,6000人,"6,000 people",1,8500人,"8,500 people",yes
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,容纳人数,Capacity,6000人,"6,000 people",2,4200人,"4,200 people",no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,容纳人数,Capacity,6000人,"6,000 people",3,10000人,"10,000 people",no
+BUILDING-1,building,通溪体育馆,Tongxi Sports Hall,容纳人数,Capacity,6000人,"6,000 people",4,7300人,"7,300 people",no
+BUILDING-2,building,清山图书馆,Qingshan Library,设计师,Architect,乔月华,Qiao Yuehua,1,方振东,Fang Zhendong,yes
+BUILDING-2,building,清山图书馆,Qingshan Library,设计师,Architect,乔月华,Qiao Yuehua,2,田文斌,Tian Wenbin,no
+BUILDING-2,building,清山图书馆,Qingshan Library,设计师,Architect,乔月华,Qiao Yuehua,3,邓秀兰,Deng Xiulan,no
+BUILDING-2,building,清山图书馆,Qingshan Library,设计师,Architect,乔月华,Qiao Yuehua,4,薛庆国,Xue Qingguo,no
+BUILDING-2,building,清山图书馆,Qingshan Library,建成年份,Year built,1996年,1996,1,1999年,1999,yes
+BUILDING-2,building,清山图书馆,Qingshan Library,建成年份,Year built,1996年,1996,2,1993年,1993,no
+BUILDING-2,building,清山图书馆,Qingshan Library,建成年份,Year built,1996年,1996,3,2002年,2002,no
+BUILDING-2,building,清山图书馆,Qingshan Library,建成年份,Year built,1996年,1996,4,1990年,1990,no
+BUILDING-2,building,清山图书馆,Qingshan Library,高度,Building height,24米,24 m,1,29米,29 m,yes
+BUILDING-2,building,清山图书馆,Qingshan Library,高度,Building height,24米,24 m,2,18米,18 m,no
+BUILDING-2,building,清山图书馆,Qingshan Library,高度,Building height,24米,24 m,3,33米,33 m,no
+BUILDING-2,building,清山图书馆,Qingshan Library,高度,Building height,24米,24 m,4,27米,27 m,no
+BUILDING-2,building,清山图书馆,Qingshan Library,层数,Number of storeys,3层,3 storeys,1,5层,5 storeys,yes
+BUILDING-2,building,清山图书馆,Qingshan Library,层数,Number of storeys,3层,3 storeys,2,2层,2 storeys,no
+BUILDING-2,building,清山图书馆,Qingshan Library,层数,Number of storeys,3层,3 storeys,3,6层,6 storeys,no
+BUILDING-2,building,清山图书馆,Qingshan Library,层数,Number of storeys,3层,3 storeys,4,4层,4 storeys,no
+BUILDING-2,building,清山图书馆,Qingshan Library,主体结构,Main structural system,砖混结构,Masonry-concrete structure,1,钢筋混凝土框架,Reinforced-concrete frame,yes
+BUILDING-2,building,清山图书馆,Qingshan Library,主体结构,Main structural system,砖混结构,Masonry-concrete structure,2,钢结构,Steel structure,no
+BUILDING-2,building,清山图书馆,Qingshan Library,主体结构,Main structural system,砖混结构,Masonry-concrete structure,3,钢混组合结构,Steel-concrete composite structure,no
+BUILDING-2,building,清山图书馆,Qingshan Library,主体结构,Main structural system,砖混结构,Masonry-concrete structure,4,预应力混凝土,Prestressed concrete,no
+BUILDING-2,building,清山图书馆,Qingshan Library,容纳人数,Capacity,800人,800 people,1,1200人,"1,200 people",yes
+BUILDING-2,building,清山图书馆,Qingshan Library,容纳人数,Capacity,800人,800 people,2,550人,550 people,no
+BUILDING-2,building,清山图书馆,Qingshan Library,容纳人数,Capacity,800人,800 people,3,1500人,"1,500 people",no
+BUILDING-2,building,清山图书馆,Qingshan Library,容纳人数,Capacity,800人,800 people,4,960人,960 people,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,设计师,Architect,方振东,Fang Zhendong,1,柳宏伟,Liu Hongwei,yes
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,设计师,Architect,方振东,Fang Zhendong,2,邓秀兰,Deng Xiulan,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,设计师,Architect,方振东,Fang Zhendong,3,苗春燕,Miao Chunyan,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,设计师,Architect,方振东,Fang Zhendong,4,田文斌,Tian Wenbin,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,建成年份,Year built,2019年,2019,1,2017年,2017,yes
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,建成年份,Year built,2019年,2019,2,2021年,2021,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,建成年份,Year built,2019年,2019,3,2015年,2015,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,建成年份,Year built,2019年,2019,4,2013年,2013,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,高度,Building height,61米,61 m,1,54米,54 m,yes
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,高度,Building height,61米,61 m,2,70米,70 m,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,高度,Building height,61米,61 m,3,48米,48 m,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,高度,Building height,61米,61 m,4,66米,66 m,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,层数,Number of storeys,8层,8 storeys,1,11层,11 storeys,yes
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,层数,Number of storeys,8层,8 storeys,2,6层,6 storeys,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,层数,Number of storeys,8层,8 storeys,3,13层,13 storeys,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,层数,Number of storeys,8层,8 storeys,4,9层,9 storeys,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,主体结构,Main structural system,钢结构,Steel structure,1,钢筋混凝土框架,Reinforced-concrete frame,yes
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,主体结构,Main structural system,钢结构,Steel structure,2,预应力混凝土,Prestressed concrete,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,主体结构,Main structural system,钢结构,Steel structure,3,钢混组合结构,Steel-concrete composite structure,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,主体结构,Main structural system,钢结构,Steel structure,4,膜结构,Membrane structure,no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,容纳人数,Capacity,12000人,"12,000 people",1,9000人,"9,000 people",yes
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,容纳人数,Capacity,12000人,"12,000 people",2,15000人,"15,000 people",no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,容纳人数,Capacity,12000人,"12,000 people",3,7500人,"7,500 people",no
+BUILDING-3,building,新定会展中心,Xinding Convention and Exhibition Centre,容纳人数,Capacity,12000人,"12,000 people",4,13500人,"13,500 people",no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,举办日期,Event date,2023年9月15日,2023-09-15,1,2023年10月8日,2023-10-08,yes
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,举办日期,Event date,2023年9月15日,2023-09-15,2,2022年9月20日,2022-09-20,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,举办日期,Event date,2023年9月15日,2023-09-15,3,2023年8月26日,2023-08-26,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,举办日期,Event date,2023年9月15日,2023-09-15,4,2024年9月12日,2024-09-12,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,持续时间,Duration,3天,3 days,1,5天,5 days,yes
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,持续时间,Duration,3天,3 days,2,2天,2 days,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,持续时间,Duration,3天,3 days,3,4天,4 days,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,持续时间,Duration,3天,3 days,4,7天,7 days,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,参与人数,Participation count,2.3万人次,"23,000 person-visits",1,3.6万人次,"36,000 person-visits",yes
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,参与人数,Participation count,2.3万人次,"23,000 person-visits",2,1.5万人次,"15,000 person-visits",no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,参与人数,Participation count,2.3万人次,"23,000 person-visits",3,4.8万人次,"48,000 person-visits",no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,参与人数,Participation count,2.3万人次,"23,000 person-visits",4,2.9万人次,"29,000 person-visits",no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,主办方,Organiser,长源市农业农村局,Changyuan Municipal Agriculture and Rural Affairs Bureau,1,长源市商务局,Changyuan Municipal Commerce Bureau,yes
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,主办方,Organiser,长源市农业农村局,Changyuan Municipal Agriculture and Rural Affairs Bureau,2,长源市科学技术局,Changyuan Municipal Science and Technology Bureau,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,主办方,Organiser,长源市农业农村局,Changyuan Municipal Agriculture and Rural Affairs Bureau,3,长源市供销合作社联合社,Changyuan Municipal Federation of Supply and Marketing Cooperatives,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,主办方,Organiser,长源市农业农村局,Changyuan Municipal Agriculture and Rural Affairs Bureau,4,长源市贸促会,Changyuan Municipal Council for the Promotion of International Trade,no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,预算,Budget,480万元人民币,"4,800,000 CNY",1,660万元人民币,"6,600,000 CNY",yes
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,预算,Budget,480万元人民币,"4,800,000 CNY",2,320万元人民币,"3,200,000 CNY",no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,预算,Budget,480万元人民币,"4,800,000 CNY",3,790万元人民币,"7,900,000 CNY",no
+EVENT-1,event,长源农业机械博览会,Changyuan Agricultural Machinery Expo,预算,Budget,480万元人民币,"4,800,000 CNY",4,550万元人民币,"5,500,000 CNY",no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,举办日期,Event date,2024年4月21日,2024-04-21,1,2023年4月16日,2023-04-16,yes
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,举办日期,Event date,2024年4月21日,2024-04-21,2,2024年3月31日,2024-03-31,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,举办日期,Event date,2024年4月21日,2024-04-21,3,2024年5月12日,2024-05-12,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,举办日期,Event date,2024年4月21日,2024-04-21,4,2022年4月24日,2022-04-24,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,持续时间,Duration,1天,1 day,1,2天,2 days,yes
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,持续时间,Duration,1天,1 day,2,3天,3 days,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,持续时间,Duration,1天,1 day,3,4天,4 days,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,持续时间,Duration,1天,1 day,4,5天,5 days,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,参与人数,Participation count,1.2万人,"12,000 people",1,8600人,"8,600 people",yes
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,参与人数,Participation count,1.2万人,"12,000 people",2,1.8万人,"18,000 people",no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,参与人数,Participation count,1.2万人,"12,000 people",3,6200人,"6,200 people",no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,参与人数,Participation count,1.2万人,"12,000 people",4,1.5万人,"15,000 people",no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,主办方,Organiser,惠明市体育局,Huiming Municipal Sports Bureau,1,惠明市文化和旅游局,Huiming Municipal Culture and Tourism Bureau,yes
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,主办方,Organiser,惠明市体育局,Huiming Municipal Sports Bureau,2,惠明市田径运动协会,Huiming Municipal Athletics Association,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,主办方,Organiser,惠明市体育局,Huiming Municipal Sports Bureau,3,惠明市全民健身指导中心,Huiming Municipal Fitness-for-All Guidance Centre,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,主办方,Organiser,惠明市体育局,Huiming Municipal Sports Bureau,4,惠明市体育产业发展中心,Huiming Municipal Sports Industry Development Centre,no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,预算,Budget,1200万元人民币,"12,000,000 CNY",1,950万元人民币,"9,500,000 CNY",yes
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,预算,Budget,1200万元人民币,"12,000,000 CNY",2,1580万元人民币,"15,800,000 CNY",no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,预算,Budget,1200万元人民币,"12,000,000 CNY",3,720万元人民币,"7,200,000 CNY",no
+EVENT-2,event,惠明国际马拉松赛,Huiming International Marathon,预算,Budget,1200万元人民币,"12,000,000 CNY",4,1340万元人民币,"13,400,000 CNY",no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,举办日期,Event date,2022年6月11日,2022-06-11,1,2023年6月17日,2023-06-17,yes
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,举办日期,Event date,2022年6月11日,2022-06-11,2,2021年6月5日,2021-06-05,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,举办日期,Event date,2022年6月11日,2022-06-11,3,2022年7月2日,2022-07-02,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,举办日期,Event date,2022年6月11日,2022-06-11,4,2024年6月8日,2024-06-08,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,持续时间,Duration,4天,4 days,1,6天,6 days,yes
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,持续时间,Duration,4天,4 days,2,3天,3 days,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,持续时间,Duration,4天,4 days,3,8天,8 days,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,持续时间,Duration,4天,4 days,4,5天,5 days,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,参与人数,Participation count,5400人次,"5,400 person-visits",1,8900人次,"8,900 person-visits",yes
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,参与人数,Participation count,5400人次,"5,400 person-visits",2,3100人次,"3,100 person-visits",no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,参与人数,Participation count,5400人次,"5,400 person-visits",3,11000人次,"11,000 person-visits",no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,参与人数,Participation count,5400人次,"5,400 person-visits",4,7200人次,"7,200 person-visits",no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,主办方,Organiser,通溪市文化和旅游局,Tongxi Municipal Culture and Tourism Bureau,1,通溪市非物质文化遗产保护中心,Tongxi Municipal Intangible Cultural Heritage Protection Centre,yes
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,主办方,Organiser,通溪市文化和旅游局,Tongxi Municipal Culture and Tourism Bureau,2,通溪市群众艺术馆,Tongxi Municipal Mass Arts Centre,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,主办方,Organiser,通溪市文化和旅游局,Tongxi Municipal Culture and Tourism Bureau,3,通溪市文学艺术界联合会,Tongxi Municipal Federation of Literary and Art Circles,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,主办方,Organiser,通溪市文化和旅游局,Tongxi Municipal Culture and Tourism Bureau,4,通溪市文化馆,Tongxi Municipal Cultural Centre,no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,预算,Budget,260万元人民币,"2,600,000 CNY",1,410万元人民币,"4,100,000 CNY",yes
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,预算,Budget,260万元人民币,"2,600,000 CNY",2,180万元人民币,"1,800,000 CNY",no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,预算,Budget,260万元人民币,"2,600,000 CNY",3,530万元人民币,"5,300,000 CNY",no
+EVENT-3,event,通溪非物质文化遗产展演,Tongxi Intangible Cultural Heritage Showcase,预算,Budget,260万元人民币,"2,600,000 CNY",4,340万元人民币,"3,400,000 CNY",no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,发布日期,Release date,2021年3月18日,2021-03-18,1,2020年6月9日,2020-06-09,yes
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,发布日期,Release date,2021年3月18日,2021-03-18,2,2022年1月25日,2022-01-25,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,发布日期,Release date,2021年3月18日,2021-03-18,3,2019年11月4日,2019-11-04,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,发布日期,Release date,2021年3月18日,2021-03-18,4,2023年5月16日,2023-05-16,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,价格,Price,38.6万元人民币,"386,000 CNY",1,45.2万元人民币,"452,000 CNY",yes
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,价格,Price,38.6万元人民币,"386,000 CNY",2,31.0万元人民币,"310,000 CNY",no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,价格,Price,38.6万元人民币,"386,000 CNY",3,52.8万元人民币,"528,000 CNY",no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,价格,Price,38.6万元人民币,"386,000 CNY",4,42.4万元人民币,"424,000 CNY",no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,重量,Product weight,11.5吨,11.5 tonnes,1,13.2吨,13.2 tonnes,yes
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,重量,Product weight,11.5吨,11.5 tonnes,2,9.8吨,9.8 tonnes,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,重量,Product weight,11.5吨,11.5 tonnes,3,15.0吨,15.0 tonnes,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,重量,Product weight,11.5吨,11.5 tonnes,4,12.4吨,12.4 tonnes,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,保修期,Warranty,整机2年或5000小时,Whole unit: 2 years or 5000 hours,1,整机3年,Whole unit: 3 years,yes
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,保修期,Warranty,整机2年或5000小时,Whole unit: 2 years or 5000 hours,2,整机1年或2000小时,Whole unit: 1 year or 2000 hours,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,保修期,Warranty,整机2年或5000小时,Whole unit: 2 years or 5000 hours,3,整机2年不限小时,Whole unit: 2 years with no hour limit,no
+PRODUCT-1,product,昱腾 ZL-40 装载机,Yuteng ZL-40 Loader,保修期,Warranty,整机2年或5000小时,Whole unit: 2 years or 5000 hours,4,整机18个月,Whole unit: 18 months,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,发布日期,Release date,2022年8月30日,2022-08-30,1,2021年10月12日,2021-10-12,yes
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,发布日期,Release date,2022年8月30日,2022-08-30,2,2023年4月7日,2023-04-07,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,发布日期,Release date,2022年8月30日,2022-08-30,3,2020年12月21日,2020-12-21,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,发布日期,Release date,2022年8月30日,2022-08-30,4,2024年2月19日,2024-02-19,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,价格,Price,6980元人民币,"6,980 CNY",1,8500元人民币,"8,500 CNY",yes
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,价格,Price,6980元人民币,"6,980 CNY",2,5490元人民币,"5,490 CNY",no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,价格,Price,6980元人民币,"6,980 CNY",3,10200元人民币,"10,200 CNY",no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,价格,Price,6980元人民币,"6,980 CNY",4,7600元人民币,"7,600 CNY",no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,重量,Product weight,186公斤,186 kg,1,215公斤,215 kg,yes
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,重量,Product weight,186公斤,186 kg,2,162公斤,162 kg,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,重量,Product weight,186公斤,186 kg,3,240公斤,240 kg,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,重量,Product weight,186公斤,186 kg,4,198公斤,198 kg,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,保修期,Warranty,整车2年，电池1年,Whole vehicle: 2 years; battery: 1 year,1,整车3年，电池2年,Whole vehicle: 3 years; battery: 2 years,yes
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,保修期,Warranty,整车2年，电池1年,Whole vehicle: 2 years; battery: 1 year,2,整车1年，电池6个月,Whole vehicle: 1 year; battery: 6 months,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,保修期,Warranty,整车2年，电池1年,Whole vehicle: 2 years; battery: 1 year,3,整车2年，电池18个月,Whole vehicle: 2 years; battery: 18 months,no
+PRODUCT-2,product,驰珩 CX-7 电动三轮车,Chiheng CX-7 Electric Tricycle,保修期,Warranty,整车2年，电池1年,Whole vehicle: 2 years; battery: 1 year,4,整车4年，电池2年,Whole vehicle: 4 years; battery: 2 years,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,发布日期,Release date,2023年7月5日,2023-07-05,1,2022年3月23日,2022-03-23,yes
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,发布日期,Release date,2023年7月5日,2023-07-05,2,2024年1月11日,2024-01-11,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,发布日期,Release date,2023年7月5日,2023-07-05,3,2021年9月28日,2021-09-28,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,发布日期,Release date,2023年7月5日,2023-07-05,4,2020年5月14日,2020-05-14,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,价格,Price,1899元人民币,"1,899 CNY",1,2580元人民币,"2,580 CNY",yes
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,价格,Price,1899元人民币,"1,899 CNY",2,1290元人民币,"1,290 CNY",no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,价格,Price,1899元人民币,"1,899 CNY",3,3200元人民币,"3,200 CNY",no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,价格,Price,1899元人民币,"1,899 CNY",4,2150元人民币,"2,150 CNY",no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,重量,Product weight,8.4公斤,8.4 kg,1,11.0公斤,11.0 kg,yes
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,重量,Product weight,8.4公斤,8.4 kg,2,6.2公斤,6.2 kg,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,重量,Product weight,8.4公斤,8.4 kg,3,13.5公斤,13.5 kg,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,重量,Product weight,8.4公斤,8.4 kg,4,9.6公斤,9.6 kg,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,保修期,Warranty,整机3年，滤芯6个月,Whole unit: 3 years; filter cartridge: 6 months,1,整机2年，滤芯1年,Whole unit: 2 years; filter cartridge: 1 year,yes
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,保修期,Warranty,整机3年，滤芯6个月,Whole unit: 3 years; filter cartridge: 6 months,2,整机5年，滤芯3个月,Whole unit: 5 years; filter cartridge: 3 months,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,保修期,Warranty,整机3年，滤芯6个月,Whole unit: 3 years; filter cartridge: 6 months,3,整机1年，滤芯6个月,Whole unit: 1 year; filter cartridge: 6 months,no
+PRODUCT-3,product,沐澜 HT-200 家用净水器,Mulan HT-200 Household Water Purifier,保修期,Warranty,整机3年，滤芯6个月,Whole unit: 3 years; filter cartridge: 6 months,4,整机3年，滤芯1年,Whole unit: 3 years; filter cartridge: 1 year,no
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作者,Creator,苗春燕,Miao Chunyan,1,乔月华,Qiao Yuehua,yes
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作者,Creator,苗春燕,Miao Chunyan,2,方振东,Fang Zhendong,no
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作者,Creator,苗春燕,Miao Chunyan,3,柳宏伟,Liu Hongwei,no
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作者,Creator,苗春燕,Miao Chunyan,4,田文斌,Tian Wenbin,no
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作年份,Year of creation,1983年,1983,1,1979年,1979,yes
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作年份,Year of creation,1983年,1983,2,1988年,1988,no
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作年份,Year of creation,1983年,1983,3,1975年,1975,no
+ART-1,art,《白原晚渡图》,Evening Ferry at Baiyuan (painting; interpretive title gloss),创作年份,Year of creation,1983年,1983,4,1991年,1991,no
