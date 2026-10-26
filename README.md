@@ -16,6 +16,6 @@ Notes
 - Gender is fixed context, not a conflict attribute.
 
 ## Known issues (pilot data, kept as generated)
-1. **Numerical alternatives are not range-controlled.** 121 of the numerical pairs differ from the original by more than 30% (years: more than 15 years), e.g. marathon duration 1 day → 5 days (EVENT-2), elevation 58 m → 184 m (LOCATION-2). A plausibility check is in progress.
+1. **Numerical alternatives are not range-controlled.** 120 of the numerical pairs differ from the original by more than 30% (years: more than 15 years), e.g. marathon duration 1 day → 5 days (EVENT-2), elevation 58 m → 184 m (LOCATION-2). A plausibility check is in progress.
 2. **Inconsistent number formats within a list.** EVENT-2 participation mixes 万 and plain numbers (1.2万人 vs 8600人; this was the tested pair); PRODUCT-1 warranty sometimes adds an hour limit and sometimes not. A model could tell values apart by form alone.
 3. **One entity name overlaps with an alternative value.** EVENT-3 通溪非物质文化遗产展演 vs organiser alternative 通溪市非物质文化遗产保护中心.
