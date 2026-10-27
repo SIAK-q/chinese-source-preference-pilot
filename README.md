@@ -1,7 +1,12 @@
 # Chinese source-preference pilot: data
 
-Pilot data for a Chinese adaptation of Schuster, Gautam & Markert (2026), *Whose Facts Win?*.
+This repository contains the pilot data of my MA thesis on how LLMs weigh different types of sources (government, newspaper, person, social media) when two Chinese-language materials conflict. The measurement setup follows Schuster, Gautam & Markert (2026); the entities, attribute values and source names were built for Chinese.
+
+The pilot was a feasibility check: it tested whether the procedure runs in Chinese, not which sources models prefer. This release is for reviewing the data before it is extended.
+
 30 fictional entities in 7 types, 151 entity–attribute items, 5 values each (index 0 = original, 1–4 = alternatives).
+
+## Files
 
 | File | Content |
 |---|---|
@@ -10,12 +15,13 @@ Pilot data for a Chinese adaptation of Schuster, Gautam & Markert (2026), *Whose
 | `entities_zh.jsonl` | Original Chinese data, one entity per line |
 | `sources_zh.json` | The 20 Chinese source names (4 types × 5) |
 
-Notes
+## Notes
+
 - Only alternative 1 was tested in the pilot (`tested_in_pilot = yes`).
-- English glosses were machine-translated and AI-checked, not independently human-reviewed.
+- English glosses were machine-translated.
 - Gender is fixed context, not a conflict attribute.
 
-## Known issues (pilot data, kept as generated)
-1. **Numerical alternatives are not range-controlled.** 120 of the numerical pairs differ from the original by more than 30% (years: more than 15 years), e.g. marathon duration 1 day → 5 days (EVENT-2), elevation 58 m → 184 m (LOCATION-2). A plausibility check is in progress.
-2. **Inconsistent number formats within a list.** EVENT-2 participation mixes 万 and plain numbers (1.2万人 vs 8600人; this was the tested pair); PRODUCT-1 warranty sometimes adds an hour limit and sometimes not. A model could tell values apart by form alone.
-3. **One entity name overlaps with an alternative value.** EVENT-3 通溪非物质文化遗产展演 vs organiser alternative 通溪市非物质文化遗产保护中心.
+## Known issues
+
+1. **One entity name overlaps with an alternative value.** EVENT-3 通溪非物质文化遗产展演 vs organiser alternative 通溪市非物质文化遗产保护中心 (a tested pair). The name check in the pilot only tested one direction.
+2. **Numerical alternatives were written without a set range.** Schuster et al. (2026) vary numerical values by up to ±20%; 177 of the 296 numerical pairs here differ by more than 20%, e.g. marathon duration 1 day → 5 days (EVENT-2), elevation 58 m → 184 m (LOCATION-2). The range for the Chinese data is still to be decided.
