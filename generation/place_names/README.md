@@ -22,9 +22,9 @@ The source and entity subsets are kept separate to avoid place-name overlap betw
 
 ## 最终地名池怎样生成 / How the final pool was made
 
-以下是收到[指令4](../prompts/4_shared_place_pool.md)之后，第三轮生成最终地名池的做法；`records/round3/`保存的就是这一轮的代码。前两轮的地名见下文“此前的修改”，代码未收入。
+以下是收到[指令4](../prompts/4_shared_place_pool.md)之后，第三轮生成最终地名池的做法；`records/round3/`保存这一轮的代码。前两轮的说明和记录见下文“此前的修改”。
 
-The steps below were carried out in round 3, after [Instruction 4](../prompts/4_shared_place_pool.md); `records/round3/` holds the code of this round. The earlier rounds are summarised under “Earlier revisions”; their code is not included.
+The steps below were carried out in round 3, after [Instruction 4](../prompts/4_shared_place_pool.md); `records/round3/` holds the code of this round. The earlier rounds and their records are under “Earlier revisions”.
 
 1. **以真实县、市名称为基础。** 使用[中国行政区划数据](https://github.com/modood/Administrative-divisions-of-China)，去掉行政区划后缀后，得到2,529条两字地名词干。
 
@@ -55,6 +55,17 @@ The code constructed and filtered the candidates. The model specified the exclus
 第一版使用三字地名，但这些名字并不自然。下一版改用县、市地名的字频，但分别选出的政府和报纸名单中，不同的字各自集中重复出现。最终版保留县、市级地名作为基础，改为使用一个汉字不重复的共同地名池。对应的修改要求见[指令1](../prompts/1_place_names.md)、[3](../prompts/3_corrections.md)、[4](../prompts/4_shared_place_pool.md)。
 
 The first version used three-character names, but these names did not sound natural. The next version used county/city character frequencies, but the separately selected government and newspaper lists repeated different characters. The final version kept the county/city basis and used one pool with no repeated characters. The corresponding requests are in [Instructions 1](../prompts/1_place_names.md), [3](../prompts/3_corrections.md) and [4](../prompts/4_shared_place_pool.md).
+
+前两轮的代码和输出 / Code and output from the first two rounds:
+
+| 轮次 / Round | 记录 / Records |
+|---|---|
+| 第一轮 / Round 1 | [字频统计 / Character counts](records/round1/1_character_frequency.py) · [组合候选 / Candidate combinations](records/round1/2_combine_candidates.py) · [挑选与检查 / Selection and checks](records/round1/3_pick_and_check.py) |
+| 第二轮 / Round 2 | [字频统计 / Character counts](records/round2/1_character_frequency.py) · [top 50 候选 / Top 50 candidates](records/round2/2_combine_top50.py) · [top 20 候选 / Top 20 candidates](records/round2/3_combine_top20.py) · [挑选与检查 / Selection and checks](records/round2/4_pick_and_check.py) |
+
+各文件末尾的注释保留了当时的输出；挑选与检查文件仅记录输出。
+
+The comments at the end of each file preserve the recorded output; the selection-and-check files contain output only.
 
 <details>
 <summary>最终方法的历史代码 / Historical code for the final method</summary>
