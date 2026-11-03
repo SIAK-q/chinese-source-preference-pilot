@@ -1,8 +1,8 @@
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
-硕士论文 pilot 数据，研究语言模型面对两份相互冲突的中文材料时如何权衡政府、报纸、个人和社交媒体等不同类型的信源。测量设置遵循 Schuster, Gautam & Markert（2026）；实体、属性值和信源名称按中文语境构造。
+硕士论文 pilot 数据，研究语言模型面对两份相互冲突的中文材料时如何权衡政府、报纸、个人和社交媒体等不同类型的信源。实体、属性值和信源名称按中文语境构造。
 
-Pilot data for an MA thesis on how LLMs weigh different types of sources (government, newspaper, person, social media) when two Chinese-language materials conflict. The measurement setup follows Schuster, Gautam & Markert (2026); the entities, attribute values and source names were built for Chinese.
+Pilot data for an MA thesis on how LLMs weigh different types of sources (government, newspaper, person, social media) when two Chinese-language materials conflict. The entities, attribute values and source names were built for Chinese.
 
 这次 pilot 是可行性检查，用来测试流程能否在中文下运行，而不是判断模型偏好哪些信源。本次发布的数据供扩充前审阅。
 
