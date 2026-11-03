@@ -1,6 +1,6 @@
 # 指令3：修改第一版数据的五个问题 / Instruction 3: five problems in the first dataset
 
-## 中文整理版 / Chinese edited version
+## 中文 / Chinese
 
 ```
 以下几个问题需要修改：
@@ -42,32 +42,3 @@ The following problems need to be fixed:
 5. The social media account @城南旧事本人 uses the title of a real novel, 城南旧事 (My Memories of Old Beijing, by Lin Haiyin); replace it with a fictional name that does not point to a real work. Also, the name pool for individual sources and the name pool for entities should be separate; they currently overlap.
 
 Submit again after the fixes.
-
-<details>
-<summary>Original wording (verbatim from the session log, Chinese)</summary>
-
-```
-几个问题：
-
-1. 真bug：机构和产品的名字泄露了属性答案。北马坪纺织集团的总部所在地备选里有
-   北马坪，但表格第一行永远显示实体名，模型看名字就知道答案，违反了"两边同样合理"。
-   产品的制造商同理。解决办法：机构和产品的名字不要带地名，或者干脆去掉
-   总部所在地和制造商这两个属性。
-
-2. 产品的制造商备选不合理。净水器的制造商备选里有医药公司和食品公司，
-   这不是同等合理。备选要在同一行业内。
-
-3. 国籍不自洽。中文人名住中式地名，国籍却是瑟兰尼亚人这种西式音译。
-   要么去掉国籍这个属性，要么整个世界观统一。建议去掉，人物属性已经够多。
-
-4. 地名register：信源用的地名还是乡镇级（陈家店市民政局、郭家塘晚报读着别扭），
-   需要单独生成一批县市级的两字地名。LOCATION实体也有这个问题，
-   五里营73万人口2450平方公里对不上这个名字。
-
-5. 小问题：@城南旧事本人 蹭了林海音小说名，换一个。
-   另外person信源的名字池和实体名字池要分开，现在有重叠。
-
-改完重新发我看。
-```
-
-</details>

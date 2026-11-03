@@ -18,7 +18,7 @@ The data was generated on 2026-09-17 in one session with Claude Opus 5 (`claude-
 
 | Round | Instruction | What changed |
 |---|---|---|
-| 1 | Initial request (original wording in the session records), [2: how to make place names](generation/prompts/2_place_names.md) | First complete data |
+| 1 | Initial request, [2: how to make place names](generation/prompts/2_place_names.md) | First complete data |
 | 2 | [3: five problems in the first data](generation/prompts/3_corrections.md) | Organization and product names revised and the headquarters and manufacturer attributes removed; nationality and country removed, number of towns/townships added for locations; some values revised (e.g. industry, revenue, structural system, duration); county/city-level place names; separate person-name pools |
 | 3 | [4: one shared place-name pool](generation/prompts/4_shared_place_pool.md) | One pool of 20 place names for all sources and entities |
 
@@ -26,7 +26,7 @@ Values were revised only in round 2; round 3 updated place names and the fields 
 
 **Final data.** Running the final scripts produced [`entities_zh.jsonl`](entities_zh.jsonl) and [`sources_zh.json`](sources_zh.json). [Instruction 1](generation/prompts/1_task.md) is a generation prompt reconstructed from this final data and the methods described in the proposal and the 23 October slides; it has not been rerun. The easiest way to read the originals and alternatives side by side is [`conflict_pairs.md`](conflict_pairs.md).
 
-**Reading the prompt files.** Each file presents a Chinese version and an English translation. Instructions 2–4 keep the original Chinese excerpt folded below; Instruction 1's original wording is in the session records. Instruction 1 names Weibo, the platform chosen in the implementation; the original instruction asked the model to choose a platform and explain its choice.
+**Reading the prompt files.** Each file gives the instruction in Chinese, with an English translation.
 
 ## Files
 
@@ -36,7 +36,7 @@ Values were revised only in round 2; round 3 updated place names and the fields 
 | `conflict_pairs.csv` | Same pairs as a table |
 | `entities_zh.jsonl` | Original Chinese data, one entity per line |
 | `sources_zh.json` | The 20 Chinese source names (4 types × 5) |
-| `generation/prompts/` | The four instructions (edited or reconstructed Chinese text, English translation; original wording for 2–4) |
+| `generation/prompts/` | The four instructions, in Chinese with English translation |
 | `generation/place_names/` | How the place names were made, with the original code and output |
 
 ## Notes

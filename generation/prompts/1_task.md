@@ -1,7 +1,7 @@
 # 指令1：生成数据 / Instruction 1: generate the data
 
 
-## 中文整理版 / Chinese reconstructed version
+## 中文 / Chinese
 
 ```text
 【生成中文知识冲突测试数据】

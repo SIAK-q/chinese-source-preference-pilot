@@ -1,6 +1,6 @@
 # 指令4：统一地名池并更新数据 / Instruction 4: unify the place-name pool and update the data
 
-## 中文整理版 / Chinese reconstructed version
+## 中文 / Chinese
 
 ```text
 请将现有数据中的地名统一到一个共用的虚构地名池，并更新实体和信源文件。
@@ -47,17 +47,3 @@ Output:
 - The updated entities_zh.jsonl and sources_zh.json.
 
 ```
-
-<details>
-<summary>Original wording (verbatim from the session log, Chinese)</summary>
-
-```
-1.我觉得这一波地名没有上一波好。；2.地名池要共用，不要按信源类型分开。现在政府和报纸用的是不同的地名，
-其中报纸有三个带溪、政府有两个带源，地名用字的差异会混进信源类型的对比里。
-WFW用的是同一个地名池填所有信源模板（source_generator.py 里报纸和政府
-都从NeoQA的locations抽），照这个改。
-
-改完可以往下做prompt构造。
-```
-
-</details>

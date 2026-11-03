@@ -58,45 +58,14 @@ The data follows WFW's structure, with entity names, source names and attribute 
 
 The first round read the opening 3,000 bytes of the English entity file and counted entity classes and fields. Chinese person and place names were then generated and checked in the same session. The model wrote Chinese originals and alternatives into generation scripts, using the existing scripts and results in subsequent rounds.
 
-<details>
-<summary>原始输入指令的相关部分 / Relevant part of the original input instruction</summary>
-
-以下是初始要求中读取参考材料的原话；数据生成要求的回顾整理见[指令1](1_task.md)。
-
-This is the original request to read reference materials. A retrospective reconstruction of the data-generation requirements is provided in [Instruction 1](1_task.md).
-
-```text
-【第一步：先读懂现有英文数据的格式】
-data/ 目录里是论文的英文数据。先读这几个文件，搞清楚它们的schema：
-neoqa_entities_counterfactual.jsonl、government_template.jsonl、
-newspaper_templates.txt、names_last.txt、names_first_male.json、
-timeline_locations.json、circulation_values.json、question_cache.json
-也读 helpers/config.py、helpers/models.py、helpers/prompt_builder.py、
-helpers/source_generator.py、helpers/model_inference.py、helpers/evaluation.py，
-搞清楚数据是怎么被加载、怎么拼成prompt、概率是怎么读的、SP指标是怎么算的。
-把schema总结写到 pilot/FORMAT_NOTES.md 里，我要看。
-```
-
-**英文翻译 / English translation**
-
-**[Step 1: First understand the format of the existing English data]**
-
-The `data/` directory contains the paper's English data. First read these files and understand their schema: `neoqa_entities_counterfactual.jsonl`, `government_template.jsonl`, `newspaper_templates.txt`, `names_last.txt`, `names_first_male.json`, `timeline_locations.json`, `circulation_values.json`, and `question_cache.json`.
-
-Also read `helpers/config.py`, `helpers/models.py`, `helpers/prompt_builder.py`, `helpers/source_generator.py`, `helpers/model_inference.py`, and `helpers/evaluation.py`, to understand how the data is loaded, how it is assembled into prompts, how probabilities are read, and how SP is computed.
-
-Write a summary of the schema to `pilot/FORMAT_NOTES.md`; I want to see it.
-
-</details>
-
 ### 输出文件与整理 / Output files and preparation
 
 [首轮输出](output_round1.md)和[第二轮输出](output_round2.md)保存模型写出的脚本原文。两份JSONL实体导出由保存的历史脚本恢复，其中首轮导出包含同轮的名称修正。最终数据使用库中已有的实体和信源文件。早期各轮信源文件未单独留存。
 
 The [first output](output_round1.md) and [second output](output_round2.md) preserve the scripts written by the model. The two JSONL entity exports were recovered from the saved historical scripts; the first includes a recorded name correction from the same round. The final data uses the entity and source files already in the repository. Earlier source-file versions were not saved separately.
 
-[指令1](1_task.md)按最终采用的数据和方法回顾整理，尚未重新运行。最初的数据生成指令原话保存在会话记录中，指令2–4的相应原话保留在各文件折叠区。
+[指令1](1_task.md)按最终采用的数据和方法回顾整理，尚未重新运行。
 
-[Instruction 1](1_task.md) was retrospectively reconstructed from the adopted data and methods and has not been rerun. The original initial generation instruction is preserved in the session records; Instructions 2–4 retain their corresponding original wording in folded sections.
+[Instruction 1](1_task.md) was retrospectively reconstructed from the adopted data and methods and has not been rerun.
 
 </details>

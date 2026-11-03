@@ -1,6 +1,6 @@
 # 指令2：生成并使用地名池 / Instruction 2: how to make and use the place-name pool
 
-## 中文整理版 / Chinese edited version
+## 中文 / Chinese
 
 ```
 重新生成人名和地名。地名按“组合候选→查重→确认地名池→从池中取名生成数据”的顺序处理：
@@ -22,25 +22,3 @@ Regenerate person and place names. For place names, follow this sequence: combin
 3. If a candidate coincides with a real name, replace it with another common combination; do not resort to rare characters.
 4. If repeated attempts still coincide with real names, consider three-character place names: real three-character county/city names are fewer, leaving more room to invent names that still sound natural.
 5. First submit 20 place names and 20 person names for my confirmation. Once confirmed, use this set of place names as the pool. When generating entity and source data, take names from this pool for the relevant positions, such as the place-name component of government and newspaper names, location-entity names, and attributes such as a person's city of residence.
-
-<details>
-<summary>Original wording (verbatim from the session log, Chinese)</summary>
-
-```
-重新生成的做法：
-- 先从常见地名用字里组合出候选，不要用生僻字
-- 再去查这个组合是不是真实存在的行政区划（可以查中文维基，或者找一份中国行政区划
-  列表来比对）
-- 撞了就换一个常见组合，不要改用生僻字
-- 如果试了很多次都撞，可以考虑三字地名，真实的三字县市名较少，
-  编造空间大且仍然自然
-
-顺便记一下：英文版的地名其实不是生成的，是直接用 NeoQA 提供的虚构地名
-（data/timeline_locations.json）。中文没有对应的现成资源，所以这一步是中文版
-比英文版多出来的工作。请把这个观察也写进 pilot/FORMAT_NOTES.md，
-这对我写proposal有用。
-
-重新生成人名和地名，先给我看20个地名和20个人名，我确认了再往下做。
-```
-
-</details>
