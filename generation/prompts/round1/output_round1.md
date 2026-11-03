@@ -1,8 +1,8 @@
 # 首轮模型输出：生成脚本 / Round1 model output: generation script
 
-相应实体数据见[`output_round1.jsonl`](output_round1.jsonl)，生成要求和修改指令见[配对清单](README.md)。
+相应实体数据见[`output_round1.jsonl`](output_round1.jsonl)，生成要求和修改指令见[配对清单](../README.md)。
 
-The corresponding entity-data export is [`output_round1.jsonl`](output_round1.jsonl); prompts and revision requests are linked in the [paired record](README.md).
+The corresponding entity-data export is [`output_round1.jsonl`](output_round1.jsonl); prompts and revision requests are linked in the [paired record](../README.md).
 
 首轮实体导出还包含同一轮中记录的“西石区→西石口”名称修正。
 

@@ -10,5 +10,5 @@ For the overall data-generation process, see [model input and output](../MODEL_I
 | [指令2 / Instruction 2](2_task.md) | 数据生成要求 / Data-generation requirements |
 | [指令3 / Instruction 3](3_corrections.md) | 数据修改 / Data revision |
 | [指令4 / Instruction 4](4_shared_place_pool.md) | 统一地名池 / Shared place-name pool |
-| [第一版脚本 / Round 1 script](output_round1.md) · [实体数据 / Entity data](output_round1.jsonl) | 第一版输出 / First output |
-| [第二版脚本 / Round 2 script](output_round2.md) · [实体数据 / Entity data](output_round2.jsonl) | 修改后的输出 / Revised output |
+| [第一版脚本 / Round 1 script](round1/output_round1.md) · [实体数据 / Entity data](round1/output_round1.jsonl) | 第一版输出 / First output |
+| [第二版脚本 / Round 2 script](round2/output_round2.md) · [实体数据 / Entity data](round2/output_round2.jsonl) | 修改后的输出 / Revised output |
