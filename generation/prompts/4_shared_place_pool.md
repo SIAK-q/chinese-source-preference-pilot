@@ -5,7 +5,7 @@
 ```text
 请将现有数据中的地名统一到一个共用的虚构地名池，并更新实体和信源文件。
 
-1. 地名池：沿用前面基于真实县市地名用字统计、组合和查重的方法，整理出20个两字虚构地名。
+1. 地名池：基于真实县市地名的用字统计，组合并查重，整理出20个两字虚构地名。
    名称应适合县市语境；20个名称的40个汉字不重复，并完成行政区划表和中文维基查重。
 
 2. 分配方式：政府和报纸从同一份有序地名池交错取名。前10个地名中，第1、3、5、7、9个
@@ -27,8 +27,8 @@
 Unify the place names in the existing data through one shared fictional place-name pool,
 and update the entity and source files.
 
-1. Pool: use the earlier method of character-frequency analysis of real county and city names,
-   combination, and duplicate checks to compile 20 fictional two-character place names.
+1. Pool: use character-frequency analysis of real county and city names, combination,
+   and duplicate checks to compile 20 fictional two-character place names.
    The names should suit a county or city context. Use 40 distinct characters across the
    20 names, and check them against the administrative-division list and Chinese Wikipedia.
 

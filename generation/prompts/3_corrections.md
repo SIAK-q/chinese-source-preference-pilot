@@ -3,7 +3,7 @@
 ## 中文 / Chinese
 
 ```
-以下几个问题需要修改：
+第一版数据中的以下问题需要修改：
 
 1. 机构和产品的名称泄露了属性答案。例如北马坪纺织集团的总部所在地备选中有"北马坪"，
    而表格第一行始终显示实体名，模型看名称即可推出答案，违反"两边同样合理"的要求。
@@ -29,7 +29,7 @@
 
 ## English translation
 
-The following problems need to be fixed:
+The following problems in the first dataset need to be fixed:
 
 1. Organization and product names leak attribute answers. For example, the headquarters alternatives of 北马坪纺织集团 (Beimaping Textile Group) include 北马坪 (Beimaping), while the first row of the table always shows the entity name, so the model can infer the answer from the name, violating the requirement that "both sides are equally plausible". The same applies to product manufacturers. Fix: organization and product names should not contain place names, or drop the two attributes "headquarters" and "manufacturer".
 

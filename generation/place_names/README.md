@@ -22,6 +22,10 @@ The source and entity subsets are kept separate to avoid place-name overlap betw
 
 ## 最终地名池怎样生成 / How the final pool was made
 
+以下是收到[指令4](../prompts/4_shared_place_pool.md)之后，第三轮生成最终地名池的做法；`records/round3/`保存的就是这一轮的代码。前两轮的地名见下文“此前的修改”，代码未收入。
+
+The steps below were carried out in round 3, after [Instruction 4](../prompts/4_shared_place_pool.md); `records/round3/` holds the code of this round. The earlier rounds are summarised under “Earlier revisions”; their code is not included.
+
 1. **以真实县、市名称为基础。** 使用[中国行政区划数据](https://github.com/modood/Administrative-divisions-of-China)，去掉行政区划后缀后，得到2,529条两字地名词干。
 
     **Start from real county and city names.** An administrative-division list from [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) supplied 2,529 two-character name stems after administrative endings were removed.
@@ -48,15 +52,15 @@ The code constructed and filtered the candidates. The model specified the exclus
 
 ## 此前的修改 / Earlier revisions
 
-第一版使用三字地名，但这些名字并不自然。下一版改用县、市地名的字频，但分别选出的政府和报纸名单中，不同的字各自集中重复出现。最终版保留县、市级地名作为基础，改为使用一个汉字不重复的共同地名池。对应的修改要求见[指令2](../prompts/2_place_names.md)、[3](../prompts/3_corrections.md)、[4](../prompts/4_shared_place_pool.md)。
+第一版使用三字地名，但这些名字并不自然。下一版改用县、市地名的字频，但分别选出的政府和报纸名单中，不同的字各自集中重复出现。最终版保留县、市级地名作为基础，改为使用一个汉字不重复的共同地名池。对应的修改要求见[指令1](../prompts/1_place_names.md)、[3](../prompts/3_corrections.md)、[4](../prompts/4_shared_place_pool.md)。
 
-The first version used three-character names, but these names did not sound natural. The next version used county/city character frequencies, but the separately selected government and newspaper lists repeated different characters. The final version kept the county/city basis and used one pool with no repeated characters. The corresponding requests are in [Instructions 2](../prompts/2_place_names.md), [3](../prompts/3_corrections.md) and [4](../prompts/4_shared_place_pool.md).
+The first version used three-character names, but these names did not sound natural. The next version used county/city character frequencies, but the separately selected government and newspaper lists repeated different characters. The final version kept the county/city basis and used one pool with no repeated characters. The corresponding requests are in [Instructions 1](../prompts/1_place_names.md), [3](../prompts/3_corrections.md) and [4](../prompts/4_shared_place_pool.md).
 
 <details>
 <summary>最终方法的历史代码 / Historical code for the final method</summary>
 
 - [生成1,402个候选并排序 / Construct and rank the 1,402 candidates](records/round3/1_rank_candidates.py)。
-- [应用用字多样性约束和词项过滤规则 / Apply the character-diversity and word filters](records/round3/3_select_filtered.py)。
+- [应用用字多样性约束和词项过滤规则 / Apply the character-diversity and word filters](records/round3/2_select_filtered.py)。
 - [查询中文维基标题，并跟随重定向 / Check Chinese Wikipedia titles, following redirects](records/check_names.py)。
 
 
