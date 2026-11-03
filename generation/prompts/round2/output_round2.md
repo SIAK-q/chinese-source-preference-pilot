@@ -3,6 +3,8 @@
 
 [脚本文件 / Script file](build_data_zh.py)
 
+[信源脚本 / Source script](build_sources_zh.py) · [信源数据 / Source data](sources_zh.json)
+
 The corresponding entity-data export is [`output_round2.jsonl`](output_round2.jsonl); prompts and revision requests are linked in the [paired record](../README.md).
 
 <details>
