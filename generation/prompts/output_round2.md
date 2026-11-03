@@ -1,6 +1,5 @@
 # 第二轮模型输出：生成脚本 / Round2 model output: generation script
-
-下面保留2026年9月17日会话中模型写出的脚本原文。相应实体数据见[`output_round2.jsonl`](output_round2.jsonl)，生成要求和修改指令见[配对清单](README.md)。
+相应实体数据见[`output_round2.jsonl`](output_round2.jsonl)，生成要求和修改指令见[配对清单](README.md)。
 
 The folded section preserves the script written by the model in the 17 September 2026 session. The corresponding entity-data export is [`output_round2.jsonl`](output_round2.jsonl); prompts and revision requests are linked in the [paired record](README.md).
 
