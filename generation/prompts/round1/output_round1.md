@@ -2,7 +2,7 @@
 
 相应实体数据见[`output_round1.jsonl`](output_round1.jsonl)，生成要求和修改指令见[配对清单](../README.md)。
 
-[本轮修正后的脚本文件 / Script file with the recorded in-round correction](build_data_zh.py)
+[本轮脚本文件 / Script file](build_data_zh.py)
 
 [信源脚本 / Source script](build_sources_zh.py) · [信源数据 / Source data](sources_zh.json)
 
