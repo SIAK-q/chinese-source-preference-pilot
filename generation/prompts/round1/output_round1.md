@@ -8,9 +8,6 @@
 
 The corresponding entity-data export is [`output_round1.jsonl`](output_round1.jsonl); prompts and revision requests are linked in the [paired record](../README.md).
 
-首轮实体导出还包含同一轮中记录的“西石区→西石口”名称修正。
-
-The round-1 entity export also includes the recorded within-round correction from 西石区 to 西石口.
 
 <details>
 <summary>脚本原文（保留中文注释及取值） / Script as written (Chinese comments and values preserved)</summary>
