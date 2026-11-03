@@ -2,6 +2,8 @@
 
 相应实体数据见[`output_round1.jsonl`](output_round1.jsonl)，生成要求和修改指令见[配对清单](../README.md)。
 
+[本轮修正后的脚本文件 / Script file with the recorded in-round correction](build_data_zh.py)
+
 The corresponding entity-data export is [`output_round1.jsonl`](output_round1.jsonl); prompts and revision requests are linked in the [paired record](../README.md).
 
 首轮实体导出还包含同一轮中记录的“西石区→西石口”名称修正。

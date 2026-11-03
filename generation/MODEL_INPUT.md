@@ -59,7 +59,7 @@ For the second version, the model used the first script and results as context a
 | 阶段 / Stage | 修改 / Revision | 输出 / Output |
 |---|---|---|
 | **数据修改**<br>Data revision | 根据[指令3](prompts/3_corrections.md)修改名称、字段和部分取值。<br>Following [Instruction 3](prompts/3_corrections.md), revise names, fields and some values. | [第二版脚本 / Second script](prompts/round2/output_round2.md) · [第二版数据 / Second data](prompts/round2/output_round2.jsonl)：30实体、151项属性 / 30 entities, 151 attributes |
-| **统一地名池**<br>Shared place-name pool | 根据[指令4](prompts/4_shared_place_pool.md)统一地名池并更新相关名称。<br>Following [Instruction 4](prompts/4_shared_place_pool.md), unify the place-name pool and update the relevant names. | [地名方法 / Place-name method](place_names/README.md) · [最终实体 / Final entities](../entities_zh.jsonl) · [信源 / Sources](../sources_zh.json) |
+| **统一地名池**<br>Shared place-name pool | 根据[指令4](prompts/4_shared_place_pool.md)统一地名池并更新相关名称。<br>Following [Instruction 4](prompts/4_shared_place_pool.md), unify the place-name pool and update the relevant names. | [第三轮脚本与数据 / Round 3 scripts and data](prompts/round3/README.md) · [地名方法 / Place-name method](place_names/README.md) · [最终实体 / Final entities](prompts/round3/entities_zh.jsonl) · [信源 / Sources](prompts/round3/sources_zh.json) |
 
 三轮先后用过三批地名。每一轮都是先定下当轮的地名，再写入数据；只有第三轮才是政府、报纸和实体共用的一个地名池。
 

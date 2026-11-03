@@ -71,7 +71,9 @@ The comments at the end of each file preserve the recorded output; the selection
 <summary>最终方法的历史代码 / Historical code for the final method</summary>
 
 - [生成1,402个候选并排序 / Construct and rank the 1,402 candidates](records/round3/1_rank_candidates.py)。
-- [应用用字多样性约束和词项过滤规则 / Apply the character-diversity and word filters](records/round3/2_select_filtered.py)。
+- [不重复用字的初步筛选 / Initial selection without repeated characters](records/round3/2_select_no_repeated_chars.py)。
+- [应用用字多样性约束和词项过滤规则 / Apply the character-diversity and word filters](records/round3/3_select_filtered.py)。
+- [最终20个地名的查重结果 / Recorded checks of the final 20 names](records/round3/4_final_check.py)。
 - [查询中文维基标题，并跟随重定向 / Check Chinese Wikipedia titles, following redirects](records/check_names.py)。
 
 
