@@ -1,7 +1,7 @@
 # 第二轮模型输出：生成脚本 / Round2 model output: generation script
 相应实体数据见[`output_round2.jsonl`](output_round2.jsonl)，生成要求和修改指令见[配对清单](README.md)。
 
-The folded section preserves the script written by the model in the 17 September 2026 session. The corresponding entity-data export is [`output_round2.jsonl`](output_round2.jsonl); prompts and revision requests are linked in the [paired record](README.md).
+The corresponding entity-data export is [`output_round2.jsonl`](output_round2.jsonl); prompts and revision requests are linked in the [paired record](README.md).
 
 <details>
 <summary>脚本原文（保留中文注释及取值） / Script as written (Chinese comments and values preserved)</summary>
