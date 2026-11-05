@@ -10,6 +10,8 @@ The original and alternative switch positions in the two table orders. Inputs an
 以下是单项选择题。题目会提供来自不同信息源的表格数据。只回答正确答案对应的字母，不要输出任何其他内容。
 ```
 
+**英文释义（非模型输入）/ English reading translation (not model input):** These are single-choice questions. The question provides tabular data from different sources. Answer only with the letter corresponding to the correct answer, with no other output.
+
 ## 表序 0 / Order 0
 
 ```text
@@ -46,6 +48,42 @@ The original and alternative switch positions in the two table orders. Inputs an
 （B）1986年10月27日
 ```
 
+**英文释义（非模型输入）/ English reading translation (not model input):**
+
+```text
+Context:
+Table 1:
+| Field | Value |
+|------|------|
+| Name | Zheng Shufen |
+| Date of birth | 1987-08-14 |
+| Gender | Female |
+| Occupation | Secondary-school Chinese-language teacher |
+| Education | Bachelor's level (Chinese Language and Literature) |
+| Height | 162 cm |
+| Weight | 54 kg |
+| Marital status | Married |
+| Current city of residence | Shuangling |
+
+Table 2:
+| Field | Value |
+|------|------|
+| Name | Zheng Shufen |
+| Date of birth | 1986-10-27 |
+| Gender | Female |
+| Occupation | Secondary-school Chinese-language teacher |
+| Education | Bachelor's level (Chinese Language and Literature) |
+| Height | 162 cm |
+| Weight | 54 kg |
+| Marital status | Married |
+| Current city of residence | Shuangling |
+
+
+What is Zheng Shufen's date of birth?
+(A) 1987-08-14
+(B) 1986-10-27
+```
+
 ## 表序 1 / Order 1
 
 ```text
@@ -80,6 +118,42 @@ The original and alternative switch positions in the two table orders. Inputs an
 郑淑芬的出生日期是哪一天？
 （A）1986年10月27日
 （B）1987年8月14日
+```
+
+**英文释义（非模型输入）/ English reading translation (not model input):**
+
+```text
+Context:
+Table 1:
+| Field | Value |
+|------|------|
+| Name | Zheng Shufen |
+| Date of birth | 1986-10-27 |
+| Gender | Female |
+| Occupation | Secondary-school Chinese-language teacher |
+| Education | Bachelor's level (Chinese Language and Literature) |
+| Height | 162 cm |
+| Weight | 54 kg |
+| Marital status | Married |
+| Current city of residence | Shuangling |
+
+Table 2:
+| Field | Value |
+|------|------|
+| Name | Zheng Shufen |
+| Date of birth | 1987-08-14 |
+| Gender | Female |
+| Occupation | Secondary-school Chinese-language teacher |
+| Education | Bachelor's level (Chinese Language and Literature) |
+| Height | 162 cm |
+| Weight | 54 kg |
+| Marital status | Married |
+| Current city of residence | Shuangling |
+
+
+What is Zheng Shufen's date of birth?
+(A) 1986-10-27
+(B) 1987-08-14
 ```
 
 ## 模型输出 / Model outputs
