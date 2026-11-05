@@ -9,8 +9,9 @@ This directory contains the data and experiment materials for the 6 November mee
 1. [原始生成过程、指令、输入与输出 / Original generation process, instructions, inputs and outputs](../generation/)：此前已整理的 Original 生成记录。/ The previously shared generation records for Original.
 2. [Original → v1 完整对照表 / Full Original → v1 comparison](pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)：全部 30 个实体、151 个属性、每项原值与四个备选，中英对照及修订说明。英文是阅读辅助，中文是实验数据。/ All 30 entities and 151 attributes, with original values, four alternatives and revision rationales in Chinese and English. English is a reading gloss; Chinese is the experimental data.
 3. [修订阶段指令与结果 / Revision instructions and results](pilot/data_review/value_revision/PROMPTS_REVISION_SUBMISSION.md)：修订规则、相容性检查及修改。/ Revision rules, compatibility screening and changes.
-4. [无信源输入与输出示例 / Example input and output](BASELINE_EXAMPLE.md)：一道真实题的两个表序及三个模型输出。/ One actual pair in both table orders and the three models' outputs.
-5. [baseline 结果与全部文件 / Baseline results and complete files](#无信源-baseline--source-free-baseline)：逐模型输入、原始输出、分析和汇总。/ Complete model inputs, raw outputs, analysis and summaries.
+4. [WFW 与中文测试 prompt 对照 / WFW–Chinese prompt comparison](PROMPT_COMPARISON.md)：系统指令与测试形式。/ System instructions and test format.
+5. [无信源输入与输出示例 / Example input and output](BASELINE_EXAMPLE.md)：一道真实题的两个表序及三个模型输出。/ One actual pair in both table orders and the three models' outputs.
+6. [baseline 结果与全部文件 / Baseline results and complete files](#无信源-baseline--source-free-baseline)：逐模型输入、原始输出、分析和汇总。/ Complete model inputs, raw outputs, analysis and summaries.
 
 ## 数据与方法 / Data and method
 
