@@ -1,0 +1,196 @@
+{
+  "status": "2c_demonstration_artifacts_accepted",
+  "entities": 7,
+  "before_attributes": 32,
+  "after_attributes": 30,
+  "comparisons_checked": 120,
+  "prompt_orders_rendered": 240,
+  "modified": 21,
+  "kept": 9,
+  "disabled": 2,
+  "scalar_alternatives_checked": 52,
+  "dates_checked": 12,
+  "provenance_matches_source": true,
+  "metadata_and_fixed_backgrounds_preserved": true,
+  "originals_numeric_values_preserved": true,
+  "notes_previews_match_renderer": true,
+  "source_sha256": "298860211458c986d6db7c49ff162032f4737e0b386782034083ffcae0a290c6",
+  "source_unchanged": true,
+  "directional_attributes": [
+    {
+      "entity_id": "PERSON-1",
+      "field": "出生日期",
+      "index1": "earlier",
+      "all4_earlier": 2,
+      "all4_later": 2
+    },
+    {
+      "entity_id": "PERSON-1",
+      "field": "身高",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "PERSON-1",
+      "field": "体重",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "ORGANIZATION-6",
+      "field": "成立时间",
+      "index1": "earlier",
+      "all4_earlier": 2,
+      "all4_later": 2
+    },
+    {
+      "entity_id": "ORGANIZATION-6",
+      "field": "员工人数",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "ORGANIZATION-6",
+      "field": "年营业额",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "LOCATION-4",
+      "field": "人口",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "LOCATION-4",
+      "field": "面积",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "LOCATION-4",
+      "field": "海拔",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "LOCATION-4",
+      "field": "下辖乡镇数",
+      "index1": "lower_or_earlier",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "BUILDING-2",
+      "field": "建成年份",
+      "index1": "lower_or_earlier",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "BUILDING-2",
+      "field": "高度",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "BUILDING-2",
+      "field": "容纳人数",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "EVENT-2",
+      "field": "举办日期",
+      "index1": "earlier",
+      "all4_earlier": 2,
+      "all4_later": 2
+    },
+    {
+      "entity_id": "EVENT-2",
+      "field": "参与人数",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "EVENT-2",
+      "field": "预算",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "PRODUCT-1",
+      "field": "发布日期",
+      "index1": "earlier",
+      "all4_earlier": 2,
+      "all4_later": 2
+    },
+    {
+      "entity_id": "PRODUCT-1",
+      "field": "价格",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "PRODUCT-1",
+      "field": "重量",
+      "index1": "lower",
+      "all4_lower": 2,
+      "all4_higher": 2
+    },
+    {
+      "entity_id": "ART-1",
+      "field": "创作年份",
+      "index1": "lower_or_earlier",
+      "all4_lower": 2,
+      "all4_higher": 2
+    }
+  ],
+  "index1_direction_warning": "All 20 ordered scalar/date/count fields have a lower/earlier index1; both table orders do not balance magnitude direction.",
+  "scope": "Accepts reproducible demonstration and change provenance; semantic flags remain for review, not automatic exclusion.",
+  "rebuild_outputs_byte_identical": true,
+  "review_dispositions": [
+    {
+      "entity_id": "PERSON-1",
+      "field": "学历",
+      "decision": "沿用演示、保留语境复核",
+      "reason": "中学学段未区分；初等教育专业与原职业的关系需进一步判断。此轮不以未核实的任教资格论断作通过依据。"
+    },
+    {
+      "entity_id": "PERSON-1",
+      "field": "婚姻状况",
+      "decision": "保留，不因年龄直接删除",
+      "reason": "38岁与丧偶没有逻辑矛盾；缺少频率依据，不把少见写成已验证事实。相对可信仍由语境/模型诊断处理。"
+    },
+    {
+      "entity_id": "LOCATION-4",
+      "field": "下辖乡镇数",
+      "decision": "演示保留，记录绝对/相对差，正式采用待讨论",
+      "reason": "4到2符合绝对±2，但相对−50%，每乡镇均值翻倍可复算；符合本轮例外不代表老师已认可幅度。"
+    },
+    {
+      "entity_id": "BUILDING-2",
+      "field": "高度",
+      "decision": "保留原值与建议备选，列背景定义复核",
+      "reason": "总高度/层数比值7.7–8.3米不是实际逐层层高，不据此判原值错误或改楼高/层数。"
+    },
+    {
+      "entity_id": "BUILDING-2",
+      "field": "主体结构",
+      "decision": "沿用演示、保留语境复核",
+      "reason": "1996年钢结构少见未有支持，删去频率式结论；年代/用途/结构组合仍可列待查，不能据此自动删值。"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "verdict": "needs_fixes",
+  "baseline": {
+    "entities": 7,
+    "pairs": 120,
+    "prompt_orders": 240,
+    "error": 0,
+    "needs_review": 13,
+    "not_checked": 9,
+    "pass": 458,
+    "selftest_9_detected": true,
+    "manifest_independent_render_match": true
+  },
+  "targeted_counterexamples": {
+    "wrong_input_hash": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 13,
+      "escaped": true
+    },
+    "same_date_different_spelling": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 13,
+      "escaped": true
+    },
+    "invalid_month": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 13,
+      "escaped": true
+    },
+    "fractional_employee_count": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 14,
+      "escaped": true
+    },
+    "marathon_weekday_violation": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 13,
+      "escaped": true
+    },
+    "zero_warranty": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 13,
+      "escaped": true
+    },
+    "original_unit_rewritten": {
+      "error_count": 0,
+      "error_checks": [],
+      "needs_review_count": 13,
+      "escaped": true
+    }
+  },
+  "inputs_unchanged": true,
+  "hashes": {
+    "pilot/data/entities_zh.jsonl": "298860211458c986d6db7c49ff162032f4737e0b386782034083ffcae0a290c6",
+    "pilot/data_review/value_revision/demo_entities.jsonl": "c78ee6e61140b998e56cd3ff38cea74599763d242180a75cca3d1ee62e100696",
+    "pilot/data_review/value_revision/demo_changes.json": "2a614680ecd58747fd9661facf10dd06c6942fe744cf15721c97b2c4c66e3f3a"
+  }
+}

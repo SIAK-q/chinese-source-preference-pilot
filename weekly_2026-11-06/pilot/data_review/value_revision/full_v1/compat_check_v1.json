@@ -1,0 +1,6138 @@
+{
+ "meta": {
+  "date": "2026-11-05",
+  "input": "full_v1/entities_full_v1.jsonl",
+  "input_sha256": "2888f2ade9e864dc3fc14fe957a0c471a0369ff173660f73e3af6a53bca1491a",
+  "script_sha256": "de1b7c1546a3a6880f192c6ffcb6e3f840d02df11b98de0b6ccaadceed6af1a4"
+ },
+ "summary": {
+  "entities": 30,
+  "single_alt_combos": 604,
+  "original_entities": 30,
+  "ranges": {
+   "BMI": [
+    17.7,
+    28.0
+   ],
+   "人均营收_万元": [
+    23.2,
+    94.0
+   ],
+   "人口密度_人每平方公里": [
+    282,
+    352
+   ],
+   "每乡镇面积_平方公里": [
+    53,
+    159
+   ],
+   "平均层高_米": [
+    3.4,
+    19.0
+   ],
+   "人均预算_元": [
+    192,
+    1200
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "出生日期",
+   "value": "1986年10月27日",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1986
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "出生日期",
+   "value": "1987年4月30日",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "出生日期",
+   "value": "1987年10月27日",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "出生日期",
+   "value": "1988年7月18日",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1988
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "职业",
+   "value": "小学教务主任",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "职业",
+   "value": "职业学校德育教师",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "职业",
+   "value": "县教研室教研员",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "职业",
+   "value": "教辅机构课程顾问",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "学历",
+   "value": "硕士研究生（学科教学·语文）",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "学历",
+   "value": "本科（教育学）",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "学历",
+   "value": "大专（初等教育）",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "学历",
+   "value": "硕士研究生（课程与教学论）",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "身高",
+   "value": "154厘米",
+   "metrics": {
+    "BMI": 22.8,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "身高",
+   "value": "158厘米",
+   "metrics": {
+    "BMI": 21.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "身高",
+   "value": "166厘米",
+   "metrics": {
+    "BMI": 19.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "身高",
+   "value": "170厘米",
+   "metrics": {
+    "BMI": 18.7,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "体重",
+   "value": "52公斤",
+   "metrics": {
+    "BMI": 19.8,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "体重",
+   "value": "53公斤",
+   "metrics": {
+    "BMI": 20.2,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "体重",
+   "value": "55公斤",
+   "metrics": {
+    "BMI": 21.0,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "体重",
+   "value": "56公斤",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "婚姻状况",
+   "value": "未婚",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "现居城市",
+   "value": "龙泽",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "现居城市",
+   "value": "清山",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "现居城市",
+   "value": "惠明",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-1",
+   "name": "郑淑芬",
+   "changed": "现居城市",
+   "value": "白原",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1987
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "出生日期",
+   "value": "1974年2月27日",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1974
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "出生日期",
+   "value": "1974年9月23日",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1974
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "出生日期",
+   "value": "1975年5月27日",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "出生日期",
+   "value": "1975年10月4日",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "职业",
+   "value": "冷链物流仓管",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "职业",
+   "value": "长途客运驾驶员",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "职业",
+   "value": "港口集装箱理货员",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "职业",
+   "value": "快递分拨中心主管",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "学历",
+   "value": "大专（物流管理）",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "学历",
+   "value": "高中",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "学历",
+   "value": "大专（道路运输管理）",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "学历",
+   "value": "本科（交通运输）",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "身高",
+   "value": "168厘米",
+   "metrics": {
+    "BMI": 27.6,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "身高",
+   "value": "172厘米",
+   "metrics": {
+    "BMI": 26.4,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "身高",
+   "value": "180厘米",
+   "metrics": {
+    "BMI": 24.1,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "身高",
+   "value": "184厘米",
+   "metrics": {
+    "BMI": 23.0,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "体重",
+   "value": "75公斤",
+   "metrics": {
+    "BMI": 24.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "体重",
+   "value": "76公斤",
+   "metrics": {
+    "BMI": 24.5,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "体重",
+   "value": "80公斤",
+   "metrics": {
+    "BMI": 25.8,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "体重",
+   "value": "81公斤",
+   "metrics": {
+    "BMI": 26.1,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "婚姻状况",
+   "value": "未婚",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "现居城市",
+   "value": "乐水",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "现居城市",
+   "value": "新定",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "现居城市",
+   "value": "双陵",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-2",
+   "name": "冯国栋",
+   "changed": "现居城市",
+   "value": "龙泽",
+   "metrics": {
+    "BMI": 25.2,
+    "出生年": 1975
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "出生日期",
+   "value": "1989年7月28日",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1989
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "出生日期",
+   "value": "1989年12月23日",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1989
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "出生日期",
+   "value": "1990年7月22日",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "出生日期",
+   "value": "1991年1月28日",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1991
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "职业",
+   "value": "社区卫生服务中心护士",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "职业",
+   "value": "县医院ICU护士",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "职业",
+   "value": "妇幼保健院助产士",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "职业",
+   "value": "疾控中心流调员",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "学历",
+   "value": "大专（护理）",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "学历",
+   "value": "硕士研究生（护理学）",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "学历",
+   "value": "本科（助产学）",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "学历",
+   "value": "大专（助产）",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "身高",
+   "value": "157厘米",
+   "metrics": {
+    "BMI": 23.5,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "身高",
+   "value": "161厘米",
+   "metrics": {
+    "BMI": 22.4,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "身高",
+   "value": "169厘米",
+   "metrics": {
+    "BMI": 20.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "身高",
+   "value": "173厘米",
+   "metrics": {
+    "BMI": 19.4,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "体重",
+   "value": "56公斤",
+   "metrics": {
+    "BMI": 20.6,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "体重",
+   "value": "57公斤",
+   "metrics": {
+    "BMI": 20.9,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "体重",
+   "value": "59公斤",
+   "metrics": {
+    "BMI": 21.7,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "体重",
+   "value": "60公斤",
+   "metrics": {
+    "BMI": 22.0,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "婚姻状况",
+   "value": "已婚",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "现居城市",
+   "value": "通溪",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "现居城市",
+   "value": "长源",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "现居城市",
+   "value": "上泉",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-3",
+   "name": "蒋雨柔",
+   "changed": "现居城市",
+   "value": "乐水",
+   "metrics": {
+    "BMI": 21.3,
+    "出生年": 1990
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "出生日期",
+   "value": "1968年2月21日",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "出生日期",
+   "value": "1968年6月8日",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "出生日期",
+   "value": "1969年3月18日",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1969
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "出生日期",
+   "value": "1969年5月11日",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1969
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "职业",
+   "value": "种子公司区域销售",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "职业",
+   "value": "农机合作社技术员",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "职业",
+   "value": "水产养殖场场长",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "职业",
+   "value": "林业站护林员",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "学历",
+   "value": "本科（农学）",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "学历",
+   "value": "中专（农业机械化）",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "学历",
+   "value": "硕士研究生（作物栽培学）",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "学历",
+   "value": "本科（园艺）",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "身高",
+   "value": "163厘米",
+   "metrics": {
+    "BMI": 27.5,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "身高",
+   "value": "167厘米",
+   "metrics": {
+    "BMI": 26.2,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "身高",
+   "value": "175厘米",
+   "metrics": {
+    "BMI": 23.8,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "身高",
+   "value": "179厘米",
+   "metrics": {
+    "BMI": 22.8,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "体重",
+   "value": "70公斤",
+   "metrics": {
+    "BMI": 23.9,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "体重",
+   "value": "71公斤",
+   "metrics": {
+    "BMI": 24.3,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "体重",
+   "value": "75公斤",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "体重",
+   "value": "76公斤",
+   "metrics": {
+    "BMI": 26.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "婚姻状况",
+   "value": "未婚",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "现居城市",
+   "value": "清山",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "现居城市",
+   "value": "惠明",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "现居城市",
+   "value": "白原",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-4",
+   "name": "韩宝山",
+   "changed": "现居城市",
+   "value": "通溪",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1968
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "出生日期",
+   "value": "1992年9月2日",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1992
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "出生日期",
+   "value": "1993年5月30日",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "出生日期",
+   "value": "1993年11月7日",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "出生日期",
+   "value": "1994年5月13日",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1994
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "职业",
+   "value": "制造企业成本会计",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "职业",
+   "value": "税务师事务所税务顾问",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "职业",
+   "value": "银行对公客户经理",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "职业",
+   "value": "证券公司投资顾问",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "学历",
+   "value": "硕士研究生（会计硕士MPAcc）",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "学历",
+   "value": "本科（财务管理）",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "学历",
+   "value": "大专（会计电算化）",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "学历",
+   "value": "本科（审计学）",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "身高",
+   "value": "152厘米",
+   "metrics": {
+    "BMI": 21.6,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "身高",
+   "value": "156厘米",
+   "metrics": {
+    "BMI": 20.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "身高",
+   "value": "164厘米",
+   "metrics": {
+    "BMI": 18.6,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "身高",
+   "value": "168厘米",
+   "metrics": {
+    "BMI": 17.7,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "体重",
+   "value": "48公斤",
+   "metrics": {
+    "BMI": 18.8,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "体重",
+   "value": "49公斤",
+   "metrics": {
+    "BMI": 19.1,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "体重",
+   "value": "51公斤",
+   "metrics": {
+    "BMI": 19.9,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "体重",
+   "value": "52公斤",
+   "metrics": {
+    "BMI": 20.3,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "婚姻状况",
+   "value": "已婚",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "现居城市",
+   "value": "新定",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "现居城市",
+   "value": "双陵",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "现居城市",
+   "value": "龙泽",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-5",
+   "name": "褚文静",
+   "changed": "现居城市",
+   "value": "清山",
+   "metrics": {
+    "BMI": 19.5,
+    "出生年": 1993
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "出生日期",
+   "value": "1980年4月10日",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1980
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "出生日期",
+   "value": "1981年3月3日",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "出生日期",
+   "value": "1981年9月21日",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "出生日期",
+   "value": "1981年11月13日",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "职业",
+   "value": "建筑设计院结构工程师",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "职业",
+   "value": "房地产项目监理",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "职业",
+   "value": "水利勘测设计员",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "职业",
+   "value": "轨道交通信号调试员",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "学历",
+   "value": "本科（土木工程）",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "学历",
+   "value": "博士研究生（结构工程）",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "学历",
+   "value": "本科（道路桥梁与渡河工程）",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "学历",
+   "value": "大专（建筑工程技术）",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "身高",
+   "value": "171厘米",
+   "metrics": {
+    "BMI": 28.0,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "身高",
+   "value": "175厘米",
+   "metrics": {
+    "BMI": 26.8,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "身高",
+   "value": "183厘米",
+   "metrics": {
+    "BMI": 24.5,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "身高",
+   "value": "187厘米",
+   "metrics": {
+    "BMI": 23.4,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "体重",
+   "value": "78公斤",
+   "metrics": {
+    "BMI": 24.3,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "体重",
+   "value": "80公斤",
+   "metrics": {
+    "BMI": 25.0,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "体重",
+   "value": "84公斤",
+   "metrics": {
+    "BMI": 26.2,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "体重",
+   "value": "86公斤",
+   "metrics": {
+    "BMI": 26.8,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "婚姻状况",
+   "value": "未婚",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "现居城市",
+   "value": "长源",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "现居城市",
+   "value": "上泉",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "现居城市",
+   "value": "乐水",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-6",
+   "name": "沈培元",
+   "changed": "现居城市",
+   "value": "新定",
+   "metrics": {
+    "BMI": 25.6,
+    "出生年": 1981
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "出生日期",
+   "value": "1979年1月28日",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "出生日期",
+   "value": "1979年7月15日",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "出生日期",
+   "value": "1980年2月17日",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1980
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "出生日期",
+   "value": "1980年8月5日",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1980
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "职业",
+   "value": "街道民政助理",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "职业",
+   "value": "养老服务中心社工",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "职业",
+   "value": "妇联干事",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "职业",
+   "value": "居民委员会主任",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "学历",
+   "value": "本科（社会工作）",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "学历",
+   "value": "中专（民政管理）",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "学历",
+   "value": "本科（行政管理）",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "学历",
+   "value": "大专（老年服务与管理）",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "身高",
+   "value": "151厘米",
+   "metrics": {
+    "BMI": 25.9,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "身高",
+   "value": "154厘米",
+   "metrics": {
+    "BMI": 24.9,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "身高",
+   "value": "162厘米",
+   "metrics": {
+    "BMI": 22.5,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "身高",
+   "value": "165厘米",
+   "metrics": {
+    "BMI": 21.7,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "体重",
+   "value": "57公斤",
+   "metrics": {
+    "BMI": 22.8,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "体重",
+   "value": "58公斤",
+   "metrics": {
+    "BMI": 23.2,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "体重",
+   "value": "60公斤",
+   "metrics": {
+    "BMI": 24.0,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "体重",
+   "value": "61公斤",
+   "metrics": {
+    "BMI": 24.4,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "婚姻状况",
+   "value": "已婚",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "婚姻状况",
+   "value": "未婚",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "现居城市",
+   "value": "惠明",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "现居城市",
+   "value": "白原",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "现居城市",
+   "value": "通溪",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-7",
+   "name": "曹丽娟",
+   "changed": "现居城市",
+   "value": "长源",
+   "metrics": {
+    "BMI": 23.6,
+    "出生年": 1979
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "出生日期",
+   "value": "1994年7月3日",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1994
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "出生日期",
+   "value": "1994年8月8日",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1994
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "出生日期",
+   "value": "1995年5月31日",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "出生日期",
+   "value": "1995年8月31日",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "职业",
+   "value": "短视频账号编导",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "职业",
+   "value": "品牌市场策划",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "职业",
+   "value": "跨境电商选品专员",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "职业",
+   "value": "供应链采购经理",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "学历",
+   "value": "大专（电子商务）",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "学历",
+   "value": "硕士研究生（工商管理MBA）",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "学历",
+   "value": "本科（国际经济与贸易）",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "学历",
+   "value": "本科（网络与新媒体）",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "身高",
+   "value": "166厘米",
+   "metrics": {
+    "BMI": 25.4,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "身高",
+   "value": "170厘米",
+   "metrics": {
+    "BMI": 24.2,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "身高",
+   "value": "178厘米",
+   "metrics": {
+    "BMI": 22.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "身高",
+   "value": "182厘米",
+   "metrics": {
+    "BMI": 21.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "体重",
+   "value": "67公斤",
+   "metrics": {
+    "BMI": 22.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "体重",
+   "value": "68公斤",
+   "metrics": {
+    "BMI": 22.5,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "体重",
+   "value": "72公斤",
+   "metrics": {
+    "BMI": 23.8,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "体重",
+   "value": "73公斤",
+   "metrics": {
+    "BMI": 24.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "婚姻状况",
+   "value": "已婚",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "婚姻状况",
+   "value": "离异",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "婚姻状况",
+   "value": "再婚",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "婚姻状况",
+   "value": "丧偶",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "现居城市",
+   "value": "双陵",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "现居城市",
+   "value": "龙泽",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "现居城市",
+   "value": "清山",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "PERSON-8",
+   "name": "许建平",
+   "changed": "现居城市",
+   "value": "惠明",
+   "metrics": {
+    "BMI": 23.1,
+    "出生年": 1995
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "成立时间",
+   "value": "1997年4月",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "成立时间",
+   "value": "1997年10月",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "成立时间",
+   "value": "1998年9月",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "成立时间",
+   "value": "1999年2月",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "所属行业",
+   "value": "食品加工",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "所属行业",
+   "value": "建筑材料",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "所属行业",
+   "value": "通用设备制造",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "所属行业",
+   "value": "医药制造",
+   "metrics": {
+    "人均营收_万元": 30.8,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "员工人数",
+   "value": "1140人",
+   "metrics": {
+    "人均营收_万元": 32.5,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "员工人数",
+   "value": "1170人",
+   "metrics": {
+    "人均营收_万元": 31.6,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "员工人数",
+   "value": "1230人",
+   "metrics": {
+    "人均营收_万元": 30.1,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "员工人数",
+   "value": "1260人",
+   "metrics": {
+    "人均营收_万元": 29.4,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "年营业额",
+   "value": "3.4亿元人民币",
+   "metrics": {
+    "人均营收_万元": 28.3,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "年营业额",
+   "value": "3.5亿元人民币",
+   "metrics": {
+    "人均营收_万元": 29.2,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "年营业额",
+   "value": "3.9亿元人民币",
+   "metrics": {
+    "人均营收_万元": 32.5,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-1",
+   "name": "晟远集团",
+   "changed": "年营业额",
+   "value": "4.0亿元人民币",
+   "metrics": {
+    "人均营收_万元": 33.3,
+    "行业": "纺织服装制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "成立时间",
+   "value": "2005年6月",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "成立时间",
+   "value": "2006年2月",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "成立时间",
+   "value": "2006年8月",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "成立时间",
+   "value": "2007年3月",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "所属行业",
+   "value": "饮料制造",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "饮料制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "所属行业",
+   "value": "农副产品加工",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "农副产品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "所属行业",
+   "value": "日用化学品制造",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "日用化学品制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "所属行业",
+   "value": "包装印刷",
+   "metrics": {
+    "人均营收_万元": 39.6,
+    "行业": "包装印刷"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "员工人数",
+   "value": "460人",
+   "metrics": {
+    "人均营收_万元": 41.3,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "员工人数",
+   "value": "470人",
+   "metrics": {
+    "人均营收_万元": 40.4,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "员工人数",
+   "value": "490人",
+   "metrics": {
+    "人均营收_万元": 38.8,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "员工人数",
+   "value": "500人",
+   "metrics": {
+    "人均营收_万元": 38.0,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "年营业额",
+   "value": "1.7亿元人民币",
+   "metrics": {
+    "人均营收_万元": 35.4,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "年营业额",
+   "value": "1.8亿元人民币",
+   "metrics": {
+    "人均营收_万元": 37.5,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "年营业额",
+   "value": "2.0亿元人民币",
+   "metrics": {
+    "人均营收_万元": 41.7,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-2",
+   "name": "屹嘉股份有限公司",
+   "changed": "年营业额",
+   "value": "2.1亿元人民币",
+   "metrics": {
+    "人均营收_万元": 43.8,
+    "行业": "食品加工"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "成立时间",
+   "value": "2011年12月",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "成立时间",
+   "value": "2012年6月",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "成立时间",
+   "value": "2013年2月",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "成立时间",
+   "value": "2013年7月",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "所属行业",
+   "value": "道路货物运输",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "道路货物运输"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "所属行业",
+   "value": "供应链管理",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "供应链管理"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "所属行业",
+   "value": "快递服务",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "快递服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "所属行业",
+   "value": "港口服务",
+   "metrics": {
+    "人均营收_万元": 36.5,
+    "行业": "港口服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "员工人数",
+   "value": "3230人",
+   "metrics": {
+    "人均营收_万元": 38.4,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "员工人数",
+   "value": "3310人",
+   "metrics": {
+    "人均营收_万元": 37.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "员工人数",
+   "value": "3490人",
+   "metrics": {
+    "人均营收_万元": 35.5,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "员工人数",
+   "value": "3570人",
+   "metrics": {
+    "人均营收_万元": 34.7,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "年营业额",
+   "value": "11.2亿元人民币",
+   "metrics": {
+    "人均营收_万元": 32.9,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "年营业额",
+   "value": "11.8亿元人民币",
+   "metrics": {
+    "人均营收_万元": 34.7,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "年营业额",
+   "value": "13.0亿元人民币",
+   "metrics": {
+    "人均营收_万元": 38.2,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-3",
+   "name": "弘砺实业集团",
+   "changed": "年营业额",
+   "value": "13.6亿元人民币",
+   "metrics": {
+    "人均营收_万元": 40.0,
+    "行业": "仓储物流"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "成立时间",
+   "value": "1988年9月",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "成立时间",
+   "value": "1989年2月",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "成立时间",
+   "value": "1989年11月",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "成立时间",
+   "value": "1990年1月",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "所属行业",
+   "value": "水泥制品制造",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "水泥制品制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "所属行业",
+   "value": "新型墙体材料",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "新型墙体材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "所属行业",
+   "value": "建筑陶瓷制造",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "建筑陶瓷制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "所属行业",
+   "value": "玻璃制品制造",
+   "metrics": {
+    "人均营收_万元": 53.9,
+    "行业": "玻璃制品制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "员工人数",
+   "value": "730人",
+   "metrics": {
+    "人均营收_万元": 56.2,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "员工人数",
+   "value": "740人",
+   "metrics": {
+    "人均营收_万元": 55.4,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "员工人数",
+   "value": "780人",
+   "metrics": {
+    "人均营收_万元": 52.6,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "员工人数",
+   "value": "790人",
+   "metrics": {
+    "人均营收_万元": 51.9,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "年营业额",
+   "value": "3.7亿元人民币",
+   "metrics": {
+    "人均营收_万元": 48.7,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "年营业额",
+   "value": "3.9亿元人民币",
+   "metrics": {
+    "人均营收_万元": 51.3,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "年营业额",
+   "value": "4.3亿元人民币",
+   "metrics": {
+    "人均营收_万元": 56.6,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-4",
+   "name": "瑞屹股份有限公司",
+   "changed": "年营业额",
+   "value": "4.5亿元人民币",
+   "metrics": {
+    "人均营收_万元": 59.2,
+    "行业": "建筑材料"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "成立时间",
+   "value": "1977年12月",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "成立时间",
+   "value": "1978年5月",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "成立时间",
+   "value": "1978年12月",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "成立时间",
+   "value": "1979年10月",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "所属行业",
+   "value": "专用设备制造",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "专用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "所属行业",
+   "value": "汽车零部件制造",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "汽车零部件制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "所属行业",
+   "value": "金属加工机械制造",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "金属加工机械制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "所属行业",
+   "value": "轴承制造",
+   "metrics": {
+    "人均营收_万元": 38.6,
+    "行业": "轴承制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "员工人数",
+   "value": "2050人",
+   "metrics": {
+    "人均营收_万元": 40.5,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "员工人数",
+   "value": "2100人",
+   "metrics": {
+    "人均营收_万元": 39.5,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "员工人数",
+   "value": "2200人",
+   "metrics": {
+    "人均营收_万元": 37.7,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "员工人数",
+   "value": "2250人",
+   "metrics": {
+    "人均营收_万元": 36.9,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "年营业额",
+   "value": "7.5亿元人民币",
+   "metrics": {
+    "人均营收_万元": 34.9,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "年营业额",
+   "value": "7.9亿元人民币",
+   "metrics": {
+    "人均营收_万元": 36.7,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "年营业额",
+   "value": "8.7亿元人民币",
+   "metrics": {
+    "人均营收_万元": 40.5,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-5",
+   "name": "越鼎集团",
+   "changed": "年营业额",
+   "value": "9.1亿元人民币",
+   "metrics": {
+    "人均营收_万元": 42.3,
+    "行业": "通用设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "成立时间",
+   "value": "2014年8月",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "成立时间",
+   "value": "2015年3月",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "成立时间",
+   "value": "2015年10月",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "成立时间",
+   "value": "2016年2月",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "所属行业",
+   "value": "电子元器件制造",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "电子元器件制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "所属行业",
+   "value": "通信设备制造",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "通信设备制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "所属行业",
+   "value": "计算机整机制造",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "计算机整机制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "所属行业",
+   "value": "互联网信息服务",
+   "metrics": {
+    "人均营收_万元": 25.3,
+    "行业": "互联网信息服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "员工人数",
+   "value": "910人",
+   "metrics": {
+    "人均营收_万元": 26.4,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "员工人数",
+   "value": "930人",
+   "metrics": {
+    "人均营收_万元": 25.8,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "员工人数",
+   "value": "970人",
+   "metrics": {
+    "人均营收_万元": 24.7,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "员工人数",
+   "value": "990人",
+   "metrics": {
+    "人均营收_万元": 24.2,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "年营业额",
+   "value": "2.2亿元人民币",
+   "metrics": {
+    "人均营收_万元": 23.2,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "年营业额",
+   "value": "2.3亿元人民币",
+   "metrics": {
+    "人均营收_万元": 24.2,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "年营业额",
+   "value": "2.5亿元人民币",
+   "metrics": {
+    "人均营收_万元": 26.3,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-6",
+   "name": "锐拓股份有限公司",
+   "changed": "年营业额",
+   "value": "2.6亿元人民币",
+   "metrics": {
+    "人均营收_万元": 27.4,
+    "行业": "软件和信息技术服务"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "成立时间",
+   "value": "2009年2月",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "成立时间",
+   "value": "2009年9月",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "成立时间",
+   "value": "2010年3月",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "成立时间",
+   "value": "2010年11月",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "所属行业",
+   "value": "生物制品制造",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "生物制品制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "所属行业",
+   "value": "医疗器械制造",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "医疗器械制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "所属行业",
+   "value": "中成药生产",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "中成药生产"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "所属行业",
+   "value": "化学药品制剂制造",
+   "metrics": {
+    "人均营收_万元": 86.6,
+    "行业": "化学药品制剂制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "员工人数",
+   "value": "640人",
+   "metrics": {
+    "人均营收_万元": 90.6,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "员工人数",
+   "value": "650人",
+   "metrics": {
+    "人均营收_万元": 89.2,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "员工人数",
+   "value": "690人",
+   "metrics": {
+    "人均营收_万元": 84.1,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "员工人数",
+   "value": "700人",
+   "metrics": {
+    "人均营收_万元": 82.9,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "年营业额",
+   "value": "5.3亿元人民币",
+   "metrics": {
+    "人均营收_万元": 79.1,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "年营业额",
+   "value": "5.5亿元人民币",
+   "metrics": {
+    "人均营收_万元": 82.1,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "年营业额",
+   "value": "6.1亿元人民币",
+   "metrics": {
+    "人均营收_万元": 91.0,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "ORGANIZATION-7",
+   "name": "宸祁实业集团",
+   "changed": "年营业额",
+   "value": "6.3亿元人民币",
+   "metrics": {
+    "人均营收_万元": 94.0,
+    "行业": "医药制造"
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "人口",
+   "value": "40.5万人",
+   "metrics": {
+    "人口密度_人每平方公里": 315,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "人口",
+   "value": "41.5万人",
+   "metrics": {
+    "人口密度_人每平方公里": 323,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "人口",
+   "value": "43.7万人",
+   "metrics": {
+    "人口密度_人每平方公里": 340,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "人口",
+   "value": "44.7万人",
+   "metrics": {
+    "人口密度_人每平方公里": 348,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "面积",
+   "value": "1222平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 349,
+    "每乡镇面积_平方公里": 102
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "面积",
+   "value": "1254平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 340,
+    "每乡镇面积_平方公里": 104
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "面积",
+   "value": "1318平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 323,
+    "每乡镇面积_平方公里": 110
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "面积",
+   "value": "1350平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 316,
+    "每乡镇面积_平方公里": 112
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "海拔",
+   "value": "297米",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "海拔",
+   "value": "304米",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "海拔",
+   "value": "320米",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "海拔",
+   "value": "327米",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "下辖乡镇数",
+   "value": "下辖10个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 129
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "下辖乡镇数",
+   "value": "下辖11个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "下辖乡镇数",
+   "value": "下辖13个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 99
+   }
+  },
+  {
+   "id": "LOCATION-1",
+   "name": "双陵",
+   "changed": "下辖乡镇数",
+   "value": "下辖14个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 331,
+    "每乡镇面积_平方公里": 92
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "人口",
+   "value": "17.8万人",
+   "metrics": {
+    "人口密度_人每平方公里": 295,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "人口",
+   "value": "18.2万人",
+   "metrics": {
+    "人口密度_人每平方公里": 301,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "人口",
+   "value": "19.2万人",
+   "metrics": {
+    "人口密度_人每平方公里": 318,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "人口",
+   "value": "19.6万人",
+   "metrics": {
+    "人口密度_人每平方公里": 325,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "面积",
+   "value": "574平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 326,
+    "每乡镇面积_平方公里": 82
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "面积",
+   "value": "589平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 317,
+    "每乡镇面积_平方公里": 84
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "面积",
+   "value": "619平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 302,
+    "每乡镇面积_平方公里": 88
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "面积",
+   "value": "634平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 295,
+    "每乡镇面积_平方公里": 91
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "海拔",
+   "value": "56米",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "海拔",
+   "value": "57米",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "海拔",
+   "value": "59米",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "海拔",
+   "value": "60米",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 86
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "下辖乡镇数",
+   "value": "下辖5个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 121
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "下辖乡镇数",
+   "value": "下辖6个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 101
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "下辖乡镇数",
+   "value": "下辖8个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 76
+   }
+  },
+  {
+   "id": "LOCATION-2",
+   "name": "上泉",
+   "changed": "下辖乡镇数",
+   "value": "下辖9个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 67
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "人口",
+   "value": "69.5万人",
+   "metrics": {
+    "人口密度_人每平方公里": 284,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "人口",
+   "value": "71.3万人",
+   "metrics": {
+    "人口密度_人每平方公里": 291,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "人口",
+   "value": "74.9万人",
+   "metrics": {
+    "人口密度_人每平方公里": 306,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "人口",
+   "value": "76.7万人",
+   "metrics": {
+    "人口密度_人每平方公里": 313,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "面积",
+   "value": "2328平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 314,
+    "每乡镇面积_平方公里": 111
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "面积",
+   "value": "2389平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 306,
+    "每乡镇面积_平方公里": 114
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "面积",
+   "value": "2511平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 291,
+    "每乡镇面积_平方公里": 120
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "面积",
+   "value": "2572平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 284,
+    "每乡镇面积_平方公里": 122
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "海拔",
+   "value": "1178米",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "海拔",
+   "value": "1209米",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "海拔",
+   "value": "1271米",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "海拔",
+   "value": "1302米",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "下辖乡镇数",
+   "value": "下辖19个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 129
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "下辖乡镇数",
+   "value": "下辖20个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 122
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "下辖乡镇数",
+   "value": "下辖22个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 111
+   }
+  },
+  {
+   "id": "LOCATION-3",
+   "name": "白原",
+   "changed": "下辖乡镇数",
+   "value": "下辖23个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 298,
+    "每乡镇面积_平方公里": 107
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "人口",
+   "value": "9.0万人",
+   "metrics": {
+    "人口密度_人每平方公里": 283,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "人口",
+   "value": "9.2万人",
+   "metrics": {
+    "人口密度_人每平方公里": 289,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "人口",
+   "value": "9.6万人",
+   "metrics": {
+    "人口密度_人每平方公里": 302,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "人口",
+   "value": "9.8万人",
+   "metrics": {
+    "人口密度_人每平方公里": 308,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "面积",
+   "value": "303平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 310,
+    "每乡镇面积_平方公里": 76
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "面积",
+   "value": "310平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 303,
+    "每乡镇面积_平方公里": 78
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "面积",
+   "value": "326平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 288,
+    "每乡镇面积_平方公里": 82
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "面积",
+   "value": "333平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 282,
+    "每乡镇面积_平方公里": 83
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "海拔",
+   "value": "708米",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "海拔",
+   "value": "726米",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "海拔",
+   "value": "764米",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "海拔",
+   "value": "782米",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 80
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "下辖乡镇数",
+   "value": "下辖2个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 159
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "下辖乡镇数",
+   "value": "下辖3个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 106
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "下辖乡镇数",
+   "value": "下辖5个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 64
+   }
+  },
+  {
+   "id": "LOCATION-4",
+   "name": "龙泽",
+   "changed": "下辖乡镇数",
+   "value": "下辖6个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 296,
+    "每乡镇面积_平方公里": 53
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "人口",
+   "value": "33.5万人",
+   "metrics": {
+    "人口密度_人每平方公里": 318,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "人口",
+   "value": "34.3万人",
+   "metrics": {
+    "人口密度_人每平方公里": 326,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "人口",
+   "value": "36.1万人",
+   "metrics": {
+    "人口密度_人每平方公里": 343,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "人口",
+   "value": "36.9万人",
+   "metrics": {
+    "人口密度_人每平方公里": 350,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "面积",
+   "value": "1001平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 352,
+    "每乡镇面积_平方公里": 91
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "面积",
+   "value": "1027平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 343,
+    "每乡镇面积_平方公里": 93
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "面积",
+   "value": "1079平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 326,
+    "每乡镇面积_平方公里": 98
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "面积",
+   "value": "1105平方公里",
+   "metrics": {
+    "人口密度_人每平方公里": 319,
+    "每乡镇面积_平方公里": 100
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "海拔",
+   "value": "155米",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "海拔",
+   "value": "159米",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "海拔",
+   "value": "167米",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "海拔",
+   "value": "171米",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 96
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "下辖乡镇数",
+   "value": "下辖9个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 117
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "下辖乡镇数",
+   "value": "下辖10个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 105
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "下辖乡镇数",
+   "value": "下辖12个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 88
+   }
+  },
+  {
+   "id": "LOCATION-5",
+   "name": "乐水",
+   "changed": "下辖乡镇数",
+   "value": "下辖13个乡镇",
+   "metrics": {
+    "人口密度_人每平方公里": 334,
+    "每乡镇面积_平方公里": 81
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "设计师",
+   "value": "薛庆国",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "设计师",
+   "value": "苗春燕",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "设计师",
+   "value": "柳宏伟",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "设计师",
+   "value": "乔月华",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "建成年份",
+   "value": "2009年",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "建成年份",
+   "value": "2010年",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "建成年份",
+   "value": "2012年",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "建成年份",
+   "value": "2013年",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "高度",
+   "value": "36米",
+   "metrics": {
+    "平均层高_米": 9.0,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "高度",
+   "value": "37米",
+   "metrics": {
+    "平均层高_米": 9.2,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "高度",
+   "value": "39米",
+   "metrics": {
+    "平均层高_米": 9.8,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "高度",
+   "value": "40米",
+   "metrics": {
+    "平均层高_米": 10.0,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "层数",
+   "value": "2层",
+   "metrics": {
+    "平均层高_米": 19.0,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "层数",
+   "value": "3层",
+   "metrics": {
+    "平均层高_米": 12.7,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "层数",
+   "value": "5层",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "层数",
+   "value": "6层",
+   "metrics": {
+    "平均层高_米": 6.3,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "主体结构",
+   "value": "钢结构",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "主体结构",
+   "value": "钢筋混凝土剪力墙",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土剪力墙"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "主体结构",
+   "value": "预应力混凝土",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "预应力混凝土"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "主体结构",
+   "value": "钢混组合结构",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢混组合结构"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "容纳人数",
+   "value": "5700人",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "容纳人数",
+   "value": "5850人",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "容纳人数",
+   "value": "6150人",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-1",
+   "name": "通溪体育馆",
+   "changed": "容纳人数",
+   "value": "6300人",
+   "metrics": {
+    "平均层高_米": 9.5,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "设计师",
+   "value": "方振东",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "设计师",
+   "value": "田文斌",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "设计师",
+   "value": "邓秀兰",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "设计师",
+   "value": "薛庆国",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "建成年份",
+   "value": "1994年",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "建成年份",
+   "value": "1995年",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "建成年份",
+   "value": "1997年",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "建成年份",
+   "value": "1998年",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "高度",
+   "value": "22米",
+   "metrics": {
+    "平均层高_米": 7.3,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "高度",
+   "value": "23米",
+   "metrics": {
+    "平均层高_米": 7.7,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "高度",
+   "value": "25米",
+   "metrics": {
+    "平均层高_米": 8.3,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "高度",
+   "value": "26米",
+   "metrics": {
+    "平均层高_米": 8.7,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "层数",
+   "value": "4层",
+   "metrics": {
+    "平均层高_米": 6.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "层数",
+   "value": "5层",
+   "metrics": {
+    "平均层高_米": 4.8,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "层数",
+   "value": "6层",
+   "metrics": {
+    "平均层高_米": 4.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "层数",
+   "value": "7层",
+   "metrics": {
+    "平均层高_米": 3.4,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "主体结构",
+   "value": "钢筋混凝土框架",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "主体结构",
+   "value": "钢结构",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "主体结构",
+   "value": "钢混组合结构",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "钢混组合结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "主体结构",
+   "value": "预应力混凝土",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "预应力混凝土"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "容纳人数",
+   "value": "760人",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "容纳人数",
+   "value": "780人",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "容纳人数",
+   "value": "820人",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-2",
+   "name": "清山图书馆",
+   "changed": "容纳人数",
+   "value": "840人",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "砖混结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "设计师",
+   "value": "柳宏伟",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "设计师",
+   "value": "邓秀兰",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "设计师",
+   "value": "苗春燕",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "设计师",
+   "value": "田文斌",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "建成年份",
+   "value": "2017年",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "建成年份",
+   "value": "2018年",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "建成年份",
+   "value": "2020年",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "建成年份",
+   "value": "2021年",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "高度",
+   "value": "58米",
+   "metrics": {
+    "平均层高_米": 7.2,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "高度",
+   "value": "59米",
+   "metrics": {
+    "平均层高_米": 7.4,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "高度",
+   "value": "63米",
+   "metrics": {
+    "平均层高_米": 7.9,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "高度",
+   "value": "64米",
+   "metrics": {
+    "平均层高_米": 8.0,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "层数",
+   "value": "6层",
+   "metrics": {
+    "平均层高_米": 10.2,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "层数",
+   "value": "7层",
+   "metrics": {
+    "平均层高_米": 8.7,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "层数",
+   "value": "9层",
+   "metrics": {
+    "平均层高_米": 6.8,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "层数",
+   "value": "10层",
+   "metrics": {
+    "平均层高_米": 6.1,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "主体结构",
+   "value": "钢筋混凝土框架",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢筋混凝土框架"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "主体结构",
+   "value": "预应力混凝土",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "预应力混凝土"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "主体结构",
+   "value": "钢混组合结构",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢混组合结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "主体结构",
+   "value": "框架-剪力墙结构",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "框架-剪力墙结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "容纳人数",
+   "value": "11400人",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "容纳人数",
+   "value": "11700人",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "容纳人数",
+   "value": "12300人",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "BUILDING-3",
+   "name": "新定会展中心",
+   "changed": "容纳人数",
+   "value": "12600人",
+   "metrics": {
+    "平均层高_米": 7.6,
+    "结构": "钢结构"
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "举办日期",
+   "value": "2022年10月14日",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "举办日期",
+   "value": "2023年8月25日",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "举办日期",
+   "value": "2023年9月29日",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "举办日期",
+   "value": "2024年8月23日",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "持续时间",
+   "value": "1天",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "持续时间",
+   "value": "2天",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "持续时间",
+   "value": "4天",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "持续时间",
+   "value": "5天",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "参与人数",
+   "value": "2.1万人次",
+   "metrics": {
+    "人均预算_元": 229
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "参与人数",
+   "value": "2.2万人次",
+   "metrics": {
+    "人均预算_元": 218
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "参与人数",
+   "value": "2.4万人次",
+   "metrics": {
+    "人均预算_元": 200
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "参与人数",
+   "value": "2.5万人次",
+   "metrics": {
+    "人均预算_元": 192
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "主办方",
+   "value": "长源市商务局",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "主办方",
+   "value": "长源市科学技术局",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "主办方",
+   "value": "长源市供销合作社联合社",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "主办方",
+   "value": "长源市贸促会",
+   "metrics": {
+    "人均预算_元": 209
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "预算",
+   "value": "460万元人民币",
+   "metrics": {
+    "人均预算_元": 200
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "预算",
+   "value": "470万元人民币",
+   "metrics": {
+    "人均预算_元": 204
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "预算",
+   "value": "490万元人民币",
+   "metrics": {
+    "人均预算_元": 213
+   }
+  },
+  {
+   "id": "EVENT-1",
+   "name": "长源农业机械博览会",
+   "changed": "预算",
+   "value": "500万元人民币",
+   "metrics": {
+    "人均预算_元": 217
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "举办日期",
+   "value": "2023年5月14日",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "举办日期",
+   "value": "2024年4月7日",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "举办日期",
+   "value": "2024年5月5日",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "举办日期",
+   "value": "2025年4月20日",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "持续时间",
+   "value": "6小时",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "持续时间",
+   "value": "6小时5分钟",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "持续时间",
+   "value": "6小时25分钟",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "持续时间",
+   "value": "6小时30分钟",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "参与人数",
+   "value": "1.0万人",
+   "metrics": {
+    "人均预算_元": 1200
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "参与人数",
+   "value": "1.1万人",
+   "metrics": {
+    "人均预算_元": 1091
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "参与人数",
+   "value": "1.3万人",
+   "metrics": {
+    "人均预算_元": 923
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "参与人数",
+   "value": "1.4万人",
+   "metrics": {
+    "人均预算_元": 857
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "主办方",
+   "value": "惠明市文化和旅游局",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "主办方",
+   "value": "惠明市田径运动协会",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "主办方",
+   "value": "惠明市全民健身指导中心",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "主办方",
+   "value": "惠明市体育产业发展中心",
+   "metrics": {
+    "人均预算_元": 1000
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "预算",
+   "value": "1140万元人民币",
+   "metrics": {
+    "人均预算_元": 950
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "预算",
+   "value": "1170万元人民币",
+   "metrics": {
+    "人均预算_元": 975
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "预算",
+   "value": "1230万元人民币",
+   "metrics": {
+    "人均预算_元": 1025
+   }
+  },
+  {
+   "id": "EVENT-2",
+   "name": "惠明国际马拉松赛",
+   "changed": "预算",
+   "value": "1260万元人民币",
+   "metrics": {
+    "人均预算_元": 1050
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": null,
+   "value": null,
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "举办日期",
+   "value": "2021年6月19日",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "举办日期",
+   "value": "2022年5月14日",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "举办日期",
+   "value": "2022年6月25日",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "举办日期",
+   "value": "2023年6月3日",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "持续时间",
+   "value": "2天",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "持续时间",
+   "value": "3天",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "持续时间",
+   "value": "5天",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "持续时间",
+   "value": "6天",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "参与人数",
+   "value": "5130人次",
+   "metrics": {
+    "人均预算_元": 507
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "参与人数",
+   "value": "5260人次",
+   "metrics": {
+    "人均预算_元": 494
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "参与人数",
+   "value": "5540人次",
+   "metrics": {
+    "人均预算_元": 469
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "参与人数",
+   "value": "5670人次",
+   "metrics": {
+    "人均预算_元": 459
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "主办方",
+   "value": "通溪市非物质文化遗产保护中心",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "主办方",
+   "value": "通溪市群众艺术馆",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "主办方",
+   "value": "通溪市文学艺术界联合会",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "主办方",
+   "value": "通溪市文化馆",
+   "metrics": {
+    "人均预算_元": 481
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "预算",
+   "value": "247万元人民币",
+   "metrics": {
+    "人均预算_元": 457
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "预算",
+   "value": "253万元人民币",
+   "metrics": {
+    "人均预算_元": 469
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "预算",
+   "value": "267万元人民币",
+   "metrics": {
+    "人均预算_元": 494
+   }
+  },
+  {
+   "id": "EVENT-3",
+   "name": "通溪非物质文化遗产展演",
+   "changed": "预算",
+   "value": "273万元人民币",
+   "metrics": {
+    "人均预算_元": 506
+   }
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": null,
+   "value": null,
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "发布日期",
+   "value": "2020年4月5日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "发布日期",
+   "value": "2020年10月18日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "发布日期",
+   "value": "2021年5月5日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "发布日期",
+   "value": "2021年12月14日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "价格",
+   "value": "36.7万元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "价格",
+   "value": "37.6万元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "价格",
+   "value": "39.6万元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "价格",
+   "value": "40.5万元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "重量",
+   "value": "11.0吨",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "重量",
+   "value": "11.2吨",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "重量",
+   "value": "11.8吨",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "重量",
+   "value": "12.0吨",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "保修期",
+   "value": "整机18个月或5000小时",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "保修期",
+   "value": "整机3年或5000小时",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "保修期",
+   "value": "整机2年或4000小时",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-1",
+   "name": "昱腾 ZL-40 装载机",
+   "changed": "保修期",
+   "value": "整机2年或6000小时",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": null,
+   "value": null,
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "发布日期",
+   "value": "2022年2月19日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "发布日期",
+   "value": "2022年7月16日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "发布日期",
+   "value": "2023年1月4日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "发布日期",
+   "value": "2023年6月9日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "价格",
+   "value": "6640元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "价格",
+   "value": "6810元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "价格",
+   "value": "7150元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "价格",
+   "value": "7320元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "重量",
+   "value": "177公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "重量",
+   "value": "181公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "重量",
+   "value": "191公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "重量",
+   "value": "195公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "保修期",
+   "value": "整车18个月，电池1年",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "保修期",
+   "value": "整车3年，电池1年",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "保修期",
+   "value": "整车2年，电池6个月",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-2",
+   "name": "驰珩 CX-7 电动三轮车",
+   "changed": "保修期",
+   "value": "整车2年，电池18个月",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": null,
+   "value": null,
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "发布日期",
+   "value": "2022年8月26日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "发布日期",
+   "value": "2023年4月15日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "发布日期",
+   "value": "2023年11月21日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "发布日期",
+   "value": "2024年3月29日",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "价格",
+   "value": "1809元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "价格",
+   "value": "1849元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "价格",
+   "value": "1949元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "价格",
+   "value": "1989元人民币",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "重量",
+   "value": "8.0公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "重量",
+   "value": "8.2公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "重量",
+   "value": "8.6公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "重量",
+   "value": "8.8公斤",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "保修期",
+   "value": "整机2年，滤芯6个月",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "保修期",
+   "value": "整机4年，滤芯6个月",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "保修期",
+   "value": "整机3年，滤芯3个月",
+   "metrics": {}
+  },
+  {
+   "id": "PRODUCT-3",
+   "name": "沐澜 HT-200 家用净水器",
+   "changed": "保修期",
+   "value": "整机3年，滤芯1年",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": null,
+   "value": null,
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作者",
+   "value": "乔月华",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作者",
+   "value": "方振东",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作者",
+   "value": "柳宏伟",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作者",
+   "value": "田文斌",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作年份",
+   "value": "1981年",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作年份",
+   "value": "1982年",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作年份",
+   "value": "1984年",
+   "metrics": {}
+  },
+  {
+   "id": "ART-1",
+   "name": "《白原晚渡图》",
+   "changed": "创作年份",
+   "value": "1985年",
+   "metrics": {}
+  }
+ ]
+}
