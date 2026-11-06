@@ -1,4 +1,4 @@
-# 指令3：修改第一版数据的五个问题 / Instruction 3: five problems in the first dataset
+# 指令3：修改第一版数据的五个问题 / prompt 3: five problems in the first dataset
 
 ## 中文 / Chinese
 
