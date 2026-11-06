@@ -1,4 +1,4 @@
-# 指令1：生成人名和地名 / Instruction 1: generate person and place names
+# 指令1：生成人名和地名 / prompt 1: generate person and place names
 
 ## 中文 / Chinese
 
