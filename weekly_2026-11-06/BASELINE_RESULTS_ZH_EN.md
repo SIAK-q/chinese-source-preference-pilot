@@ -1,75 +1,59 @@
-# 无信源 baseline：三模型结果说明 / Source-free baseline: results for three models
+# 无信源 baseline 结果 / Source-free baseline results
 
-本页保留原中文结果，并补充英文说明。三个模型都使用相同的 v1 数据，604 对、两种表序共 1208 题。P(A)、P(B) 是仅在两个答案 token 上归一化的首 token 概率。表序 0 是原值在表一，表序 1 是原值在表二。
+三个模型使用同一份 v1 数据。每组原值和备选交换表序，各测一次；两张表均不标注信源。
 
-This page retains the original Chinese summaries and adds English explanations. All three models use the same v1 data: 604 pairs and 1,208 items in both table orders. P(A) and P(B) are first-token probabilities normalised over the two answer tokens. In order 0 the original is in Table 1; in order 1 it is in Table 2.
+Three models were tested on the same v1 data. Each original–alternative pair was tested in both table orders, without source labels.
 
-## Qwen2.5-7B-Instruct
+| 模型 / Model | 备选的平均概率 / Mean P(alternative) | 表二的平均概率 / Mean P(Table 2) | 两种表序均偏向同一值 / Same value preferred in both orders |
+| --- | ---: | ---: | ---: |
+| Qwen2.5-7B-Instruct | 49.9% | 63.2% | 126 / 604 |
+| Llama-3.1-8B-Instruct | 50.6% | 71.9% | 96 / 604 |
+| Gemma-4-E4B-it | 51.7% | 58.8% | 284 / 604 |
 
-### 中文原记录
+- 三个模型都偏向表二；备选的平均概率接近 50%，不能单独证明每对值同样可信。
+  
+  All three models favour Table 2. A mean alternative probability near 50% does not by itself establish equal plausibility for each pair.
+- 最后一列统计：交换表序前后，模型给同一个值的概率两次都超过 80% 的值对。
+  
+  The last column counts pairs where the same value receives a probability above 80% in both table orders. 
 
-数据 `pilot/data_review/value_revision/full_v1/entities_full_v1.jsonl`（SHA256 2888f2ade9e864dc…），备选 [1, 2, 3, 4]，604 对 × 2 种表序 = 1208 题。
+## 三个模型共同偏向同一值的 22 对 / The 22 pairs where all three models favour the same value
 
-- 位置偏差：P(选表二) = 63.2%（95%区间 [60.0, 66.4]；表序0 63.1%，表序1 63.2%）。WFW口径：选项B硬胜率 63.0%，平局 0.2%。
-- 备选胜率（概率平均）：合并 49.9%（95%区间 [48.0, 51.8]；表序0 63.1%，表序1 36.8%）；硬计数合并 49.6%（每题P(选备选)>0.5计一胜，仅参照；WFW附录C未写明用哪种算法）。
-- 每题模式：两种表序都选原值 81（13.4%）；两种表序都选备选 78（12.9%）；两种表序都选表一 142（23.5%）；两种表序都选表二 300（49.7%）；至少一种表序平局 3（0.5%）。
-- 值方向：备选更大/更晚 200题，P(选备选) 54.4%；备选更小/更早 196题，P(选备选) 47.4%；不可比（类别、保修） 208题。
-- 两种表序都强烈偏向同一值（>0.8）：126 题，清单见 analysis.json。
+三个模型都满足上述条件的 22 对如下，按属性排列：学历偏向较高学历，人数偏向较大备选，婚姻状况偏向“已婚”。加粗表示共同偏向的值；概率为备选在两种表序下的平均概率，四舍五入至整数。
 
-备选胜率约50%本身不能证明两个值同样可信：纯位置策略也会得到约50%。看每题模式和逐题清单。
+The 22 pairs meeting this condition for all three models are grouped by attribute: higher education, larger counts and “Married” are favoured. Bold marks the value favoured by all three models; probabilities are the alternative’s mean across both table orders, rounded to whole percentages.
 
-### English translation
+| 实体 / Entity | 属性 / Attribute | 原值 / Original | 备选 / Alternative | P(备选) Qwen / Llama / Gemma |
+|---|---|---|---|---:|
+| PERSON-1 | 学历 / Education | 本科（汉语言文学） / Bachelor's, Chinese Language and Literature | **硕士研究生（学科教学·语文） / Master's, Subject Teaching: Chinese** | 100% / 98% / 100% |
+| PERSON-1 |  | 本科（汉语言文学） / Bachelor's, Chinese Language and Literature | **硕士研究生（课程与教学论） / Master's, Curriculum and Instruction** | 100% / 98% / 100% |
+| PERSON-3 |  | 本科（护理学） / Bachelor's, Nursing | **硕士研究生（护理学） / Master's, Nursing** | 100% / 100% / 100% |
+| PERSON-4 |  | 大专（作物生产技术） / College diploma (dazhuan), Crop Production Technology | **硕士研究生（作物栽培学） / Master's, Crop Cultivation** | 100% / 99% / 100% |
+| PERSON-5 |  | 本科（会计学） / Bachelor's, Accounting | **硕士研究生（会计硕士MPAcc） / Master's, Professional Accounting (MPAcc)** | 100% / 100% / 100% |
+| PERSON-6 |  | **硕士研究生（桥梁与隧道工程） / Master's, Bridge and Tunnel Engineering** | 本科（土木工程） / Bachelor's, Civil Engineering | 0% / 1% / 0% |
+| PERSON-6 |  | 硕士研究生（桥梁与隧道工程） / Master's, Bridge and Tunnel Engineering | **博士研究生（结构工程） / Doctorate, Structural Engineering** | 100% / 100% / 100% |
+| PERSON-6 |  | **硕士研究生（桥梁与隧道工程） / Master's, Bridge and Tunnel Engineering** | 本科（道路桥梁与渡河工程） / Bachelor's, Road, Bridge and River-crossing Engineering | 0% / 3% / 0% |
+| PERSON-6 |  | **硕士研究生（桥梁与隧道工程） / Master's, Bridge and Tunnel Engineering** | 大专（建筑工程技术） / College diploma (dazhuan), Building Construction Technology | 0% / 0% / 0% |
+| PERSON-8 |  | 本科（市场营销） / Bachelor's, Marketing | **硕士研究生（工商管理MBA） / Master's, Business Administration (MBA)** | 100% / 100% / 100% |
+| ORGANIZATION-1 | 员工人数 / Number of employees | 1,200 | **1,230** | 100% / 93% / 99% |
+| ORGANIZATION-6 |  | 950 | **970** | 100% / 91% / 99% |
+| ORGANIZATION-6 |  | 950 | **990** | 100% / 89% / 99% |
+| BUILDING-1 | 容纳人数 / Capacity | 6,000 | **6,150** | 98% / 98% / 99% |
+| BUILDING-1 |  | 6,000 | **6,300** | 100% / 98% / 98% |
+| BUILDING-3 |  | 12,000 | **12,300** | 100% / 98% / 98% |
+| BUILDING-3 |  | 12,000 | **12,600** | 100% / 97% / 99% |
+| PERSON-2 | 婚姻状况 / Marital status | **已婚 / Married** | 未婚 / Never married | 0% / 0% / 2% |
+| PERSON-4 |  | **已婚 / Married** | 未婚 / Never married | 0% / 0% / 3% |
+| PERSON-6 |  | **已婚 / Married** | 未婚 / Never married | 0% / 0% / 4% |
+| PERSON-2 | 出生日期 / Date of birth | 1975-02-22 | **1974-09-23** | 98% / 99% / 90% |
+| ORGANIZATION-6 | 所属行业 / Industry | **软件和信息技术服务 / Software and IT services** | 计算机整机制造 / Computer manufacturing (complete systems) | 0% / 11% / 9% |
 
-- Position: mean P(Table 2) = 63.2% (95% interval: 60.0–66.4%; order 0: 63.1%, order 1: 63.2%). Hard choice of option B: 63.0%; ties: 0.2%.
-- Alternative: mean P(alternative) = 49.9% (95% interval: 48.0–51.8%; order 0: 63.1%, order 1: 36.8%). The pooled hard win rate is 49.6%: a win is counted when P(alternative) > 0.5; it is reported as a reference because WFW Appendix C does not specify this calculation.
-- Pair patterns: original in both orders 81 (13.4%); alternative in both 78 (12.9%); Table 1 in both 142 (23.5%); Table 2 in both 300 (49.7%); at least one tie 3 (0.5%).
-- Direction: 200 pairs have a larger/later alternative, with mean P(alternative) 54.4%; 196 have a smaller/earlier alternative, with 47.4%; 208 categorical or warranty pairs are not comparable in this way.
-- Strong same-value preference in both orders (>0.8): 126 pairs; see the model's analysis.json for the list.
+## 详细结果 / Detailed results
 
-## Llama-3.1-8B-Instruct
+每个模型的完整输入、逐题概率和详细统计如下。
 
-### 中文原记录
+Full inputs, item-level probabilities and detailed statistics are linked below for each model. Inputs and item-level results are matched by item number i.
 
-数据 `pilot/data_review/value_revision/full_v1/entities_full_v1.jsonl`（SHA256 2888f2ade9e864dc…），备选 [1, 2, 3, 4]，604 对 × 2 种表序 = 1208 题。
-
-- 位置偏差：P(选表二) = 71.9%（95%区间 [69.7, 74.1]；表序0 72.5%，表序1 71.3%）。WFW口径：选项B硬胜率 74.5%，平局 0.1%。
-- 备选胜率（概率平均）：合并 50.6%（95%区间 [48.8, 52.4]；表序0 72.5%，表序1 28.7%）；硬计数合并 51.7%（每题P(选备选)>0.5计一胜，仅参照；WFW附录C未写明用哪种算法）。
-- 每题模式：两种表序都选原值 91（15.1%）；两种表序都选备选 111（18.4%）；两种表序都选表一 52（8.6%）；两种表序都选表二 349（57.8%）；至少一种表序平局 1（0.2%）。
-- 值方向：备选更大/更晚 200题，P(选备选) 48.8%；备选更小/更早 196题，P(选备选) 50.9%；不可比（类别、保修） 208题。
-- 两种表序都强烈偏向同一值（>0.8）：96 题，清单见 analysis.json。
-
-备选胜率约50%本身不能证明两个值同样可信：纯位置策略也会得到约50%。看每题模式和逐题清单。
-
-### English translation
-
-- Position: mean P(Table 2) = 71.9% (95% interval: 69.7–74.1%; order 0: 72.5%, order 1: 71.3%). Hard choice of option B: 74.5%; ties: 0.1%.
-- Alternative: mean P(alternative) = 50.6% (95% interval: 48.8–52.4%; order 0: 72.5%, order 1: 28.7%). The pooled hard win rate is 51.7%, a reference count of cases where P(alternative) > 0.5.
-- Pair patterns: original in both orders 91 (15.1%); alternative in both 111 (18.4%); Table 1 in both 52 (8.6%); Table 2 in both 349 (57.8%); at least one tie 1 (0.2%).
-- Direction: 200 pairs have a larger/later alternative, with mean P(alternative) 48.8%; 196 have a smaller/earlier alternative, with 50.9%; 208 categorical or warranty pairs are not comparable in this way.
-- Strong same-value preference in both orders (>0.8): 96 pairs; see the model's analysis.json for the list.
-
-## gemma-4-E4B-it
-
-### 中文原记录
-
-数据 `pilot/data_review/value_revision/full_v1/entities_full_v1.jsonl`（SHA256 2888f2ade9e864dc…），备选 [1, 2, 3, 4]，604 对 × 2 种表序 = 1208 题。
-
-- 位置偏差：P(选表二) = 58.8%（95%区间 [57.0, 60.7]；表序0 60.5%，表序1 57.1%）。WFW口径：选项B硬胜率 57.8%，平局 0.3%。
-- 备选胜率（概率平均）：合并 51.7%（95%区间 [48.9, 54.5]；表序0 60.5%，表序1 42.9%）；硬计数合并 51.8%（每题P(选备选)>0.5计一胜，仅参照；WFW附录C未写明用哪种算法）。
-- 每题模式：两种表序都选原值 177（29.3%）；两种表序都选备选 201（33.3%）；两种表序都选表一 63（10.4%）；两种表序都选表二 159（26.3%）；至少一种表序平局 4（0.7%）。
-- 值方向：备选更大/更晚 200题，P(选备选) 79.0%；备选更小/更早 196题，P(选备选) 21.9%；不可比（类别、保修） 208题。
-- 两种表序都强烈偏向同一值（>0.8）：284 题，清单见 analysis.json。
-
-备选胜率约50%本身不能证明两个值同样可信：纯位置策略也会得到约50%。看每题模式和逐题清单。
-
-### English translation
-
-- Position: mean P(Table 2) = 58.8% (95% interval: 57.0–60.7%; order 0: 60.5%, order 1: 57.1%). Hard choice of option B: 57.8%; ties: 0.3%.
-- Alternative: mean P(alternative) = 51.7% (95% interval: 48.9–54.5%; order 0: 60.5%, order 1: 42.9%). The pooled hard win rate is 51.8%, a reference count of cases where P(alternative) > 0.5.
-- Pair patterns: original in both orders 177 (29.3%); alternative in both 201 (33.3%); Table 1 in both 63 (10.4%); Table 2 in both 159 (26.3%); at least one tie 4 (0.7%).
-- Direction: 200 pairs have a larger/later alternative, with mean P(alternative) 79.0%; 196 have a smaller/earlier alternative, with 21.9%; 208 categorical or warranty pairs are not comparable in this way.
-- Strong same-value preference in both orders (>0.8): 284 pairs; see the model's analysis.json for the list.
-
-平均备选胜率接近 50% 不能单独证明等可信：纯位置策略也可能得到约 50%。需结合分表序及逐对结果解释。
-
-A mean alternative win rate close to 50% does not by itself establish equal plausibility: a pure position strategy can also produce approximately 50%. Interpret it alongside the results by table order and by pair.
+- Qwen2.5-7B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/analysis.json)
+- Llama-3.1-8B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/analysis.json)
+- Gemma-4-E4B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/analysis.json)
