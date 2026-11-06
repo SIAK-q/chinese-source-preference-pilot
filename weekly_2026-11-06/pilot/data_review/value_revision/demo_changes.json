@@ -4,7 +4,7 @@
     "date": "2026-11-01",
     "input": "pilot/data/entities_zh.jsonl",
     "input_sha256": "298860211458c986d6db7c49ff162032f4737e0b386782034083ffcae0a290c6",
-    "rules": "《数值合理性检查（自用参考）》§7、§8；codex.md §252",
+    "rules": "《数值合理性检查（自用参考）》§7、§8",
     "parameters": {
       "默认数值窗口": "±5%",
       "年营业额": "±10%",

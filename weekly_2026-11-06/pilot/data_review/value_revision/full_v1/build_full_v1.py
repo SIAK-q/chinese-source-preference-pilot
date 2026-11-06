@@ -10,7 +10,7 @@ draftA_20261104_149/）、草稿B（原 full_v2 草稿，150 属性，draftB_202
 原值 3 层保留。
 11-05 送审表审核（用户定“明显反直觉才改”）：4 个补小数的原值恢复旧写法、备选改为同精度自然值；
 7 处类别待审建议撤回、恢复草稿前原备选，只保留“全科医生→社区卫生服务中心护士”。见 REVIEW_EDITS。
-11-05 全实体相容性筛查后（用户同意三项，codex§349）：在 REVIEW_EDITS 之后再改三个备选，见 COMPAT_EDITS。
+11-05 全实体相容性筛查后（用户同意三项）：在 REVIEW_EDITS 之后再改三个备选，见 COMPAT_EDITS。
 输入：draftB_20261105_150/entities_full_v2.jsonl（只读）；输出：entities_full_v1.jsonl、changes_from_draft.json
 """
 import copy, hashlib, json
@@ -33,7 +33,7 @@ REVIEW_EDITS = [  # (entity_id, field, new_list, reason)
     ("BUILDING-2", "主体结构", ["砖混结构", "钢筋混凝土框架", "钢结构", "钢混组合结构", "预应力混凝土"], "同上；" + R),
     ("BUILDING-3", "主体结构", ["钢结构", "钢筋混凝土框架", "预应力混凝土", "钢混组合结构", "膜结构"], "撤回两处替换，恢复预应力混凝土、膜结构；" + R),
 ]
-C = "11-05全实体相容性筛查，用户同意修改（codex§349）"
+C = "11-05全实体相容性筛查，用户同意修改"
 COMPAT_EDITS = [  # (entity_id, field, old_alt, new_alt, reason)：只换一个备选，原值和其他备选不动
     ("PERSON-3", "职业", "县医院药剂师", "县医院ICU护士",
      "原学历本科（护理学）配药剂师不对口：药剂岗位通常要求药学类专业（未查条文）；换为护理岗位；" + C),
@@ -75,5 +75,5 @@ CHG.write_text(json.dumps({"meta": {"date": "2026-11-05", "input": "draftB_20261
                  "reason": "恢复为冲突属性；高度固定24米，按平均每层高度接近官方实例（4.3–7.4米/层）选4–7层；1、2层在24米下每层24/12米，不合理",
                  "decided_by": "用户 11-05 选方案A"}]
     + [{"entity_id": eid, "field": fld, "final": new, "reason": why, "decided_by": "用户 11-05 送审表审核"} for eid, fld, new, why in REVIEW_EDITS]
-    + [{"entity_id": eid, "field": fld, "old_alt": old, "new_alt": new, "reason": why, "decided_by": "用户 11-05 相容性筛查后同意（codex§349）"} for eid, fld, old, new, why in COMPAT_EDITS]}, ensure_ascii=False, indent=1), encoding="utf-8")
+    + [{"entity_id": eid, "field": fld, "old_alt": old, "new_alt": new, "reason": why, "decided_by": "用户 11-05 相容性筛查后同意"} for eid, fld, old, new, why in COMPAT_EDITS]}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(n, n * 8, "problems:", bad or "无")
