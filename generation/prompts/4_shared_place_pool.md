@@ -1,4 +1,4 @@
-# 指令4：统一地名池并更新数据 / Instruction 4: unify the place-name pool and update the data
+# 指令4：统一地名池并更新数据 / prompt 4: unify the place-name pool and update the data
 
 ## 中文 / Chinese
 
