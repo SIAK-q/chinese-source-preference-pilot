@@ -1,7 +1,3 @@
----
-updated: 2026-11-05
-status: 提交版草稿，待审核
----
 # 数据修订 prompt 与结果 / Data revision prompts and results
 
 本页按实施顺序整理从原始 pilot 数据到修订版 v1 的过程。以下列出各步骤的完整 prompt；脚本规则和结果可通过对应文件核对。旧数据保留不变。

@@ -17,11 +17,11 @@ This directory contains the data and experiment materials for the 6 November mee
 
 - [原始 pilot 数据 / Original pilot data](pilot/data/entities_zh.jsonl)；[v1 数据 / Revised v1 data](pilot/data_review/value_revision/full_v1/entities_full_v1.jsonl)。每组五值中，第一个是原值，其余四个是备选。/ Each five-value list contains an original value and four alternatives.
 - 修订后每道题仅改变一个属性，其他属性保持原值；每个原值与四个备选配对，每对交换表序，共 604 对、1208 题。/ Each test item changes one attribute while retaining the others' original values; each original–alternative pair is shown in both orders, for 604 pairs and 1,208 items.
-- **原始 pilot 数据生成：**模型生成了大部分原值和备选，部分值由代码按规则填入。详见[原始生成记录](../generation/MODEL_INPUT.md)。
+- **原始 pilot 数据生成**：模型生成了大部分原值和备选，部分值由代码按规则填入。详见[原始生成记录](../generation/MODEL_INPUT.md)。
   **Original pilot data generation:** The model generated most original values and alternatives; code filled some values using fixed rules. See the [original generation record](../generation/MODEL_INPUT.md).
-- **v1 数据修订：**保留大部分原值；数值和日期备选主要由脚本重新生成。为改善相容性，人工确定并替换了四个类别备选，具体见[完整对照表](pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)。
+- **v1 数据修订**：保留大部分原值；数值和日期备选主要由脚本重新生成。为改善相容性，人工确定并替换了四个类别备选，具体见[完整对照表](pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)。
   **v1 data revision:** Most original values were retained, while scripts regenerated numerical and date alternatives. Four categorical alternatives were manually selected for replacement to improve compatibility; see the [full comparison](pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md).
-- **怎么检查：**把每个备选与同一实体的其他原值搭配，检查是否合理。例如，身高备选配原体重，职业备选配原学历。
+- **怎么检查**：把每个备选与同一实体的其他原值搭配，检查是否合理。例如，身高备选配原体重，职业备选配原学历。
   **How compatibility was checked:** Each alternative was considered with the same entity’s other original values. For example, height alternatives were checked against original weight, and occupation alternatives against original education.
 - 详细材料：[修订生成脚本 / Revision script](pilot/data_review/value_revision/full_v1/build_full_v1.py) · [变更记录 / Change record](pilot/data_review/value_revision/full_v1/changes_from_draft.json) · [相容性筛查 / Compatibility screen](pilot/data_review/value_revision/full_v1/compat_check_v1.json)
 - 基础生成规则见[脚本](pilot/data_review/value_revision/draftA_20261104_149/build_full_v1.py)；最终修订脚本读取的[中间输入](pilot/data_review/value_revision/draftB_20261105_150/entities_full_v2.jsonl)也保留，供复核生成过程。/ The [base-generation script](pilot/data_review/value_revision/draftA_20261104_149/build_full_v1.py) and the [intermediate input](pilot/data_review/value_revision/draftB_20261105_150/entities_full_v2.jsonl) consumed by the final revision script are retained for verification.
