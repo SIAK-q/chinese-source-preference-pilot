@@ -3,11 +3,11 @@
 - **数据范围**：30 个虚构实体、151 个冲突属性；每行对照原始 pilot 数据和 v1 的原值与四个备选。0 是原值，1–4 是备选。  
   **Data:** 30 fictional entities and 151 conflict attributes. Each row compares the original value and four alternatives in the original pilot data and v1. Index 0 is the original value; 1–4 are alternatives.
 - **出题方式**：每次只改变一个属性，其他属性保持原值；每个原值与四个备选分别配对，并交换两表顺序，共 604 对、1,208 题。  
-  **Test items:** Each item changes one attribute and keeps the others at their original values. Each original value is paired with four alternatives, with both table orders tested: 604 pairs and 1,208 items.
+  **Test items:** Each item changes one attribute while all other attributes retain original values. Each original value is paired with four alternatives, with both table orders tested: 604 pairs and 1,208 items.
 - **出生及发布日期**：在原日期前后一年内各选两个备选：前 183–365 天、前 30–182 天、后 30–182 天、后 183–365 天，各随机选一天。例如原生日为 1987-08-14，就分别在此前约半年到一年、此前约一个月到半年、此后约一个月到半年、此后约半年到一年各选一天。  
   **Birth and release dates:** Within one year of the original date, two earlier and two later alternatives are sampled: one each from 183–365 days earlier, 30–182 days earlier, 30–182 days later, and 183–365 days later. For example, for a birth date of 1987-08-14, one date is sampled from each of those four periods.
-- **为什么这样选**：WFW 在前后一年内独立抽取四个日期；我们分别从四个时间段抽取，让备选两早两晚、每边一近一远，并避免与原日期相差不足 30 天。每个实体和属性使用由 42、实体 ID 和字段名确定的随机种子；表中列出各备选的实际天数差。  
-  **Why:** WFW independently samples four dates within one year. We sample one from each period to obtain two earlier and two later dates, one near and one farther away on each side, while avoiding differences of fewer than 30 days. A fixed seed derived from 42, the entity ID and attribute name makes each selection reproducible; the table lists the actual offsets.
+- **为什么这样选**：WFW 在前后一年内独立抽取四个日期；本项目分别从四个时间段抽取，让备选两早两晚、每边一近一远，并避免与原日期相差不足 30 天。每个实体和属性使用由 42、实体 ID 和字段名确定的随机种子；表中列出各备选的实际天数差。  
+  **Why:** WFW independently samples four dates within one year. One date is sampled from each period, yielding two earlier and two later dates, one near and one farther away on each side, while avoiding differences of fewer than 30 days. A fixed seed derived from 42, the entity ID and attribute name makes each selection reproducible; the table lists the actual offsets.
 - **相容性检查**：按出题方式，将备选与同一实体的其他原值搭配检查；相关行列出检查时使用的原值。  
   **Compatibility check:** Alternatives were checked against the same entity’s other original values, as used in the test items. Relevant rows list the original values used for the check.
 - **Baseline**：已使用 v1 运行三个模型的无信源测试；等可信性和位置偏差的诊断见[三模型结果](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md)。  
