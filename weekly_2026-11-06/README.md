@@ -6,10 +6,10 @@ This directory contains the data and experiment materials for the 6 November mee
 
 ## 从哪里看 / Where to start
 
-- [原始生成过程、指令、输入与输出 / Generation process, instructions, inputs and outputs for the original pilot data](../generation/)：此前已整理的原始 pilot 数据生成记录。/ The previously shared generation records for the original pilot data.
+- [原始生成过程、数据生成 prompt、输入与输出 / Generation process, data-generation prompts, inputs and outputs for the original pilot data](../generation/)：此前已整理的原始 pilot 数据生成记录。/ The previously shared generation records for the original pilot data.
 - [原始 pilot 数据 → v1 完整对照表 / Full original pilot data → v1 comparison](pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)：全部 30 个实体、151 个属性、每项原值与四个备选，中英对照及修订说明。/ All 30 entities and 151 attributes, with original values, four alternatives and revision rationales in Chinese and English.
-- [修订阶段指令与结果 / Revision instructions and results](pilot/data_review/value_revision/PROMPTS_REVISION_SUBMISSION.md)：修订规则、相容性检查及修改。/ Revision rules, compatibility screening and changes.
-- [WFW 与中文测试 prompt 对照 / WFW–Chinese prompt comparison](PROMPT_COMPARISON.md)：系统指令与测试形式。/ System instructions and test format.
+- [数据修订 prompt 与结果 / Data revision prompts and results](pilot/data_review/value_revision/PROMPTS_REVISION_SUBMISSION.md)：修订规则、相容性检查及修改。/ Revision rules, compatibility screening and changes.
+- [WFW 与中文测试 prompt 对照 / WFW–Chinese prompt comparison](PROMPT_COMPARISON.md)：system prompt 与测试形式。/ System prompt and test format.
 - [无信源输入与输出示例 / Example input and output](BASELINE_EXAMPLE.md)：一道真实题的两个表序、英文释义及三个模型输出。/ One actual pair in both table orders, an English reading translation and the three models' outputs.
 - [baseline 结果与全部文件 / Baseline results and complete files](#无信源-baseline--source-free-baseline)：逐模型输入、原始输出、分析和汇总。/ Complete model inputs, raw outputs, analysis and summaries.
 
