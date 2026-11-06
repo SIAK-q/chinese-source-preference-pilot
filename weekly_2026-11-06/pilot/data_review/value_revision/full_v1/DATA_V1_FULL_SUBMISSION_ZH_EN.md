@@ -4,8 +4,8 @@ status: 提交版草稿，待审核 / Submission draft for review
 ---
 # 数据修订 v1：151 项完整对照 / Data revision v1: full comparison of 151 attributes
 
-- **数据范围：**30 个虚构实体、151 个冲突属性；每行对照 Original 和 v1 的原值与四个备选。0 是原值，1–4 是备选。  
-  **Data:** 30 fictional entities and 151 conflict attributes. Each row compares the original value and four alternatives in Original and v1. Index 0 is the original value; 1–4 are alternatives.
+- **数据范围：**30 个虚构实体、151 个冲突属性；每行对照原始 pilot 数据和 v1 的原值与四个备选。0 是原值，1–4 是备选。  
+  **Data:** 30 fictional entities and 151 conflict attributes. Each row compares the original value and four alternatives in the original pilot data and v1. Index 0 is the original value; 1–4 are alternatives.
 - **出题方式：**每次只改变一个属性，其他属性保持原值；每个原值与四个备选分别配对，并交换两表顺序，共 604 对、1,208 题。  
   **Test items:** Each item changes one attribute and keeps the others at their original values. Each original value is paired with four alternatives, with both table orders tested: 604 pairs and 1,208 items.
 - **出生及发布日期：**在原日期前后一年内各选两个备选：前 183–365 天、前 30–182 天、后 30–182 天、后 183–365 天，各随机选一天。例如原生日为 1987-08-14，就分别在此前约半年到一年、此前约一个月到半年、此后约一个月到半年、此后约半年到一年各选一天。  
@@ -21,7 +21,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 女<br>Female.
 
-| 属性 / Attribute                    | Original：原值及备选 / Original and alternatives                                                                                                                                                                                                                                                                                                           | v1：原值及备选 / Original and alternatives                                                                                                                                                                                                                                                                                                                 | 修改理由 / Rationale                                                                                                                                   |
+| 属性 / Attribute                    | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives                                                                                                                                                                                                                                                                                                           | v1：原值及备选 / v1: original value and alternatives                                                                                                                                                                                                                                                                                                                 | 修改理由 / Rationale                                                                                                                                   |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 出生日期<br>Date of birth | 0. 1987年8月14日<br>1987-08-14<br>1. 1986年10月15日<br>1986-10-15<br>2. 1987年5月19日<br>1987-05-19<br>3. 1986年8月31日<br>1986-08-31<br>4. 1987年2月11日<br>1987-02-11 | 0. 1987年8月14日<br>1987-08-14<br>1. 1986年10月27日<br>1986-10-27<br>2. 1987年4月30日<br>1987-04-30<br>3. 1987年10月27日<br>1987-10-27<br>4. 1988年7月18日<br>1988-07-18 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早291天、早106天、晚74天、晚339天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 291 days earlier, 106 days earlier, 74 days later, 339 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（中学语文教师）、原婚姻状况（已婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Secondary-school Chinese-language teacher) and original marital status (Married). |
 | 职业<br>Occupation | 0. 中学语文教师<br>Secondary-school Chinese-language teacher<br>1. 小学教务主任<br>Primary-school academic affairs director<br>2. 职业学校德育教师<br>Vocational-school moral education teacher<br>3. 县教研室教研员<br>County teaching and research office adviser (school instruction)<br>4. 教辅机构课程顾问<br>Tutoring-provider course adviser | 0. 中学语文教师<br>Secondary-school Chinese-language teacher<br>1. 小学教务主任<br>Primary-school academic affairs director<br>2. 职业学校德育教师<br>Vocational-school moral education teacher<br>3. 县教研室教研员<br>County teaching and research office adviser (school instruction)<br>4. 教辅机构课程顾问<br>Tutoring-provider course adviser | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（本科（汉语言文学））是否搭配。<br>Compatibility check: occupation alternatives against original education (Bachelor's level (Chinese Language and Literature)). |
@@ -35,7 +35,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 男<br>Male.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1975年2月22日<br>1975-02-22<br>1. 1974年12月1日<br>1974-12-01<br>2. 1976年2月18日<br>1976-02-18<br>3. 1974年9月18日<br>1974-09-18<br>4. 1974年10月28日<br>1974-10-28 | 0. 1975年2月22日<br>1975-02-22<br>1. 1974年2月27日<br>1974-02-27<br>2. 1974年9月23日<br>1974-09-23<br>3. 1975年5月27日<br>1975-05-27<br>4. 1975年10月4日<br>1975-10-04 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早360天、早152天、晚94天、晚224天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 360 days earlier, 152 days earlier, 94 days later, 224 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（货运车队调度员）、原婚姻状况（已婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Freight-fleet dispatcher) and original marital status (Married). |
 | 职业<br>Occupation | 0. 货运车队调度员<br>Freight-fleet dispatcher<br>1. 冷链物流仓管<br>Cold-chain warehouse clerk<br>2. 长途客运驾驶员<br>Long-distance coach driver<br>3. 港口集装箱理货员<br>Port container tally clerk<br>4. 快递分拨中心主管<br>Parcel sorting-centre supervisor | 0. 货运车队调度员<br>Freight-fleet dispatcher<br>1. 冷链物流仓管<br>Cold-chain warehouse clerk<br>2. 长途客运驾驶员<br>Long-distance coach driver<br>3. 港口集装箱理货员<br>Port container tally clerk<br>4. 快递分拨中心主管<br>Parcel sorting-centre supervisor | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（中专（汽车运用与维修））是否搭配。<br>Compatibility check: occupation alternatives against original education (Secondary vocational education (zhongzhuan) (Automotive Operation and Maintenance)). |
@@ -49,7 +49,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 女<br>Female.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1990年3月12日<br>1990-03-12<br>1. 1989年4月24日<br>1989-04-24<br>2. 1989年12月15日<br>1989-12-15<br>3. 1989年10月24日<br>1989-10-24<br>4. 1990年7月3日<br>1990-07-03 | 0. 1990年3月12日<br>1990-03-12<br>1. 1989年7月28日<br>1989-07-28<br>2. 1989年12月23日<br>1989-12-23<br>3. 1990年7月22日<br>1990-07-22<br>4. 1991年1月28日<br>1991-01-28 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早227天、早79天、晚132天、晚322天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 227 days earlier, 79 days earlier, 132 days later, 322 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（三甲医院护士长）、原婚姻状况（未婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Head nurse at a Grade III Class A hospital) and original marital status (Never married). |
 | 职业<br>Occupation | 0. 三甲医院护士长<br>Head nurse at a Grade III Class A hospital<br>1. 社区卫生服务中心全科医生<br>Community health-centre general practitioner<br>2. 县医院药剂师<br>County-hospital pharmacist<br>3. 妇幼保健院助产士<br>Maternal and child health-hospital midwife<br>4. 疾控中心流调员<br>Disease-control centre epidemiological investigator | 0. 三甲医院护士长<br>Head nurse at a Grade III Class A hospital<br>1. 社区卫生服务中心护士<br>Community health-centre nurse<br>2. 县医院ICU护士<br>County hospital ICU nurse<br>3. 妇幼保健院助产士<br>Maternal and child health-hospital midwife<br>4. 疾控中心流调员<br>Disease-control centre epidemiological investigator | • 保留原值；将两个备选改为护理岗位，以改善与护理学历的相容性。<br>Original retained; two alternatives changed to nursing roles to improve compatibility with the nursing qualification.<br>• 相容性检查：职业备选与原学历（本科（护理学））是否搭配。<br>Compatibility check: occupation alternatives against original education (Bachelor's level (Nursing)). |
@@ -63,7 +63,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 男<br>Male.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1968年11月5日<br>1968-11-05<br>1. 1969年1月20日<br>1969-01-20<br>2. 1967年12月9日<br>1967-12-09<br>3. 1968年6月27日<br>1968-06-27<br>4. 1969年4月16日<br>1969-04-16 | 0. 1968年11月5日<br>1968-11-05<br>1. 1968年2月21日<br>1968-02-21<br>2. 1968年6月8日<br>1968-06-08<br>3. 1969年3月18日<br>1969-03-18<br>4. 1969年5月11日<br>1969-05-11 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早258天、早150天、晚133天、晚187天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 258 days earlier, 150 days earlier, 133 days later, 187 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（农业技术推广员）、原婚姻状况（已婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Agricultural extension officer) and original marital status (Married). |
 | 职业<br>Occupation | 0. 农业技术推广员<br>Agricultural extension officer<br>1. 种子公司区域销售<br>Regional seed-company salesperson<br>2. 农机合作社技术员<br>Agricultural machinery cooperative technician<br>3. 水产养殖场场长<br>Aquaculture farm manager<br>4. 林业站护林员<br>Forestry-station forest ranger | 0. 农业技术推广员<br>Agricultural extension officer<br>1. 种子公司区域销售<br>Regional seed-company salesperson<br>2. 农机合作社技术员<br>Agricultural machinery cooperative technician<br>3. 水产养殖场场长<br>Aquaculture farm manager<br>4. 林业站护林员<br>Forestry-station forest ranger | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（大专（作物生产技术））是否搭配。<br>Compatibility check: occupation alternatives against original education (College diploma level (dazhuan; below bachelor's level) (Crop Production Technology)). |
@@ -77,7 +77,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 女<br>Female.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1993年6月30日<br>1993-06-30<br>1. 1992年9月8日<br>1992-09-08<br>2. 1993年11月22日<br>1993-11-22<br>3. 1994年1月4日<br>1994-01-04<br>4. 1992年3月17日<br>1992-03-17 | 0. 1993年6月30日<br>1993-06-30<br>1. 1992年9月2日<br>1992-09-02<br>2. 1993年5月30日<br>1993-05-30<br>3. 1993年11月7日<br>1993-11-07<br>4. 1994年5月13日<br>1994-05-13 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早301天、早31天、晚130天、晚317天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 301 days earlier, 31 days earlier, 130 days later, 317 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（会计师事务所审计员）、原婚姻状况（未婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Accounting-firm auditor) and original marital status (Never married). |
 | 职业<br>Occupation | 0. 会计师事务所审计员<br>Accounting-firm auditor<br>1. 制造企业成本会计<br>Manufacturing-company cost accountant<br>2. 税务师事务所税务顾问<br>Tax-firm tax adviser<br>3. 银行对公客户经理<br>Bank corporate relationship manager<br>4. 证券公司投资顾问<br>Securities-firm investment adviser | 0. 会计师事务所审计员<br>Accounting-firm auditor<br>1. 制造企业成本会计<br>Manufacturing-company cost accountant<br>2. 税务师事务所税务顾问<br>Tax-firm tax adviser<br>3. 银行对公客户经理<br>Bank corporate relationship manager<br>4. 证券公司投资顾问<br>Securities-firm investment adviser | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（本科（会计学））是否搭配。<br>Compatibility check: occupation alternatives against original education (Bachelor's level (Accounting)). |
@@ -91,7 +91,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 男<br>Male.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1981年4月9日<br>1981-04-09<br>1. 1980年7月25日<br>1980-07-25<br>2. 1981年12月2日<br>1981-12-02<br>3. 1982年2月14日<br>1982-02-14<br>4. 1980年11月30日<br>1980-11-30 | 0. 1981年4月9日<br>1981-04-09<br>1. 1980年4月10日<br>1980-04-10<br>2. 1981年3月3日<br>1981-03-03<br>3. 1981年9月21日<br>1981-09-21<br>4. 1981年11月13日<br>1981-11-13 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早364天、早37天、晚165天、晚218天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 364 days earlier, 37 days earlier, 165 days later, 218 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（市政道桥工程师）、原婚姻状况（已婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Municipal roads and bridges engineer) and original marital status (Married). |
 | 职业<br>Occupation | 0. 市政道桥工程师<br>Municipal roads and bridges engineer<br>1. 建筑设计院结构工程师<br>Architectural design-institute structural engineer<br>2. 房地产项目监理<br>Property-project construction supervisor<br>3. 水利勘测设计员<br>Water-resources survey and design technician<br>4. 轨道交通信号调试员<br>Rail-transit signalling commissioning technician | 0. 市政道桥工程师<br>Municipal roads and bridges engineer<br>1. 建筑设计院结构工程师<br>Architectural design-institute structural engineer<br>2. 房地产项目监理<br>Property-project construction supervisor<br>3. 水利勘测设计员<br>Water-resources survey and design technician<br>4. 轨道交通信号调试员<br>Rail-transit signalling commissioning technician | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（硕士研究生（桥梁与隧道工程））是否搭配。<br>Compatibility check: occupation alternatives against original education (Master's level (Bridge and Tunnel Engineering)). |
@@ -105,7 +105,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 女<br>Female.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1979年9月18日<br>1979-09-18<br>1. 1978年12月6日<br>1978-12-06<br>2. 1980年3月23日<br>1980-03-23<br>3. 1979年5月11日<br>1979-05-11<br>4. 1978年8月29日<br>1978-08-29 | 0. 1979年9月18日<br>1979-09-18<br>1. 1979年1月28日<br>1979-01-28<br>2. 1979年7月15日<br>1979-07-15<br>3. 1980年2月17日<br>1980-02-17<br>4. 1980年8月5日<br>1980-08-05 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早233天、早65天、晚152天、晚322天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 233 days earlier, 65 days earlier, 152 days later, 322 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（社区网格员）、原婚姻状况（离异）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (Community grid-based services worker [contextual gloss]) and original marital status (Divorced). |
 | 职业<br>Occupation | 0. 社区网格员<br>Community grid-based services worker [contextual gloss]<br>1. 街道民政助理<br>Subdistrict civil affairs assistant<br>2. 养老服务中心社工<br>Elder-care service-centre social worker<br>3. 妇联干事<br>Women's Federation officer<br>4. 居民委员会主任<br>Residents' committee director | 0. 社区网格员<br>Community grid-based services worker [contextual gloss]<br>1. 街道民政助理<br>Subdistrict civil affairs assistant<br>2. 养老服务中心社工<br>Elder-care service-centre social worker<br>3. 妇联干事<br>Women's Federation officer<br>4. 居民委员会主任<br>Residents' committee director | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（大专（社区管理与服务））是否搭配。<br>Compatibility check: occupation alternatives against original education (College diploma level (dazhuan; below bachelor's level) (Community Management and Services)). |
@@ -119,7 +119,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 固定背景 / Fixed background — 性别 / Gender: 男<br>Male.
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 出生日期<br>Date of birth | 0. 1995年1月26日<br>1995-01-26<br>1. 1994年4月7日<br>1994-04-07<br>2. 1995年10月13日<br>1995-10-13<br>3. 1996年2月2日<br>1996-02-02<br>4. 1994年12月19日<br>1994-12-19 | 0. 1995年1月26日<br>1995-01-26<br>1. 1994年7月3日<br>1994-07-03<br>2. 1994年8月8日<br>1994-08-08<br>3. 1995年5月31日<br>1995-05-31<br>4. 1995年8月31日<br>1995-08-31 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早207天、早171天、晚125天、晚217天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 207 days earlier, 171 days earlier, 125 days later, 217 days later, respectively.<br>• 相容性检查：出生日期备选与原职业（电商平台运营主管）、原婚姻状况（未婚）是否搭配。<br>Compatibility check: date of birth alternatives against original occupation (E-commerce platform operations supervisor) and original marital status (Never married). |
 | 职业<br>Occupation | 0. 电商平台运营主管<br>E-commerce platform operations supervisor<br>1. 短视频账号编导<br>Scriptwriter/director for a short-video account<br>2. 品牌市场策划<br>Brand marketing planner<br>3. 跨境电商选品专员<br>Cross-border e-commerce product-selection specialist<br>4. 供应链采购经理<br>Supply-chain procurement manager | 0. 电商平台运营主管<br>E-commerce platform operations supervisor<br>1. 短视频账号编导<br>Scriptwriter/director for a short-video account<br>2. 品牌市场策划<br>Brand marketing planner<br>3. 跨境电商选品专员<br>Cross-border e-commerce product-selection specialist<br>4. 供应链采购经理<br>Supply-chain procurement manager | • 未改。<br>Unchanged.<br>• 相容性检查：职业备选与原学历（本科（市场营销））是否搭配。<br>Compatibility check: occupation alternatives against original education (Bachelor's level (Marketing)). |
@@ -131,7 +131,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-1：晟远集团 / Shengyuan Group [brand reading provisional]
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 1998年3月<br>1998-03<br>1. 1995年7月<br>1995-07<br>2. 2001年11月<br>2001-11<br>3. 1993年5月<br>1993-05<br>4. 2004年9月<br>2004-09 | 0. 1998年3月<br>1998-03<br>1. 1997年4月<br>1997-04<br>2. 1997年10月<br>1997-10<br>3. 1998年9月<br>1998-09<br>4. 1999年2月<br>1999-02 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 纺织服装制造<br>Textile and clothing manufacturing<br>1. 食品加工<br>Food processing<br>2. 建筑材料<br>Building materials<br>3. 通用设备制造<br>General-purpose equipment manufacturing<br>4. 医药制造<br>Pharmaceutical manufacturing | 0. 纺织服装制造<br>Textile and clothing manufacturing<br>1. 食品加工<br>Food processing<br>2. 建筑材料<br>Building materials<br>3. 通用设备制造<br>General-purpose equipment manufacturing<br>4. 医药制造<br>Pharmaceutical manufacturing | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（1200人）、原年营业额（3.7亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (1,200 people) and original annual revenue (370,000,000 CNY). |
@@ -140,7 +140,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-2：屹嘉股份有限公司 / Yijia Company Limited by Shares
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 2006年5月<br>2006-05<br>1. 2003年8月<br>2003-08<br>2. 2009年2月<br>2009-02<br>3. 2000年12月<br>2000-12<br>4. 2011年6月<br>2011-06 | 0. 2006年5月<br>2006-05<br>1. 2005年6月<br>2005-06<br>2. 2006年2月<br>2006-02<br>3. 2006年8月<br>2006-08<br>4. 2007年3月<br>2007-03 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 食品加工<br>Food processing<br>1. 饮料制造<br>Beverage manufacturing<br>2. 农副产品加工<br>Agricultural and sideline product processing<br>3. 日用化学品制造<br>Household chemical manufacturing<br>4. 包装印刷<br>Packaging printing | 0. 食品加工<br>Food processing<br>1. 饮料制造<br>Beverage manufacturing<br>2. 农副产品加工<br>Agricultural and sideline product processing<br>3. 日用化学品制造<br>Household chemical manufacturing<br>4. 包装印刷<br>Packaging printing | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（480人）、原年营业额（1.9亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (480 people) and original annual revenue (190,000,000 CNY). |
@@ -149,7 +149,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-3：弘砺实业集团 / Hongli Industrial Group
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 2012年9月<br>2012-09<br>1. 2010年4月<br>2010-04<br>2. 2014年1月<br>2014-01<br>3. 2008年11月<br>2008-11<br>4. 2015年7月<br>2015-07 | 0. 2012年9月<br>2012-09<br>1. 2011年12月<br>2011-12<br>2. 2012年6月<br>2012-06<br>3. 2013年2月<br>2013-02<br>4. 2013年7月<br>2013-07 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 仓储物流<br>Warehousing and logistics<br>1. 道路货物运输<br>Road freight transport<br>2. 供应链管理<br>Supply-chain management<br>3. 快递服务<br>Express delivery services<br>4. 港口服务<br>Port services | 0. 仓储物流<br>Warehousing and logistics<br>1. 道路货物运输<br>Road freight transport<br>2. 供应链管理<br>Supply-chain management<br>3. 快递服务<br>Express delivery services<br>4. 港口服务<br>Port services | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（3400人）、原年营业额（12.4亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (3,400 people) and original annual revenue (1,240,000,000 CNY). |
@@ -158,7 +158,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-4：瑞屹股份有限公司 / Ruiyi Company Limited by Shares
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 1989年6月<br>1989-06<br>1. 1992年10月<br>1992-10<br>2. 1986年3月<br>1986-03<br>3. 1994年8月<br>1994-08<br>4. 1991年1月<br>1991-01 | 0. 1989年6月<br>1989-06<br>1. 1988年9月<br>1988-09<br>2. 1989年2月<br>1989-02<br>3. 1989年11月<br>1989-11<br>4. 1990年1月<br>1990-01 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 建筑材料<br>Building materials<br>1. 水泥制品制造<br>Cement-product manufacturing<br>2. 新型墙体材料<br>New-type wall materials<br>3. 建筑陶瓷制造<br>Architectural ceramics manufacturing<br>4. 玻璃制品制造<br>Glass-product manufacturing | 0. 建筑材料<br>Building materials<br>1. 水泥制品制造<br>Cement-product manufacturing<br>2. 新型墙体材料<br>New-type wall materials<br>3. 建筑陶瓷制造<br>Architectural ceramics manufacturing<br>4. 玻璃制品制造<br>Glass-product manufacturing | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（760人）、原年营业额（4.1亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (760 people) and original annual revenue (410,000,000 CNY). |
@@ -167,7 +167,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-5：越鼎集团 / Yueding Group
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 1978年10月<br>1978-10<br>1. 1982年4月<br>1982-04<br>2. 1975年12月<br>1975-12<br>3. 1985年7月<br>1985-07<br>4. 1980年2月<br>1980-02 | 0. 1978年10月<br>1978-10<br>1. 1977年12月<br>1977-12<br>2. 1978年5月<br>1978-05<br>3. 1978年12月<br>1978-12<br>4. 1979年10月<br>1979-10 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 通用设备制造<br>General-purpose equipment manufacturing<br>1. 专用设备制造<br>Special-purpose equipment manufacturing<br>2. 汽车零部件制造<br>Automotive parts manufacturing<br>3. 金属加工机械制造<br>Metalworking machinery manufacturing<br>4. 轴承制造<br>Bearing manufacturing | 0. 通用设备制造<br>General-purpose equipment manufacturing<br>1. 专用设备制造<br>Special-purpose equipment manufacturing<br>2. 汽车零部件制造<br>Automotive parts manufacturing<br>3. 金属加工机械制造<br>Metalworking machinery manufacturing<br>4. 轴承制造<br>Bearing manufacturing | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（2150人）、原年营业额（8.3亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (2,150 people) and original annual revenue (830,000,000 CNY). |
@@ -176,7 +176,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-6：锐拓股份有限公司 / Ruituo Company Limited by Shares
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 2015年4月<br>2015-04<br>1. 2013年9月<br>2013-09<br>2. 2017年3月<br>2017-03<br>3. 2011年11月<br>2011-11<br>4. 2018年8月<br>2018-08 | 0. 2015年4月<br>2015-04<br>1. 2014年8月<br>2014-08<br>2. 2015年3月<br>2015-03<br>3. 2015年10月<br>2015-10<br>4. 2016年2月<br>2016-02 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 软件和信息技术服务<br>Software and IT services<br>1. 电子元器件制造<br>Electronic component manufacturing<br>2. 通信设备制造<br>Communication equipment manufacturing<br>3. 计算机整机制造<br>Computer manufacturing (complete systems)<br>4. 互联网信息服务<br>Internet information services | 0. 软件和信息技术服务<br>Software and IT services<br>1. 电子元器件制造<br>Electronic component manufacturing<br>2. 通信设备制造<br>Communication equipment manufacturing<br>3. 计算机整机制造<br>Computer manufacturing (complete systems)<br>4. 互联网信息服务<br>Internet information services | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（950人）、原年营业额（2.4亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (950 people) and original annual revenue (240,000,000 CNY). |
@@ -185,7 +185,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ORGANIZATION-7：宸祁实业集团 / Chenqi Industrial Group
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 成立时间<br>Date established | 0. 2009年11月<br>2009-11<br>1. 2007年6月<br>2007-06<br>2. 2012年2月<br>2012-02<br>3. 2005年10月<br>2005-10<br>4. 2014年5月<br>2014-05 | 0. 2009年11月<br>2009-11<br>1. 2009年2月<br>2009-02<br>2. 2009年9月<br>2009-09<br>3. 2010年3月<br>2010-03<br>4. 2010年11月<br>2010-11 | • 原值不变；备选在前后12个月内，两早两晚。<br>Original retained; two earlier and two later alternatives within 12 months. |
 | 所属行业<br>Industry | 0. 医药制造<br>Pharmaceutical manufacturing<br>1. 生物制品制造<br>Biological-product manufacturing<br>2. 医疗器械制造<br>Medical-device manufacturing<br>3. 中成药生产<br>Manufacturing of prepared traditional Chinese medicines<br>4. 化学药品制剂制造<br>Chemical pharmaceutical preparation manufacturing | 0. 医药制造<br>Pharmaceutical manufacturing<br>1. 生物制品制造<br>Biological-product manufacturing<br>2. 医疗器械制造<br>Medical-device manufacturing<br>3. 中成药生产<br>Manufacturing of prepared traditional Chinese medicines<br>4. 化学药品制剂制造<br>Chemical pharmaceutical preparation manufacturing | • 未改。<br>Unchanged.<br>• 相容性检查：所属行业备选与原员工人数（670人）、原年营业额（5.8亿元人民币）是否搭配。<br>Compatibility check: industry alternatives against original number of employees (670 people) and original annual revenue (580,000,000 CNY). |
@@ -194,7 +194,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## LOCATION-1：双陵 / Shuangling
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 人口<br>Population | 0. 42.6万人<br>426,000 people<br>1. 58.3万人<br>583,000 people<br>2. 31.0万人<br>310,000 people<br>3. 67.9万人<br>679,000 people<br>4. 25.4万人<br>254,000 people | 0. 42.6万人<br>426,000 people<br>1. 40.5万人<br>405,000 people<br>2. 41.5万人<br>415,000 people<br>3. 43.7万人<br>437,000 people<br>4. 44.7万人<br>447,000 people | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：人口备选与原面积（1286平方公里）、原下辖乡镇数（下辖12个乡镇）是否搭配。<br>Compatibility check: population alternatives against original area (1,286 km²) and original number of subordinate towns/townships (12 subordinate towns/townships). |
 | 面积<br>Area | 0. 1286平方公里<br>1,286 km²<br>1. 1740平方公里<br>1,740 km²<br>2. 962平方公里<br>962 km²<br>3. 2130平方公里<br>2,130 km²<br>4. 1495平方公里<br>1,495 km² | 0. 1286平方公里<br>1,286 km²<br>1. 1222平方公里<br>1,222 km²<br>2. 1254平方公里<br>1,254 km²<br>3. 1318平方公里<br>1,318 km²<br>4. 1350平方公里<br>1,350 km² | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：面积备选与原人口（42.6万人）、原下辖乡镇数（下辖12个乡镇）是否搭配。<br>Compatibility check: area alternatives against original population (426,000 people) and original number of subordinate towns/townships (12 subordinate towns/townships). |
@@ -203,7 +203,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## LOCATION-2：上泉 / Shangquan
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 人口<br>Population | 0. 18.7万人<br>187,000 people<br>1. 24.2万人<br>242,000 people<br>2. 12.5万人<br>125,000 people<br>3. 30.8万人<br>308,000 people<br>4. 21.3万人<br>213,000 people | 0. 18.7万人<br>187,000 people<br>1. 17.8万人<br>178,000 people<br>2. 18.2万人<br>182,000 people<br>3. 19.2万人<br>192,000 people<br>4. 19.6万人<br>196,000 people | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：人口备选与原面积（604平方公里）、原下辖乡镇数（下辖7个乡镇）是否搭配。<br>Compatibility check: population alternatives against original area (604 km²) and original number of subordinate towns/townships (7 subordinate towns/townships). |
 | 面积<br>Area | 0. 604平方公里<br>604 km²<br>1. 830平方公里<br>830 km²<br>2. 471平方公里<br>471 km²<br>3. 1025平方公里<br>1,025 km²<br>4. 716平方公里<br>716 km² | 0. 604平方公里<br>604 km²<br>1. 574平方公里<br>574 km²<br>2. 589平方公里<br>589 km²<br>3. 619平方公里<br>619 km²<br>4. 634平方公里<br>634 km² | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：面积备选与原人口（18.7万人）、原下辖乡镇数（下辖7个乡镇）是否搭配。<br>Compatibility check: area alternatives against original population (187,000 people) and original number of subordinate towns/townships (7 subordinate towns/townships). |
@@ -212,7 +212,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## LOCATION-3：白原 / Baiyuan
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 人口<br>Population | 0. 73.1万人<br>731,000 people<br>1. 61.5万人<br>615,000 people<br>2. 88.4万人<br>884,000 people<br>3. 54.0万人<br>540,000 people<br>4. 79.6万人<br>796,000 people | 0. 73.1万人<br>731,000 people<br>1. 69.5万人<br>695,000 people<br>2. 71.3万人<br>713,000 people<br>3. 74.9万人<br>749,000 people<br>4. 76.7万人<br>767,000 people | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：人口备选与原面积（2450平方公里）、原下辖乡镇数（下辖21个乡镇）是否搭配。<br>Compatibility check: population alternatives against original area (2,450 km²) and original number of subordinate towns/townships (21 subordinate towns/townships). |
 | 面积<br>Area | 0. 2450平方公里<br>2,450 km²<br>1. 1980平方公里<br>1,980 km²<br>2. 3120平方公里<br>3,120 km²<br>3. 1660平方公里<br>1,660 km²<br>4. 2740平方公里<br>2,740 km² | 0. 2450平方公里<br>2,450 km²<br>1. 2328平方公里<br>2,328 km²<br>2. 2389平方公里<br>2,389 km²<br>3. 2511平方公里<br>2,511 km²<br>4. 2572平方公里<br>2,572 km² | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：面积备选与原人口（73.1万人）、原下辖乡镇数（下辖21个乡镇）是否搭配。<br>Compatibility check: area alternatives against original population (731,000 people) and original number of subordinate towns/townships (21 subordinate towns/townships). |
@@ -221,7 +221,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## LOCATION-4：龙泽 / Longze
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 人口<br>Population | 0. 9.4万人<br>94,000 people<br>1. 13.8万人<br>138,000 people<br>2. 6.2万人<br>62,000 people<br>3. 16.1万人<br>161,000 people<br>4. 11.0万人<br>110,000 people | 0. 9.4万人<br>94,000 people<br>1. 9.0万人<br>90,000 people<br>2. 9.2万人<br>92,000 people<br>3. 9.6万人<br>96,000 people<br>4. 9.8万人<br>98,000 people | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：人口备选与原面积（318平方公里）、原下辖乡镇数（下辖4个乡镇）是否搭配。<br>Compatibility check: population alternatives against original area (318 km²) and original number of subordinate towns/townships (4 subordinate towns/townships). |
 | 面积<br>Area | 0. 318平方公里<br>318 km²<br>1. 465平方公里<br>465 km²<br>2. 242平方公里<br>242 km²<br>3. 590平方公里<br>590 km²<br>4. 387平方公里<br>387 km² | 0. 318平方公里<br>318 km²<br>1. 303平方公里<br>303 km²<br>2. 310平方公里<br>310 km²<br>3. 326平方公里<br>326 km²<br>4. 333平方公里<br>333 km² | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：面积备选与原人口（9.4万人）、原下辖乡镇数（下辖4个乡镇）是否搭配。<br>Compatibility check: area alternatives against original population (94,000 people) and original number of subordinate towns/townships (4 subordinate towns/townships). |
@@ -230,7 +230,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## LOCATION-5：乐水 / Leshui
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 人口<br>Population | 0. 35.2万人<br>352,000 people<br>1. 47.6万人<br>476,000 people<br>2. 28.9万人<br>289,000 people<br>3. 52.3万人<br>523,000 people<br>4. 40.1万人<br>401,000 people | 0. 35.2万人<br>352,000 people<br>1. 33.5万人<br>335,000 people<br>2. 34.3万人<br>343,000 people<br>3. 36.1万人<br>361,000 people<br>4. 36.9万人<br>369,000 people | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：人口备选与原面积（1053平方公里）、原下辖乡镇数（下辖11个乡镇）是否搭配。<br>Compatibility check: population alternatives against original area (1,053 km²) and original number of subordinate towns/townships (11 subordinate towns/townships). |
 | 面积<br>Area | 0. 1053平方公里<br>1,053 km²<br>1. 1420平方公里<br>1,420 km²<br>2. 798平方公里<br>798 km²<br>3. 1675平方公里<br>1,675 km²<br>4. 1210平方公里<br>1,210 km² | 0. 1053平方公里<br>1,053 km²<br>1. 1001平方公里<br>1,001 km²<br>2. 1027平方公里<br>1,027 km²<br>3. 1079平方公里<br>1,079 km²<br>4. 1105平方公里<br>1,105 km² | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision.<br>• 相容性检查：面积备选与原人口（35.2万人）、原下辖乡镇数（下辖11个乡镇）是否搭配。<br>Compatibility check: area alternatives against original population (352,000 people) and original number of subordinate towns/townships (11 subordinate towns/townships). |
@@ -239,7 +239,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## BUILDING-1：通溪体育馆 / Tongxi Sports Hall
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 设计师<br>Architect | 0. 田文斌<br>Tian Wenbin<br>1. 薛庆国<br>Xue Qingguo<br>2. 苗春燕<br>Miao Chunyan<br>3. 柳宏伟<br>Liu Hongwei<br>4. 乔月华<br>Qiao Yuehua | 0. 田文斌<br>Tian Wenbin<br>1. 薛庆国<br>Xue Qingguo<br>2. 苗春燕<br>Miao Chunyan<br>3. 柳宏伟<br>Liu Hongwei<br>4. 乔月华<br>Qiao Yuehua | • 未改。<br>Unchanged. |
 | 建成年份<br>Year built | 0. 2011年<br>2011<br>1. 2008年<br>2008<br>2. 2014年<br>2014<br>3. 2006年<br>2006<br>4. 2016年<br>2016 | 0. 2011年<br>2011<br>1. 2009年<br>2009<br>2. 2010年<br>2010<br>3. 2012年<br>2012<br>4. 2013年<br>2013 | • 原值不变；备选为原年份±1、±2年。<br>Original retained; alternatives are ±1 and ±2 years. |
@@ -250,7 +250,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## BUILDING-2：清山图书馆 / Qingshan Library
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 设计师<br>Architect | 0. 乔月华<br>Qiao Yuehua<br>1. 方振东<br>Fang Zhendong<br>2. 田文斌<br>Tian Wenbin<br>3. 邓秀兰<br>Deng Xiulan<br>4. 薛庆国<br>Xue Qingguo | 0. 乔月华<br>Qiao Yuehua<br>1. 方振东<br>Fang Zhendong<br>2. 田文斌<br>Tian Wenbin<br>3. 邓秀兰<br>Deng Xiulan<br>4. 薛庆国<br>Xue Qingguo | • 未改。<br>Unchanged. |
 | 建成年份<br>Year built | 0. 1996年<br>1996<br>1. 1999年<br>1999<br>2. 1993年<br>1993<br>3. 2002年<br>2002<br>4. 1990年<br>1990 | 0. 1996年<br>1996<br>1. 1994年<br>1994<br>2. 1995年<br>1995<br>3. 1997年<br>1997<br>4. 1998年<br>1998 | • 原值不变；备选为原年份±1、±2年。<br>Original retained; alternatives are ±1 and ±2 years. |
@@ -261,7 +261,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## BUILDING-3：新定会展中心 / Xinding Convention and Exhibition Centre
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 设计师<br>Architect | 0. 方振东<br>Fang Zhendong<br>1. 柳宏伟<br>Liu Hongwei<br>2. 邓秀兰<br>Deng Xiulan<br>3. 苗春燕<br>Miao Chunyan<br>4. 田文斌<br>Tian Wenbin | 0. 方振东<br>Fang Zhendong<br>1. 柳宏伟<br>Liu Hongwei<br>2. 邓秀兰<br>Deng Xiulan<br>3. 苗春燕<br>Miao Chunyan<br>4. 田文斌<br>Tian Wenbin | • 未改。<br>Unchanged. |
 | 建成年份<br>Year built | 0. 2019年<br>2019<br>1. 2017年<br>2017<br>2. 2021年<br>2021<br>3. 2015年<br>2015<br>4. 2013年<br>2013 | 0. 2019年<br>2019<br>1. 2017年<br>2017<br>2. 2018年<br>2018<br>3. 2020年<br>2020<br>4. 2021年<br>2021 | • 原值不变；备选为原年份±1、±2年。<br>Original retained; alternatives are ±1 and ±2 years. |
@@ -272,7 +272,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## EVENT-1：长源农业机械博览会 / Changyuan Agricultural Machinery Expo
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 举办日期<br>Event date | 0. 2023年9月15日<br>2023-09-15<br>1. 2023年10月8日<br>2023-10-08<br>2. 2022年9月20日<br>2022-09-20<br>3. 2023年8月26日<br>2023-08-26<br>4. 2024年9月12日<br>2024-09-12 | 0. 2023年9月15日<br>2023-09-15<br>1. 2022年10月14日<br>2022-10-14<br>2. 2023年8月25日<br>2023-08-25<br>3. 2023年9月29日<br>2023-09-29<br>4. 2024年8月23日<br>2024-08-23 | • 原值不变；备选在前后一年内，两早两晚，保持星期几。<br>Original retained; two earlier and two later alternatives within one year, keeping the weekday.<br>• 相容性检查：举办日期备选与原持续时间（3天）是否搭配。<br>Compatibility check: event date alternatives against original duration (3 days). |
 | 持续时间<br>Duration | 0. 3天<br>3 days<br>1. 5天<br>5 days<br>2. 2天<br>2 days<br>3. 4天<br>4 days<br>4. 7天<br>7 days | 0. 3天<br>3 days<br>1. 1天<br>1 day<br>2. 2天<br>2 days<br>3. 4天<br>4 days<br>4. 5天<br>5 days | • 原值不变；整数备选为±1、±2。<br>Original retained; integer alternatives are ±1 and ±2.<br>• 相容性检查：持续时间备选与原举办日期（2023年9月15日）是否搭配。<br>Compatibility check: duration alternatives against original event date (2023-09-15). |
@@ -282,7 +282,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## EVENT-2：惠明国际马拉松赛 / Huiming International Marathon
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 举办日期<br>Event date | 0. 2024年4月21日<br>2024-04-21<br>1. 2023年4月16日<br>2023-04-16<br>2. 2024年3月31日<br>2024-03-31<br>3. 2024年5月12日<br>2024-05-12<br>4. 2022年4月24日<br>2022-04-24 | 0. 2024年4月21日<br>2024-04-21<br>1. 2023年5月14日<br>2023-05-14<br>2. 2024年4月7日<br>2024-04-07<br>3. 2024年5月5日<br>2024-05-05<br>4. 2025年4月20日<br>2025-04-20 | • 原值不变；备选在前后一年内，两早两晚，保持星期几。<br>Original retained; two earlier and two later alternatives within one year, keeping the weekday.<br>• 相容性检查：举办日期备选与原持续时间（6小时15分钟）是否搭配。<br>Compatibility check: event date alternatives against original duration (6 h 15 min). |
 | 持续时间<br>Duration | 0. 1天<br>1 day<br>1. 2天<br>2 days<br>2. 3天<br>3 days<br>3. 4天<br>4 days<br>4. 5天<br>5 days | 0. 6小时15分钟<br>6 h 15 min<br>1. 6小时<br>6 h<br>2. 6小时5分钟<br>6 h 5 min<br>3. 6小时25分钟<br>6 h 25 min<br>4. 6小时30分钟<br>6 h 30 min | • 改为大众组首枪至终点关门的赛事时限；原值6小时15分钟，备选相差10或15分钟。<br>Redefined as the interval from the first mass start to the finish cutoff: original 6 h 15 min, alternatives 10 or 15 minutes away.<br>• 相容性检查：持续时间备选与原举办日期（2024年4月21日）是否搭配。<br>Compatibility check: duration alternatives against original event date (2024-04-21). |
@@ -292,7 +292,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## EVENT-3：通溪非物质文化遗产展演 / Tongxi Intangible Cultural Heritage Showcase
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 举办日期<br>Event date | 0. 2022年6月11日<br>2022-06-11<br>1. 2023年6月17日<br>2023-06-17<br>2. 2021年6月5日<br>2021-06-05<br>3. 2022年7月2日<br>2022-07-02<br>4. 2024年6月8日<br>2024-06-08 | 0. 2022年6月11日<br>2022-06-11<br>1. 2021年6月19日<br>2021-06-19<br>2. 2022年5月14日<br>2022-05-14<br>3. 2022年6月25日<br>2022-06-25<br>4. 2023年6月3日<br>2023-06-03 | • 原值不变；备选在前后一年内，两早两晚，保持星期几。<br>Original retained; two earlier and two later alternatives within one year, keeping the weekday.<br>• 相容性检查：举办日期备选与原持续时间（4天）是否搭配。<br>Compatibility check: event date alternatives against original duration (4 days). |
 | 持续时间<br>Duration | 0. 4天<br>4 days<br>1. 6天<br>6 days<br>2. 3天<br>3 days<br>3. 8天<br>8 days<br>4. 5天<br>5 days | 0. 4天<br>4 days<br>1. 2天<br>2 days<br>2. 3天<br>3 days<br>3. 5天<br>5 days<br>4. 6天<br>6 days | • 原值不变；整数备选为±1、±2。<br>Original retained; integer alternatives are ±1 and ±2.<br>• 相容性检查：持续时间备选与原举办日期（2022年6月11日）是否搭配。<br>Compatibility check: duration alternatives against original event date (2022-06-11). |
@@ -302,7 +302,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## PRODUCT-1：昱腾 ZL-40 装载机 / Yuteng ZL-40 Loader
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 发布日期<br>Release date | 0. 2021年3月18日<br>2021-03-18<br>1. 2020年6月9日<br>2020-06-09<br>2. 2022年1月25日<br>2022-01-25<br>3. 2019年11月4日<br>2019-11-04<br>4. 2023年5月16日<br>2023-05-16 | 0. 2021年3月18日<br>2021-03-18<br>1. 2020年4月5日<br>2020-04-05<br>2. 2020年10月18日<br>2020-10-18<br>3. 2021年5月5日<br>2021-05-05<br>4. 2021年12月14日<br>2021-12-14 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早347天、早151天、晚48天、晚271天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 347 days earlier, 151 days earlier, 48 days later, 271 days later, respectively. |
 | 价格<br>Price | 0. 38.6万元人民币<br>386,000 CNY<br>1. 45.2万元人民币<br>452,000 CNY<br>2. 31.0万元人民币<br>310,000 CNY<br>3. 52.8万元人民币<br>528,000 CNY<br>4. 42.4万元人民币<br>424,000 CNY | 0. 38.6万元人民币<br>386,000 CNY<br>1. 36.7万元人民币<br>367,000 CNY<br>2. 37.6万元人民币<br>376,000 CNY<br>3. 39.6万元人民币<br>396,000 CNY<br>4. 40.5万元人民币<br>405,000 CNY | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision. |
@@ -311,7 +311,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## PRODUCT-2：驰珩 CX-7 电动三轮车 / Chiheng CX-7 Electric Tricycle
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 发布日期<br>Release date | 0. 2022年8月30日<br>2022-08-30<br>1. 2021年10月12日<br>2021-10-12<br>2. 2023年4月7日<br>2023-04-07<br>3. 2020年12月21日<br>2020-12-21<br>4. 2024年2月19日<br>2024-02-19 | 0. 2022年8月30日<br>2022-08-30<br>1. 2022年2月19日<br>2022-02-19<br>2. 2022年7月16日<br>2022-07-16<br>3. 2023年1月4日<br>2023-01-04<br>4. 2023年6月9日<br>2023-06-09 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早192天、早45天、晚127天、晚283天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 192 days earlier, 45 days earlier, 127 days later, 283 days later, respectively. |
 | 价格<br>Price | 0. 6980元人民币<br>6,980 CNY<br>1. 8500元人民币<br>8,500 CNY<br>2. 5490元人民币<br>5,490 CNY<br>3. 10200元人民币<br>10,200 CNY<br>4. 7600元人民币<br>7,600 CNY | 0. 6980元人民币<br>6,980 CNY<br>1. 6640元人民币<br>6,640 CNY<br>2. 6810元人民币<br>6,810 CNY<br>3. 7150元人民币<br>7,150 CNY<br>4. 7320元人民币<br>7,320 CNY | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision. |
@@ -320,7 +320,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## PRODUCT-3：沐澜 HT-200 家用净水器 / Mulan HT-200 Household Water Purifier
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 发布日期<br>Release date | 0. 2023年7月5日<br>2023-07-05<br>1. 2022年3月23日<br>2022-03-23<br>2. 2024年1月11日<br>2024-01-11<br>3. 2021年9月28日<br>2021-09-28<br>4. 2020年5月14日<br>2020-05-14 | 0. 2023年7月5日<br>2023-07-05<br>1. 2022年8月26日<br>2022-08-26<br>2. 2023年4月15日<br>2023-04-15<br>3. 2023年11月21日<br>2023-11-21<br>4. 2024年3月29日<br>2024-03-29 | • 原值不变；按四个日期区间各随机抽取一天，固定随机种子。四个备选依次比原值早313天、早81天、晚139天、晚268天。<br>Original retained; one date was sampled from each of four intervals using a fixed random seed. The alternatives are 313 days earlier, 81 days earlier, 139 days later, 268 days later, respectively. |
 | 价格<br>Price | 0. 1899元人民币<br>1,899 CNY<br>1. 2580元人民币<br>2,580 CNY<br>2. 1290元人民币<br>1,290 CNY<br>3. 3200元人民币<br>3,200 CNY<br>4. 2150元人民币<br>2,150 CNY | 0. 1899元人民币<br>1,899 CNY<br>1. 1809元人民币<br>1,809 CNY<br>2. 1849元人民币<br>1,849 CNY<br>3. 1949元人民币<br>1,949 CNY<br>4. 1989元人民币<br>1,989 CNY | • 原值不变；备选按约±5%取两低两高，考虑原值精度。<br>Original retained; two lower and two higher alternatives within approximately ±5%, respecting the original precision. |
@@ -329,7 +329,7 @@ status: 提交版草稿，待审核 / Submission draft for review
 
 ## ART-1：《白原晚渡图》 / Evening Ferry at Baiyuan (painting; interpretive title gloss)
 
-| 属性 / Attribute | Original：原值及备选 / Original and alternatives | v1：原值及备选 / Original and alternatives | 修改理由 / Rationale |
+| 属性 / Attribute | 原始 pilot 数据：原值及备选 / Original pilot data: original value and alternatives | v1：原值及备选 / v1: original value and alternatives | 修改理由 / Rationale |
 | --- | --- | --- | --- |
 | 创作者<br>Creator | 0. 苗春燕<br>Miao Chunyan<br>1. 乔月华<br>Qiao Yuehua<br>2. 方振东<br>Fang Zhendong<br>3. 柳宏伟<br>Liu Hongwei<br>4. 田文斌<br>Tian Wenbin | 0. 苗春燕<br>Miao Chunyan<br>1. 乔月华<br>Qiao Yuehua<br>2. 方振东<br>Fang Zhendong<br>3. 柳宏伟<br>Liu Hongwei<br>4. 田文斌<br>Tian Wenbin | • 未改。<br>Unchanged. |
 | 创作年份<br>Year of creation | 0. 1983年<br>1983<br>1. 1979年<br>1979<br>2. 1988年<br>1988<br>3. 1975年<br>1975<br>4. 1991年<br>1991 | 0. 1983年<br>1983<br>1. 1981年<br>1981<br>2. 1982年<br>1982<br>3. 1984年<br>1984<br>4. 1985年<br>1985 | • 原值不变；备选为原年份±1、±2年。<br>Original retained; alternatives are ±1 and ±2 years. |
