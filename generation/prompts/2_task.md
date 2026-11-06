@@ -1,4 +1,4 @@
-# 指令2：生成数据 / Instruction 2: generate the data
+# 指令2：生成数据 / prompt 2: generate the data
 
 
 ## 中文 / Chinese
