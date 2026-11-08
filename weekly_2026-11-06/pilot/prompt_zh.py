@@ -114,9 +114,8 @@ def to_markdown_table(data: Dict[str, str]) -> str:
 def format_answer_choices(value_a: str, value_b: str) -> str:
     """答案选项保持拉丁字母 A/B，理由见模块 docstring。
 
-    2026-11-07 起用半角括号加空格 "(A) 值"，与 WFW helpers/prompt_builder.py:191 一致；
-    括号内是拉丁字母，按英文排版用半角。此前为全角 "（A）值"（v1 三模型 baseline 所用），
-    旧版备份在 archive/halfwidth_brackets_20261107/。
+    用半角括号加空格 "(A) 值"，与 WFW helpers/prompt_builder.py:191 一致；
+    括号内是拉丁字母，按英文排版用半角。
     """
     return f"({ANSWER_TOKENS[0]}) {value_a}\n({ANSWER_TOKENS[1]}) {value_b}"
 

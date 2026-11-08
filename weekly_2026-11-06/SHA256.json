@@ -14,7 +14,7 @@
   "pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md": "a9576a8ade841954a7671aea104cb4908dd8b450c905c9c1557ce1484076f197",
   "pilot/data_review/value_revision/full_v1/compat_check_v1.py": "bcd9c987d9531fd7982be8ebf5b970d50eabbcce8a208c2249a64b56e6e1502d",
   "pilot/data_review/value_revision/full_v1/compat_check_v1.json": "30b13963ddfe79f88d55a3d153bfa32563931c2195a78824e726193f36751b6f",
-  "pilot/prompt_zh.py": "b92bdf25b74aa7079c4a7a45ecf64a041c38d39f3c0e579ade216d46a78ccfb5",
+  "pilot/prompt_zh.py": "41c3b51d5c5dc0ceac898415537f8496357e1ec7846aa2c143e797fbfb38c39b",
   "pilot/run_pilot.py": "083ed1df0c241c7e5473f6c10aebb1c35f9d7f30bb31a55f688f105403059ceb",
   "pilot/run_baseline.py": "ec88ee94023135f391773c01babf99a5587148ce1440536ea0b0da173a72ba65",
   "pilot/run_baseline_compat.py": "2590b00f598d722470ca6a1ffdcc76b4645bc40ecd1c78f6f8d42e44166e6e7a",

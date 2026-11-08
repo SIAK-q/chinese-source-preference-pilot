@@ -1,45 +1,47 @@
 # 模型输入与输出 / Model input and output
 
-中文 pilot 参照 WFW 构造实体、属性值和信源。下表展示数据生成过程。
+模型分三轮写出脚本和数据，最终得到30个实体、151项测试属性。[最终实体 / Final entities](prompts/round3/entities_zh.jsonl) · [信源 / Sources](prompts/round3/sources_zh.json)
 
-The Chinese pilot follows WFW to construct entities, attribute values and sources. The table shows the data-generation process.
+The model wrote the scripts and data in three rounds, ending with 30 entities and 151 test attributes.
 
 ## 模型看到了什么 / What the model saw
 
-模型根据以下任务要求及会话中获得的材料，生成整批中文 pilot 数据。
+| 输入 / Input                                  | 模型获得的信息 / Information available to the model                                                                                                                                                                                                                                                                                                                                                  | 记录 / Record                                                            |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **任务要求**<br>Task requirements               | 按 WFW 的结构生成中文实体、属性原值和备选，以及信源名称；使用中文名称、公制单位和中文日期。<br>Generate Chinese entities, original and alternative attribute values, and source names following WFW's structure; use Chinese names, metric units and Chinese dates.                                                                                                                                                                      | [生成要求 / Generation requirements](prompts/2_task.md)                    |
+| **WFW 结构与示例**<br>WFW structure and examples | 各类实体的数量和字段；每个测试属性使用原值和4个备选的列表；两个完整人物记录及第三个记录的开头；政府和报纸信源模板、姓名和地名列表示例、问题模板及相关代码。<br>Entity counts and fields by type; each test attribute uses a list of an original and four alternatives; two complete person records and the beginning of a third; government and newspaper templates, samples of person-name and place-name lists, question templates and relevant code.                    | 读取明细见页底 / File-reading details below                                   |
+| **姓名和地名准备**<br>Person and place names       | 模型写出常见中文姓名并查询中文维基，查到词条的姓名不用；提交的20个姓名均未查到词条。地名见下表。<br>The model wrote common Chinese names and checked them against Chinese Wikipedia; names with a page were not used, and none of the 20 submitted names had a page. Place names are described below. | [姓名与地名要求 / Name and place-name requirements](prompts/1_place_names.md) |
 
-The model generated the Chinese pilot data as a batch, using the task requirements and material obtained during the session.
+## 三轮生成和修改 / Three rounds of generation and revision
 
-| 输入 / Input                                    | 模型获得的信息 / Information available to the model                                                                                                                                                                                                                                                                                                                                         | 记录 / Record                                                            |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| **生成要求**<br>Task requirements                 | 按 WFW 的结构生成中文实体、属性原值和备选，以及信源名称；使用中文名称、公制单位和中文日期。<br>Generate Chinese entities, original and alternative attribute values, and source names following WFW's structure; use Chinese names, metric units and Chinese dates.                                                                                                                                                             | [生成要求 / Generation requirements](prompts/2_task.md)                    |
-| **WFW 实体结构**<br>WFW entity structure          | 各类实体的数量和字段；每个测试属性使用原值和4个备选的列表。<br>Entity counts and fields by type; each test attribute uses a list containing an original and four alternatives.                                                                                                                                                                                                                                    | 文件读取明细见页底 / File-reading details below                                 |
-| **WFW 英文实体**<br>WFW English entities          | 两个人物的完整记录及第三个人物记录的开头，包含姓名、属性及其原值和备选。<br>Two complete person records and the beginning of a third, containing names, attributes, originals and alternatives.                                                                                                                                                                                                                          | 读取英文实体文件开头3,000字节 / First 3,000 bytes of the English entity file       |
-| **WFW 信源与代码**<br>WFW sources and code         | 政府和报纸信源模板、姓名和地名列表示例、问题模板，以及相关代码。<br>Government and newspaper source templates, samples of person-name and place-name lists, question templates, and relevant code.                                                                                                                                                                                                                   | 文件读取明细见页底 / File-reading details below                                 |
-| **中文姓名和地名**<br>Chinese person and place names | 数据生成前，模型写出常见中文姓名并查询中文维基。一批15个常见姓名中有2个查到词条，未用于后续名单；提交的20个姓名均未查到同名词条。地名的生成见下表。<br>Before data generation, the model wrote common Chinese names and checked them against Chinese Wikipedia. Two of a batch of 15 common names had matching pages and were not included in the later list; none of the 20 submitted names had a matching page. Place-name generation is described below. | [姓名与地名要求 / Name and place-name requirements](prompts/1_place_names.md) |
+| 轮次 / Round | 输入要求 / Input | 主要改动 / Main changes | 脚本与输出 / Scripts and output |
+|---|---|---|---|
+| **第一轮**<br>Round 1 | [生成要求](prompts/2_task.md)；地名按[指令1](prompts/1_place_names.md)。<br>[Generation requirements](prompts/2_task.md); place names from [prompt 1](prompts/1_place_names.md). | 在同一份脚本中写出整批原值和备选。地名为三字名（如北马坪、南头堡），政府5个、报纸5个、实体10个，分开使用。<br>All originals and alternatives were written in one script. Place names had three characters (e.g. 北马坪, 南头堡), in separate lists: 5 for government, 5 for newspapers and 10 for entities. | [第一版脚本 / First script](prompts/round1/output_round1.md) · [第一版数据 / First data](prompts/round1/output_round1.jsonl)：30实体、169项属性 / 30 entities, 169 attributes |
+| **第二轮**<br>Round 2 | [指令3](prompts/3_corrections.md)。<br>[Prompt 3](prompts/3_corrections.md). | 参考第一版重写脚本，修改名称、字段和部分取值；写入机构和产品的新品牌名、地点的下辖乡镇数。人名分为三个互不重叠的名单：8个人物实体、5个个人信源、7个设计师和创作者。地名改为县市级两字名（如平宁、临源），政府、报纸、地点实体、其他实体各5个。<br>The script was rewritten with the first version as context, revising names, fields and some values, and adding new organization and product brand names and location town/township counts. Person names were divided into three non-overlapping lists: 8 person entities, 5 individual sources, and 7 architects and creators. Place names became two-character county/city-level names (e.g. 平宁, 临源), 5 each for government, newspapers, location entities and other entities. | [第二版脚本 / Second script](prompts/round2/output_round2.md) · [第二版数据 / Second data](prompts/round2/output_round2.jsonl)：30实体、151项属性 / 30 entities, 151 attributes |
+| **第三轮**<br>Round 3 | [指令4](prompts/4_shared_place_pool.md)。<br>[Prompt 4](prompts/4_shared_place_pool.md). | 政府、报纸和实体共用20个地名（如双陵、通溪）：前10个交错分给政府和报纸，后10个给实体。据此生成政府和报纸信源名称，并更新实体名称、现居城市和主办方中的地名；其他取值不变。[地名方法](place_names/README.md)。<br>Government, newspapers and entities share 20 place names (e.g. 双陵, 通溪): the first 10 alternate between government and newspapers, and the last 10 go to entities. Government and newspaper source names were built from this pool, and place names in entity names, cities of residence and organizers were updated; other values are unchanged. [Place-name method](place_names/README.md). | [第三轮脚本与数据 / Round 3 scripts and data](prompts/round3/README.md) |
 
-## 模型写出了什么 / What the model wrote
+## 哪些值由模型写，哪些由代码填 / Values written by the model and filled by code
 
-模型在同一份脚本中写出整批实体的原值和备选。第一版共30个实体、169项测试属性。
+- 原值和备选由模型写入脚本。人物部分先写职业，后写学历。
 
-The model wrote the originals and alternatives for the batch of entities in one script. The first version contains 30 entities and 169 test attributes.
+  The model wrote originals and alternatives in the script. In the person section, occupation comes before education.
+- 模型读过的英文实体示例中，有14个生日值也出现在中文 pilot 数据中。
 
-[第一版脚本 / First script](prompts/round1/output_round1.md) · [第一版数据 / First data](prompts/round1/output_round1.jsonl)
+  Fourteen birth-date values from the English entity examples also appear in the Chinese pilot data.
+- 现居城市由脚本按固定规则从地名池填入；最终版活动主办方由代码组合地名和机构名称。
 
-### 属性的写入顺序 / Attribute order in the script
+  The script fills cities of residence from the place-name pool using a fixed rule; in the final version, code combines place names and institution names for event organizers.
 
-第一版脚本按属性组织数据。人物部分的排列如下：
+<details>
+<summary>第一版脚本的属性写入顺序 / Attribute order in the first script</summary>
 
-The first script organises data by attribute. The person section is arranged as follows:
-
-| 顺序 / Order | 内容 / Content |
+| 顺序 / Order | 人物 / Person |
 |---|---|
 | 1 | 姓名、性别、原职业 / Name, gender and original occupation |
 | 2 | 职业原值和备选 / Original occupation and alternatives |
 | 3 | 出生日期、学历、身高、体重、婚姻状况 / Date of birth, education, height, weight and marital status |
 | 4 | 现居城市、国籍：代码按固定规则填入 / City of residence and nationality: filled by code using fixed rules |
 
-其他实体类型的写入顺序 / Writing order for the other entity types:
 
 | 实体类型 / Entity type | 写入顺序 / Order |
 |---|---|
@@ -50,30 +52,7 @@ The first script organises data by attribute. The person section is arranged as 
 | 产品 / Product | 名称 → 制造商 → 发布日期 → 价格 → 重量 → 保修期 / name → manufacturer → release date → price → weight → warranty |
 | 艺术作品 / Artwork | 名称 → 创作者 → 创作年份 / name → creator → creation year |
 
-第二版修改时，模型参考第一版脚本和结果，重写数据脚本；机构和产品的新品牌名、地点的下辖乡镇数在这一版写入。人名明确分为三个互不重叠的名单：8个人物实体、5个个人信源、7个设计师和创作者。
-
-For the second version, the model used the first script and results as context and rewrote the data script. The new organization and product brand names and the location town/township counts were written in this version. Person names were explicitly divided into three non-overlapping lists: 8 person entities, 5 individual sources, and 7 architects and creators.
-
-## 修改及最终结果 / Revisions and final data
-
-| 阶段 / Stage | 修改 / Revision | 输出 / Output |
-|---|---|---|
-| **数据修改**<br>Data revision | 根据[指令3](prompts/3_corrections.md)修改名称、字段和部分取值。<br>Following [prompt 3](prompts/3_corrections.md), revise names, fields and some values. | [第二版脚本 / Second script](prompts/round2/output_round2.md) · [第二版数据 / Second data](prompts/round2/output_round2.jsonl)：30实体、151项属性 / 30 entities, 151 attributes |
-| **统一地名池**<br>Shared place-name pool | 根据[指令4](prompts/4_shared_place_pool.md)统一地名池并更新相关名称。<br>Following [prompt 4](prompts/4_shared_place_pool.md), unify the place-name pool and update the relevant names. | [第三轮脚本与数据 / Round 3 scripts and data](prompts/round3/README.md) · [地名方法 / Place-name method](place_names/README.md) · [最终实体 / Final entities](prompts/round3/entities_zh.jsonl) · [信源 / Sources](prompts/round3/sources_zh.json) |
-
-三轮先后用过三批地名。每一轮都是先定下当轮的地名，再写入数据；只有第三轮才是政府、报纸和实体共用的一个地名池。
-
-Three successive sets of place names were used. In each round, the names were fixed before they were written into the data; only in round 3 did government sources, newspapers and entities share one pool.
-
-| 轮次 / Round    | 地名怎么来 / How the names were made                                                                                                                                                                                                                                                                                                                                                                                 | 怎么分配 / How they were assigned                                                                                                          | 写入数据 / Used in data                                                                                                                                                                                                                                                                                         |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 第一轮 / Round 1 | [指令1](prompts/1_place_names.md)后，模型先交一批三字名（如青鹤城），被指出像武侠小说；按真实三字地名字频重做（如北马坪、南头堡），后确认。<br>After [prompt 1](prompts/1_place_names.md), a first batch (e.g. 青鹤城) was rejected as sounding like martial-arts fiction; the names were redone from the character frequencies of real three-character place names (e.g. 北马坪, 南头堡) and confirmed.                                                                   | 按用途分开：政府5个、报纸5个、实体10个。<br>Separate lists: 5 for government, 5 for newspapers, 10 for entities.                                         | 第一版脚本<br>first script                                                                                                                                                                                                                                                                                       |
-| 第二轮 / Round 2 | [指令3](prompts/3_corrections.md)要求改用县市级两字地名；模型生成（如平宁、临源）。<br>[prompt 3](prompts/3_corrections.md) asked for two-character county/city-level names; the model made them (e.g. 平宁, 临源).                                                                                                                                                                                                                       | 仍按用途分开：政府、报纸、地点实体、其他实体各5个。<br>Still separate lists: 5 each for government, newspapers, location entities and other entities.           | 第二版脚本（整份重写）<br>second script (rewritten in full)                                                                                                                                                                                                                                                            |
-| 第三轮 / Round 3 | [指令4](prompts/4_shared_place_pool.md)要求共用一个地名池；模型统计真实县市地名的用字频率，组合候选并查重，得到最终20个（如双陵、通溪），方法见[地名生成](place_names/README.md)。<br>[prompt 4](prompts/4_shared_place_pool.md) asked for one shared pool; the model counted character frequencies in real county/city names, combined and checked candidates, and arrived at the final 20 names (e.g. 双陵, 通溪); see [place-name generation](place_names/README.md). | 共用一个池：前10个交错分给政府和报纸，后10个给实体。<br>One shared pool: the first 10 alternate between government and newspapers, the last 10 go to entities. | 在第二版脚本上更新地名：用这个地名池生成政府和报纸信源名称（如广城市民政局、临阳日报），并更新实体名称、现居城市和主办方中的地名；其他取值不变<br>The second script was updated: government and newspaper source names were built from this pool (e.g. 广城市民政局, 临阳日报), and the place names in entity names, cities of residence and organizers were updated; other values unchanged |
-
-模型读过的英文实体示例中，有14个生日值也出现在中文 pilot 数据中。现居城市由脚本按固定规则从地名池填入；最终版活动主办方由代码组合地名和机构名称。
-
-Fourteen birth-date values from the English entity examples also appear in the Chinese pilot data. The script fills cities of residence from the place-name pool using a fixed rule; in the final version, code combines place names and institution names for event organizers.
+</details>
 
 <details>
 <summary>WFW参考材料读取明细 / WFW reference files read</summary>

@@ -4,7 +4,9 @@
 
 This example shows an actual test pair: the original value and one alternative appear in separate tables, and the test is repeated with their positions swapped. The inputs for both orders and the outputs from five models are shown below. Neither table includes a source label.
 
-## System prompt
+## 实际输入 / Actual input
+
+### System prompt
 
 ```text
 以下是单项选择题。题目会提供来自不同信息源的表格数据。只回答正确答案对应的字母，不要输出任何其他内容。
@@ -12,7 +14,8 @@ This example shows an actual test pair: the original value and one alternative a
 
 **英文释义 / English reading translation:** These are single-choice questions. The question provides tabular data from different sources. Answer only with the letter corresponding to the correct answer, with no other output.
 
-## 表序 0 / Order 0
+
+### 表序 0 / Order 0
 
 ```text
 背景资料：
@@ -84,7 +87,8 @@ What is Zheng Shufen's date of birth?
 (B) 1986-10-27
 ```
 
-## 表序 1 / Order 1
+<details>
+<summary>交换两表后的完整输入 / Full input with the two tables swapped</summary>
 
 ```text
 背景资料：
@@ -156,6 +160,8 @@ What is Zheng Shufen's date of birth?
 (B) 1987-08-14
 ```
 
+</details>
+
 ## 模型输出 / Model outputs
 
 - **表序 / Order**：表序 0 中，A 是原日期（1987-08-14），B 是备选日期（1986-10-27）；表序 1 中，两者位置互换。  
@@ -164,26 +170,22 @@ What is Zheng Shufen's date of birth?
 - **P(A) 和 P(B)**：根据模型生成第一个 token 时 A、B 的分数，计算两者之间的相对概率；每行相加为 1。数值越高，表示模型越倾向该选项。  
   These are probabilities calculated from the model’s first-token scores for A and B, normalised over those two options; each row sums to 1. A higher value indicates a stronger preference for that option.
 
+| 模型 / Model | 表序 / Order | P(A) | P(B) | 首 token / First token |
+|---|---:|---:|---:|---|
+| Qwen2.5-7B-Instruct | 0 | 0.0032 | 0.9968 | `B` |
+| Qwen2.5-7B-Instruct | 1 | 1.0000 | 0.0000 | `A` |
+| Qwen2.5-14B-Instruct | 0 | 1.0000 | 0.0000 | `A` |
+| Qwen2.5-14B-Instruct | 1 | 1.0000 | 0.0000 | `A` |
+| Llama-3.1-8B-Instruct | 0 | 0.0070 | 0.9930 | `B` |
+| Llama-3.1-8B-Instruct | 1 | 0.7578 | 0.2422 | `A` |
+| Gemma-4-E4B-it | 0 | 0.8355 | 0.1645 | `A` |
+| Gemma-4-E4B-it | 1 | 0.8723 | 0.1277 | `A` |
+| Gemma-4-12B-it | 0 | 0.9053 | 0.0947 | `(` |
+| Gemma-4-12B-it | 1 | 0.4883 | 0.5117 | `无法` |
+
 - **例如 / Example**：Qwen2.5-7B 在表序 0 中偏向 B（99.7%），在表序 1 中偏向 A（约 100%）。两次偏向的都是同一个日期：备选日期 1986-10-27。  
   Qwen2.5-7B favours B in order 0 (99.7%) and A in order 1 (approximately 100%). In both orders, it favours the same date: the alternative, 1986-10-27.
 
-| 模型 / Model | 表序 / Order | P(A) | P(B) | 首 token / First token |
-|---|---:|---:|---:|---|
-| Qwen2.5-7B-Instruct | 0 | 0.003173 | 0.996827 | `B` |
-| Qwen2.5-7B-Instruct | 1 | 0.999999 | 0.000001 | `A` |
-| Qwen2.5-14B-Instruct | 0 | 0.999979 | 0.000021 | `A` |
-| Qwen2.5-14B-Instruct | 1 | 1.000000 | 0.000000 | `A` |
-| Llama-3.1-8B-Instruct | 0 | 0.007012 | 0.992988 | `B` |
-| Llama-3.1-8B-Instruct | 1 | 0.757794 | 0.242206 | `A` |
-| Gemma-4-E4B-it | 0 | 0.835484 | 0.164516 | `A` |
-| Gemma-4-E4B-it | 1 | 0.872347 | 0.127653 | `A` |
-| Gemma-4-12B-it | 0 | 0.905322 | 0.094678 | `(` |
-| Gemma-4-12B-it | 1 | 0.488283 | 0.511717 | `无法` |
+[完整运行记录](https://github.com/SIAK-q/chinese-source-preference-pilot/tree/main/weekly_2026-11-06/pilot/results_baseline)：各模型目录包含全部1208题的输入（prompts.jsonl）和逐题结果（raw.json），按题目编号 i 对应。
 
-全部 1,208 题的输入见 prompts.jsonl，逐题的 P(A) 和 P(B) 见 raw.json，两者按题目编号 i 对应。
-
-The inputs for all 1,208 items are in prompts.jsonl, and the item-level P(A) and P(B) are in raw.json; the two files are matched by item number i.
-
-- Qwen2.5-7B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl) · [结果 / Results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/raw.json)
-- Llama-3.1-8B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/prompts.jsonl) · [结果 / Results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/raw.json)
-- Gemma-4-E4B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/prompts.jsonl) · [结果 / Results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/raw.json)
+[Full run records](https://github.com/SIAK-q/chinese-source-preference-pilot/tree/main/weekly_2026-11-06/pilot/results_baseline): Each model directory contains all 1,208 inputs (prompts.jsonl) and results (raw.json), matched by item number i.
