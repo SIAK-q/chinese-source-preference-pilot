@@ -21,8 +21,8 @@ Five models were tested on the same v1 data. Each original–alternative pair wa
 
 ## 首 token / First token
 
-- Gemma-4-E4B：1208 题中有 418 题以 “(” 开头。这 418 题中有 82 题，“(” 后写的字母与第一步概率较高的选项不同（[核对结果](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)）。
-  Gemma-4-E4B began with "(" in 418 of 1,208 items. In 82 of these 418, the letter written after "(" differed from the option with the higher first-step probability ([check](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)).
+- Gemma-4-E4B：1208 题中有 418 题以 “(” 开头。这 418 题中有 82 题，“(” 后写的字母与核对运行中第一步概率较高的选项不同（[核对结果](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)）。
+  Gemma-4-E4B began with "(" in 418 of 1,208 items. In 82 of these 418, the letter written after "(" differed from the option with the higher first-step probability in the check run ([check](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)).
 - Gemma-4-12B：1208 题中有 355 题的首 token 不是 A 或 B：“无法”170、“(”127、“thought”40、“由于”10、“<|channel>”4、“1”4。
   Gemma-4-12B gave a first token other than A or B in 355 of 1,208 items: "无法" ("unable") 170, "(" 127, "thought" 40, "由于" ("because") 10, "<|channel>" 4 and "1" 4.
 - 两个 Gemma 4 模型的结果照常报告，测量方式待确认。Qwen2.5-7B 有 34/1208 题的首 token 是整体的 “(A” 或 “(B”。
