@@ -3,7 +3,7 @@
 
 ## Overview
 
-- Each source belongs to one of four types: government, newspaper, individual, social media user.
+- Each item uses one of four source types: government, newspaper, individual, social media user.
     - 中文：每个信源属于四类之一：政府、报纸、个人、社交媒体用户。
 - Pool sizes will follow the size of the expanded dataset.
     - 中文：各名称池的规模按扩充后的数据量确定。
@@ -21,19 +21,19 @@
 
 - Format: fictional place + 市(city) + real agency name, e.g. 广城市民政局 (Guangcheng Civil Affairs Bureau).
     - 中文：格式：虚构地名 + 市 + 真实机构名，例如广城市民政局。
-- Each entity type has its own list of agencies. A government source combines one randomly drawn agency from that list with one randomly drawn place.
+- Each entity type has its own list of agencies, following WFW's per-type government templates. A source combines one randomly drawn agency from that list with one randomly drawn place.
     - 中文：每类实体有各自的机构列表。每个政府信源从对应列表随机抽取一个机构，再随机配一个地名。
 
-| Entity type 实体类型  | Agencies 机构                                                                                     |
-| ----------------- | ----------------------------------------------------------------------------------------------- |
-| Person 人物         | 公安局 (Public Security Bureau), 民政局 (Civil Affairs Bureau), 人力资源和社会保障局 (Human Resources and Social Security Bureau)    |
-| Organisation 机构   | 市场监督管理局 (Administration for Market Regulation), 统计局 (Statistics Bureau), 人力资源和社会保障局 (Human Resources and Social Security Bureau) |
-| Location 地点       | 统计局 (Statistics Bureau), 民政局 (Civil Affairs Bureau), 规划和自然资源局 (Planning and Natural Resources Bureau)                |
-| Building 建筑       | 住房和城乡建设局 (Housing and Urban-Rural Development Bureau)                                                  |
-| Event 活动          | 文化和旅游局 (Culture and Tourism Bureau), 商务局 (Commerce Bureau)                                                    |
-| Sports event 体育活动 | 体育局 (Sports Bureau)                                                                                    |
-| Product 产品        | 市场监督管理局 (Administration for Market Regulation), 商务局 (Commerce Bureau)                                                     |
-| Artwork 艺术作品      | 文化和旅游局 (Culture and Tourism Bureau)                                                                    |
+| Entity type 实体类型 | Agencies 机构 |
+|---|---|
+| Person 人物 | 公安局 (Public Security), 民政局 (Civil Affairs), 人力资源和社会保障局 (Human Resources and Social Security) |
+| Organisation 机构 | 市场监督管理局 (Market Regulation), 统计局 (Statistics), 人力资源和社会保障局 (Human Resources and Social Security) |
+| Location 地点 | 统计局 (Statistics), 民政局 (Civil Affairs), 规划和自然资源局 (Planning and Natural Resources) |
+| Building 建筑 | 住房和城乡建设局 (Housing and Urban-Rural Development) |
+| Event 活动 | 文化和旅游局 (Culture and Tourism), 商务局 (Commerce) |
+| Sports event 体育活动 | 体育局 (Sports) |
+| Product 产品 | 市场监督管理局 (Market Regulation), 商务局 (Commerce) |
+| Artwork 艺术作品 | 文化和旅游局 (Culture and Tourism) |
 
 - Agencies are drawn from the municipal government departments of Beijing and Shanghai, two representative Chinese cities, and matched to entity types according to their official functions. Department names use a standard form.
     - 中文：机构选自北京、上海这两个具有代表性的城市的市级政府部门，并根据官方职能与实体类型对应。部门名称采用通用形式。
@@ -53,8 +53,10 @@
 
 - Common Chinese full names without a Chinese Wikipedia page, balanced between male- and female-usage names.
     - 中文：常见中文姓名，排除有中文维基页面的姓名，男性和女性常用名各半。
-- Proposed method: surnames weighted by a published surname-frequency table; two given-name characters drawn from gendered character frequencies.
-    - 中文：拟用方法：姓氏按已发表的姓氏频率表加权；名字的两个字按分性别的用字频率抽取。
+- Proposed method, following WFW: draw a surname from the 200 most frequent surnames and a two-character given name from the 200 most frequent given names of the matching usage group (male or female) in the [ChineseNames](https://github.com/psychbruce/ChineseNames) database (commit dd948e7, version 2025.8). Full names are then screened manually for naturalness, and removals are recorded.
+    - 中文：拟用方法（参照 WFW）：从 ChineseNames 数据库中最常见的 200 个姓里抽姓，从对应使用组（男性或女性）最常见的 200 个双字名里抽名（commit dd948e7，版本 2025.8）。全名再经人工筛查自然度，并记录被删除的名字。
+- The database provides aggregate name frequencies for Han Chinese household-registered people born 1930–2008 and alive in 2008, not individual records. It is cited as Bao (2023) and Bao et al. (2021), and used non-commercially under its GPL-3 and CC BY-NC-SA terms.
+    - 中文：该数据库提供 1930–2008 年出生、2008 年在世的户籍汉族人口的姓名聚合频率，不含个人记录。引用 Bao (2023) 和 Bao et al. (2021)，按其 GPL-3 和 CC BY-NC-SA 条款作非商业使用。
 - Individual-source names, entity names and names inside attribute values stay in three separate pools.
     - 中文：个人信源、实体人物和属性值中的人名分属三个互不重复的名单。
 
