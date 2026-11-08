@@ -4,20 +4,23 @@
 
 Five models were tested on the same v1 data. Each original–alternative pair was tested in both table orders, without source labels.
 
-| 模型 / Model | 运行 / Run | P(备选) / Mean P(alternative) | P(表二) / Mean P(Table 2) | 两种表序均偏向同一值（>80%） / Same value preferred in both orders (>80%) | 首 token 不是 A 或 B / First token not A or B |
-|---|---|---:|---:|---:|---:|
-| Qwen2.5-7B-Instruct | bwUniCluster, BF16 | 50.2% | 66.2% | 118 / 604 | 34 / 1,208 |
-| Qwen2.5-14B-Instruct | bwUniCluster, BF16 | 47.6% | 59.0% | 244 / 604 | 0 / 1,208 |
-| Llama-3.1-8B-Instruct | Kaggle, FP16 | 50.7% | 72.1% | 104 / 604 | 0 / 1,208 |
-| Gemma-4-E4B-it | Kaggle, FP16 | 51.3% | 61.5% | 254 / 604 | 418 / 1,208 |
-| Gemma-4-12B-it | Kaggle, FP16 | 53.7% | 45.5% | 132 / 604 | 355 / 1,208 |
+| 模型 / Model | 运行 / Run | P(备选) / Mean P(alternative) | P(表二) / Mean P(Table 2) | 两种表序均偏向同一值（>80%） / Same value preferred in both orders (>80%) |
+|---|---|---:|---:|---:|
+| Qwen2.5-7B-Instruct | bwUniCluster, BF16 | 50.2% | 66.2% | 118 / 604 |
+| Qwen2.5-14B-Instruct | bwUniCluster, BF16 | 47.6% | 59.0% | 244 / 604 |
+| Llama-3.1-8B-Instruct | Kaggle, FP16 | 50.7% | 72.1% | 104 / 604 |
+| Gemma-4-E4B-it | Kaggle, FP16 | 51.3% | 61.5% | 254 / 604 |
+| Gemma-4-12B-it | Kaggle, FP16 | 53.7% | 45.5% | 132 / 604 |
 
-- 五个模型中有四个平均偏向表二（59.0%–72.1%），Gemma-4-12B 略偏向表一（表二为 45.5%）。
+- **P(备选) / P(alternative)**：选择备选值的平均概率，用于观察模型偏向原值还是备选。<br>The mean probability of choosing the alternative, indicating preference for the original versus the alternative.
 
-  Four of the five models favour Table 2 on average (59.0%–72.1%), while Gemma-4-12B slightly favours Table 1 (45.5% for Table 2).
-- “两种表序均偏向同一值”统计：交换表序前后，模型给同一个值的概率两次都超过 80% 的值对。
+- **P(表二) / P(Table 2)**：选择第二张表所含值的平均概率，用于观察位置偏好。<br>The mean probability of choosing the value in the second table, indicating position preference.
 
-  This column counts pairs where the same value receives a probability above 80% in both table orders.
+- **两种表序均偏向同一值（>80%） / Same value preferred in both orders (>80%)**：换位前后，同一个值的概率均超过80%的值对数量。<br>The number of pairs where the same value receives more than 80% probability in each table order.
+
+五个模型中有四个平均偏向表二（59.0%–72.1%），Gemma-4-12B略偏向表一（表二为45.5%）。
+
+Four of the five models favour Table 2 on average (59.0%–72.1%), while Gemma-4-12B slightly favours Table 1 (45.5% for Table 2).
 
 ## 首 token / First token
 
@@ -38,9 +41,16 @@ First tokens across 1,208 items per model:
 
 ## 五个模型共同偏向同一值的 17 对 / The 17 pairs where all five models favour the same value
 
-五个模型都满足上述条件的 17 对如下，按属性排列：较高学历 10 对、较大人数 4 对、“已婚” 3 对。加粗的是五个模型都偏向的值。每对值测两次，第二次交换两张表的位置；百分比是两次选中备选值的平均概率。例如 PERSON-4 的原值是“已婚”，备选值是“未婚”。Gemma-12B 两次选“未婚”的概率是 1% 和 10%，平均约 5%，所以它偏向“已婚”。
+五模型在两种表序中都以超过80%的概率偏向同一个值的有17对：较高学历10对、较大人数4对、“已婚”3对。
 
-The 17 pairs meeting this condition for all five models are grouped by attribute: higher education (10), larger counts (4) and “Married” (3). Bold marks the value all five models favour. Each pair is tested twice, with the two tables swapped the second time; each percentage is the average probability of choosing the alternative value. For example, PERSON-4 has the original value “Married” and the alternative “Never married”. Gemma-4-12B gives “Never married” 1% and 10%, about 5% on average, so it favours “Married”.
+Across all five models, 17 pairs show a preference above 80% for the same value in each table order: higher education (10), larger counts (4) and “Married” (3).
+
+<details>
+<summary>17对完整清单与读表示例 / All 17 pairs and a reading example</summary>
+
+- 加粗为五模型共同偏好的值；概率为两种表序的平均P(备选)，取整。<br>Bold marks the value all five models favour; percentages are mean P(alternative) across both orders, rounded to whole percentages.
+
+- 例如，PERSON-4的原值是“已婚”，备选是“未婚”。Gemma-12B两次选“未婚”的概率约为1%和10%，平均约5%，所以它偏向“已婚”。<br>For PERSON-4, the original is “Married” and the alternative is “Never married”. Gemma-12B assigns about 1% and 10% to “Never married” in the two orders, about 5% on average, so it favours “Married”.
 
 | 实体 / Entity | 属性 / Attribute | 原值 / Original | 备选 / Alternative | Qwen-7B | Qwen-14B | Llama-8B | Gemma-E4B | Gemma-12B |
 |---|---|---|---|---:|---:|---:|---:|---:|
@@ -62,14 +72,8 @@ The 17 pairs meeting this condition for all five models are grouped by attribute
 | PERSON-4 |  | **已婚 / Married** | 未婚 / Never married | 0% | 0% | 0% | 4% | 5% |
 | PERSON-8 |  | 未婚 / Never married | **已婚 / Married** | 93% | 100% | 100% | 99% | 96% |
 
-## 详细结果 / Detailed results
+</details>
 
-每个模型的完整输入、逐题概率和详细统计如下。
+全部输入、逐题结果与分析文件见[文件入口](README.md)。
 
-Full inputs, item-level probabilities and detailed statistics are linked below for each model. Inputs and item-level results are matched by item number i.
-
-- Qwen2.5-7B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/analysis.json)
-- Qwen2.5-14B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/analysis.json)
-- Llama-3.1-8B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/analysis.json)
-- Gemma-4-E4B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-E4B-it_full_v1/analysis.json)
-- Gemma-4-12B：[输入 / Inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-12B-it_full_v1/prompts.jsonl) · [逐题结果 / Item-level results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-12B-it_full_v1/raw.json) · [详细统计 / Detailed statistics](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/gemma-4-12B-it_full_v1/analysis.json)
+See the [file index](README.md) for all inputs, item-level results and analysis files.
