@@ -33,10 +33,8 @@ First tokens across 1,208 items per model:
 | Gemma-4-E4B | 790 | `(`: 418 |
 | Gemma-4-12B | 853 | 无法 (unable): 170; `(`: 127; `thought`: 40; 由于 (because): 10; `<\|channel>`: 4; `1`: 4 |
 
-- **E4B后续核对：** 对418道先输出括号的题继续生成，82题随后写出的字母与同次核对运行的首步A/B概率判断不同。[核对记录](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
-  **E4B follow-up:** Among the 418 items starting with “(”, the next letter differed from the first-step A/B preference in 82 items in the same check run. [Check results](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json).
-- **测量问题：** 当前概率取自生成第一步。对于先输出其他内容的题，这些概率能否代表后续答案选择，仍待确定。
-  **Measurement:** The reported probabilities come from the first generation step. Whether they represent the later answer choice when another token comes first remains unresolved.
+- **E4B核对：** 418道先输出“(”的题中，有82道出现这种情况：首步A/B分数更偏向一个选项，但接着写出的字母却是另一个。[核对记录](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
+  **E4B check:** In 82 of the 418 items starting with “(”, the first-step A/B scores favoured one option, but the next letter indicated the other. [Check results](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
 
 ## 三个模型共同偏向同一值的 23 对 / The 23 pairs where three models favour the same value
 
