@@ -48,7 +48,7 @@ This example shows an actual test pair: the original value and one alternative a
 (B) 1986年10月27日
 ```
 
-**英文释义（非模型输入）/ English reading translation (not model input):**
+**英文释义/ English reading translation:**
 
 ```text
 Context:
