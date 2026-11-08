@@ -10,8 +10,8 @@
   **Why:** WFW independently samples four dates within one year. One date is sampled from each period, yielding two earlier and two later dates, one near and one farther away on each side, while avoiding differences of fewer than 30 days. A fixed seed derived from 42, the entity ID and attribute name makes each selection reproducible; the table lists the actual offsets.
 - **相容性检查**：按出题方式，将备选与同一实体的其他原值搭配检查；相关行列出检查时使用的原值。  
   **Compatibility check:** Alternatives were checked against the same entity’s other original values, as used in the test items. Relevant rows list the original values used for the check.
-- **Baseline**：已使用 v1 运行三个模型的无信源测试；等可信性和位置偏差的诊断见[三模型结果](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md)。  
-  **Baseline:** Three models have been tested on v1 without sources; see the [results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md) for equal-plausibility and position-bias diagnostics.
+- **Baseline**：已使用 v1 运行五个模型的无信源测试；等可信性和位置偏差的诊断见[五模型结果](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md)。  
+  **Baseline:** Five models have been tested on v1 without sources; see the [results](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md) for equal-plausibility and position-bias diagnostics.
 
 ## PERSON-1：郑淑芬 / Zheng Shufen
 

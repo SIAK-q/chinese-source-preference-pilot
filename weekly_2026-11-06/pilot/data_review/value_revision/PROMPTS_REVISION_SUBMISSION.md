@@ -67,8 +67,8 @@ List attributes with unsettled rules or potential conflicts with background info
 **Prompt**：逐行审核拟修改项；仅在备选明显反直觉时修改类别值，不为格式统一而改变原值。数值备选兼顾该实体的合理性与自然写法。
 Review the proposed changes item by item. Change categorical alternatives only when clearly counter-intuitive, and do not change original values merely for formatting consistency. Choose numerical alternatives that are plausible for the entity and naturally written.
 
-**结果 / Result**：采用一项职业备选替换；其余拟替换的类别备选保留。四个原值保留原有写法，数值备选相应调整。具体改动记录在 `full_v1/build_full_v1.py` 的 `REVIEW_EDITS` 和 `full_v1/` 的变更文件中。修订版 v1 共 151 个属性、1208 题。Qwen2.5-7B、Llama-3.1-8B 和 Gemma-4-E4B 的无信源 baseline 已运行，结果见实验记录。
-One occupation alternative was replaced; the other proposed categorical replacements were not adopted. Four original values retained their original written form and their numerical alternatives were adjusted. Details are recorded in `REVIEW_EDITS` in `full_v1/build_full_v1.py` and the change files in `full_v1/`. Revised v1 has 151 attributes and 1,208 items. Source-free baselines have been run with Qwen2.5-7B, Llama-3.1-8B and Gemma-4-E4B; results are in the experiment records.
+**结果 / Result**：采用一项职业备选替换；其余拟替换的类别备选保留。四个原值保留原有写法，数值备选相应调整。具体改动记录在 `full_v1/build_full_v1.py` 的 `REVIEW_EDITS` 和 `full_v1/` 的变更文件中。修订版 v1 共 151 个属性、1208 题。五个模型的无信源 baseline 结果见[结果页](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md)。
+One occupation alternative was replaced; the other proposed categorical replacements were not adopted. Four original values retained their original written form and their numerical alternatives were adjusted. Details are recorded in `REVIEW_EDITS` in `full_v1/build_full_v1.py` and the change files in `full_v1/`. Revised v1 has 151 attributes and 1,208 items. Source-free baseline results for five models are on the [results page](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md).
 
 ## 5. 属性相容性筛查 / Attribute compatibility screen
 
