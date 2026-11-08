@@ -21,12 +21,22 @@ Five models were tested on the same v1 data. Each original–alternative pair wa
 
 ## 首 token / First token
 
-- Gemma-4-E4B：1208 题中有 418 题以 “(” 开头。这 418 题中有 82 题，“(” 后写的字母与核对运行中第一步概率较高的选项不同（[核对结果](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)）。
-  Gemma-4-E4B began with "(" in 418 of 1,208 items. In 82 of these 418, the letter written after "(" differed from the option with the higher first-step probability in the check run ([check](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)).
-- Gemma-4-12B：1208 题中有 355 题的首 token 不是 A 或 B：“无法”170、“(”127、“thought”40、“由于”10、“<|channel>”4、“1”4。
-  Gemma-4-12B gave a first token other than A or B in 355 of 1,208 items: "无法" ("unable") 170, "(" 127, "thought" 40, "由于" ("because") 10, "<|channel>" 4 and "1" 4.
-- 两个 Gemma 4 模型的结果照常报告，测量方式待确认。Qwen2.5-7B 有 34/1208 题的首 token 是整体的 “(A” 或 “(B”。
-  Results for both Gemma 4 models are reported with the measurement still to be confirmed. Qwen2.5-7B produced "(A" or "(B" as a single first token in 34 of 1,208 items.
+每个模型共1208题，实际生成的首token如下。
+
+First tokens across 1,208 items per model:
+
+| 模型 / Model | A或B / A or B | 其他 / Other |
+|---|---:|---|
+| Qwen2.5-7B | 1,174 | `(A` / `(B`: 34 |
+| Qwen2.5-14B | 1,208 | 0 |
+| Llama-3.1-8B | 1,208 | 0 |
+| Gemma-4-E4B | 790 | `(`: 418 |
+| Gemma-4-12B | 853 | 无法 (unable): 170; `(`: 127; `thought`: 40; 由于 (because): 10; `<\|channel>`: 4; `1`: 4 |
+
+- **E4B后续核对：** 对418道先输出括号的题继续生成，82题随后写出的字母与同次核对运行的首步A/B概率判断不同。[核对记录](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
+  **E4B follow-up:** Among the 418 items starting with “(”, the next letter differed from the first-step A/B preference in 82 items in the same check run. [Check results](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json).
+- **测量问题：** 当前概率取自生成第一步。对于先输出其他内容的题，这些概率能否代表后续答案选择，仍待确定。
+  **Measurement:** The reported probabilities come from the first generation step. Whether they represent the later answer choice when another token comes first remains unresolved.
 
 ## 三个模型共同偏向同一值的 23 对 / The 23 pairs where three models favour the same value
 
