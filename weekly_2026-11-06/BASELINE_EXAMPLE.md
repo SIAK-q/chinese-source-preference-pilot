@@ -1,8 +1,8 @@
 # 无信源 baseline：一道例题 / One source-free baseline pair
 
-以下是一组实际测试题：将原值和一个备选分别放入两张表，交换顺序后各测试一次。两个表序的输入和三个模型的输出如下。表格中不标注具体信源。
+以下是一组实际测试题：将原值和一个备选分别放入两张表，交换顺序后各测试一次。两个表序的输入和五个模型的输出如下。表格中不标注具体信源。
 
-This example shows an actual test pair: the original value and one alternative appear in separate tables, and the test is repeated with their positions swapped. The inputs for both orders and the outputs from three models are shown below. Neither table includes a source label.
+This example shows an actual test pair: the original value and one alternative appear in separate tables, and the test is repeated with their positions swapped. The inputs for both orders and the outputs from five models are shown below. Neither table includes a source label.
 
 ## System prompt
 
@@ -44,8 +44,8 @@ This example shows an actual test pair: the original value and one alternative a
 
 
 郑淑芬的出生日期是哪一天？
-（A）1987年8月14日
-（B）1986年10月27日
+(A) 1987年8月14日
+(B) 1986年10月27日
 ```
 
 **英文释义（非模型输入）/ English reading translation (not model input):**
@@ -116,8 +116,8 @@ What is Zheng Shufen's date of birth?
 
 
 郑淑芬的出生日期是哪一天？
-（A）1986年10月27日
-（B）1987年8月14日
+(A) 1986年10月27日
+(B) 1987年8月14日
 ```
 
 **英文释义 / English reading translation:**
@@ -164,17 +164,21 @@ What is Zheng Shufen's date of birth?
 - **P(A) 和 P(B)**：根据模型生成第一个 token 时 A、B 的分数，计算两者之间的相对概率；每行相加为 1。数值越高，表示模型越倾向该选项。  
   These are probabilities calculated from the model’s first-token scores for A and B, normalised over those two options; each row sums to 1. A higher value indicates a stronger preference for that option.
 
-- **例如 / Example**：Qwen 在表序 0 中偏向 B（97.6%），在表序 1 中偏向 A（约 100%）。两次偏向的都是同一个日期：备选日期 1986-10-27。  
-  Qwen favours B in order 0 (97.6%) and A in order 1 (approximately 100%). In both orders, it favours the same date: the alternative, 1986-10-27.
+- **例如 / Example**：Qwen2.5-7B 在表序 0 中偏向 B（99.7%），在表序 1 中偏向 A（约 100%）。两次偏向的都是同一个日期：备选日期 1986-10-27。  
+  Qwen2.5-7B favours B in order 0 (99.7%) and A in order 1 (approximately 100%). In both orders, it favours the same date: the alternative, 1986-10-27.
 
-| 模型 / Model | 表序 / Order | P(A) | P(B) |
-|---|---:|---:|---:|
-| Qwen2.5-7B-Instruct | 0 | 0.023655 | 0.976345 |
-| Qwen2.5-7B-Instruct | 1 | 0.999990 | 0.000010 |
-| Llama-3.1-8B-Instruct | 0 | 0.022629 | 0.977371 |
-| Llama-3.1-8B-Instruct | 1 | 0.927363 | 0.072637 |
-| gemma-4-E4B-it | 0 | 0.715424 | 0.284576 |
-| gemma-4-E4B-it | 1 | 0.894789 | 0.105211 |
+| 模型 / Model | 表序 / Order | P(A) | P(B) | 首 token / First token |
+|---|---:|---:|---:|---|
+| Qwen2.5-7B-Instruct | 0 | 0.003173 | 0.996827 | `B` |
+| Qwen2.5-7B-Instruct | 1 | 0.999999 | 0.000001 | `A` |
+| Qwen2.5-14B-Instruct | 0 | 0.999979 | 0.000021 | `A` |
+| Qwen2.5-14B-Instruct | 1 | 1.000000 | 0.000000 | `A` |
+| Llama-3.1-8B-Instruct | 0 | 0.007012 | 0.992988 | `B` |
+| Llama-3.1-8B-Instruct | 1 | 0.757794 | 0.242206 | `A` |
+| Gemma-4-E4B-it | 0 | 0.835484 | 0.164516 | `A` |
+| Gemma-4-E4B-it | 1 | 0.872347 | 0.127653 | `A` |
+| Gemma-4-12B-it | 0 | 0.905322 | 0.094678 | `(` |
+| Gemma-4-12B-it | 1 | 0.488283 | 0.511717 | `无法` |
 
 全部 1,208 题的输入见 prompts.jsonl，逐题的 P(A) 和 P(B) 见 raw.json，两者按题目编号 i 对应。
 

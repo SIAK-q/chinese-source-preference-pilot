@@ -10,7 +10,8 @@ This directory contains the data and experiment materials for the 6 November mee
 - [原始 pilot 数据 → v1 完整对照表 / Full original pilot data → v1 comparison](pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)：全部 30 个实体、151 个属性、每项原值与四个备选，中英对照及修订说明。/ All 30 entities and 151 attributes, with original values, four alternatives and revision rationales in Chinese and English.
 - [数据修订 prompt 与结果 / Data revision prompts and results](pilot/data_review/value_revision/PROMPTS_REVISION_SUBMISSION.md)：修订规则、相容性检查及修改。/ Revision rules, compatibility screening and changes.
 - [WFW 与中文测试 prompt 对照 / WFW–Chinese prompt comparison](PROMPT_COMPARISON.md)：system prompt 与测试形式。/ System prompt and test format.
-- [无信源输入与输出示例 / Example input and output](BASELINE_EXAMPLE.md)：一道真实题的两个表序、英文释义及三个模型输出。/ One actual pair in both table orders, an English reading translation and the three models' outputs.
+- [信源名称生成规程草稿 / Draft source-name generation protocol](SOURCE_GENERATION_PROTOCOL_DRAFT.md)：四类信源的格式、例子和依据；正式名称尚未生成。/ Format, examples and basis for the four source types; no names have been generated for the formal study yet.
+- [无信源输入与输出示例 / Example input and output](BASELINE_EXAMPLE.md)：一道真实题的两个表序、英文释义及五个模型输出。/ One actual pair in both table orders, an English reading translation and the five models' outputs.
 - [baseline 结果与全部文件 / Baseline results and complete files](#无信源-baseline--source-free-baseline)：逐模型输入、原始输出、分析和汇总。/ Complete model inputs, raw outputs, analysis and summaries.
 
 ## 数据与方法 / Data and method
@@ -28,8 +29,8 @@ This directory contains the data and experiment materials for the 6 November mee
 
 ## 无信源 baseline / Source-free baseline
 
-- 三次运行使用同一版 v1 数据。每对值测试两次：先将原值放在表一、备选放在表二，再交换位置。
-  All three runs use v1. Each pair is tested twice: first with the original in Table 1 and the alternative in Table 2, then with their positions swapped.
+- 五次运行使用同一版 v1 数据。每对值测试两次：先将原值放在表一、备选放在表二，再交换位置。
+  All five runs use v1. Each pair is tested twice: first with the original in Table 1 and the alternative in Table 2, then with their positions swapped.
 
 - **P(备选)**：模型选择备选值的平均概率，看模型偏向原值还是备选。
   **P(alternative):** the mean probability of choosing the alternative, indicating preference for the alternative versus the original.
@@ -38,21 +39,25 @@ This directory contains the data and experiment materials for the 6 November mee
 - **两种表序均偏向同一值（>80%）**：统计交换位置前后，模型对同一个值的概率都超过 80% 的值对。80% 是本项目暂用的筛查门槛。
   **Same value preferred in both orders (>80%):** the number of pairs where the model assigns more than 80% probability to the same value in each table order. The 80% threshold is a provisional screening choice for this project.
 
-| 模型 / Model | P(备选) / P(alternative) | P(表二) / P(Table 2) | 两种表序均偏向同一值（>80%） / Same value preferred in both orders (>80%) |
-|---|---:|---:|---:|
-| Qwen2.5-7B-Instruct | 49.9% | 63.2% | 126 / 604 |
-| Llama-3.1-8B-Instruct | 50.6% | 71.9% | 96 / 604 |
-| Gemma-4-E4B-it | 51.7% | 58.8% | 284 / 604 |
+| 模型 / Model | 运行 / Run | P(备选) / Mean P(alternative) | P(表二) / Mean P(Table 2) | 两种表序均偏向同一值（>80%） / Same value preferred in both orders (>80%) | 首 token 不是 A 或 B / First token not A or B |
+|---|---|---:|---:|---:|---:|
+| Qwen2.5-7B-Instruct | bwUniCluster, BF16 | 50.2% | 66.2% | 118 / 604 | 34 / 1,208 |
+| Qwen2.5-14B-Instruct | bwUniCluster, BF16 | 47.6% | 59.0% | 244 / 604 | 0 / 1,208 |
+| Llama-3.1-8B-Instruct | Kaggle, FP16 | 50.7% | 72.1% | 104 / 604 | 0 / 1,208 |
+| Gemma-4-E4B-it | Kaggle, FP16 | 51.3% | 61.5% | 254 / 604 | 418 / 1,208 |
+| Gemma-4-12B-it | Kaggle, FP16 | 53.7% | 45.5% | 132 / 604 | 355 / 1,208 |
 
-[三模型中英结果说明 / Bilingual results for all three models](BASELINE_RESULTS_ZH_EN.md)
+[五模型中英结果说明 / Bilingual results for all five models](BASELINE_RESULTS_ZH_EN.md)
 
 | 模型 / Model | 全部输入 / All prompts | 原始输出 / Raw output | 逐题分析 / Analysis | 汇总 / Summary |
 |---|---|---|---|---|
 | Qwen2.5-7B | [prompts](pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl) | [raw](pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/raw.json) | [analysis](pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/analysis.json) | [summary](pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/summary.md) |
+| Qwen2.5-14B | [prompts](pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/prompts.jsonl) | [raw](pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/raw.json) | [analysis](pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/analysis.json) | [summary](pilot/results_baseline/Qwen2.5-14B-Instruct_full_v1/summary.md) |
 | Llama-3.1-8B | [prompts](pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/prompts.jsonl) | [raw](pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/raw.json) | [analysis](pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/analysis.json) | [summary](pilot/results_baseline/Llama-3.1-8B-Instruct_full_v1/summary.md) |
 | Gemma-4-E4B | [prompts](pilot/results_baseline/gemma-4-E4B-it_full_v1/prompts.jsonl) | [raw](pilot/results_baseline/gemma-4-E4B-it_full_v1/raw.json) | [analysis](pilot/results_baseline/gemma-4-E4B-it_full_v1/analysis.json) | [summary](pilot/results_baseline/gemma-4-E4B-it_full_v1/summary.md) |
+| Gemma-4-12B | [prompts](pilot/results_baseline/gemma-4-12B-it_full_v1/prompts.jsonl) | [raw](pilot/results_baseline/gemma-4-12B-it_full_v1/raw.json) | [analysis](pilot/results_baseline/gemma-4-12B-it_full_v1/analysis.json) | [summary](pilot/results_baseline/gemma-4-12B-it_full_v1/summary.md) |
 
-原始输出中的 `prob_a` / `prob_b` 是首个 token 的 A/B 分数只在两个答案 token 之间归一化后的概率。`revision_requested` 是请求的模型版本。总体备选概率接近 50% 不能单独证明两个值等可信；三个模型均有位置偏差。/ `prob_a` and `prob_b` are probabilities normalised only over the two answer-token scores at the first generation step. `revision_requested` records the requested model revision. Mean P(alternative) near 50% alone does not establish equal plausibility; all three models show position bias.
+原始输出中的 `prob_a` / `prob_b` 是首个 token 的 A/B 分数只在两个答案 token 之间归一化后的概率。`revision_requested` 是请求的模型版本。总体备选概率接近 50% 不能单独证明两个值等可信；五个模型中有四个平均偏向表二，Gemma-4-12B 略偏向表一。/ `prob_a` and `prob_b` are probabilities normalised only over the two answer-token scores at the first generation step. `revision_requested` records the requested model revision. Mean P(alternative) near 50% alone does not establish equal plausibility; Four of the five models favour Table 2 on average, while Gemma-4-12B slightly favours Table 1.
 
 推理与分析实现：[`prompt_zh.py`](pilot/prompt_zh.py)、[`run_baseline.py`](pilot/run_baseline.py)、[`run_baseline_compat.py`](pilot/run_baseline_compat.py)、[`model_compat.py`](pilot/model_compat.py)、[`run_pilot.py`](pilot/run_pilot.py)、[`analyze_baseline.py`](pilot/analyze_baseline.py)。
 
