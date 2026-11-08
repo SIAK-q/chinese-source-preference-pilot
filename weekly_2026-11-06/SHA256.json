@@ -18,7 +18,7 @@
   "pilot/run_pilot.py": "083ed1df0c241c7e5473f6c10aebb1c35f9d7f30bb31a55f688f105403059ceb",
   "pilot/run_baseline.py": "ec88ee94023135f391773c01babf99a5587148ce1440536ea0b0da173a72ba65",
   "pilot/run_baseline_compat.py": "2590b00f598d722470ca6a1ffdcc76b4645bc40ecd1c78f6f8d42e44166e6e7a",
-  "pilot/model_compat.py": "71d391c23dd318222b8cb823f8704f7067cab659839f3197535d5ed6400b05a1",
+  "pilot/model_compat.py": "a6d1fd09d8119b1828529023f0cb12ed40df200bfc7b1986e90564652afe98b1",
   "pilot/analyze_baseline.py": "4a0e3d6d6751b9ec861e2a95e4ae0389434fc191929206bbd08a61623ee76d99",
   "pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl": "eea1e473c983df0df46b46bbd68c22ac9bb8ee8a003e8b16adda91f77c266ef5",
   "pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/raw.json": "30962d36fe5956efd53c450b40ac6ed5b4e1a2ad1f97f393f331934441716cc7",

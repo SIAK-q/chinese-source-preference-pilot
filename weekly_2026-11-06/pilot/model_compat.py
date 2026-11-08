@@ -16,8 +16,6 @@ PINNED = {
     "meta-llama/Llama-3.1-8B-Instruct": "0e9e39f249a16976918f6564b8830bc894c89659",
     # 11-08：Kimi-Linear 版本与 Codex 小测记录一致（models/work_records/2026-11-07-kimi-linear-readiness/）
     "moonshotai/Kimi-Linear-48B-A3B-Instruct": "e1df551a447157d4658b573f9a695d57658590e9",
-    # 11-08：WFW 同款 Gemma 3，作括号现象对照（Hugging Face API sha，2026-11-08）
-    "google/gemma-3-4b-it": "093f9f388b31de276ce2de164bdc2081324b9767",
 }
 
 
