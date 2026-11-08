@@ -20,7 +20,7 @@ The model wrote the scripts and data in three rounds, ending with 30 entities an
 | **第二轮**<br>Round 2 | [指令3](prompts/3_corrections.md)。<br>[Prompt 3](prompts/3_corrections.md). | 参考第一版重写脚本，修改名称、字段和部分取值；写入机构和产品的新品牌名、地点的下辖乡镇数。人名分为三个互不重叠的名单：8个人物实体、5个个人信源、7个设计师和创作者。地名改为县市级两字名（如平宁、临源），政府、报纸、地点实体、其他实体各5个。<br>The script was rewritten with the first version as context, revising names, fields and some values, and adding new organization and product brand names and location town/township counts. Person names were divided into three non-overlapping lists: 8 person entities, 5 individual sources, and 7 architects and creators. Place names became two-character county/city-level names (e.g. 平宁, 临源), 5 each for government, newspapers, location entities and other entities. | [第二版脚本 / Second script](prompts/round2/output_round2.md) · [第二版数据 / Second data](prompts/round2/output_round2.jsonl)：30实体、151项属性 / 30 entities, 151 attributes |
 | **第三轮**<br>Round 3 | [指令4](prompts/4_shared_place_pool.md)。<br>[Prompt 4](prompts/4_shared_place_pool.md). | 政府、报纸和实体共用20个地名（如双陵、通溪）：前10个交错分给政府和报纸，后10个给实体。据此生成政府和报纸信源名称，并更新实体名称、现居城市和主办方中的地名；其他取值不变。[地名方法](place_names/README.md)。<br>Government, newspapers and entities share 20 place names (e.g. 双陵, 通溪): the first 10 alternate between government and newspapers, and the last 10 go to entities. Government and newspaper source names were built from this pool, and place names in entity names, cities of residence and organizers were updated; other values are unchanged. [Place-name method](place_names/README.md). | [第三轮脚本与数据 / Round 3 scripts and data](prompts/round3/README.md) |
 
-## 哪些值由模型写，哪些由代码填 / Values written by the model and filled by code
+## 取值来源 / Value sources
 
 - 原值和备选由模型写入脚本。人物部分先写职业，后写学历。
 
