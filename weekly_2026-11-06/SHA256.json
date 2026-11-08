@@ -11,7 +11,7 @@
   "pilot/data_review/value_revision/full_v1/build_full_v1.py": "f94ea5c93122e06ff18dff76564359184eac870041c0aea6ec0721312338f609",
   "pilot/data_review/value_revision/full_v1/entities_full_v1.jsonl": "2888f2ade9e864dc3fc14fe957a0c471a0369ff173660f73e3af6a53bca1491a",
   "pilot/data_review/value_revision/full_v1/changes_from_draft.json": "a0a88e21ec767ffb3b6bcba3e20b24f248c8a90bb16c658dacbcf1de97ceb095",
-  "pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md": "e55e4d6777ee62d4dc9efcb306bb168719d6757a4f483f20529064bea16444de",
+  "pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md": "deb653358ba0044bea7caed046fa9390321e9e99b359cb5d7f2f2ae39164e979",
   "pilot/data_review/value_revision/full_v1/compat_check_v1.py": "bcd9c987d9531fd7982be8ebf5b970d50eabbcce8a208c2249a64b56e6e1502d",
   "pilot/data_review/value_revision/full_v1/compat_check_v1.json": "30b13963ddfe79f88d55a3d153bfa32563931c2195a78824e726193f36751b6f",
   "pilot/prompt_zh.py": "41c3b51d5c5dc0ceac898415537f8496357e1ec7846aa2c143e797fbfb38c39b",
