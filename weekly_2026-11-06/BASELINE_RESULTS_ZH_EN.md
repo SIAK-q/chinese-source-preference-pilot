@@ -34,7 +34,7 @@ First tokens across 1,208 items per model:
 | Qwen2.5-14B | 1,208 | 0 |
 | Llama-3.1-8B | 1,208 | 0 |
 | Gemma-4-E4B | 790 | `(`: 418 |
-| Gemma-4-12B | 853 | 无法 (unable): 170; `(`: 127; `thought`: 40; 由于 (because): 10; `<\|channel>`: 4; `1`: 4 |
+| Gemma-4-12B | 853 | unable: 170; `(`: 127; `thought`: 40; because: 10; `<\|channel>`: 4; `1`: 4 |
 
 - **E4B核对：** 418道先输出“(”的题中，有82道出现这种情况：首步A/B分数更偏向一个选项，但接着写出的字母却是另一个。[核对记录](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
   **E4B check:** In 82 of the 418 items starting with “(”, the first-step A/B scores favoured one option, but the next letter indicated the other. [Check results](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
