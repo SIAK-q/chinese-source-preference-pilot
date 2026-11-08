@@ -2,7 +2,7 @@
 
 - **数据范围 / Data**：30个虚构实体、151项冲突属性，对照原始 pilot 数据与修订版v1。<br>30 fictional entities and 151 conflict attributes, comparing the original pilot data with revised v1.
 
-- **读表方式 / Reading the tables**：0为原值，1–4为备选；“同原始数据”表示该属性的五个值均未改变。<br>Index 0 is the original value and 1–4 are alternatives. “Unchanged” means all five values are identical to the original data.
+- **读表方式 / Reading the tables**：0为原值，1–4为备选；同原始数据表示该属性的五个值均未改变。<br>Index 0 is the original value and 1–4 are alternatives. Unchanged means all five values are identical to the original data.
 
 - **相容性检查 / Compatibility check**：每次只改变一个属性，将各备选与同一实体的其他原值搭配检查；相关行保留检查时使用的具体原值。<br>Each item changes one attribute. Alternatives were checked against the same entity’s other original values; relevant rows list the specific original values used.
 
@@ -13,11 +13,21 @@ The 604 pairs are tested in both table orders, giving 1,208 items. [Revision pro
 <details>
 <summary>出生及发布日期的抽样规则 / Sampling rules for birth and release dates</summary>
 
-- 在原日期前后一年内各选两个备选：前183–365天、前30–182天、后30–182天、后183–365天，各随机选一天。<br>Sample one date from each of four intervals: 183–365 days earlier, 30–182 days earlier, 30–182 days later and 183–365 days later.
+四个区间各随机抽一天，得到四个备选日期：
 
-- WFW在前后一年内独立抽取四个日期；本项目按四个区间抽取，使备选两早两晚、每边一近一远，并排除与原日期相差不足30天的日期。<br>WFW independently samples four dates within one year of the original. This project samples from four intervals to obtain two earlier and two later dates, one near and one farther away on each side, excluding differences of fewer than 30 days.
+One date is sampled from each interval to obtain four alternatives:
 
-- 每个实体和属性使用由42、实体ID和字段名确定的随机种子；表中保留各备选的实际天数差。<br>A seed derived from 42, the entity ID and attribute name makes sampling reproducible. The tables retain each alternative’s actual offset.
+- **前183–365天**：比原日期早约半年至一年，抽一个较远的早日期。<br>**183–365 days earlier:** a date roughly six months to one year before the original, providing a farther earlier alternative.
+
+- **前30–182天**：比原日期早约一个月至半年，抽一个较近的早日期。<br>**30–182 days earlier:** a date roughly one to six months before the original, providing a nearer earlier alternative.
+
+- **后30–182天**：比原日期晚约一个月至半年，抽一个较近的晚日期。<br>**30–182 days later:** a date roughly one to six months after the original, providing a nearer later alternative.
+
+- **后183–365天**：比原日期晚约半年至一年，抽一个较远的晚日期。<br>**183–365 days later:** a date roughly six months to one year after the original, providing a farther later alternative.
+
+WFW在前后一年内独立抽取四个日期；本项目改为从上述四个区间各抽一天。随机种子由42、实体ID和字段名确定，各备选与原日期的天数差见表。
+
+WFW independently samples four dates within one year of the original; this project samples one from each interval above. The seed is derived from 42, the entity ID and attribute name. Actual date offsets are listed in the tables.
 
 </details>
 
