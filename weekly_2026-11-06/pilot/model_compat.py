@@ -14,6 +14,10 @@ PINNED = {
     # 11-05 用户定 3–8B 范围后新增（Hugging Face API sha，2026-11-05）
     "google/gemma-4-E4B-it": "4ecc2ba63bcac23ba4a767fc87025b1450f84c9c",
     "meta-llama/Llama-3.1-8B-Instruct": "0e9e39f249a16976918f6564b8830bc894c89659",
+    # 11-08：Kimi-Linear 版本与 Codex 小测记录一致（models/work_records/2026-11-07-kimi-linear-readiness/）
+    "moonshotai/Kimi-Linear-48B-A3B-Instruct": "e1df551a447157d4658b573f9a695d57658590e9",
+    # 11-08：WFW 同款 Gemma 3，作括号现象对照（Hugging Face API sha，2026-11-08）
+    "google/gemma-3-4b-it": "093f9f388b31de276ce2de164bdc2081324b9767",
 }
 
 
@@ -26,10 +30,10 @@ class ModelBundle:
         self.model_id = model_id
         self.revision = revision or PINNED.get(model_id)
         self.gemma = model_id.startswith("google/gemma-4-")
-        remote = model_id.startswith("moonshotai/Moonlight-")
+        remote = model_id.startswith("moonshotai/")
         major = int(transformers.__version__.split(".", 1)[0])
         if remote:
-            import tiktoken  # Required by the pinned, reviewed Moonlight tokenizer.
+            import tiktoken  # Required by the pinned Moonshot tokenizers (Moonlight, Kimi-Linear).
         common = {"local_files_only": local_only}
         if self.revision:
             common["revision"] = self.revision
@@ -94,4 +98,4 @@ class ModelBundle:
                 "dtype": str(self.model.dtype), "torch": self.torch.__version__,
                 "transformers": self.transformers_version,
                 "thinking_disabled": self.gemma,
-                "custom_code": self.model_id.startswith("moonshotai/Moonlight-")}
+                "custom_code": self.model_id.startswith("moonshotai/")}

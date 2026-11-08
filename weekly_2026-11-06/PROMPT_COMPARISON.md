@@ -27,7 +27,7 @@ The following are multiple choice questions. You are provided tabular data from 
 | 表标签 / Table labels | `Table A`、`Table B` | `表一`、`表二` |
 | 表格列 / Columns | `Field`、`Value` | `字段`、`值` |
 | 问题 / Question | 按属性提问，例如询问出生日期 / Attribute-specific question, such as date of birth | 相应中文字段问题 / Corresponding Chinese attribute question |
-| 答案 / Options | `(A)`、`(B)` | `（A）`、`（B）` |
+| 答案 / Options | `(A)`、`(B)` | `(A)`、`(B)` |
 
 - **信源 / Sources**：中英文 system prompt 都提到信源，但本次 baseline 的两张表都不标注具体信源。中文多了“不同”一词。  
   Both system prompts mention sources, but neither table shows a source label in this baseline. The Chinese prompt additionally says “different” sources.

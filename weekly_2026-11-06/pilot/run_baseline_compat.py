@@ -65,6 +65,7 @@ def main():
             if not (math.isfinite(pa) and math.isfinite(pb)):
                 raise SystemExit(f"概率不是有限数（{pa}, {pb}），可能是精度溢出；换 --dtype 再试")
             r["prob_a"], r["prob_b"] = pa, pb
+            r["first_token"] = d   # 11-08：逐题保存实际首 token，便于核对指令遵循
             first_tokens.append(d)
         done = s + len(batch)
         if (s // args.batch_size) % 20 == 0 or done == len(recs):
