@@ -29,8 +29,8 @@ The following are multiple choice questions. You are provided tabular data from 
 | 问题 / Question | 按属性提问，例如询问出生日期 / Attribute-specific question, such as date of birth | 相应中文字段问题 / Corresponding Chinese attribute question |
 | 答案 / Options | `(A)`、`(B)` | `(A)`、`(B)` |
 
-- **信源 / Sources**：中英文 system prompt 都提到信源，但本次 baseline 的两张表都不标注具体信源。中文多了“不同”一词。  
-  Both system prompts mention sources, but neither table shows a source label in this baseline. The Chinese prompt additionally says “different” sources.
+- **信源 / Sources**：中英文 system prompt 都提到信源，但本次 baseline 的两张表都不标注具体信源。
+  Both system prompts mention sources, but neither table shows a source label in this baseline. 
 
 - **表格和答案 / Tables and answers**：中文用“表一”和“表二”区分两张表，答案仍用 A 和 B。  
   The Chinese prompt labels the tables “表一” and “表二”; the answer options remain A and B.
@@ -38,5 +38,5 @@ The following are multiple choice questions. You are provided tabular data from 
 - **出题 / Test items**：每次只改变一个属性，其他属性保持原值。每组原值和备选都交换两表顺序，各测试一次。  
   Each item changes one attribute and keeps the others at their original values. Each original–alternative pair is tested twice, once in each table order.
 
-- **模型输出 / Model output**：模型只生成一个 token。取 A 和 B 的分数，计算两者之间各自的概率，不要求模型解释。  
-  The model generates one token. A and B scores are used to calculate their probabilities relative to each other; no explanation is requested.
+- **模型输出 / Model output**：模型只生成一个 token。取 A 和 B 的分数，计算两者之间各自的概率。  
+  The model generates one token. A and B scores are used to calculate their probabilities relative to each other.
