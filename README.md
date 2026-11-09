@@ -1,5 +1,9 @@
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
+> **最新数据（修订版 v1）**：[`conflict_pairs.md`](conflict_pairs.md) 和 [`conflict_pairs.csv`](conflict_pairs.csv) 列出全部 604 对冲突值，中英对照。`entities_zh.jsonl`、`sources_zh.json` 和 `generation/` 是修订前的原始 pilot 记录。本页下方的已知问题针对原始 pilot 数据。
+>
+> **Latest data (revised v1):** [`conflict_pairs.md`](conflict_pairs.md) and [`conflict_pairs.csv`](conflict_pairs.csv) list all 604 conflict pairs, Chinese with English gloss. `entities_zh.jsonl`, `sources_zh.json` and `generation/` record the original pilot before revision. The known issues below describe the original pilot data.
+
 硕士论文 pilot 数据，研究语言模型面对两份相互冲突的中文材料时如何权衡政府、报纸、个人和社交媒体等不同类型的信源。实体、属性值和信源名称按中文语境构造。
 
 Pilot data for an MA thesis on how LLMs weigh different types of sources (government, newspaper, person, social media) when two Chinese-language materials conflict. The entities, attribute values and source names were built for Chinese.
@@ -40,7 +44,7 @@ The final scripts produced [`entities_zh.jsonl`](entities_zh.jsonl) and [`source
 
 ## 说明 / Notes
 
-- pilot 只测试了第 1 个备选值（`tested_in_pilot = yes`）。<br>Only alternative 1 was tested in the pilot (`tested_in_pilot = yes`).
+- 原始 pilot 只测试了第 1 个备选值；修订版 v1 的全部 604 对都已测试（`tested_in_pilot` 现均为 `yes`）。<br>The original pilot tested only alternative 1; all 604 pairs of revised v1 were tested (`tested_in_pilot` is now `yes` throughout).
 - 英文释义由机器翻译。<br>English glosses were machine-translated.
 - 性别是固定背景信息，不是冲突属性。<br>Gender is fixed context, not a conflict attribute.
 
