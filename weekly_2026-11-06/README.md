@@ -18,6 +18,8 @@ This directory contains the v1 revision records for the original pilot data and 
 
 - [信源名称生成规程草稿 / Draft source-name generation protocol](SOURCE_GENERATION_PROTOCOL_DRAFT.md)：四类信源的命名方法、例子和依据。<br>Naming methods, examples and supporting sources for the four source types.
 
+- [实体生成规程草稿 / Draft entity generation protocol](ENTITY_GENERATION_PROTOCOL_DRAFT.md)：下一批实体的原值、备选生成步骤与检查方法。<br>Steps for generating original values and alternatives for the next batch of entities, and how they are checked.
+
 ## Source-free baseline
 
 [五模型结果与分析 / Results and analysis for five models](BASELINE_RESULTS_ZH_EN.md)
