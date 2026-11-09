@@ -5,15 +5,24 @@
 
 Generate names for government, newspaper, individual and social media sources. Decide how many names each type needs when expanding the dataset.
 
-生成后查中文维基，并替换不自然或无法归类的名称。
+地名和人名查中文维基；政府、报纸和个人名称检查是否自然。
 
-After generation, check names against Chinese Wikipedia and replace those that sound unnatural or cannot be assigned to the intended source type.
+Check place names and person names against Chinese Wikipedia, and review government, newspaper and individual names for naturalness.
 
 ## Fictional place names / 虚构地名
 
 - **怎么造地名**：统计真实县名、市名的第一个字和第二个字分别常用哪些字，再把常用字两两组合，例如“平”＋“宁”得到“平宁”；和真实行政区划或中文维基条目同名的删掉。<br>**How names are made:** Count which characters are most common in the first and second positions of real county and city names, then combine them, for example 平 + 宁 gives 平宁 (Pingning). Names matching a real administrative division or a Chinese Wikipedia title are removed.
 - **政府和报纸**：从同一批地名里各抽各的，所以“平宁市民政局”和“平宁晚报”可能同时出现。<br>**Government and newspapers:** Each source draws from the same list independently, so 平宁市民政局 (Pingning Civil Affairs Bureau) and 平宁晚报 (Pingning Evening News) may both appear.
-- **实体**：实体用另一批地名，不和信源地名重复；每个实体具体用哪个地名，等扩充数据时再定。<br>**Entities:** Entities use a separate list that does not overlap with source place names. Which entity gets which name will be decided when the data are expanded.
+- **实体**：实体用另一批地名，不和信源地名重复。<br>**Entities:** Entities use a separate list that does not overlap with source place names. 
+
+<details>
+<summary>地名数据与版本 / Place-name data and version</summary>
+
+- [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)：commit c49d495，数据截至2023-06-30，WTFPL。<br>[modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China): commit c49d495, data as of 30 June 2023, WTFPL.
+- 字频：取市级和县级名称，去掉“市、县、区”等后缀，保留两字名（2,529条），第一个字和第二个字各取最常用的50个。<br>Frequencies: Take city- and county-level names, remove endings such as 市, 县 and 区, keep two-character names (2,529 entries), and take the 50 most common characters in each position.
+- 组合与查重：50×50共2,500个组合，删去两字相同或与真实市、县、乡镇街道名、省名相同的组合；pilot中剩1,402个候选。<br>Combination and checks: The 50 × 50 combinations give 2,500 names. Names with identical characters or matching real city, county, township, street or province names are removed, leaving 1,402 candidates in the pilot.
+
+</details>
 
 ## Government / 政府
 
@@ -43,9 +52,9 @@ Agencies are selected from municipal departments present in both Beijing and Sha
 <details>
 <summary>后缀统计与依据 / Suffix counts and source</summary>
 
-国家网信办[《2025版互联网新闻信息稿源单位名单》](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf)中428个报纸名称里，最常见的六种结尾为：日报238、晚报29、时报15、商报14、晨报11、都市报9。
+从国家网信办[《2025版互联网新闻信息稿源单位名单》](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf)的428个报纸名称中，选取六种常见、可用于命名的后缀：日报238、晚报29、时报15、商报14、晨报11、都市报9。
 
-Among 428 newspaper titles in the Cyberspace Administration of China’s [2025 list of internet news sources](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf), the six most frequent endings are 日报 (238), 晚报 (29), 时报 (15), 商报 (14), 晨报 (11) and 都市报 (9).
+Six common endings suitable for naming were selected from 428 newspaper titles in the Cyberspace Administration of China’s [2025 list of internet news sources](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf): 日报 (238), 晚报 (29), 时报 (15), 商报 (14), 晨报 (11) and 都市报 (9).
 
 </details>
 
@@ -70,7 +79,7 @@ Among 428 newspaper titles in the Cyberspace Administration of China’s [2025 l
 
 - **显示格式**：“用户 @昵称”，例如“用户 @热心的枫叶4655”。<br>**Display:** 用户 @handle, e.g. 用户 @热心的枫叶4655 (User @warm-hearted maple leaf 4655).
 - **组合规则**：形容词＋的＋名词＋四位数字（1000–9999），沿用WFW的“形容词＋名词＋数字”结构。<br>**Structure:** Adjective + 的 + noun + four digits (1000–9999), following WFW’s adjective–noun–digits structure.
-- **抽取**：形容词、名词和数字分别随机抽取，不按词义筛选。<br>**Sampling:** Draw the adjective, noun and number at random, without selection by meaning.
+- **抽取**：形容词、名词和数字分别随机抽取。<br>**Sampling:** Draw the adjective, noun and number at random.
 
 <details>
 <summary>词表来源与筛选 / Word-list sources and filtering</summary>
