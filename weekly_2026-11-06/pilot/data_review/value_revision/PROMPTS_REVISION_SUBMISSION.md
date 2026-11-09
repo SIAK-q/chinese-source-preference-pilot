@@ -1,83 +1,112 @@
-# 数据修订 prompt 与结果 / Data revision prompts and results
+# 数据修订记录 / Data revision record
 
-本页按实施顺序整理从原始 pilot 数据到修订版 v1 的过程。以下列出各步骤的完整 prompt；脚本规则和结果可通过对应文件核对。旧数据保留不变。
+本页按实施顺序整理原始 pilot 数据到v1的修订。
 
-This page presents the revision from the original pilot data to revised v1 in implementation order. The complete prompts for each step are presented below. Script rules and results can be checked against the corresponding files. The original data remains unchanged.
+This page presents the revision from the original pilot data to v1. 
 
-## 版本 / Versions
+原始数据与v1均含30个实体、151项冲突属性。每项有四个备选，每对值使用两种表序，共1208题。
 
-| 版本 / Version | 冲突属性 / Attributes | 题量 / Items | 数据文件 / Data file |
-|---|---:|---:|---|
-| 原始 pilot 数据 / Original pilot data | 151 | 1208 | `pilot/data/entities_zh.jsonl` |
-| 修订版 v1 / Revised v1 | 151 | 1208 | `full_v1/entities_full_v1.jsonl` |
+Both versions contain 30 entities and 151 conflict attributes. Each attribute has four alternatives, tested in both table orders, giving 1,208 items.
 
-每个属性有四个备选值，每对值使用两种表序。本文直接展示原始 pilot 数据和修订版 v1。
+## 1. 试做 / Trial
 
-Each attribute has four alternatives, and each pair is presented in both table orders. This page presents the original pilot data and revised v1 directly.
+**Prompt**：
 
-## 1. 制定规则并试做 / Define rules and prepare examples
+- 缩小数值备选与原值的差距，制定取值和检查规则。<br>Reduce numerical differences and set value and checking rules.
+- 七类实体各试做一个；每次只改一个属性，其他属性保持原值。<br>Prepare one example per entity type; change one attribute at a time and retain the other original values.
+- 示例另存，旧数据不覆盖。<br>Save examples separately; retain the original data.
 
-**目标 / Aim**：缩小数值备选与原值的差距，并检查备选值与同一实体其他信息的相容性。
-Reduce the distance between numerical alternatives and the original value, and check compatibility with the entity's other attributes.
+**结果 / Result**：完成七类实体各一个示例及对应检查记录。
 
-**Prompt**：为需要修改的属性制定取值和检查规则，先从七类实体中各选一个做示例。每次只改变一个属性，其他属性保持原值；另存示例，不覆盖旧数据。
-Set value and checking rules for attributes requiring revision, then demonstrate them on one entity from each of the seven types. Change one attribute at a time, keeping the others at their original values. Save examples separately without overwriting the original data.
+One example from each of the seven entity types, with checking records.
 
-**结果 / Result**：`demo_entities.jsonl`、`demo_changes.json` 和 `acceptance_2ab.json`、`acceptance_2c.json`、`acceptance_2d.json`。
+<details>
+<summary>示例与检查记录 / Examples and checking records</summary>
 
-## 2. 生成修订数据 / Generate revised data
+- [示例数据 / Example data](demo_entities.jsonl) · [示例变更 / Example changes](demo_changes.json)
+- 检查记录 / Checking records：[2ab](acceptance_2ab.json) · [2c](acceptance_2c.json) · [2d](acceptance_2d.json)
 
-**Prompt**：将取值规则用于全部 30 个实体，记录修改前后的值、方法和理由；未确定的参数标为暂定。
-Apply the value rules to all 30 entities. Record the old and new values, methods and reasons, and mark unsettled parameters as provisional.
+</details>
+
+## 2. 批量修订 / Batch revision
+
+**Prompt**：
+
+- 将规则用于全部30个实体。<br>Apply the rules to all 30 entities.
+- 记录新旧值、修改方法和理由；未定参数标为暂定。<br>Record old and new values, methods and reasons; mark unsettled parameters as provisional.
 
 **脚本规则 / Script rules**（`draftA_20261104_149/build_full_v1.py`，固定随机种子 / fixed random seed）：
 
-| 属性类型 / Type | 规则 / Rule |
-|---|---|
-| 连续数值 / Continuous | 原值 ±5%，两低两高 / ±5%, two lower and two higher |
-| 年营业额 / Revenue | ±10% |
-| 完整日期 / Full dates | ±365 天，四个区间各取一天；举办日期保持星期几 / ±365 days, one per interval; event dates retain the weekday |
-| 年月 / Year–month | ±12 个月 / ±12 months |
-| 年份 / Years | −2、−1、+1、+2 |
-| 计数 / Counts | n−2、n−1、n+1、n+2 |
-| 类别 / Categories | 沿用旧备选 / Keep original alternatives |
+| 属性类型 / Type       | 规则 / Rule                                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 连续数值 / Continuous | 原值 ±5%，两低两高 / ±5%, two lower and two higher                                                                                                                                                                                                                                                                                                                                            |
+| 年营业额 / Revenue    | ±10%                                                                                                                                                                                                                                                                                                                                                                                   |
+| 完整日期 / Full dates | • 前后一年内分四个区间，各抽一天，两早两晚。<br>One date from each of four intervals within one year: two earlier and two later.<br><br>• 出生和发布日期：前后30–182天、183–365天。<br>Birth and release dates: 30–182 and 183–365 days before or after.<br><br>• 举办日期：前后1–4周、48–52周，保持星期几，月份相差不超过1个月。<br>Event dates: 1–4 and 48–52 weeks before or after, keeping the weekday, with the month differing by at most one. |
+| 年月 / Year–month   | ±12 个月 / ±12 months                                                                                                                                                                                                                                                                                                                                                                    |
+| 年份 / Years        | −2、−1、+1、+2                                                                                                                                                                                                                                                                                                                                                                            |
+| 计数 / Counts       | n−2、n−1、n+1、n+2                                                                                                                                                                                                                                                                                                                                                                        |
+| 保修期 / Warranty    | 结构不变，每个备选只改一项条件，取相邻常用档位 / Same structure; each alternative changes one component to an adjacent common level                                                                                                                                                                                                                                                                           |
+| 类别 / Categories   | 沿用旧备选 / Keep original alternatives                                                                                                                                                                                                                                                                                                                                                     |
 
-**说明 / Note**：上表记录批量生成阶段使用的规则；具体字段在后续审核中有调整，以当前修订版的实际取值为准。
-The table records the rules used in batch generation; subsequent review adjusted individual fields. The current revised data contains the resulting values.
+以上为批量生成规则；逐字段调整见第3—5步。
 
+These are the batch-generation rules; attribute-specific adjustments follow in steps 3–5.
 
-## 3. 逐字段检查取值 / Review attribute values
+## 3. 字段检查 / Attribute review
 
-**Prompt**：列出规则尚未确定或可能与背景不相容的字段。先定义字段含义，再查相关中文资料，提出取值及备选方案；区分资料支持的事实与本项目选择的规则。每次检查一个备选值与其他原值是否相容。
-List attributes with unsettled rules or potential conflicts with background information. Define each attribute, consult relevant Chinese sources, and propose values and alternatives. Distinguish source-supported facts from project choices. Check each alternative against the other original values.
+**Prompt**：
+
+- 列出规则未定或可能与背景冲突的字段。<br>List attributes with unsettled rules or potential conflicts with background information.
+- 定义字段含义，查中文资料，提出原值和备选方案。<br>Define each attribute, consult Chinese sources and propose values.
+- 将每个备选与同一实体的其他原值搭配检查。<br>Check each alternative against the entity’s other original values.
 
 **主要结果 / Main outcomes**：
 
-| 字段 / Attribute | 修订后取值或规则 / Revised values or rule |
-|---|---|
-| 马拉松持续时间 / Marathon duration | 定义为大众组首枪至终点关门的时限；原值 6小时15分钟，备选 6小时、6小时5分钟、6小时25分钟、6小时30分钟。/ Time from the first mass start to the finish cutoff; original 6 h 15 min, alternatives 6 h, 6 h 5 min, 6 h 25 min, 6 h 30 min. |
-| 图书馆高度 / Library height | 原值 24 米；备选 22、23、25、26 米。/ Original 24 m; alternatives 22, 23, 25, 26 m. |
-| 图书馆层数 / Library floors | 原值 3 层；备选 4、5、6、7 层。/ Original 3 floors; alternatives 4, 5, 6, 7 floors. |
-| 年营业额 / Revenue | ±10%；屹嘉股份采用一位小数。/ ±10%; one decimal place for Yijia. |
-| 下辖乡镇数 / Towns | 原值保留；备选按 ±1、±2。/ Keep the original; alternatives ±1 and ±2. |
-| 公司成立时间 / Founding date | 年月格式，±12 个月。/ Year–month format, ±12 months. |
+| 字段 / Attribute              | 修订后取值或规则 / Revised values or rule                                                                                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 马拉松持续时间 / Marathon duration | 单位由天改为小时；原值 6小时15分钟，备选 6小时、6小时5分钟、6小时25分钟、6小时30分钟。/ Unit changed from days to hours; original 6 h 15 min, alternatives 6 h, 6 h 5 min, 6 h 25 min, 6 h 30 min. |
+| 图书馆高度 / Library height      | 原值 24 米；备选 22、23、25、26 米。/ Original 24 m; alternatives 22, 23, 25, 26 m.                                                                                                                   |
+| 图书馆层数 / Library floors      | 原值 3 层；备选 4、5、6、7 层。/ Original 3 floors; alternatives 4, 5, 6, 7 floors.                                                                                                                   |
+| 年营业额 / Revenue              | ±10%；屹嘉股份采用一位小数。/ ±10%; one decimal place for Yijia.                                                                                                                                       |
+| 下辖乡镇数 / Towns               | 原值保留；备选按 ±1、±2。/ Keep the original; alternatives ±1 and ±2.                                                                                                                                |
+| 公司成立时间 / Founding date      | 年月格式，±12 个月。/ Year–month format, ±12 months.                                                                                                                                               |
 
-## 4. 全表审核 / Review the full table
+## 4. 全表审核 / Full review
 
-**Prompt**：逐行审核拟修改项；仅在备选明显反直觉时修改类别值，不为格式统一而改变原值。数值备选兼顾该实体的合理性与自然写法。
-Review the proposed changes item by item. Change categorical alternatives only when clearly counter-intuitive, and do not change original values merely for formatting consistency. Choose numerical alternatives that are plausible for the entity and naturally written.
+**Prompt**：
 
-**结果 / Result**：采用一项职业备选替换；其余拟替换的类别备选保留。四个原值保留原有写法，数值备选相应调整。具体改动记录在 `full_v1/build_full_v1.py` 的 `REVIEW_EDITS` 和 `full_v1/` 的变更文件中。修订版 v1 共 151 个属性、1208 题。五个模型的无信源 baseline 结果见[结果页](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md)。
-One occupation alternative was replaced; the other proposed categorical replacements were not adopted. Four original values retained their original written form and their numerical alternatives were adjusted. Details are recorded in `REVIEW_EDITS` in `full_v1/build_full_v1.py` and the change files in `full_v1/`. Revised v1 has 151 attributes and 1,208 items. Source-free baseline results for five models are on the [results page](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_RESULTS_ZH_EN.md).
+- 逐项审核拟修改值；类别备选在明显反直觉时修改。<br>Review proposed changes; revise categorical alternatives when clearly counter-intuitive.
+- 保留原值的自然写法，数值备选兼顾合理性与精度。<br>Retain natural original wording; choose plausible numerical alternatives with appropriate precision.
 
-## 5. 属性相容性筛查 / Attribute compatibility screen
+**结果 / Result**：职业备选“社区卫生服务中心全科医生”改为“社区卫生服务中心护士”。
 
-**Prompt**：在实际出题方式下，逐一检查原值和每个备选与该实体其他原值的搭配；对明确的相容性疑点提出修改，记录修改原因。
-Check each original and alternative against the other original attributes under the actual item construction. Propose changes where compatibility issues are identified, and record the reasons.
+The occupation alternative “Community health-centre general practitioner” was replaced with “Community health-centre nurse”.
 
-**结果 / Result**：筛查后修改三个备选：蒋雨柔职业的「县医院药剂师」改为「县医院ICU护士」，学历的「大专（医学检验技术）」改为「大专（助产）」；新定会展中心主体结构的「膜结构」改为「框架-剪力墙结构」。前两项改善职业和学历的搭配，第三项改善结构类型与多层建筑背景的搭配。原始取值及逐项对照见完整数据表。
-Three alternatives were revised after the screen: Jiang Yurou's occupation from county-hospital pharmacist to county-hospital ICU nurse, and education from medical laboratory technology to midwifery; Xinding Convention and Exhibition Centre's structure from membrane structure to frame–shear-wall structure. The first two improve occupation–education compatibility; the third better fits the multi-storey building context. The original values and item-level comparison are in the full data table.
+通溪体育馆高度38米、清山图书馆高度24米、长源农业机械博览会参与人数2.3万人次、惠明国际马拉松赛参与人数1.2万人保持原写法，备选取同精度的自然值；四项备选与原值的最大差距分别为5.3%、8.3%、8.7%和16.7%。
 
-## 文件 / Files
+The original written forms were kept for Tongxi Gymnasium height (38 m), Qingshan Library height (24 m), Changyuan Agricultural Machinery Expo attendance (23,000) and Huiming International Marathon participants (12,000), with alternatives at the same precision. Their largest differences from the originals are 5.3%, 8.3%, 8.7% and 16.7%.
 
-原始 pilot 数据 / Original pilot data: `pilot/data/entities_zh.jsonl`；当前修订版 / current revised data: `full_v1/entities_full_v1.jsonl`；修订脚本和变更记录 / revision script and change records: `full_v1/`。
+## 5. 相容性检查 / Compatibility check
+
+**Prompt**：
+
+- 将原值和每个备选分别与同一实体的其他原值搭配检查。<br>Check each original and alternative against the entity’s other original values.
+- 对明确的相容性疑点提出修改，并记录理由。<br>Propose changes for identified compatibility issues and record the reasons.
+
+**结果 / Result**：
+
+- 蒋雨柔职业备选：“县医院药剂师”→“县医院ICU护士”，以改善与原护理学历的搭配。
+  Jiang Yurou’s occupation alternative: “County-hospital pharmacist” → “County-hospital ICU nurse”, to better fit the original nursing qualification.
+
+- 蒋雨柔学历备选：“大专（医学检验技术）”→“大专（助产）”，以改善与原护士长职业的搭配。
+  Jiang Yurou’s education alternative: “College diploma in Medical Laboratory Technology” → “College diploma in Midwifery”, to better fit the original head-nurse occupation.
+
+- 新定会展中心主体结构备选：“膜结构”→“框架-剪力墙结构”，以改善与多层建筑背景的搭配。
+  Xinding Convention and Exhibition Centre’s structural alternative: “Membrane structure” → “Frame–shear-wall structure”, to better fit the multi-storey building context.
+
+## 文件入口 / Files
+
+- [原始数据 / Original data](../../data/entities_zh.jsonl) · [v1数据 / Revised v1 data](full_v1/entities_full_v1.jsonl)
+- [151项完整对照 / Full comparison of 151 attributes](full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)
+- [最终修订脚本 / Final revision script](full_v1/build_full_v1.py) · [变更记录 / Change record](full_v1/changes_from_draft.json)
+- [五模型baseline结果 / Five-model baseline results](../../../BASELINE_RESULTS_ZH_EN.md)

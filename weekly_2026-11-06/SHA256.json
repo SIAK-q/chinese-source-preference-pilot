@@ -1,6 +1,6 @@
 {
   "pilot/data/entities_zh.jsonl": "298860211458c986d6db7c49ff162032f4737e0b386782034083ffcae0a290c6",
-  "pilot/data_review/value_revision/PROMPTS_REVISION_SUBMISSION.md": "a504875b3d4da55adeac9917c0cb195995fa62c9655fe93353400d2a2e45d643",
+  "pilot/data_review/value_revision/PROMPTS_REVISION_SUBMISSION.md": "0e26a1cffcad378a6a11ac4145651c013066b5dd9ff4e39d55a1dfcff0148b10",
   "pilot/data_review/value_revision/demo_entities.jsonl": "c78ee6e61140b998e56cd3ff38cea74599763d242180a75cca3d1ee62e100696",
   "pilot/data_review/value_revision/demo_changes.json": "11d12ee12e4e02b523058218a51c6797d396af98a6855c3767c2b1b94fa96fc4",
   "pilot/data_review/value_revision/acceptance_2ab.json": "d5768073270384e1f5414b8591221b1c8396edc24ba8ff848b42f194b7a27747",
@@ -11,7 +11,7 @@
   "pilot/data_review/value_revision/full_v1/build_full_v1.py": "f94ea5c93122e06ff18dff76564359184eac870041c0aea6ec0721312338f609",
   "pilot/data_review/value_revision/full_v1/entities_full_v1.jsonl": "2888f2ade9e864dc3fc14fe957a0c471a0369ff173660f73e3af6a53bca1491a",
   "pilot/data_review/value_revision/full_v1/changes_from_draft.json": "a0a88e21ec767ffb3b6bcba3e20b24f248c8a90bb16c658dacbcf1de97ceb095",
-  "pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md": "f1170f2729c5f2846711143d59cb0875080a3cce9554f7904abfd961ab0354a5",
+  "pilot/data_review/value_revision/full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md": "78a3b58af9b211849ba2da1a18f322347e78867f8cf99d34127c106ece2fe153",
   "pilot/data_review/value_revision/full_v1/compat_check_v1.py": "bcd9c987d9531fd7982be8ebf5b970d50eabbcce8a208c2249a64b56e6e1502d",
   "pilot/data_review/value_revision/full_v1/compat_check_v1.json": "30b13963ddfe79f88d55a3d153bfa32563931c2195a78824e726193f36751b6f",
   "pilot/prompt_zh.py": "41c3b51d5c5dc0ceac898415537f8496357e1ec7846aa2c143e797fbfb38c39b",
