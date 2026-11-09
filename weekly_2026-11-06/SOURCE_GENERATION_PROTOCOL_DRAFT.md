@@ -1,28 +1,24 @@
 # Source-name generation protocol (draft)
 中文：信源名称生成规程（草稿）
 
-## Overview
+生成政府、报纸、个人和社媒用户四类信源名称。数据扩充后，再确定每类需要多少个名称。
 
-- Each item uses one of four source types: government, newspaper, individual, social media user.
-    - 中文：每个信源属于四类之一：政府、报纸、个人、社交媒体用户。
-- Pool sizes will follow the size of the expanded dataset.
-    - 中文：各名称池的规模按扩充后的数据量确定。
+Generate names for government, newspaper, individual and social media sources. Decide how many names each type needs when expanding the dataset.
 
-## Fictional place names
+生成后查中文维基，并替换不自然或无法归类的名称。
 
-- Government and newspaper sources draw from one shared pool of fictional place names; entity places come from a separate list.
-    - 中文：政府和报纸信源共用一个虚构地名池；实体地名使用单独的名单。
-- Place names are drawn independently for each source.
-    - 中文：每个信源的地名各自随机抽取。
-- Method: count character frequencies by position in real county- and prefecture-level names, combine frequent characters, then remove names matching real administrative divisions or Chinese Wikipedia titles.
-    - 中文：方法：按位置统计真实县级、地级名称的用字频率，组合高频字，再排除与真实行政区划或中文维基条目相同的名称。
+After generation, check names against Chinese Wikipedia and replace those that sound unnatural or cannot be assigned to the intended source type.
 
-## Government
+## Fictional place names / 虚构地名
 
-- Format: fictional place + 市(city) + real agency name, e.g. 广城市民政局 (Guangcheng Civil Affairs Bureau).
-    - 中文：格式：虚构地名 + 市 + 真实机构名，例如广城市民政局。
-- Each entity type has its own list of agencies, following WFW's per-type government templates. A source combines one randomly drawn agency from that list with one randomly drawn place.
-    - 中文：每类实体有各自的机构列表。每个政府信源从对应列表随机抽取一个机构，再随机配一个地名。
+- **怎么造地名**：统计真实县名、市名的第一个字和第二个字分别常用哪些字，再把常用字两两组合，例如“平”＋“宁”得到“平宁”；和真实行政区划或中文维基条目同名的删掉。<br>**How names are made:** Count which characters are most common in the first and second positions of real county and city names, then combine them, for example 平 + 宁 gives 平宁 (Pingning). Names matching a real administrative division or a Chinese Wikipedia title are removed.
+- **政府和报纸**：从同一批地名里各抽各的，所以“平宁市民政局”和“平宁晚报”可能同时出现。<br>**Government and newspapers:** Each source draws from the same list independently, so 平宁市民政局 (Pingning Civil Affairs Bureau) and 平宁晚报 (Pingning Evening News) may both appear.
+- **实体**：实体用另一批地名，不和信源地名重复；每个实体具体用哪个地名，等扩充数据时再定。<br>**Entities:** Entities use a separate list that does not overlap with source place names. Which entity gets which name will be decided when the data are expanded.
+
+## Government / 政府
+
+- **格式**：虚构地名＋市＋机构名，例如“广城市民政局”。<br>**Format:** Fictional place + 市 (city) + agency name, e.g. 广城市民政局 (Guangcheng Civil Affairs Bureau).
+- **抽取**：按实体类型从下表抽一个机构，再从信源地名池抽一个地名。<br>**Sampling:** Draw an agency for the entity type from the table below, then draw a place name from the source pool.
 
 | Entity type 实体类型 | Agencies 机构 |
 |---|---|
@@ -35,40 +31,51 @@
 | Product 产品 | 市场监督管理局 (Market Regulation), 商务局 (Commerce) |
 | Artwork 艺术作品 | 文化和旅游局 (Culture and Tourism) |
 
-- Agencies are drawn from the municipal government departments of Beijing and Shanghai, two representative Chinese cities, and matched to entity types according to their official functions. Department names use a standard form.
-    - 中文：机构选自北京、上海这两个具有代表性的城市的市级政府部门，并根据官方职能与实体类型对应。部门名称采用通用形式。
-- Official lists: [Beijing](https://www.beijing.gov.cn/gongkai/zfxxgk/fdzdgknr/jgzn/), [Shanghai](https://www.shanghai.gov.cn/nw2405/).
-    - 中文：官方名单见北京、上海市政府网站链接。
+机构选自北京、上海均设置的市级部门，按官方职能匹配实体类型，名称采用通用形式。官方名单：[北京](https://www.beijing.gov.cn/gongkai/zfxxgk/fdzdgknr/jgzn/) · [上海](https://www.shanghai.gov.cn/nw2405/)。
 
-## Newspapers
+Agencies are selected from municipal departments present in both Beijing and Shanghai, matched to entity types by their official functions, and given standard names. Official lists: [Beijing](https://www.beijing.gov.cn/gongkai/zfxxgk/fdzdgknr/jgzn/) · [Shanghai](https://www.shanghai.gov.cn/nw2405/).
 
-- Format: fictional place + suffix, e.g. 临阳晚报 (Linyang Evening News).
-    - 中文：格式：虚构地名 + 后缀，例如临阳晚报。
-- Suffixes: the six most frequent endings among the 428 newspaper titles in the [2025 list of internet news sources](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf) published by the Cyberspace Administration of China: 日报 (daily, 238), 晚报 (evening news, 29), 时报 (times, 15), 商报 (business news, 14), 晨报 (morning news, 11), 都市报 (metropolitan news, 9).
-    - 中文：后缀：国家网信办《2025 版互联网新闻信息稿源单位名单》中 428 个报纸名称里最常见的六种结尾：日报（238）、晚报（29）、时报（15）、商报（14）、晨报（11）、都市报（9）。
-- Each suffix is drawn with equal probability.
-    - 中文：六种后缀等概率抽取。
+## Newspapers / 报纸
 
-## Individuals
+- **格式**：虚构地名＋后缀，例如“临阳晚报”。<br>**Format:** Fictional place + suffix, e.g. 临阳晚报 (Linyang Evening News).
+- **抽取**：从信源地名池抽一个地名；日报、晚报、时报、商报、晨报、都市报六种后缀等概率抽取。<br>**Sampling:** Draw a place from the source pool and draw one of six suffixes with equal probability: 日报 (daily), 晚报 (evening news), 时报 (times), 商报 (business news), 晨报 (morning news), 都市报 (metropolitan news).
 
-- Common Chinese full names without a Chinese Wikipedia page, balanced between male- and female-usage names.
-    - 中文：常见中文姓名，排除有中文维基页面的姓名，男性和女性常用名各半。
-- Proposed method, following WFW: draw a surname from the 200 most frequent surnames and a two-character given name from the 200 most frequent given names of the matching usage group (male or female) in the [ChineseNames](https://github.com/psychbruce/ChineseNames) database (commit dd948e7, version 2025.8). Full names are then screened manually for naturalness, and removals are recorded.
-    - 中文：拟用方法（参照 WFW）：从 ChineseNames 数据库中最常见的 200 个姓里抽姓，从对应使用组（男性或女性）最常见的 200 个双字名里抽名（commit dd948e7，版本 2025.8）。全名再经人工筛查自然度，并记录被删除的名字。
-- The database provides aggregate name frequencies for Han Chinese household-registered people born 1930–2008 and alive in 2008, not individual records. It is cited as Bao (2023) and Bao et al. (2021), and used non-commercially under its GPL-3 and CC BY-NC-SA terms.
-    - 中文：该数据库提供 1930–2008 年出生、2008 年在世的户籍汉族人口的姓名聚合频率，不含个人记录。引用 Bao (2023) 和 Bao et al. (2021)，按其 GPL-3 和 CC BY-NC-SA 条款作非商业使用。
-- Individual-source names, entity names and names inside attribute values stay in three separate pools.
-    - 中文：个人信源、实体人物和属性值中的人名分属三个互不重复的名单。
+<details>
+<summary>后缀统计与依据 / Suffix counts and source</summary>
 
-## Social media users
+国家网信办[《2025版互联网新闻信息稿源单位名单》](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf)中428个报纸名称里，最常见的六种结尾为：日报238、晚报29、时报15、商报14、晨报11、都市报9。
 
-- Handles are displayed as 用户 @昵称 (User @handle), e.g. 用户 @热心的枫叶4655 (User @warm-hearted maple leaf 4655).
-    - 中文：昵称显示为“用户 @昵称”，例如用户 @热心的枫叶4655。
-- WFW combines a random adjective, noun and four digits, modelled on Reddit's suggested usernames. A direct Chinese translation does not read like a Chinese handle.
-    - 中文：WFW 用随机形容词、名词加四位数字，模仿 Reddit 的推荐用户名。直译成中文不像中文网名。
-- The same structure is used here: a random adjective + 的 + a random noun + four random digits (1000–9999). 的 links the adjective and noun, as is usual in Chinese.
-    - 中文：这里采用相同的结构：随机形容词 + 的 + 随机名词 + 四位随机数字（1000–9999）。形容词和名词之间加“的”，符合中文的表达习惯。
-- Word lists: candidate words come from the open-source Chinese nickname generator [chinayin/random-nickname](https://github.com/chinayin/random-nickname) (Apache-2.0, commit 26f0b9c). Only words found in the [SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch) word-frequency list (Cai & Brysbaert, 2010) are kept, giving 217 adjectives and 198 nouns.
-    - 中文：词表：候选词来自开源中文昵称生成器 chinayin/random-nickname（Apache-2.0，commit 26f0b9c），只保留 SUBTLEX-CH 词频表（Cai & Brysbaert, 2010）收录的词，共 217 个形容词和 198 个名词。
-- As in WFW, words are drawn at random, with no selection by meaning.
-    - 中文：与 WFW 一样，随机抽词，不按词义筛选。
+Among 428 newspaper titles in the Cyberspace Administration of China’s [2025 list of internet news sources](https://www.cac.gov.cn/rootimages/uploadimg/1756886952378281/1756886952378281.pdf), the six most frequent endings are 日报 (238), 晚报 (29), 时报 (15), 商报 (14), 晨报 (11) and 都市报 (9).
+
+</details>
+
+## Individuals / 个人
+
+
+- 从ChineseNames最常见的200个姓中抽姓，从男性或女性使用组最常见的200个双字名中抽名；男女常用名各半。<br>Draw a surname from the 200 most frequent surnames in ChineseNames and a two-character given name from the 200 most frequent in the male- or female-usage group, with equal numbers from each group.
+- 排除有中文维基页面的全名。<br>Exclude full names with a Chinese Wikipedia page.
+- 人工筛查姓名自然度，并记录删除项。<br>Screen full names manually for naturalness and record removals.
+- 个人信源、实体人物和属性值中的人名分属三个互不重叠的名单。<br>Keep individual-source names, person-entity names and names used as attribute values in three non-overlapping lists.
+
+<details>
+<summary>数据库、版本与许可 / Database, version and licence</summary>
+
+- [ChineseNames](https://github.com/psychbruce/ChineseNames)：commit dd948e7，版本2025.8。<br>[ChineseNames](https://github.com/psychbruce/ChineseNames): commit dd948e7, version 2025.8.
+- 数据为1930–2008年出生、2008年在世的户籍汉族人口的姓名聚合频率，不含个人记录。<br>The data provide aggregate name frequencies for Han Chinese household-registered people born in 1930–2008 and alive in 2008, not individual records.
+- 引用Bao (2023)和Bao et al. (2021)，按数据库的GPL-3和CC BY-NC-SA条款作非商业使用。<br>Cite Bao (2023) and Bao et al. (2021), and use the database non-commercially under its GPL-3 and CC BY-NC-SA terms.
+
+</details>
+
+## Social media users / 社媒用户
+
+- **显示格式**：“用户 @昵称”，例如“用户 @热心的枫叶4655”。<br>**Display:** 用户 @handle, e.g. 用户 @热心的枫叶4655 (User @warm-hearted maple leaf 4655).
+- **组合规则**：形容词＋的＋名词＋四位数字（1000–9999），沿用WFW的“形容词＋名词＋数字”结构。<br>**Structure:** Adjective + 的 + noun + four digits (1000–9999), following WFW’s adjective–noun–digits structure.
+- **抽取**：形容词、名词和数字分别随机抽取，不按词义筛选。<br>**Sampling:** Draw the adjective, noun and number at random, without selection by meaning.
+
+<details>
+<summary>词表来源与筛选 / Word-list sources and filtering</summary>
+
+- 候选词来自开源中文昵称生成器[chinayin/random-nickname](https://github.com/chinayin/random-nickname)，Apache-2.0，commit 26f0b9c。<br>Candidate words come from the open-source Chinese nickname generator [chinayin/random-nickname](https://github.com/chinayin/random-nickname), Apache-2.0, commit 26f0b9c.
+- 只保留[SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch)词频表（Cai & Brysbaert, 2010）收录的词，得到217个形容词和198个名词。<br>Keep only words found in the [SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch) frequency list (Cai & Brysbaert, 2010), giving 217 adjectives and 198 nouns.
+
+</details>
