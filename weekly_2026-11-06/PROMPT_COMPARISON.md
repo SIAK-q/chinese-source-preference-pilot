@@ -38,5 +38,5 @@ The following are multiple choice questions. You are provided tabular data from 
 - **出题 / Test items**：每次只改变一个属性，其他属性保持原值。每组原值和备选都交换两表顺序，各测试一次。  
   Each item changes one attribute and keeps the others at their original values. Each original–alternative pair is tested twice, once in each table order.
 
-- **模型输出 / Model output**：模型只生成一个 token。取 A 和 B 的分数，计算两者之间各自的概率。  
-  The model generates one token. A and B scores are used to calculate their probabilities relative to each other.
+- **模型输出 / Model output**：模型只输出一个 token。这一步模型给 A 和 B 各打一个分，再把两个分数换算成加起来等于 100% 的概率，例如 A 70%、B 30%。
+  The model outputs one token. At this step, it gives A and B a score each, and the two scores are converted into probabilities that add up to 100%, for example A 70% and B 30%
