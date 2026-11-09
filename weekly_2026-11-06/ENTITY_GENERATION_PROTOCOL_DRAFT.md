@@ -123,7 +123,7 @@ Use this for occupation, education, industry and structural system. Retain the o
 |---|---|
 | 数值与格式 / Values and format | 脚本检查数量、重复值、数值范围、单位和精度。<br>Scripts check counts, duplicates, ranges, units and precision. |
 | 属性搭配 / Compatibility | 每次把一个属性换成一个备选，其他属性保持原值。例如身高154厘米仍配原体重54公斤，检查是否合理；数值用脚本辅助筛查，类别逐项人工看。同时比较原值和备选是否同样说得通，明显一边更合理的要修改。<br>Replace one attribute with one alternative while retaining the other originals. For example, check height 154 cm against the original weight of 54 kg. Scripts assist with numerical checks; review categorical relationships manually. Also compare whether the original and the alternative are equally plausible, and revise pairs where one is clearly more plausible. |
-| 名称提示答案 / Answer clues in names | 实体名和取值有连续两个相同汉字就标出人工看，判断名称是否提示答案；标出不等于有错。<br>Flag two consecutive Han characters shared by an entity name and a value, then review whether the name suggests the answer; a flag does not itself indicate an error. |
+| 名称提示答案 / Answer clues in names | 实体名和取值有连续两个相同汉字就标出人工看，判断名称是否提示答案。<br>Flag two consecutive Han characters shared by an entity name and a value, then review whether the name suggests the answer. |
 
 全部数据生成并检查后，每个模型运行一次无信源baseline；模型总选同一个值的题，逐项复查取值是否不合理，查出明确问题才修改，修改后只重跑受影响的题。
 
