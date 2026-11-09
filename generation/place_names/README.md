@@ -12,9 +12,9 @@ The pilot uses a pool of 20 invented two-character place names. They were constr
 | 报纸 / Newspapers | 临阳 青安 武河 天昌 宜湖 |
 | 实体 / Entities | 双陵 上泉 白原 龙泽 乐水 通溪 清山 新定 长源 惠明 |
 
-最终地名保存在[`places_zh.py`](places_zh.py)。政府和报纸交错使用前10个地名，实体使用后10个。交错取用是本次pilot采用的分配方式。
+最终地名保存在[`places_zh.py`](../prompts/round3/places_zh.py)。政府和报纸交错使用前10个地名，实体使用后10个。交错取用是本次pilot采用的分配方式。
 
-The final file is [`places_zh.py`](places_zh.py). Government and newspaper names were taken alternately from the first ten entries; entities use the last ten. Alternating the entries is the arrangement used in this pilot.
+The final file is [`places_zh.py`](../prompts/round3/places_zh.py). Government and newspaper names were taken alternately from the first ten entries; entities use the last ten. Alternating the entries is the arrangement used in this pilot.
 
 信源和实体分别使用不同的子集，以避免信源标签中的地名与实体名称或属性值中的地名重合。
 
