@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-17T10:48:28.412942+01:00",
+  "actor": "Codex",
+  "step": "event_prompt_saved_before_output",
+  "prompt_sha256": "bd050cf270ee46a4a80a6efc206b93f4dc577b19e995b5b172ed5a7e45fdc985",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "context_boundary": "会话已读旧批次，历史上下文仍可见；保存的是实际任务prompt和显式输入，不是完整隔离请求或完整上下文快照。",
+  "input": "original.input.json",
+  "prompt": "original.prompt.txt"
+}

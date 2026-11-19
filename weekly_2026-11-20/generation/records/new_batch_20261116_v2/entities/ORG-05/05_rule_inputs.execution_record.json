@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-16T23:24:11.506047+01:00",
+  "actor": "Codex",
+  "step": "rule_script_and_inputs_saved_before_generation",
+  "script": "../../assemble_organization.py",
+  "script_sha256": "e158554f1423592f1a13eb44d046352640314d1916a1a13cd5cd85cf9b70638b",
+  "python_version": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "original": {
+    "id": "ORG-05",
+    "name": "宏益股份有限公司",
+    "entity_class": "organization",
+    "成立时间": "2008年4月",
+    "所属行业": "肉制品加工",
+    "总部所在地": "乐水",
+    "员工人数": "650人",
+    "年营业额": "6.2亿元人民币"
+  },
+  "industry_input": "alternatives.industry.raw.json",
+  "seeds": {
+    "成立时间": "42:ORG-05:成立时间",
+    "总部所在地": "42:ORG-05:总部所在地"
+  },
+  "employees_percent": 5,
+  "revenue_percent": 10,
+  "month_offset_intervals": [
+    [
+      -12,
+      -7
+    ],
+    [
+      -6,
+      -1
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      7,
+      12
+    ]
+  ],
+  "city_pool": [
+    "双陵",
+    "上泉",
+    "白原",
+    "龙泽",
+    "乐水",
+    "通溪",
+    "清山",
+    "新定",
+    "长源",
+    "惠明"
+  ],
+  "row_order_seed": "42:ORG-05",
+  "user_review": "原值暂保留，非商业数量级人工确认；新备选未审核。"
+}

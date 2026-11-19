@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-16T23:24:11.537859+01:00",
+  "actor": "Codex",
+  "step": "机构备选组装及组题检查完成",
+  "script": "assemble_organization.py",
+  "script_sha256": "e158554f1423592f1a13eb44d046352640314d1916a1a13cd5cd85cf9b70638b",
+  "input": "ORG-01至10完整原值和行业备选，逐人规则输入已先存05记录。",
+  "raw_original_hashes": {
+    "ORG-01": "5b12e8b50a396d89d3767022d514def592191abf8103fd25a520f33fc7af2b12",
+    "ORG-02": "cb27759babb9e5ea30289cb4ed32c47b753598352d861c17400a4c592d31875c",
+    "ORG-03": "bb0ad7766b2a3329e3f17c56a9bd924f26255de2672432985ae0ff068cc1eeea",
+    "ORG-04": "f0faf8d83e73e52c57da69eae5439931f86c1ced46105c825d3667ba212e0b7b",
+    "ORG-05": "d3dd197cf5e069e9c5a19f2aba4a273b033acd0b1d12ceb74a920bda99a2d0d0",
+    "ORG-06": "b169205ebb0f9fb87c406a7a3b18900883738fb080fed27e362b0aab263c0fe9",
+    "ORG-07": "440329af51c5a27315148b320b5f9d706b93e822b014ad63425851e167d97049",
+    "ORG-08": "1a4cc92f7794d45b5f5cab7c38cd2b7e9f8d008f1d2494b8409afb1177621aca",
+    "ORG-09": "609a95b5d5d52c789edef82cada9ef0996c58f8ceb28138f942a44498fe1a199",
+    "ORG-10": "418d039dd7734e80f78036a4e520488dd690856e6c79b2fef40ade7a9a71b586"
+  },
+  "dataset_sha256": "8a317ce6b6db1212ede5407f2e4e18c98b64d654caf50f9c65b58865e4bab67e",
+  "validation": {
+    "entities": 10,
+    "by_class": {
+      "organization": 10
+    },
+    "instances": 50,
+    "pairs": 200,
+    "items": 400,
+    "spread": [
+      [
+        "较大数值·员工人数",
+        20,
+        20
+      ],
+      [
+        "较大数值·年营业额",
+        20,
+        20
+      ]
+    ],
+    "errors": [],
+    "review": []
+  },
+  "measurement_checks": {
+    "400_prompts_without_inference": true,
+    "reverse_values_correctly": true,
+    "only_one_field_differs": true,
+    "originals_unchanged": true
+  },
+  "user_feedback": "原值暂时保留；不记录为商业规模确认或备选已人审。",
+  "model_inference_run": false,
+  "next_step": "展示行业备选；其余五类尚未生成。"
+}

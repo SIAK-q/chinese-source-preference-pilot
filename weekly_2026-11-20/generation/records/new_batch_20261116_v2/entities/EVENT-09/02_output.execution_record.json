@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-17T10:48:53.371234+01:00",
+  "actor": "Codex",
+  "step": "event_original_generated_then_checked",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "raw_output": "original.raw.json",
+  "raw_output_sha256": "f7f9bf190d28aad0fb3d31367bbd50ab4bf69c0e4e0ea7766217088d4143f49c",
+  "checks": {
+    "five_expected_fields": true,
+    "identity_matches": true,
+    "date_not_future": true,
+    "positive_numbers": true,
+    "local_organizer": true,
+    "prompt_unchanged": true
+  },
+  "assistant_review": "生成时联合考虑类型、日期、时长、参与规模、主办方和预算；未做实际活动商业核验。",
+  "user_review": "未审核",
+  "edits": []
+}

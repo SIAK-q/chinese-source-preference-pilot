@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17T00:13:09.116189+01:00",
+  "actor": "Codex",
+  "step": "将用户已定的主要材料接入问题模板与新批次字段校验",
+  "user_decision_source": "2026-11-16用户选择主要材料，属性说法自然直白。",
+  "changes": [
+    {
+      "path": "pilot/prompt_zh.py",
+      "sha256": "f1b18d445c8c35b399f0df5c2041442fc62932159d9a9980bdf721d9235f8b8d"
+    },
+    {
+      "path": "pilot/data_review/validate_entity_batch.py",
+      "sha256": "a1cf7bf9888299ca91c8d5b6e6c81f32266b382d2775552b651e4c1f9cfdc4ee"
+    }
+  ],
+  "checks": {
+    "new_question_natural": true,
+    "old_question_retained": true,
+    "legacy_v1_field_preserved": true,
+    "total_new_fields_39": true
+  },
+  "before_files": "本目录00/01改前副本",
+  "data_changed": false
+}

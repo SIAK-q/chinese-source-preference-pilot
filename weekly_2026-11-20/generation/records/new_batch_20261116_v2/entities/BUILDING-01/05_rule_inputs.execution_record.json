@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17T00:19:19.044483+01:00",
+  "actor": "Codex",
+  "step": "inputs_saved_before_rule_generation",
+  "script": "../../assemble_building.py",
+  "script_sha256": "4e3311d96cda4b2728ff3bad6e7895e7a858b00f0b172a56fbdc0acd6e6c8a7f",
+  "original": {
+    "id": "BUILDING-01",
+    "name": "双陵体育馆",
+    "entity_class": "building",
+    "设计师": "王燕霞",
+    "建成年份": "2016年",
+    "高度": "28米",
+    "层数": "3层",
+    "主要材料": "钢和混凝土",
+    "容纳人数": "5200人"
+  },
+  "original_sha256": "807e479c0927433c44e6ebf0f8a2ad516bb77e2cd6a2c3988b9323fae034d5db",
+  "material_raw_sha256": "2639f80e3cfac14b3090cd3ff6beb3c964f0c65fc74e26e7741826af43d4c9bf",
+  "designer_candidates": [
+    "王燕霞",
+    "刘四洁",
+    "吴清萍",
+    "夏平桂",
+    "候春才"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "floor_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_rule": "约±5%，两低两高，保持精度；不足四值时取相邻两档并记录幅度。",
+  "row_order_seed": "42:BUILDING-01"
+}

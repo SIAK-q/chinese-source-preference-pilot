@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17T10:50:19.265633+01:00",
+  "actor": "Codex",
+  "script_sha256": "8ed5d77d924928ab6893f826449bb889a2104a94d3435307d16562ef557f972d",
+  "steps": [
+    {
+      "field": "举办日期",
+      "selected_week_offsets": [
+        -52,
+        -2,
+        2,
+        49
+      ]
+    },
+    {
+      "field": "持续时间",
+      "rule": "天数按小计数±1、±2，不适用一般数值±5%。"
+    },
+    {
+      "field": "参与人数",
+      "step": "1",
+      "offsets_in_steps": [
+        -1600,
+        -800,
+        800,
+        1600
+      ],
+      "precision_exception": false,
+      "actual_maximum_percent": "5.00"
+    },
+    {
+      "field": "预算",
+      "step": "1",
+      "offsets_in_steps": [
+        -12,
+        -6,
+        6,
+        12
+      ],
+      "precision_exception": false,
+      "actual_maximum_percent": "5.00"
+    }
+  ],
+  "name_revision": [],
+  "checks": {
+    "five_distinct": true,
+    "raw_originals_unchanged": true,
+    "attribute_originals_unchanged": true
+  },
+  "user_review": "候选待审",
+  "output": "entity.pending_review.json"
+}

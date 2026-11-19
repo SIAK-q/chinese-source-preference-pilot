@@ -1,0 +1,549 @@
+{
+  "date": "2026-11-18T16:52:41.103431+01:00",
+  "actor": "Codex",
+  "event_flags": [
+    {
+      "id": "EVENT-01",
+      "value": "惠明市体育局",
+      "shared_city": "惠明",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-01",
+      "value": "惠明市田径协会",
+      "shared_city": "惠明",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-01",
+      "value": "惠明市体育总会",
+      "shared_city": "惠明",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-01",
+      "value": "惠明市体育发展中心",
+      "shared_city": "惠明",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-01",
+      "value": "惠明市马拉松协会",
+      "shared_city": "惠明",
+      "additional_shared_terms": [
+        "拉松",
+        "马拉"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-02",
+      "value": "双陵市图书馆",
+      "shared_city": "双陵",
+      "additional_shared_terms": [
+        "图书"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-02",
+      "value": "双陵市文化和旅游局",
+      "shared_city": "双陵",
+      "additional_shared_terms": [
+        "文化"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-02",
+      "value": "双陵市全民阅读促进会",
+      "shared_city": "双陵",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-02",
+      "value": "双陵市作家协会",
+      "shared_city": "双陵",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-02",
+      "value": "双陵市新华书店",
+      "shared_city": "双陵",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-03",
+      "value": "上泉市农业农村局",
+      "shared_city": "上泉",
+      "additional_shared_terms": [
+        "农业"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-03",
+      "value": "上泉市农业技术推广中心",
+      "shared_city": "上泉",
+      "additional_shared_terms": [
+        "农业"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-03",
+      "value": "上泉市农学会",
+      "shared_city": "上泉",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-03",
+      "value": "上泉市农业科学院",
+      "shared_city": "上泉",
+      "additional_shared_terms": [
+        "业科",
+        "农业"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-03",
+      "value": "上泉市农业产业协会",
+      "shared_city": "上泉",
+      "additional_shared_terms": [
+        "农业"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-04",
+      "value": "白原市文化馆",
+      "shared_city": "白原",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-04",
+      "value": "白原市音乐家协会",
+      "shared_city": "白原",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-04",
+      "value": "白原市青年联合会",
+      "shared_city": "白原",
+      "additional_shared_terms": [
+        "青年"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-04",
+      "value": "白原市合唱协会",
+      "shared_city": "白原",
+      "additional_shared_terms": [
+        "合唱"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-04",
+      "value": "白原市文化和旅游局",
+      "shared_city": "白原",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-05",
+      "value": "龙泽市龙舟协会",
+      "shared_city": "龙泽",
+      "additional_shared_terms": [
+        "龙舟"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-05",
+      "value": "龙泽市体育局",
+      "shared_city": "龙泽",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-05",
+      "value": "龙泽市体育总会",
+      "shared_city": "龙泽",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-05",
+      "value": "龙泽市水上运动协会",
+      "shared_city": "龙泽",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-05",
+      "value": "龙泽市体育发展中心",
+      "shared_city": "龙泽",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-06",
+      "value": "乐水市工艺美术协会",
+      "shared_city": "乐水",
+      "additional_shared_terms": [
+        "工艺"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-06",
+      "value": "乐水市文化和旅游局",
+      "shared_city": "乐水",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-06",
+      "value": "乐水市非物质文化遗产保护中心",
+      "shared_city": "乐水",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-06",
+      "value": "乐水市文化馆",
+      "shared_city": "乐水",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-06",
+      "value": "乐水市手工艺协会",
+      "shared_city": "乐水",
+      "additional_shared_terms": [
+        "工艺",
+        "手工"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-07",
+      "value": "通溪市教育局",
+      "shared_city": "通溪",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-07",
+      "value": "通溪市文化馆",
+      "shared_city": "通溪",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-07",
+      "value": "通溪市戏剧家协会",
+      "shared_city": "通溪",
+      "additional_shared_terms": [
+        "戏剧"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-07",
+      "value": "通溪市青少年活动中心",
+      "shared_city": "通溪",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-07",
+      "value": "通溪市文化和旅游局",
+      "shared_city": "通溪",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-08",
+      "value": "清山市社会体育指导中心",
+      "shared_city": "清山",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-08",
+      "value": "清山市体育总会",
+      "shared_city": "清山",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-08",
+      "value": "清山市体育局",
+      "shared_city": "清山",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-08",
+      "value": "清山市社区体育协会",
+      "shared_city": "清山",
+      "additional_shared_terms": [
+        "社区"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-08",
+      "value": "清山市全民健身协会",
+      "shared_city": "清山",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-09",
+      "value": "新定市科学技术协会",
+      "shared_city": "新定",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-09",
+      "value": "新定市科学技术局",
+      "shared_city": "新定",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-09",
+      "value": "新定市科技馆",
+      "shared_city": "新定",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-09",
+      "value": "新定市科普志愿者协会",
+      "shared_city": "新定",
+      "additional_shared_terms": [
+        "科普"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-09",
+      "value": "新定市科普教育基地联合会",
+      "shared_city": "新定",
+      "additional_shared_terms": [
+        "科普"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-10",
+      "value": "长源市美术馆",
+      "shared_city": "长源",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-10",
+      "value": "长源市摄影家协会",
+      "shared_city": "长源",
+      "additional_shared_terms": [
+        "摄影"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-10",
+      "value": "长源市文化馆",
+      "shared_city": "长源",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-10",
+      "value": "长源市文学艺术界联合会",
+      "shared_city": "长源",
+      "additional_shared_terms": [
+        "艺术"
+      ],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    },
+    {
+      "id": "EVENT-10",
+      "value": "长源市文化和旅游局",
+      "shared_city": "长源",
+      "additional_shared_terms": [],
+      "assistant_disposition": "城市五值共同；主题词重合只保留提醒，不自动判错或证明等可信。",
+      "user_decision": "本次未新增逐值决定"
+    }
+  ],
+  "counts": {
+    "city_only": 32,
+    "city_plus_theme": 18
+  },
+  "warranty_rows": [
+    {
+      "id": "PRODUCT-04",
+      "name": "C10 滴滤咖啡机",
+      "entity_class": "product",
+      "制造商": [
+        "顺勤电器有限公司",
+        "瑞成电器有限公司",
+        "恒启电器有限公司",
+        "嘉宜电器有限公司",
+        "丰嘉电器有限公司"
+      ],
+      "发布日期": [
+        "2024年1月15日",
+        "2023年4月2日",
+        "2023年8月3日",
+        "2024年5月1日",
+        "2024年11月25日"
+      ],
+      "价格": [
+        "429元人民币",
+        "408元人民币",
+        "418元人民币",
+        "440元人民币",
+        "450元人民币"
+      ],
+      "重量": [
+        "1.65公斤",
+        "1.57公斤",
+        "1.61公斤",
+        "1.69公斤",
+        "1.73公斤"
+      ],
+      "保修期": [
+        "12个月",
+        "3个月",
+        "6个月",
+        "18个月",
+        "24个月"
+      ],
+      "row_order": [
+        "重量",
+        "发布日期",
+        "价格",
+        "制造商",
+        "保修期"
+      ]
+    },
+    {
+      "id": "PRODUCT-09",
+      "name": "P10 智能手机",
+      "entity_class": "product",
+      "制造商": [
+        "瑞宜电子有限公司",
+        "嘉成电子有限公司",
+        "顺勤电子有限公司",
+        "恒宜电子有限公司",
+        "丰嘉电子有限公司"
+      ],
+      "发布日期": [
+        "2024年9月19日",
+        "2024年1月6日",
+        "2024年5月11日",
+        "2024年12月11日",
+        "2025年5月12日"
+      ],
+      "价格": [
+        "2699元人民币",
+        "2565元人民币",
+        "2632元人民币",
+        "2766元人民币",
+        "2833元人民币"
+      ],
+      "重量": [
+        "198克",
+        "189克",
+        "193克",
+        "203克",
+        "207克"
+      ],
+      "保修期": [
+        "12个月",
+        "3个月",
+        "6个月",
+        "18个月",
+        "24个月"
+      ],
+      "row_order": [
+        "制造商",
+        "发布日期",
+        "保修期",
+        "重量",
+        "价格"
+      ]
+    }
+  ],
+  "assistant_recommendation": "暂保留当前候选；3个月来自已审档位，偏短是助手主观标记，不足以要求改原值或改规则。",
+  "user_decision": "两项3个月是否保留待用户明确答复；未改数据。",
+  "data_changed": false,
+  "model_inference_run": false
+}

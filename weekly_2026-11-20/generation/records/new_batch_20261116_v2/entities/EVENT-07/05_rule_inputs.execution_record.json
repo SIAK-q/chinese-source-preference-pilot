@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17T10:50:19.267013+01:00",
+  "actor": "Codex",
+  "script_sha256": "8ed5d77d924928ab6893f826449bb889a2104a94d3435307d16562ef557f972d",
+  "original": {
+    "id": "EVENT-07",
+    "name": "通溪校园戏剧展演",
+    "entity_class": "event",
+    "举办日期": "2024年5月24日",
+    "持续时间": "4天",
+    "参与人数": "5200人次",
+    "主办方": "通溪市教育局",
+    "预算": "72万元"
+  },
+  "original_sha256": "2b70b9175aa77dc34da2cff08b72df14406e307244af15543ca0843281f0d7aa",
+  "organizer_raw_sha256": "84e7a35d93a025297d17769976450e8696c647b7fff81ec42e252b90423d8eb1",
+  "date_seed": "42:EVENT-07:举办日期",
+  "date_weeks_windows": [
+    [
+      -52,
+      -48
+    ],
+    [
+      -4,
+      -1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      48,
+      52
+    ]
+  ],
+  "date_filter": "同星期；循环月差不超过1；不晚于2026-11-17。",
+  "numeric_rule": "约±5%，精度不足取相邻两档并记录。",
+  "duration_rule": "天数±1、±2；小时换算分钟后一般数值规则。",
+  "row_order_seed": "42:EVENT-07",
+  "name_revision": []
+}

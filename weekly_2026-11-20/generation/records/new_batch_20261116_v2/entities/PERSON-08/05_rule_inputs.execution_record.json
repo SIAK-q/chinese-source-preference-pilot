@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-16T23:12:34.815931+01:00",
+  "actor": "Codex",
+  "step": "script_and_rule_inputs_saved_before_generation",
+  "script": "../../assemble_person.py",
+  "script_sha256": "9970a47577cb8b801eb75c30ccb1a3ff193d924f340c37f3c5e63bf4e086b1bc",
+  "python_version": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "original_input": {
+    "id": "PERSON-08",
+    "name": "张威菁",
+    "entity_class": "person",
+    "性别": "女",
+    "出生日期": "1997年10月4日",
+    "职业": "平面设计师",
+    "学历": "大专（视觉传达设计）",
+    "身高": "168厘米",
+    "体重": "60公斤",
+    "婚姻状况": "未婚",
+    "现居城市": "新定",
+    "出生地": "惠明",
+    "籍贯": "清山"
+  },
+  "paired_inputs": [
+    "alternatives.occupation_education.raw.json",
+    "alternatives.height_weight.raw.json"
+  ],
+  "seeds": {
+    "出生日期": "42:PERSON-08:出生日期",
+    "现居城市": "42:PERSON-08:现居城市",
+    "出生地": "42:PERSON-08:出生地",
+    "籍贯": "42:PERSON-08:籍贯"
+  },
+  "city_pool": [
+    "双陵",
+    "上泉",
+    "白原",
+    "龙泽",
+    "乐水",
+    "通溪",
+    "清山",
+    "新定",
+    "长源",
+    "惠明"
+  ],
+  "date_offset_ranges_in_days": [
+    [
+      -365,
+      -183
+    ],
+    [
+      -182,
+      -30
+    ],
+    [
+      30,
+      182
+    ],
+    [
+      183,
+      365
+    ]
+  ],
+  "marital_values": [
+    "已婚",
+    "未婚",
+    "离异",
+    "再婚",
+    "丧偶"
+  ],
+  "row_order_seed": "42:PERSON-08",
+  "output": null
+}

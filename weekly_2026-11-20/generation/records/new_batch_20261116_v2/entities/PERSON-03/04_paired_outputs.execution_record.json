@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-16T23:09:23.248585+01:00",
+  "actor": "Codex",
+  "step": "read_saved_prompts_then_generate_two_paired_outputs",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "input_record": "03_alternatives_input.execution_record.json",
+  "check_script": "../../check_person_pairs.py",
+  "checks": {
+    "occupation_education": {
+      "four_pairs_and_five_distinct_values": true,
+      "raw_output": "alternatives.occupation_education.raw.json",
+      "sha256": "e7892f7193d023ca93ac0cf69ec4d1292891f18fe7d459556df96696b697dc4b",
+      "prompt_hash_unchanged": true
+    },
+    "height_weight": {
+      "four_pairs_and_five_distinct_values": true,
+      "raw_output": "alternatives.height_weight.raw.json",
+      "sha256": "084263ccfd025335589fd565d622c84d2fc512a77ab00fe4548d264848c650d6",
+      "prompt_hash_unchanged": true
+    }
+  },
+  "assistant_review": "当前会话生成时一起考虑职业学历、身高体重，并考虑单字段替换配原值；未标出明显搭配冲突。这是助手判断，不是用户审核或资格核验。",
+  "user_review": "新备选未审核",
+  "edits": []
+}

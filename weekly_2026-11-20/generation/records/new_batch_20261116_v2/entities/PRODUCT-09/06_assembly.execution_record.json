@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-17T10:59:00.125302+01:00",
+  "actor": "Codex",
+  "script_sha256": "3cbf8fbbb77393572cb1efd3784bf7c501a8e4acc22d5058a1e174794ef021eb",
+  "steps": [
+    {
+      "field": "发布日期",
+      "offsets_days": [
+        -257,
+        -131,
+        83,
+        235
+      ],
+      "seed": "42:PRODUCT-09:发布日期"
+    },
+    {
+      "field": "价格",
+      "unit": "元人民币",
+      "precision": 0,
+      "step": "1",
+      "offsets_in_steps": [
+        -134,
+        -67,
+        67,
+        134
+      ],
+      "actual_maximum_percent": "4.964801778436457947387921452",
+      "precision_exception": false
+    },
+    {
+      "field": "重量",
+      "unit": "克",
+      "precision": 0,
+      "step": "1",
+      "offsets_in_steps": [
+        -9,
+        -5,
+        5,
+        9
+      ],
+      "actual_maximum_percent": "4.545454545454545454545454545",
+      "precision_exception": false
+    },
+    {
+      "field": "保修期",
+      "rule": "固定档位取最近两低两高",
+      "month_alternatives": [
+        3,
+        6,
+        18,
+        24
+      ]
+    }
+  ],
+  "checks": {
+    "five_distinct_values": true,
+    "originals_unchanged": true,
+    "prices_and_weights_within_five_percent": true,
+    "precision_and_units_preserved": true,
+    "dates_in_four_windows": true
+  },
+  "assistant_flags": [
+    {
+      "id": "PRODUCT-09",
+      "field": "保修期",
+      "value": "整机保修3个月",
+      "actor": "Codex",
+      "reason": "按已审档位机械得到，但对该日常产品偏短；相容性尚未确认，不记为通过。",
+      "user_decision": "待看"
+    }
+  ],
+  "user_review": "候选待审",
+  "output": "entity.pending_review.json",
+  "model_inference_run": false
+}

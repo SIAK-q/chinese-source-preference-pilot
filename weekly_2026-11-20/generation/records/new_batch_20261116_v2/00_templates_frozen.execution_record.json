@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-16T22:59:50.133402+01:00",
+  "actor": "Codex",
+  "step": "先固定七类原值/备选模板及规则快照；尚未生成新输出",
+  "inputs": [
+    "pilot/ENTITY_GENERATION_PROTOCOL_DRAFT.md",
+    "pilot/data_generation/product_plan/PRODUCT_PROMPTS_DRAFT.md",
+    "pilot/name_generation/person/reports_extended_20261115/entity_people.jsonl"
+  ],
+  "template_hashes": {
+    "templates/art.alternatives.txt": "68fbcec3c833b459472196e9a5d6962bceafb4b656b74f63006b8e3d1627969d",
+    "templates/art.original.txt": "762a1d3e7a205fe1e7c8dc060f713e44548b627528ab976c959689a65408104f",
+    "templates/building.alternatives.txt": "68fbcec3c833b459472196e9a5d6962bceafb4b656b74f63006b8e3d1627969d",
+    "templates/building.original.txt": "15598389447f5314a2e6fdc180046c879fb7e7988d26d8df6b54119c72cac009",
+    "templates/event.alternatives.txt": "68fbcec3c833b459472196e9a5d6962bceafb4b656b74f63006b8e3d1627969d",
+    "templates/event.original.txt": "4776df73c414b4dc41c84351c8cc786f8e841e33e712a26b04291a61aec8b5d0",
+    "templates/location.alternatives.txt": "68fbcec3c833b459472196e9a5d6962bceafb4b656b74f63006b8e3d1627969d",
+    "templates/location.original.txt": "7b97b484bab7e7ff8f2854e98c1b04717177cd3db9319518814966aa03746213",
+    "templates/organization.alternatives.txt": "68fbcec3c833b459472196e9a5d6962bceafb4b656b74f63006b8e3d1627969d",
+    "templates/organization.original.txt": "c3cf4e7a079968c61bec5d12a641eb93d1ac3aca40a13a53b1dcfbb30c2c39e6",
+    "templates/person.alternatives.txt": "68fbcec3c833b459472196e9a5d6962bceafb4b656b74f63006b8e3d1627969d",
+    "templates/person.original.txt": "2c15119e8e4ac4b601cd643e9315c9a002f845d9044b690e4da8f56c163ead43",
+    "templates/person.paired_alternatives.txt": "da9a72a3ad536184774aa943cb110c6fce86b40998d165970049cecfecb9e5ab",
+    "templates/product.alternatives.txt": "64a6b4025f666bc10970b4ddf74c4ac8450f8098795748c706dd1929b83398f8",
+    "templates/product.original.txt": "ffc7acc690458488da332aa7e9c19527023c8f5494a5035733d007277b458179",
+    "templates/product.revision.txt": "398af273b6142e22b0751bdef50468c56b7f74b5d267493bb9039148657b8668"
+  },
+  "product_prompt_blocks_unchanged": true,
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "user_decisions": [
+    "建筑主要材料；属性表达自然直白",
+    "个人信源A",
+    "新批次按七类各10实体推进；旧批次保留"
+  ],
+  "raw_data_output": null,
+  "next_step": "逐实体先存填充prompt/输入，再由当前会话生成输出，输出保存后再准备下个实体。"
+}

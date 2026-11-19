@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-17",
+  "id": "BUILDING-02",
+  "name": "上泉图书馆",
+  "architect_candidates": [
+    "钟洪康",
+    "罗华默",
+    "余云文",
+    "贾锡学",
+    "杭兴鑫"
+  ],
+  "entity_class": "building",
+  "fixed_architect": "钟洪康",
+  "architect_rule": "设计师原值固定为上述fixed_architect，另外四名保留给设计师备选。",
+  "material_definition": "建筑的主要用料或材料组合，不是框架、剪力墙等结构体系。",
+  "other_definitions": {
+    "高度": "建筑总高度",
+    "层数": "建筑总层数",
+    "容纳人数": "设计容纳人数"
+  },
+  "coverage_requirement": "按体育馆、图书馆、展馆等各自用途生成整表；高度、层数、人数保持合理差异。",
+  "previous_same_type_originals": [
+    {
+      "id": "BUILDING-01",
+      "name": "双陵体育馆",
+      "entity_class": "building",
+      "设计师": "王燕霞",
+      "建成年份": "2016年",
+      "高度": "28米",
+      "层数": "3层",
+      "主要材料": "钢和混凝土",
+      "容纳人数": "5200人"
+    }
+  ],
+  "references": []
+}

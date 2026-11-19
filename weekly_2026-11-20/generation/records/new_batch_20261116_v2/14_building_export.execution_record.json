@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-17T00:20:06.355570+01:00",
+  "actor": "Codex",
+  "script_sha256": "3d45ddbc05fb952fa04d1a2cc9b24d45333940217d231f8ae05f6a8cbc1969e8",
+  "source": "data_generation/new_batch_20261116_v2/REVIEW_building.md",
+  "mirror": "notes/02 数据/合成数据/新批次建筑备选.md",
+  "mirror_equal": true,
+  "review_sha256": "48fe5f15db39a501dd93613ee0ed12af1d6f5c94c039b353836eacc4246319b8",
+  "backups": [
+    "building_export_backups_20261117/pilot/data_generation/new_batch_20261116_v2/CURRENT_DATA.json",
+    "building_export_backups_20261117/pilot/data_generation/new_batch_20261116_v2/README.md",
+    "building_export_backups_20261117/pilot/HANDOFF.md",
+    "building_export_backups_20261117/pilot/coordination/codex.md",
+    "building_export_backups_20261117/pilot/coordination/claude.md"
+  ],
+  "validation": {
+    "entities": 40,
+    "by_class": {
+      "person": 10,
+      "organization": 10,
+      "location": 10,
+      "building": 10
+    },
+    "instances": 240,
+    "pairs": 960,
+    "items": 1920,
+    "spread": [
+      [
+        "已婚",
+        3,
+        7
+      ],
+      [
+        "较大数值·下辖乡镇数",
+        20,
+        20
+      ],
+      [
+        "较大数值·人口",
+        20,
+        20
+      ],
+      [
+        "较大数值·体重",
+        20,
+        20
+      ],
+      [
+        "较大数值·员工人数",
+        20,
+        20
+      ],
+      [
+        "较大数值·容纳人数",
+        20,
+        20
+      ],
+      [
+        "较大数值·层数",
+        20,
+        20
+      ],
+      [
+        "较大数值·年营业额",
+        20,
+        20
+      ],
+      [
+        "较大数值·海拔",
+        20,
+        20
+      ],
+      [
+        "较大数值·身高",
+        20,
+        20
+      ],
+      [
+        "较大数值·面积",
+        20,
+        20
+      ],
+      [
+        "较大数值·高度",
+        20,
+        20
+      ],
+      [
+        "较高学历",
+        9,
+        16
+      ]
+    ],
+    "errors": [],
+    "review": []
+  },
+  "combined_prompts_previewed": 1920,
+  "model_inference_run": false,
+  "user_decision": "未新增建筑审核决定；用户“好了”仅作继续工作的指示。"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17T10:57:37.492757+01:00",
+  "actor": "Codex",
+  "step": "manufacturer_alternatives_authored_after_saved_full_prompt",
+  "prompt": "alternatives.prompt.txt",
+  "raw_output": "alternatives.manufacturer.raw.json",
+  "raw_sha256": "a8e5f9b5f2fc9f647e114ad30b1a2d8f15563039dfb1162bd9c86524ea49e192",
+  "model": "Codex；具体型号/版本不可见",
+  "parameters": "不可见",
+  "checks": {
+    "five_distinct_company_names": true,
+    "model_not_in_company_names": true,
+    "prompt_unchanged": true
+  },
+  "assistant_review": "按电器、电子、车辆行业取常见商业用字；未外部查重，不能保证现实无同名公司。",
+  "user_review": "未审核",
+  "edits": []
+}

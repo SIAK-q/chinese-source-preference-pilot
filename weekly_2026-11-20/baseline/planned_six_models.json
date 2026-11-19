@@ -1,0 +1,35 @@
+{
+  "tag": "new70_20261118_v2",
+  "platform": "UC3",
+  "partition": "gpu_h100",
+  "data": "pilot/data_generation/final70_20261118_v2/entities_zh.jsonl",
+  "data_sha256": "80f71b7a27ab91017ea78da350849d0f3176b80a1cd0ea56ebb4301a4a64ca38",
+  "entities": 70,
+  "attributes": 380,
+  "pairs": 1520,
+  "prompts_per_model": 3040,
+  "total_model_records": 18240,
+  "models": {
+    "Qwen/Qwen2.5-7B-Instruct": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "Qwen/Qwen2.5-14B-Instruct": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "Qwen/Qwen2.5-32B-Instruct": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd",
+    "Qwen/Qwen2.5-72B-Instruct": "495f39366efef23836d0cfae4fbe635880d2be31",
+    "meta-llama/Llama-3.1-8B-Instruct": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "zai-org/GLM-4-9B-0414": "645b8482494e31b6b752272bf7f7f273ef0f3caf"
+  },
+  "dtype_requested": "bfloat16",
+  "dtype_required": "torch.bfloat16",
+  "max_new_tokens": 1,
+  "do_sample": false,
+  "alts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "device_map": "auto",
+  "smoke_records": 16,
+  "HF_HUB_OFFLINE": 1,
+  "results_root": "pilot/results_baseline",
+  "submission_status": "not_submitted"
+}

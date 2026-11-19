@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-18",
+  "identities": [
+    {
+      "id": "ART-01",
+      "name": "《双陵晨光图》",
+      "fixed_art_type": "架上绘画",
+      "creator_candidates": [
+        "林逢江",
+        "梁江文",
+        "汪仁维",
+        "曹峰彦",
+        "陈竹才"
+      ]
+    },
+    {
+      "id": "ART-02",
+      "name": "《上泉渡口图》",
+      "fixed_art_type": "架上绘画",
+      "creator_candidates": [
+        "罗晓珍",
+        "彭育梅",
+        "叶雪琴",
+        "刘海娥",
+        "姜春宗"
+      ]
+    },
+    {
+      "id": "ART-03",
+      "name": "《白原山居图》",
+      "fixed_art_type": "架上绘画",
+      "creator_candidates": [
+        "张春永",
+        "钟康春",
+        "李花玉",
+        "孙芳术",
+        "张芳婕"
+      ]
+    },
+    {
+      "id": "ART-04",
+      "name": "《龙泽远帆图》",
+      "fixed_art_type": "架上绘画",
+      "creator_candidates": [
+        "范玲利",
+        "鲜平秋",
+        "杨凤慧",
+        "周玉桃",
+        "方悦桂"
+      ]
+    },
+    {
+      "id": "ART-05",
+      "name": "《乐水秋园图》",
+      "fixed_art_type": "架上绘画",
+      "creator_candidates": [
+        "周芬方",
+        "陈美娜",
+        "刘英兰",
+        "周敏秀",
+        "韩英薇"
+      ]
+    },
+    {
+      "id": "ART-06",
+      "name": "《通溪回望》",
+      "fixed_art_type": "人物雕塑",
+      "creator_candidates": [
+        "何国芹",
+        "杨贵珍",
+        "王玉云",
+        "白家燕",
+        "陆东细"
+      ]
+    },
+    {
+      "id": "ART-07",
+      "name": "《清山相遇》",
+      "fixed_art_type": "人物雕塑",
+      "creator_candidates": [
+        "马琴佳",
+        "周芬富",
+        "丁英芬",
+        "闫娟坪",
+        "严志语"
+      ]
+    },
+    {
+      "id": "ART-08",
+      "name": "《新定行者》",
+      "fixed_art_type": "人物雕塑",
+      "creator_candidates": [
+        "陈艳美",
+        "唐丽霞",
+        "汤英远",
+        "张凤文",
+        "李鑫平"
+      ]
+    },
+    {
+      "id": "ART-09",
+      "name": "《长源听风》",
+      "fixed_art_type": "人物雕塑",
+      "creator_candidates": [
+        "李锡玲",
+        "刘香华",
+        "刘秀玉",
+        "李敏兰",
+        "侯玉英"
+      ]
+    },
+    {
+      "id": "ART-10",
+      "name": "《惠明守望》",
+      "fixed_art_type": "人物雕塑",
+      "creator_candidates": [
+        "贲英华",
+        "卢红芳",
+        "秦春英",
+        "郑英清",
+        "刘娥妹"
+      ]
+    }
+  ],
+  "selection": "沿用准备题名和固定作品类型；五项属性重新生成。",
+  "attribute_people_pool": "/Users/zyq/Desktop/MA thesis topic/llm-source-preference/pilot/name_generation/person/reports_extended_20261115/attribute_people.jsonl",
+  "attribute_people_sha256": "3874914fe77b3cf747ff8ca04be998b74951e40d3e66c0f3e07ba5a02887084a",
+  "creator_rule": "属性姓名池后50名分为十组，每组首名作原值、另四名作备选；与建筑前50名不重叠。",
+  "type_definition": "架上绘画或人物雕塑；类型为固定背景，在组装表中显示，不作为冲突属性。",
+  "dimensions": "作品本体高度、宽度，不含画框或雕塑底座。"
+}

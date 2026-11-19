@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-17",
+  "products": [
+    {
+      "id": "PRODUCT-01",
+      "type": "滚筒洗衣机",
+      "name": "W10 滚筒洗衣机"
+    },
+    {
+      "id": "PRODUCT-02",
+      "type": "波轮洗衣机",
+      "name": "W20 波轮洗衣机"
+    },
+    {
+      "id": "PRODUCT-03",
+      "type": "洗碗机",
+      "name": "D10 洗碗机"
+    },
+    {
+      "id": "PRODUCT-04",
+      "type": "滴滤咖啡机",
+      "name": "C10 滴滤咖啡机"
+    },
+    {
+      "id": "PRODUCT-05",
+      "type": "胶囊咖啡机",
+      "name": "C20 胶囊咖啡机"
+    },
+    {
+      "id": "PRODUCT-06",
+      "type": "通勤自行车",
+      "name": "B10 通勤自行车"
+    },
+    {
+      "id": "PRODUCT-07",
+      "type": "头戴式无线耳机",
+      "name": "H10 头戴式无线耳机"
+    },
+    {
+      "id": "PRODUCT-08",
+      "type": "轻薄笔记本电脑",
+      "name": "L10 轻薄笔记本电脑"
+    },
+    {
+      "id": "PRODUCT-09",
+      "type": "智能手机",
+      "name": "P10 智能手机"
+    },
+    {
+      "id": "PRODUCT-10",
+      "type": "智能手机",
+      "name": "P20 智能手机"
+    }
+  ],
+  "plan_sha256": "11ecefe688a387f74170021316cdf168d90a08777e61726f76f70bc000b70e24",
+  "selection": "沿用已定十种产品/名称与ID，五项属性重新生成。"
+}

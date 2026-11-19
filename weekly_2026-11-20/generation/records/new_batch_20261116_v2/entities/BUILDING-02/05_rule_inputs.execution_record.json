@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17T00:19:19.057192+01:00",
+  "actor": "Codex",
+  "step": "inputs_saved_before_rule_generation",
+  "script": "../../assemble_building.py",
+  "script_sha256": "4e3311d96cda4b2728ff3bad6e7895e7a858b00f0b172a56fbdc0acd6e6c8a7f",
+  "original": {
+    "id": "BUILDING-02",
+    "name": "上泉图书馆",
+    "entity_class": "building",
+    "设计师": "钟洪康",
+    "建成年份": "2013年",
+    "高度": "32米",
+    "层数": "7层",
+    "主要材料": "混凝土和砖",
+    "容纳人数": "2100人"
+  },
+  "original_sha256": "7d24983aa98a8f7dc8698d96bbdcd5bee95285b18457fa6f2b514a53fad8d282",
+  "material_raw_sha256": "a47be4d27171f6cbc7c405d842723604818a27b14292feb058de0927bf189ad3",
+  "designer_candidates": [
+    "钟洪康",
+    "罗华默",
+    "余云文",
+    "贾锡学",
+    "杭兴鑫"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "floor_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_rule": "约±5%，两低两高，保持精度；不足四值时取相邻两档并记录幅度。",
+  "row_order_seed": "42:BUILDING-02"
+}

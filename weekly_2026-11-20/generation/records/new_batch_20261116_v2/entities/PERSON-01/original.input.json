@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16",
+  "id": "PERSON-01",
+  "name": "胡飞建",
+  "entity_class": "person",
+  "fixed_gender": "男",
+  "entity_places": [
+    "双陵",
+    "上泉",
+    "白原",
+    "龙泽",
+    "乐水",
+    "通溪",
+    "清山",
+    "新定",
+    "长源",
+    "惠明"
+  ],
+  "previous_same_type_originals": [],
+  "references": []
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-17",
+  "identities": [
+    {
+      "id": "BUILDING-01",
+      "name": "双陵体育馆",
+      "architect_candidates": [
+        "王燕霞",
+        "刘四洁",
+        "吴清萍",
+        "夏平桂",
+        "候春才"
+      ]
+    },
+    {
+      "id": "BUILDING-02",
+      "name": "上泉图书馆",
+      "architect_candidates": [
+        "钟洪康",
+        "罗华默",
+        "余云文",
+        "贾锡学",
+        "杭兴鑫"
+      ]
+    },
+    {
+      "id": "BUILDING-03",
+      "name": "白原文化馆",
+      "architect_candidates": [
+        "牛延炜",
+        "杨意小",
+        "黄进生",
+        "罗润帮",
+        "符辉祥"
+      ]
+    },
+    {
+      "id": "BUILDING-04",
+      "name": "龙泽青少年活动中心",
+      "architect_candidates": [
+        "章金振",
+        "江传国",
+        "廖炳胜",
+        "徐志志",
+        "崔营海"
+      ]
+    },
+    {
+      "id": "BUILDING-05",
+      "name": "乐水会展中心",
+      "architect_candidates": [
+        "李继善",
+        "秦杰爱",
+        "刘加太",
+        "毛章庆",
+        "余家生"
+      ]
+    },
+    {
+      "id": "BUILDING-06",
+      "name": "通溪市民服务中心",
+      "architect_candidates": [
+        "罗福鹏",
+        "李言林",
+        "许怀清",
+        "潘泽欣",
+        "苏军登"
+      ]
+    },
+    {
+      "id": "BUILDING-07",
+      "name": "清山科技馆",
+      "architect_candidates": [
+        "王良飞",
+        "张营新",
+        "金有中",
+        "芦华光",
+        "吴伟义"
+      ]
+    },
+    {
+      "id": "BUILDING-08",
+      "name": "新定档案馆",
+      "architect_candidates": [
+        "郑琦增",
+        "许容和",
+        "徐旭利",
+        "李凯山",
+        "田平少"
+      ]
+    },
+    {
+      "id": "BUILDING-09",
+      "name": "长源音乐厅",
+      "architect_candidates": [
+        "余爱振",
+        "唐科祥",
+        "胡贤亮",
+        "蔡昌航",
+        "余传万"
+      ]
+    },
+    {
+      "id": "BUILDING-10",
+      "name": "惠明博物馆",
+      "architect_candidates": [
+        "庞辉阳",
+        "张友福",
+        "王国伦",
+        "祝平阔",
+        "马泉远"
+      ]
+    }
+  ],
+  "identity_selection": "沿用准备的建筑名和ID；六项属性重新生成，主要材料取代旧主体结构。",
+  "architect_pool_source": "pilot/name_generation/person/reports_extended_20261115/attribute_people.jsonl",
+  "architect_pool_sha256": "3874914fe77b3cf747ff8ca04be998b74951e40d3e66c0f3e07ba5a02887084a",
+  "architect_selection": "属性姓名池前50名，每建筑分配5名；首名作设计师原值，其余四名作备选；姓名池已获认可。",
+  "material_definition": "建筑的主要用料或材料组合，不是框架、剪力墙等结构体系。",
+  "other_definitions": {
+    "高度": "建筑总高度",
+    "层数": "建筑总层数",
+    "容纳人数": "设计容纳人数"
+  },
+  "coverage_requirement": "按体育馆、图书馆、展馆等各自用途生成整表；高度、层数、人数保持合理差异。"
+}

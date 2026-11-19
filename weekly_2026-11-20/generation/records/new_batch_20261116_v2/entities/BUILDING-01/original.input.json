@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17",
+  "id": "BUILDING-01",
+  "name": "双陵体育馆",
+  "architect_candidates": [
+    "王燕霞",
+    "刘四洁",
+    "吴清萍",
+    "夏平桂",
+    "候春才"
+  ],
+  "entity_class": "building",
+  "fixed_architect": "王燕霞",
+  "architect_rule": "设计师原值固定为上述fixed_architect，另外四名保留给设计师备选。",
+  "material_definition": "建筑的主要用料或材料组合，不是框架、剪力墙等结构体系。",
+  "other_definitions": {
+    "高度": "建筑总高度",
+    "层数": "建筑总层数",
+    "容纳人数": "设计容纳人数"
+  },
+  "coverage_requirement": "按体育馆、图书馆、展馆等各自用途生成整表；高度、层数、人数保持合理差异。",
+  "previous_same_type_originals": [],
+  "references": []
+}

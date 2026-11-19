@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-17T00:04:52.989409+01:00",
+  "actor": "Codex",
+  "step": "rule_inputs_saved_before_generation",
+  "script": "../../assemble_location.py",
+  "script_sha256": "0feeb9d0cdb297ee600e7745cb490ffa839dc8859ec43c5cee92374c2ae0ee4c",
+  "original": {
+    "id": "LOCATION-09",
+    "name": "长源市",
+    "entity_class": "location",
+    "人口": "61.3万人",
+    "面积": "1460平方公里",
+    "海拔": "310米",
+    "下辖乡镇数": "16个"
+  },
+  "general_numeric_percent": 5,
+  "precision_exception_rule": "±5%内精度不足四值时扩大到相邻两档，保留整数并记录最大幅度。",
+  "town_count_rule": "n-2、n-1、n+1、n+2；本批均为正整数。",
+  "row_order_seed": "42:LOCATION-09",
+  "output": null
+}

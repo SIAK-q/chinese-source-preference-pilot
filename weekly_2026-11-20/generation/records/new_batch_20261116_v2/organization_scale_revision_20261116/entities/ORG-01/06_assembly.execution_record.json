@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-16T23:59:15.358631+01:00",
+  "actor": "Codex",
+  "step": "revised_numeric_alternatives_assembled",
+  "steps": [
+    {
+      "field": "员工人数",
+      "maximum_percent": 5,
+      "unit": "人",
+      "step": "1",
+      "offsets_in_steps": [
+        -115,
+        -58,
+        58,
+        115
+      ],
+      "actual_maximum_percent": "5.00",
+      "rule": "同单位同精度，两低两高，最大幅度内取整数步长，半幅向上取整"
+    },
+    {
+      "field": "年营业额",
+      "maximum_percent": 10,
+      "unit": "亿元人民币",
+      "step": "0.1",
+      "offsets_in_steps": [
+        -24,
+        -12,
+        12,
+        24
+      ],
+      "actual_maximum_percent": "9.756097560975609756097560976",
+      "rule": "同单位同精度，两低两高，最大幅度内取整数步长，半幅向上取整"
+    }
+  ],
+  "industry_values": "根据修订整表重新考虑后保留原四候选，见03/04记录。",
+  "user_review": "修订候选未审核",
+  "output": "entity.pending_review.json"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16T23:08:34.235706+01:00",
+  "actor": "Codex",
+  "step": "both_paired_prompts_saved_before_output",
+  "input": "original.raw.json",
+  "input_sha256": "259c298b1060d4e47a98447417cf4993ace476e5956019926db7db73286f5b18",
+  "prompts": {
+    "occupation_education": {
+      "path": "alternatives.occupation_education.prompt.txt",
+      "sha256": "c731dd1a935eb1d4f0285884c7d3e340323dd289a5dded073954ef5bfb10a078"
+    },
+    "height_weight": {
+      "path": "alternatives.height_weight.prompt.txt",
+      "sha256": "744fc56036725ae39d381c11dc06c330e9f4ad34ea80655097cd0164a3120ec8"
+    }
+  },
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "context_boundary": "会话已读旧批次，历史上下文仍可见；保存的是实际任务prompt和显式输入，不是完整隔离请求或完整上下文快照。",
+  "execution_unit": "本会话读取同一人物两份实际任务prompt，分别保存两组成对输出；不是两次隔离API请求。",
+  "raw_outputs": null,
+  "user_review": "备选尚未生成及审核"
+}

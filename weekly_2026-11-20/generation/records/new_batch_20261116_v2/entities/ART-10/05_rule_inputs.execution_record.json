@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-18T14:13:13.469509+01:00",
+  "actor": "Codex",
+  "step": "rule_inputs_saved_before_generation",
+  "script_sha256": "9177e80301d0883963b70d1d761f4e88b43c611d27942a3cba0d05f55ebd3a89",
+  "original": {
+    "id": "ART-10",
+    "name": "《惠明守望》",
+    "entity_class": "art",
+    "description": "人物雕塑",
+    "创作者": "贲英华",
+    "创作年份": "2015年",
+    "高度": "185厘米",
+    "宽度": "75厘米",
+    "材料": "木材"
+  },
+  "original_sha256": "af9a09e3e801b3641383e3ed57292f4747806699175a23fa196d879e5a3d51b0",
+  "material_sha256": "d3b6a594e3b9d6c8373ffac133f1ddb3d0511e858c612b40c7277e9fdf56160e",
+  "creator_candidates": [
+    "贲英华",
+    "卢红芳",
+    "秦春英",
+    "郑英清",
+    "刘娥妹"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_percent": 5,
+  "numeric_precision": "整数厘米，两低两高",
+  "row_order_seed": "42:ART-10",
+  "fixed_type_rendering": "description保留，同时复制为标量作品类型以显示在两张表；不改类型、不作冲突属性。"
+}

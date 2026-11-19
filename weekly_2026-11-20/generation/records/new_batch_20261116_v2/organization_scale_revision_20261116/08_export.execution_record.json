@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17T00:00:09.239292+01:00",
+  "actor": "Codex",
+  "step": "导出规模修订及同步Obsidian当前版本",
+  "input": "organization.entities.pending_review.jsonl",
+  "outputs": [
+    "REVIEW_scale_changes.md",
+    "REVIEW_organization.md",
+    "REVIEW_organization_originals.md",
+    "../CURRENT_DATA.json"
+  ],
+  "doc_changes": [
+    {
+      "path": "pilot/notes/02 数据/合成数据/新批次机构备选.md",
+      "before_sha256": "1e3faa7787d69315db642109117c2a16cb102690258b47709d9421287c0e60c9",
+      "after_sha256": "0f02059db4f9877ce8e4608b636be8eaf8367812e4b42319e6591f438ddea65a"
+    },
+    {
+      "path": "pilot/notes/02 数据/合成数据/新批次机构原值.md",
+      "before_sha256": "f9afea1c868cde433269caee6a68e1560c2570917c78a6b32f78479a2e2e8fa9",
+      "after_sha256": "29ee09a916d4c5ff439c7e1a25def924d8768ff81e92eb54a5c4cff7e33122ca"
+    }
+  ],
+  "checks": {
+    "scale_note_matches": true,
+    "complete_note_matches": true,
+    "original_note_matches": true
+  },
+  "user_review": "三家修订候选待审",
+  "data_edits_after_assembly": []
+}

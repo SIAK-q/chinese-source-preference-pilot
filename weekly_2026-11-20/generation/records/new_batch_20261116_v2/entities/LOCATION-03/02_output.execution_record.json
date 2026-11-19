@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-17T00:02:44.734669+01:00",
+  "actor": "Codex",
+  "step": "location_original_generated_then_checked",
+  "input_record": "01_input.execution_record.json",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "raw_output": "original.raw.json",
+  "raw_output_sha256": "b63b09a72194f530890d14bcd5d7e4ef3fecbbcbb123a3c1c9f7fa6da8ba52de",
+  "checks": {
+    "exact_fields": true,
+    "identity_matches_input": true,
+    "all_units_and_positive_numbers": true,
+    "prompt_unchanged": true
+  },
+  "check_script": "../../check_location_output.py",
+  "assistant_review": "同时考虑四项属性，未标出人口、面积和乡镇数的明显搭配冲突；城区海拔与全域面积分开理解。",
+  "user_review": "新地点候选未审核",
+  "edits": []
+}

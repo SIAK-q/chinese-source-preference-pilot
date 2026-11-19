@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-17T00:19:19.098893+01:00",
+  "actor": "Codex",
+  "script_sha256": "4e3311d96cda4b2728ff3bad6e7895e7a858b00f0b172a56fbdc0acd6e6c8a7f",
+  "validation": {
+    "entities": 10,
+    "by_class": {
+      "building": 10
+    },
+    "instances": 60,
+    "pairs": 240,
+    "items": 480,
+    "spread": [
+      [
+        "较大数值·容纳人数",
+        20,
+        20
+      ],
+      [
+        "较大数值·层数",
+        20,
+        20
+      ],
+      [
+        "较大数值·高度",
+        20,
+        20
+      ]
+    ],
+    "errors": [],
+    "review": []
+  },
+  "precision_exceptions": [
+    {
+      "id": "BUILDING-01",
+      "field": "高度",
+      "values": [
+        "28米",
+        "26米",
+        "27米",
+        "29米",
+        "30米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "7.142857142857142857142857143"
+    },
+    {
+      "id": "BUILDING-02",
+      "field": "高度",
+      "values": [
+        "32米",
+        "30米",
+        "31米",
+        "33米",
+        "34米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "6.2500"
+    },
+    {
+      "id": "BUILDING-03",
+      "field": "高度",
+      "values": [
+        "20米",
+        "18米",
+        "19米",
+        "21米",
+        "22米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "10.0"
+    },
+    {
+      "id": "BUILDING-04",
+      "field": "高度",
+      "values": [
+        "24米",
+        "22米",
+        "23米",
+        "25米",
+        "26米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "8.333333333333333333333333333"
+    },
+    {
+      "id": "BUILDING-05",
+      "field": "高度",
+      "values": [
+        "36米",
+        "34米",
+        "35米",
+        "37米",
+        "38米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "5.555555555555555555555555556"
+    },
+    {
+      "id": "BUILDING-07",
+      "field": "高度",
+      "values": [
+        "30米",
+        "28米",
+        "29米",
+        "31米",
+        "32米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "6.666666666666666666666666667"
+    },
+    {
+      "id": "BUILDING-08",
+      "field": "高度",
+      "values": [
+        "27米",
+        "25米",
+        "26米",
+        "28米",
+        "29米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "7.407407407407407407407407407"
+    },
+    {
+      "id": "BUILDING-09",
+      "field": "高度",
+      "values": [
+        "25米",
+        "23米",
+        "24米",
+        "26米",
+        "27米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "8.00"
+    },
+    {
+      "id": "BUILDING-10",
+      "field": "高度",
+      "values": [
+        "22米",
+        "20米",
+        "21米",
+        "23米",
+        "24米"
+      ],
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "step": "1",
+      "precision_exception": true,
+      "actual_maximum_percent": "9.090909090909090909090909091"
+    }
+  ],
+  "checks": {
+    "originals_unchanged": true,
+    "prior_inputs_match_outputs": true,
+    "single_field_differs": true,
+    "both_orders_reverse_values": true,
+    "480_prompts_previewed": true
+  },
+  "data_sha256": "50d52ba2950ed60d7d40cb3c9c355f84d8885b6af515ef5b65f2d6db68ca713f",
+  "generation_boundary": "原值与材料备选在当前会话生成，具体模型版本参数不可见；其他备选由已保存脚本规则生成。",
+  "model_inference_run": false,
+  "user_review": "建筑候选待审"
+}

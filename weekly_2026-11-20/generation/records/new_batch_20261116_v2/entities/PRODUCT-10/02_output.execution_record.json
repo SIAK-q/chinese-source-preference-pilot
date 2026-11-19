@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-17T10:57:18.647188+01:00",
+  "actor": "Codex",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "raw_output": "original.raw.json",
+  "raw_sha256": "7a241b0bb6f213111dbdf641f4e4a811216e4960b8a453776c0b86562e16eba6",
+  "checks": {
+    "five_expected_fields": true,
+    "identity_matches": true,
+    "date_not_future": true,
+    "price_unit": true,
+    "weight_unit": true,
+    "warranty_months_only": true,
+    "manufacturer_not_model_hint": true,
+    "prompt_unchanged": true
+  },
+  "assistant_review": "按产品类型联合生成价格、整机净重和整机保修；公司名为候选，未外部查重。",
+  "user_review": "未审核",
+  "edits": []
+}

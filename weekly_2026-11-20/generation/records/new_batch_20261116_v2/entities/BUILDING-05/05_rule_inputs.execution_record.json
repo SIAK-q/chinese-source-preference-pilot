@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17T00:19:19.065836+01:00",
+  "actor": "Codex",
+  "step": "inputs_saved_before_rule_generation",
+  "script": "../../assemble_building.py",
+  "script_sha256": "4e3311d96cda4b2728ff3bad6e7895e7a858b00f0b172a56fbdc0acd6e6c8a7f",
+  "original": {
+    "id": "BUILDING-05",
+    "name": "乐水会展中心",
+    "entity_class": "building",
+    "设计师": "李继善",
+    "建成年份": "2020年",
+    "高度": "36米",
+    "层数": "3层",
+    "主要材料": "钢和玻璃",
+    "容纳人数": "9000人"
+  },
+  "original_sha256": "b149afd656f771bb1d0a35925b3742d5c14262022b315f85adf69e984fb993da",
+  "material_raw_sha256": "38a92352a14259d2fb7cfb00ea924263814bbb39db5659b634c1cd138a1f0736",
+  "designer_candidates": [
+    "李继善",
+    "秦杰爱",
+    "刘加太",
+    "毛章庆",
+    "余家生"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "floor_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_rule": "约±5%，两低两高，保持精度；不足四值时取相邻两档并记录幅度。",
+  "row_order_seed": "42:BUILDING-05"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-18T14:12:32.164648+01:00",
+  "actor": "Codex",
+  "step": "art_material_alternatives_authored_after_prompt",
+  "raw_output": "alternatives.material.raw.json",
+  "raw_sha256": "d3b6a594e3b9d6c8373ffac133f1ddb3d0511e858c612b40c7277e9fdf56160e",
+  "checks": {
+    "five_distinct": true,
+    "prompt_unchanged": true
+  },
+  "model": "Codex；具体型号/版本不可见",
+  "parameters": "不可见",
+  "assistant_review": "分别考虑原表固定类型、题名、本体尺寸；五值不靠词序变化区分。未获专业或用户审核。",
+  "user_review": "未审核",
+  "edits": []
+}

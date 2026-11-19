@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-16T23:22:30.163092+01:00",
+  "actor": "Codex",
+  "step": "industry_prompt_saved_before_output",
+  "input": "original.raw.json",
+  "input_sha256": "1a4cc92f7794d45b5f5cab7c38cd2b7e9f8d008f1d2494b8409afb1177621aca",
+  "prompt": "alternatives.industry.prompt.txt",
+  "prompt_sha256": "ed756ba6515d0800e3ea054b1124a3c4f2818b1ee590ae992041dd5832a49ce8",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "raw_output": null,
+  "context_boundary": "会话已读旧批次，历史上下文仍可见；保存的是实际任务prompt和显式输入，不是完整隔离请求或完整上下文快照。",
+  "user_review": "新备选未生成或审核"
+}

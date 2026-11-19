@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-16T23:12:34.785469+01:00",
+  "actor": "Codex",
+  "step": "deterministic_rules_executed_and_paired_outputs_assembled",
+  "script_sha256": "9970a47577cb8b801eb75c30ccb1a3ff193d924f340c37f3c5e63bf4e086b1bc",
+  "steps": [
+    {
+      "field": "职业",
+      "method": "当前会话按预存prompt成对生成",
+      "raw": "alternatives.occupation_education.raw.json"
+    },
+    {
+      "field": "学历",
+      "method": "当前会话按预存prompt成对生成",
+      "raw": "alternatives.occupation_education.raw.json"
+    },
+    {
+      "field": "身高",
+      "method": "当前会话按预存prompt成对生成",
+      "raw": "alternatives.height_weight.raw.json"
+    },
+    {
+      "field": "体重",
+      "method": "当前会话按预存prompt成对生成",
+      "raw": "alternatives.height_weight.raw.json"
+    },
+    {
+      "field": "出生日期",
+      "method": "分区间确定种子抽样",
+      "seed": "42:PERSON-01:出生日期",
+      "offset_days": [
+        -309,
+        -152,
+        149,
+        255
+      ]
+    },
+    {
+      "field": "婚姻状况",
+      "method": "固定五类中排除原值，取剩余四值"
+    },
+    {
+      "field": "现居城市",
+      "method": "实体地名池无放回抽四个",
+      "seed": "42:PERSON-01:现居城市"
+    },
+    {
+      "field": "出生地",
+      "method": "实体地名池无放回抽四个",
+      "seed": "42:PERSON-01:出生地"
+    },
+    {
+      "field": "籍贯",
+      "method": "实体地名池无放回抽四个",
+      "seed": "42:PERSON-01:籍贯"
+    }
+  ],
+  "output": "entity.pending_review.json",
+  "output_sha256": "c46f7b407853454b52340e5a4969284d5d17cf0be56dad598be465ee060e8b02",
+  "checks": {
+    "original_values_unchanged": true,
+    "nine_attributes_with_five_distinct_values": true
+  },
+  "user_review": "职业学历原值已认可；新备选未审核",
+  "edits_to_raw_outputs": [],
+  "model_inference_run": false
+}

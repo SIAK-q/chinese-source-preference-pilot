@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-17T10:59:00.103395+01:00",
+  "actor": "Codex",
+  "script_sha256": "3cbf8fbbb77393572cb1efd3784bf7c501a8e4acc22d5058a1e174794ef021eb",
+  "steps": [
+    {
+      "field": "发布日期",
+      "offsets_days": [
+        -353,
+        -171,
+        44,
+        205
+      ],
+      "seed": "42:PRODUCT-03:发布日期"
+    },
+    {
+      "field": "价格",
+      "unit": "元人民币",
+      "precision": 0,
+      "step": "1",
+      "offsets_in_steps": [
+        -179,
+        -90,
+        90,
+        179
+      ],
+      "actual_maximum_percent": "4.973603778827452070019449847",
+      "precision_exception": false
+    },
+    {
+      "field": "重量",
+      "unit": "公斤",
+      "precision": 0,
+      "step": "1",
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "actual_maximum_percent": "4.444444444444444444444444444",
+      "precision_exception": false
+    },
+    {
+      "field": "保修期",
+      "rule": "固定档位取最近两低两高",
+      "month_alternatives": [
+        12,
+        18,
+        36,
+        48
+      ]
+    }
+  ],
+  "checks": {
+    "five_distinct_values": true,
+    "originals_unchanged": true,
+    "prices_and_weights_within_five_percent": true,
+    "precision_and_units_preserved": true,
+    "dates_in_four_windows": true
+  },
+  "assistant_flags": [],
+  "user_review": "候选待审",
+  "output": "entity.pending_review.json",
+  "model_inference_run": false
+}

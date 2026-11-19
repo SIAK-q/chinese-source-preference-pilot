@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-17",
+  "id": "LOCATION-01",
+  "name": "双陵市",
+  "entity_class": "location",
+  "measurement_definitions": {
+    "人口": "常住人口",
+    "面积": "行政区域面积",
+    "海拔": "城区海拔",
+    "下辖乡镇数": "乡与镇的合计数，不含街道。"
+  },
+  "coverage_requirement": "人口、面积、海拔与乡镇数保持合理差异，不集中在一档；不将本批候选当现实城市规模分布。",
+  "previous_same_type_originals": [],
+  "references": [],
+  "identity_selection": "沿用已准备的虚构实体城市名称和ID，四属性重新生成。"
+}

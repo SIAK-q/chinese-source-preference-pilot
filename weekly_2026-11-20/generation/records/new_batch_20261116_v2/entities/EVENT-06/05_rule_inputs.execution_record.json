@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17T10:50:19.264255+01:00",
+  "actor": "Codex",
+  "script_sha256": "8ed5d77d924928ab6893f826449bb889a2104a94d3435307d16562ef557f972d",
+  "original": {
+    "id": "EVENT-06",
+    "name": "乐水手工艺博览会",
+    "entity_class": "event",
+    "举办日期": "2024年10月18日",
+    "持续时间": "6天",
+    "参与人数": "32000人次",
+    "主办方": "乐水市工艺美术协会",
+    "预算": "240万元"
+  },
+  "original_sha256": "12ada96f1df1db932f90eb252bb76ad474c0ce9f9d4534cbf4db883bb3cee04d",
+  "organizer_raw_sha256": "acc1372bd06c4f12267c7ab07acb6b82caa195e3afc00d5c51354c7fcec38e5e",
+  "date_seed": "42:EVENT-06:举办日期",
+  "date_weeks_windows": [
+    [
+      -52,
+      -48
+    ],
+    [
+      -4,
+      -1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      48,
+      52
+    ]
+  ],
+  "date_filter": "同星期；循环月差不超过1；不晚于2026-11-17。",
+  "numeric_rule": "约±5%，精度不足取相邻两档并记录。",
+  "duration_rule": "天数±1、±2；小时换算分钟后一般数值规则。",
+  "row_order_seed": "42:EVENT-06",
+  "name_revision": []
+}

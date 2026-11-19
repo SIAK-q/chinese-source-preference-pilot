@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-16T23:24:11.508672+01:00",
+  "actor": "Codex",
+  "step": "organization_alternatives_assembled",
+  "steps": [
+    {
+      "field": "所属行业",
+      "method": "带完整原值表按已存prompt生成",
+      "raw": "alternatives.industry.raw.json"
+    },
+    {
+      "field": "员工人数",
+      "method": "同单位同精度、两低两高",
+      "maximum_percent": 5,
+      "step": "1",
+      "offsets_in_steps": [
+        -32,
+        -16,
+        16,
+        32
+      ],
+      "actual_maximum_percent": "4.923076923076923076923076923",
+      "precision_exception": null
+    },
+    {
+      "field": "年营业额",
+      "method": "同单位同精度、两低两高",
+      "maximum_percent": 10,
+      "step": "0.1",
+      "offsets_in_steps": [
+        -6,
+        -3,
+        3,
+        6
+      ],
+      "actual_maximum_percent": "9.677419354838709677419354839",
+      "precision_exception": null
+    },
+    {
+      "field": "成立时间",
+      "method": "前后12月内分四段抽取",
+      "seed": "42:ORG-05:成立时间",
+      "offset_months": [
+        -9,
+        -1,
+        2,
+        9
+      ]
+    },
+    {
+      "field": "总部所在地",
+      "method": "实体地名池无放回抽四个",
+      "seed": "42:ORG-05:总部所在地"
+    }
+  ],
+  "output": "entity.pending_review.json",
+  "output_sha256": "dc4f028c22f780f0397fc132a17245860be4ecb94d1f4b11de45d35f8aa5650f",
+  "checks": {
+    "original_values_unchanged": true,
+    "five_attributes_with_five_distinct_values": true
+  },
+  "edits_to_raw_outputs": [],
+  "user_review": "备选未审核"
+}

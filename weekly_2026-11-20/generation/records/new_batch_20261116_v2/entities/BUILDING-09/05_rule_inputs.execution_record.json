@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17T00:19:19.076438+01:00",
+  "actor": "Codex",
+  "step": "inputs_saved_before_rule_generation",
+  "script": "../../assemble_building.py",
+  "script_sha256": "4e3311d96cda4b2728ff3bad6e7895e7a858b00f0b172a56fbdc0acd6e6c8a7f",
+  "original": {
+    "id": "BUILDING-09",
+    "name": "长源音乐厅",
+    "entity_class": "building",
+    "设计师": "余爱振",
+    "建成年份": "2017年",
+    "高度": "25米",
+    "层数": "3层",
+    "主要材料": "钢、混凝土和木材",
+    "容纳人数": "1800人"
+  },
+  "original_sha256": "4e3b1f5399f768a75edc6e78cf7067f11ce510ac217312f82a2bce96298494f5",
+  "material_raw_sha256": "2587240da171813169d2e2451a48df77b97bec4233d4cfa5dfdf42ee057cd911",
+  "designer_candidates": [
+    "余爱振",
+    "唐科祥",
+    "胡贤亮",
+    "蔡昌航",
+    "余传万"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "floor_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_rule": "约±5%，两低两高，保持精度；不足四值时取相邻两档并记录幅度。",
+  "row_order_seed": "42:BUILDING-09"
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "PRODUCT-01",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-01",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-01",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-01",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-01",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修48个月",
+    "after": "48个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-02",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-02",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-02",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-02",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-02",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修48个月",
+    "after": "48个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-03",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-03",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-03",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-03",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-03",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修48个月",
+    "after": "48个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-04",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-04",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修3个月",
+    "after": "3个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-04",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修6个月",
+    "after": "6个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-04",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-04",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-05",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-05",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修6个月",
+    "after": "6个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-05",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-05",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-05",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-06",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-06",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-06",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-06",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-06",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修48个月",
+    "after": "48个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-07",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-07",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修6个月",
+    "after": "6个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-07",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-07",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-07",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-08",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-08",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-08",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-08",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-08",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修48个月",
+    "after": "48个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-09",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-09",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修3个月",
+    "after": "3个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-09",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修6个月",
+    "after": "6个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-09",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-09",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-10",
+    "field": "保修期",
+    "value_index": 0,
+    "before": "整机保修18个月",
+    "after": "18个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-10",
+    "field": "保修期",
+    "value_index": 1,
+    "before": "整机保修6个月",
+    "after": "6个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-10",
+    "field": "保修期",
+    "value_index": 2,
+    "before": "整机保修12个月",
+    "after": "12个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-10",
+    "field": "保修期",
+    "value_index": 3,
+    "before": "整机保修24个月",
+    "after": "24个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  },
+  {
+    "id": "PRODUCT-10",
+    "field": "保修期",
+    "value_index": 4,
+    "before": "整机保修36个月",
+    "after": "36个月",
+    "reason": "用户要求简化措辞；月数不变。"
+  }
+]

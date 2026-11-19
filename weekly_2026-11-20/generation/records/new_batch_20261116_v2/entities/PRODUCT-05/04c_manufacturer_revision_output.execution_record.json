@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17T10:58:13.982960+01:00",
+  "actor": "Codex",
+  "model": "Codex；具体型号/版本不可见",
+  "parameters": "不可见",
+  "changes": [
+    {
+      "id": "PRODUCT-05",
+      "field": "制造商",
+      "alternative_index": 1,
+      "before": "顺丰电器有限公司",
+      "after": "顺益电器有限公司",
+      "reason": "助手识别出已知品牌用字，按既定prompt要求替换。"
+    }
+  ],
+  "raw_preserved": true,
+  "external_brand_check": false,
+  "user_review": "未审核"
+}

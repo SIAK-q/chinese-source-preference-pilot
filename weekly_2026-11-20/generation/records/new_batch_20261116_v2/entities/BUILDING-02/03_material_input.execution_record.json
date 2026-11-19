@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-17T00:15:45.268072+01:00",
+  "actor": "Codex",
+  "step": "material_prompt_saved_before_output",
+  "input": "original.raw.json",
+  "prompt": "alternatives.material.prompt.txt",
+  "prompt_sha256": "d4568ebdac275b6b7d81aab5cfe1d31c79f6468dd3dc29788afb61bb77681be1",
+  "raw_output": null,
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见"
+}

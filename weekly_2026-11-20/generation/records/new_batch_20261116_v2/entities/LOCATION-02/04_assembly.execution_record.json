@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-17T00:04:52.967309+01:00",
+  "actor": "Codex",
+  "step": "location_rules_executed_and_assembled",
+  "steps": [
+    {
+      "field": "人口",
+      "rule": "两低两高，约±5%；半幅与最大幅按原值精度取整",
+      "step": "0.1",
+      "offsets_in_steps": [
+        -64,
+        -32,
+        32,
+        64
+      ],
+      "actual_maximum_percent": "4.984423676012461059190031153",
+      "precision_exception": null
+    },
+    {
+      "field": "面积",
+      "rule": "两低两高，约±5%；半幅与最大幅按原值精度取整",
+      "step": "1",
+      "offsets_in_steps": [
+        -119,
+        -60,
+        60,
+        119
+      ],
+      "actual_maximum_percent": "5.00",
+      "precision_exception": null
+    },
+    {
+      "field": "海拔",
+      "rule": "两低两高，约±5%；半幅与最大幅按原值精度取整",
+      "step": "1",
+      "offsets_in_steps": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "actual_maximum_percent": "8.333333333333333333333333333",
+      "precision_exception": "同精度下±5%不足四个不同值；按已定一般数值例外保留精度，改取相邻两档并记录最大幅度。"
+    },
+    {
+      "field": "下辖乡镇数",
+      "rule": "相邻整数",
+      "offsets": [
+        -2,
+        -1,
+        1,
+        2
+      ]
+    }
+  ],
+  "output": "entity.pending_review.json",
+  "user_review": "原值及备选尚未审核",
+  "checks": {
+    "four_attributes_five_distinct_values": true,
+    "originals_unchanged": true
+  },
+  "edits_to_raw_outputs": []
+}

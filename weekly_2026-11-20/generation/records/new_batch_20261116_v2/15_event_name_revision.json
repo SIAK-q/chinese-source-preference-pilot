@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-17T10:50:19.222891+01:00",
+  "changes": [
+    {
+      "id": "EVENT-09",
+      "before": "新定科普活动周",
+      "after": "新定科普活动",
+      "actor": "Codex",
+      "reason": "周直接提示持续时间；删除提示词以符合实体名不得泄漏答案的约束。",
+      "user_decision": "助手实施的名称修订，用户尚未审核。"
+    }
+  ],
+  "raw_outputs_preserved": true
+}

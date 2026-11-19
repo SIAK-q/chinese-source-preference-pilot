@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-16",
+  "target_count_by_type": {
+    "person": 10,
+    "organization": 10,
+    "location": 10,
+    "building": 10,
+    "event": 10,
+    "product": 10,
+    "art": 10
+  },
+  "people": [
+    {
+      "name": "胡飞建",
+      "usage_stratum": "male_usage"
+    },
+    {
+      "name": "籍宗国",
+      "usage_stratum": "male_usage"
+    },
+    {
+      "name": "余琼英",
+      "usage_stratum": "female_usage"
+    },
+    {
+      "name": "程光起",
+      "usage_stratum": "male_usage"
+    },
+    {
+      "name": "万素敏",
+      "usage_stratum": "female_usage"
+    },
+    {
+      "name": "徐华英",
+      "usage_stratum": "female_usage"
+    },
+    {
+      "name": "张超颖",
+      "usage_stratum": "male_usage"
+    },
+    {
+      "name": "张威菁",
+      "usage_stratum": "female_usage"
+    },
+    {
+      "name": "何丹旭",
+      "usage_stratum": "female_usage"
+    },
+    {
+      "name": "刘四国",
+      "usage_stratum": "male_usage"
+    }
+  ],
+  "entity_places": [
+    "双陵",
+    "上泉",
+    "白原",
+    "龙泽",
+    "乐水",
+    "通溪",
+    "清山",
+    "新定",
+    "长源",
+    "惠明"
+  ],
+  "person_pool_source": "pilot/name_generation/person/reports_extended_20261115/entity_people.jsonl",
+  "person_pool_sha256": "4730dc8ffccd24f86f31a5063c5734d1c5a6a9616c584096621885b9a603bacf",
+  "approval_source": "pilot/HANDOFF.md 2026-11-16姓名池用户认可记录；底层旧raw标记不覆盖。",
+  "generation_method": "当前Codex会话逐实体读已保存的实际prompt后撰写输出；不是隔离API调用。",
+  "context_boundary": "会话已读旧批次，历史上下文仍可见；保存的是实际任务prompt和显式输入，不是完整隔离请求或完整上下文快照。",
+  "model": "Codex；具体型号/版本不可见",
+  "sampling_parameters": "不可见",
+  "user_review": "新批次尚未审核；旧批次认可不转移。"
+}

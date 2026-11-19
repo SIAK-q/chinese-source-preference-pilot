@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-18T14:12:13.376175+01:00",
+  "actor": "Codex",
+  "step": "material_prompt_saved_before_output",
+  "original_sha256": "4c8ceb57c9ba2d496328cc78b381a40724938e30de07be0281ef91081c00c52c",
+  "prompt_sha256": "4c9df6702f7fb333243188abd4e21f29a76ee74c3d913e28634a558d0e0607ab",
+  "model": "Codex；具体型号/版本不可见",
+  "parameters": "不可见",
+  "context": "当前会话撰写，非隔离API调用"
+}

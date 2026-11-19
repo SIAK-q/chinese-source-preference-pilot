@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-18T14:13:13.462009+01:00",
+  "actor": "Codex",
+  "script_sha256": "9177e80301d0883963b70d1d761f4e88b43c611d27942a3cba0d05f55ebd3a89",
+  "steps": [
+    {
+      "field": "高度",
+      "offsets_cm": [
+        -10,
+        -5,
+        5,
+        10
+      ],
+      "actual_maximum_percent": "4.878048780487804878048780488",
+      "precision_exception": false
+    },
+    {
+      "field": "宽度",
+      "offsets_cm": [
+        -4,
+        -2,
+        2,
+        4
+      ],
+      "actual_maximum_percent": "5.00",
+      "precision_exception": false
+    }
+  ],
+  "creator_rule": "预分配五名，首名原值，后四名备选",
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "fixed_type": "人物雕塑",
+  "derived_field": "作品类型由description复制，用于两表显示",
+  "checks": {
+    "five_distinct": true,
+    "raw_originals_unchanged": true,
+    "type_unchanged": true,
+    "all_attributes_original_values_unchanged": true
+  },
+  "user_review": "候选待审",
+  "output": "entity.pending_review.json"
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-18T14:13:13.437943+01:00",
+  "actor": "Codex",
+  "step": "rule_inputs_saved_before_generation",
+  "script_sha256": "9177e80301d0883963b70d1d761f4e88b43c611d27942a3cba0d05f55ebd3a89",
+  "original": {
+    "id": "ART-02",
+    "name": "《上泉渡口图》",
+    "entity_class": "art",
+    "description": "架上绘画",
+    "创作者": "罗晓珍",
+    "创作年份": "2019年",
+    "高度": "65厘米",
+    "宽度": "95厘米",
+    "材料": "纸本水彩"
+  },
+  "original_sha256": "1149476f6293947a3ec4adf3bd01161da36f446a6c27a5de9a5f8e72e1bfdb3b",
+  "material_sha256": "3b6dc70feed157834e11088462bdab3638389cb42c4023e0b1ab998548abd9aa",
+  "creator_candidates": [
+    "罗晓珍",
+    "彭育梅",
+    "叶雪琴",
+    "刘海娥",
+    "姜春宗"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_percent": 5,
+  "numeric_precision": "整数厘米，两低两高",
+  "row_order_seed": "42:ART-02",
+  "fixed_type_rendering": "description保留，同时复制为标量作品类型以显示在两张表；不改类型、不作冲突属性。"
+}
