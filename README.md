@@ -1,5 +1,5 @@
-> **20 November 2026:** [Bilingual data table](weekly_2026-11-20/data/REVIEW_TABLE.md) · [Data-generation procedure](weekly_2026-11-20/generation/README.md).
-> **2026-11-20：** [新70实体中英表](weekly_2026-11-20/data/REVIEW_TABLE.md) · [数据生成过程](weekly_2026-11-20/generation/README.md)。
+> **20 November 2026:** [Bilingual data table](weekly_2026-11-20/data/REVIEW_TABLE.md) · [Data-generation procedure](weekly_2026-11-20/generation/README.md) · [Source-free baseline](weekly_2026-11-20/baseline/README.md).
+> **2026-11-20：** [新70实体中英表](weekly_2026-11-20/data/REVIEW_TABLE.md) · [数据生成过程](weekly_2026-11-20/generation/README.md) · [无信源baseline](weekly_2026-11-20/baseline/README.md)。
 
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
