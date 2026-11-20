@@ -1,5 +1,5 @@
-> **20 November 2026:** [Expanded 70-entity data: Chinese with AI-translated English glosses](weekly_2026-11-20/data/REVIEW_TABLE.md).
-> **2026-11-20：** [新70实体完整中英数据表](weekly_2026-11-20/data/REVIEW_TABLE.md)。
+> **20 November 2026:** [Bilingual data table](weekly_2026-11-20/data/REVIEW_TABLE.md) · [Data-generation procedure](weekly_2026-11-20/generation/README.md).
+> **2026-11-20：** [新70实体中英表](weekly_2026-11-20/data/REVIEW_TABLE.md) · [数据生成过程](weekly_2026-11-20/generation/README.md)。
 
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
