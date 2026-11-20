@@ -9,7 +9,7 @@ How names are generated for four source types: government, newspaper, individual
 
 - **造法**：统计真实县、市名第一、二个字的常用字，两两组合，如“平”＋“宁”→“平宁”；与真实地名或中文维基条目同名的删掉。<br>**Method:** Combine the most common first and second characters of real county and city names, e.g. 平 + 宁 → 平宁; names matching a real place or Chinese Wikipedia title are removed.
 - **人工筛选**：删去读起来不自然的75个，剩1,327个。<br>**Manual screening:** 75 unnatural names were removed, leaving 1,327.
-- **使用**：政府和报纸各自从这批地名中抽，可能同名，如“平宁市民政局”与“平宁晚报”；配信源时排除实体数据用过的11个地名，实际可抽1,316个。<br>**Use:** Government and newspaper sources draw from this list independently, so 平宁市民政局 and 平宁晚报 may both occur; excluding the 11 names used in the entity data leaves 1,316 available for source names.
+- **使用**：政府和报纸各自从这批地名中抽，可能同名，如“平宁市民政局”与“平宁晚报”；实体另用一批地名，不重复。<br>**Use:** Government and newspaper sources draw from this list independently, so 平宁市民政局 and 平宁晚报 may both occur; entities use a separate, non-overlapping list.
 
 <details>
 <summary>地名数据与版本 / Place-name data and version</summary>
@@ -65,8 +65,8 @@ Counts in 428 newspaper titles from the [2025 list of internet news sources](htt
 ## Individuals / 个人
 
 - **抽法**：姓按人数频率抽；等概率选男性或女性用字组，再按该组字频独立抽两个名用字。<br>**Sampling:** Draw the surname by population frequency; choose the male- or female-usage distribution with equal probability, then independently draw two given-name characters by its frequencies.
-- **查重**：有中文维基精确标题页面的姓名重抽；本批保留的1,520个姓名均已检查，因有页面跳过36次。<br>**Checks:** Redraw names with an exact-title Chinese Wikipedia page; all 1,520 retained names were checked, with 36 draws skipped because a page existed.
-- **名单分开**：个人信源、实体人物、属性值人名三者不重叠，本批个人信源不重名。<br>**Separate lists:** Source, entity and attribute-value names do not overlap; individual-source names do not repeat within this batch.
+- **查重**：有中文维基精确标题页面的姓名重抽。<br>**Checks:** Names with an exact-title Chinese Wikipedia page are redrawn.
+- **名单分开**：个人信源、实体人物、属性值人名三者不重叠。<br>**Separate lists:** Source, entity and attribute-value names do not overlap.
 
 <details>
 <summary>数据库与许可 / Database and licence</summary>
