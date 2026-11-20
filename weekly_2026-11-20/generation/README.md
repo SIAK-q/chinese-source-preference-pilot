@@ -11,6 +11,8 @@
 <details>
 <summary>实际输入与姓名名单 / Actual input and candidate names</summary>
 
+**原文 / Original:**
+
 ```json
 {
   "date": "2026-11-18",
@@ -34,6 +36,31 @@
 }
 ```
 
+**英文译文 / English reading translation:**
+
+```json
+{
+  "date": "2026-11-18",
+  "id": "ART-01",
+  "name": "Morning Light in Shuangling",
+  "fixed_art_type": "Easel painting",
+  "creator_candidates": [
+    "Lin Fengjiang",
+    "Liang Jiangwen",
+    "Wang Renwei",
+    "Cao Fengyan",
+    "Chen Zhucai"
+  ],
+  "entity_class": "art",
+  "creator_rule": "Divide the last 50 names in the attribute-person pool into ten groups. Use the first name in each group as the original and the other four as alternatives; these names do not overlap with the first 50 used for buildings.",
+  "fixed_creator": "Lin Fengjiang",
+  "type_definition": "Easel painting or figurative sculpture. Type is fixed background shown in the assembled tables, not an attribute varied in conflicts.",
+  "dimensions": "Height and width of the artwork itself, excluding its frame or sculpture plinth.",
+  "previous_same_type_originals": [],
+  "references": []
+}
+```
+
 </details>
 
 ↓
@@ -44,6 +71,8 @@
 
 <details>
 <summary>生成原值：实际中文prompt / Original-table task prompt</summary>
+
+**原文 / Original:**
 
 ```text
 你正在为中文知识冲突实验生成一个虚构的艺术作品实体原值表，暂不生成备选。
@@ -77,13 +106,65 @@
 只输出一个JSON对象，含id、name、entity_class及全部测试字段；人物另含固定性别，艺术作品另含description说明固定作品类型。
 ```
 
+**英文译文 / English reading translation:**
+
+```text
+You are generating the original-value table for one fictional artwork for a Chinese knowledge-conflict experiment. Do not generate alternatives yet.
+Actual input:
+{
+  "date": "2026-11-18",
+  "id": "ART-01",
+  "name": "Morning Light in Shuangling",
+  "fixed_art_type": "Easel painting",
+  "creator_candidates": [
+    "Lin Fengjiang",
+    "Liang Jiangwen",
+    "Wang Renwei",
+    "Cao Fengyan",
+    "Chen Zhucai"
+  ],
+  "entity_class": "art",
+  "creator_rule": "Divide the last 50 names in the attribute-person pool into ten groups. Use the first name in each group as the original and the other four as alternatives; these names do not overlap with the first 50 used for buildings.",
+  "fixed_creator": "Lin Fengjiang",
+  "type_definition": "Easel painting or figurative sculpture. Type is fixed background shown in the assembled tables, not an attribute varied in conflicts.",
+  "dimensions": "Height and width of the artwork itself, excluding its frame or sculpture plinth.",
+  "previous_same_type_originals": [],
+  "references": []
+}
+
+Fill in: creator, year of creation, height, width and material. Give one value per field; all attribute values must be strings.
+Use Chinese, Chinese date notation and metric units. Use natural, plain field names and values; dates must not be later than the generation date in the input.
+Consider related attributes together so that the complete table is compatible. Maintain reasonable variation from earlier originals of the same type. Use only the supplied person/place-name pools; do not infer gender from names.
+Do not claim to have searched websites, checked external duplicates or obtained human approval. If a field cannot be filled reasonably, report the specific problem.
+Keep the supplied artwork type fixed; do not vary it as a conflict attribute. Take the creator only from the attribute-person name pool. Height and width refer to the artwork itself, in centimetres; material must suit its type. The title must not directly reveal its material or creator.
+Output only one JSON object containing id, name, entity_class and all tested fields. For people, also include fixed gender; for artworks, include description to state the fixed artwork type.
+```
+
 </details>
 
 <details>
 <summary>生成原值：原始输出 / Raw original-table output</summary>
 
+**原文 / Original:**
+
 ```json
 {"id":"ART-01","name":"《双陵晨光图》","entity_class":"art","description":"架上绘画","创作者":"林逢江","创作年份":"2017年","高度":"85厘米","宽度":"115厘米","材料":"布面油彩"}
+```
+
+**英文译文 / English reading translation:**
+
+```json
+{
+  "id": "ART-01",
+  "name": "Morning Light in Shuangling",
+  "entity_class": "art",
+  "description": "Easel painting",
+  "Creator": "Lin Fengjiang",
+  "Year of creation": "2017",
+  "Height": "85 cm",
+  "Width": "115 cm",
+  "Material": "Oil on canvas"
+}
 ```
 
 </details>
@@ -97,6 +178,8 @@
 
 <details>
 <summary>材料备选：实际中文prompt / Material-alternative task prompt</summary>
+
+**原文 / Original:**
 
 ```text
 给定虚构实体的完整原值表：
@@ -117,10 +200,33 @@
 作品类型固定为架上绘画；尺寸是作品本体，不含框或底座。四种材料各自替换后应仍与类型、题名和本体尺寸相容；绘画材料可包含载体与颜料，不以仅调整词序制造差异。
 ```
 
+**英文译文 / English reading translation:**
+
+```text
+Given the complete original-value table for a fictional entity:
+{
+  "id": "ART-01",
+  "name": "Morning Light in Shuangling",
+  "entity_class": "art",
+  "description": "Easel painting",
+  "Creator": "Lin Fengjiang",
+  "Year of creation": "2017",
+  "Height": "85 cm",
+  "Width": "115 cm",
+  "Material": "Oil on canvas"
+}
+
+Generate four distinct alternatives for the target attribute Material, without repeating the original. Each alternative must remain reasonable when substituted by itself while all other fields retain their original values.
+Use natural, plain Chinese, preserving the original unit and meaning. Output only a JSON array of four strings.
+Artwork type is fixed as easel painting. Dimensions refer to the artwork itself, excluding a frame or plinth. Each material alternative must be compatible with the type, title and dimensions. Painting materials may combine a support and a medium; do not create alternatives merely by changing word order.
+```
+
 </details>
 
 <details>
 <summary>材料备选：原始输出 / Raw material alternatives</summary>
+
+**原文 / Original:**
 
 ```json
 [
@@ -131,10 +237,23 @@
 ]
 ```
 
+**英文译文 / English reading translation:**
+
+```json
+[
+  "Acrylic on canvas",
+  "Watercolour on paper",
+  "Gouache on paper",
+  "Ink on paper"
+]
+```
+
 </details>
 
 <details>
 <summary>数值、日期与名单：实际参数 / Actual numeric, date and name-selection parameters</summary>
+
+**原文 / Original:**
 
 ```json
 {
@@ -175,10 +294,53 @@
 }
 ```
 
+**英文译文 / English reading translation:**
+
+```json
+{
+  "date": "2026-11-18T14:13:13.434524+01:00",
+  "actor": "Codex",
+  "step": "rule_inputs_saved_before_generation",
+  "script_sha256": "9177e80301d0883963b70d1d761f4e88b43c611d27942a3cba0d05f55ebd3a89",
+  "original": {
+    "id": "ART-01",
+    "name": "Morning Light in Shuangling",
+    "entity_class": "art",
+    "description": "Easel painting",
+    "Creator": "Lin Fengjiang",
+    "Year of creation": "2017",
+    "Height": "85 cm",
+    "Width": "115 cm",
+    "Material": "Oil on canvas"
+  },
+  "original_sha256": "f502d5803dc6099fea7d4234601325331fb57cd4d6d2e81ea83f8f49d03ea202",
+  "material_sha256": "931d370b564bfcfa8ebaa5324a9a6e6dd577c0e6bbd8d98480ea06eaf36a2ae2",
+  "creator_candidates": [
+    "Lin Fengjiang",
+    "Liang Jiangwen",
+    "Wang Renwei",
+    "Cao Fengyan",
+    "Chen Zhucai"
+  ],
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "numeric_percent": 5,
+  "numeric_precision": "Whole centimetres; two lower and two higher alternatives",
+  "row_order_seed": "42:ART-01",
+  "fixed_type_rendering": "Retain description and copy it to a scalar Artwork type field for display in both tables; keep the type unchanged and do not vary it as a conflict attribute."
+}
+```
+
 </details>
 
 <details>
 <summary>备选生成与组装：实际脚本 / Actual alternative-generation and assembly script</summary>
+
+**原文 / Original:**
 
 ```python
 """按预存规则补艺术备选，并将固定作品类型显示为背景行。"""
@@ -238,6 +400,35 @@ save_new(BASE/'20_art_complete.execution_record.json',{'date':datetime.now().ast
 print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible':True,'precision_exceptions':0},ensure_ascii=False))
 ```
 
+**英文译文 / English reading translation:**
+
+- **输入 / Inputs:** Saved original tables, material alternatives and preassigned creator lists.
+- **年份 / Years:** Keep the original year and add offsets -2, -1, +1 and +2.
+- **尺寸 / Dimensions:** In whole centimetres, set M = floor(0.05 × original dimension), then use offsets -M, -ceil(M/2), +ceil(M/2), +M.
+- **组装 / Assembly:** Keep artwork type fixed; combine the original with its four alternatives; save the shuffled row order.
+- **检查 / Checks:** Keep five distinct values per attribute; preserve originals; vary only one attribute per question; swap values across both table orders; keep building/art creator pools separate.
+- **输出 / Outputs:** Ten artworks, 50 attribute instances, 200 pairs and 400 prepared prompts, plus saved execution/check records.
+
+| 原脚本中文 / Chinese in the script | English meaning |
+|---|---|
+| description保留，同时复制为标量作品类型以显示在两张表；不改类型、不作冲突属性。 | Retain description and copy it to a scalar Artwork type field for display in both tables; keep the type unchanged and do not vary it as a conflict attribute. |
+| 作品类型 | Artwork type |
+| 作品类型由description复制，用于两表显示 | Copy Artwork type from description for display in both tables |
+| 候选待审 | Candidate awaiting review |
+| 创作年份 | Year of creation |
+| 创作者 | Creator |
+| 厘米 | cm |
+| 原值和材料备选由当前会话撰写，模型版本参数不可见；创作者按已准备名单，年份尺寸由脚本生成。 | The original tables and material alternatives were written in the ongoing conversation; the model version and parameters were not visible. Creators use the prepared list; years and dimensions are generated by script. |
+| 宽度 | Width |
+| 年 | year |
+| 按预存规则补艺术备选，并将固定作品类型显示为背景行。 | Add artwork alternatives using the saved rules and display the fixed artwork type as a background row. |
+| 整数厘米，两低两高 | Whole centimetres; two lower and two higher alternatives |
+| 材料 | Material |
+| 设计师 | Architect/designer |
+| 预分配五名，首名原值，后四名备选 | Five preassigned names: the first is the original; the other four are alternatives |
+| 高度 | Height |
+
+
 </details>
 
 ↓
@@ -248,6 +439,8 @@ print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible'
 
 <details>
 <summary>脚本处理：原始记录 / Original assembly record</summary>
+
+**原文 / Original:**
 
 ```json
 {
@@ -298,10 +491,63 @@ print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible'
 }
 ```
 
+**英文译文 / English reading translation:**
+
+```json
+{
+  "date": "2026-11-18T14:13:13.436366+01:00",
+  "actor": "Codex",
+  "script_sha256": "9177e80301d0883963b70d1d761f4e88b43c611d27942a3cba0d05f55ebd3a89",
+  "steps": [
+    {
+      "field": "Height",
+      "offsets_cm": [
+        -4,
+        -2,
+        2,
+        4
+      ],
+      "actual_maximum_percent": "4.705882352941176470588235294",
+      "precision_exception": false
+    },
+    {
+      "field": "Width",
+      "offsets_cm": [
+        -5,
+        -3,
+        3,
+        5
+      ],
+      "actual_maximum_percent": "4.347826086956521739130434783",
+      "precision_exception": false
+    }
+  ],
+  "creator_rule": "Five preassigned names: the first is the original; the other four are alternatives",
+  "year_offsets": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "fixed_type": "Easel painting",
+  "derived_field": "Copy Artwork type from description for display in both tables",
+  "checks": {
+    "five_distinct": true,
+    "raw_originals_unchanged": true,
+    "type_unchanged": true,
+    "all_attributes_original_values_unchanged": true
+  },
+  "user_review": "Candidate awaiting review",
+  "output": "entity.pending_review.json"
+}
+```
+
 </details>
 
 <details>
 <summary>整批艺术数据：检查结果 / Checks for the artwork batch</summary>
+
+**原文 / Original:**
 
 ```json
 {
@@ -349,6 +595,54 @@ print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible'
 }
 ```
 
+**英文译文 / English reading translation:**
+
+```json
+{
+  "date": "2026-11-18T14:13:13.484599+01:00",
+  "actor": "Codex",
+  "script_sha256": "9177e80301d0883963b70d1d761f4e88b43c611d27942a3cba0d05f55ebd3a89",
+  "validation": {
+    "entities": 10,
+    "by_class": {
+      "art": 10
+    },
+    "instances": 50,
+    "pairs": 200,
+    "items": 400,
+    "spread": [
+      [
+        "Larger numeric values: width",
+        20,
+        20
+      ],
+      [
+        "Larger numeric values: height",
+        20,
+        20
+      ]
+    ],
+    "errors": [],
+    "review": []
+  },
+  "data_sha256": "d4dd8eac03acdcddf27e485b265659512c974e9f4af2fe9d0060092a23c19b49",
+  "precision_exceptions": [],
+  "checks": {
+    "prior_inputs_match_raw_outputs": true,
+    "raw_originals_unchanged": true,
+    "fixed_type_displayed_in_both_tables": true,
+    "type_not_tested_as_conflict": true,
+    "only_one_attribute_differs": true,
+    "both_orders_reverse_values": true,
+    "100_building_and_art_names_unique": true,
+    "400_prompts_previewed": true
+  },
+  "generation_boundary": "The original tables and material alternatives were written in the ongoing conversation; the model version and parameters were not visible. Creators use the prepared list; years and dimensions are generated by script.",
+  "model_inference_run": false,
+  "user_review": "Candidate awaiting review"
+}
+```
+
 </details>
 
 ↓
@@ -367,6 +661,8 @@ print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible'
 
 <details>
 <summary>本例：组装输出与定稿数据对照 / This example: assembled and final data</summary>
+
+**原文 / Original:**
 
 ```json
 {
@@ -421,8 +717,65 @@ print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible'
 }
 ```
 
+**英文译文 / English reading translation:**
+
+```json
+{
+  "id": "ART-01",
+  "name": "Morning Light in Shuangling",
+  "entity_class": "art",
+  "description": "Easel painting",
+  "Artwork type": "Easel painting",
+  "Creator": [
+    "Lin Fengjiang",
+    "Liang Jiangwen",
+    "Wang Renwei",
+    "Cao Fengyan",
+    "Chen Zhucai"
+  ],
+  "Year of creation": [
+    "2017",
+    "2015",
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "Material": [
+    "Oil on canvas",
+    "Acrylic on canvas",
+    "Watercolour on paper",
+    "Gouache on paper",
+    "Ink on paper"
+  ],
+  "Height": [
+    "85 cm",
+    "81 cm",
+    "83 cm",
+    "87 cm",
+    "89 cm"
+  ],
+  "Width": [
+    "115 cm",
+    "110 cm",
+    "112 cm",
+    "118 cm",
+    "120 cm"
+  ],
+  "row_order": [
+    "Width",
+    "Height",
+    "Artwork type",
+    "Year of creation",
+    "Creator",
+    "Material"
+  ]
+}
+```
+
 
 **定稿 / Final:**
+
+**原文 / Original:**
 
 ```json
 {
@@ -473,6 +826,61 @@ print(json.dumps({'entities':10,'validation':validation,'type_fixed_and_visible'
     "创作年份",
     "创作者",
     "材料"
+  ]
+}
+```
+
+**英文译文 / English reading translation:**
+
+```json
+{
+  "id": "ART-01",
+  "name": "Morning Light in Shuangling",
+  "entity_class": "art",
+  "description": "Easel painting",
+  "Artwork type": "Easel painting",
+  "Creator": [
+    "Lin Fengjiang",
+    "Liang Jiangwen",
+    "Wang Renwei",
+    "Cao Fengyan",
+    "Chen Zhucai"
+  ],
+  "Year of creation": [
+    "2017",
+    "2015",
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "Material": [
+    "Oil on canvas",
+    "Acrylic on canvas",
+    "Watercolour on paper",
+    "Gouache on paper",
+    "Ink on paper"
+  ],
+  "Height": [
+    "85 cm",
+    "81 cm",
+    "83 cm",
+    "87 cm",
+    "89 cm"
+  ],
+  "Width": [
+    "115 cm",
+    "110 cm",
+    "112 cm",
+    "118 cm",
+    "120 cm"
+  ],
+  "row_order": [
+    "Width",
+    "Height",
+    "Artwork type",
+    "Year of creation",
+    "Creator",
+    "Material"
   ]
 }
 ```
