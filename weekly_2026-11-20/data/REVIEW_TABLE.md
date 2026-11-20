@@ -1,9 +1,7 @@
 # 新70实体：完整中英对照 / Final 70 entities: Chinese–English data
 
 - **规模 / Size:** 70实体 / entities；380属性项 / attribute instances；每项原值＋四备选 / one original + four alternatives.
-- **用法 / Use:** 中文是实验原文；英文由AI翻译，供阅读。人名保留姓在前的拼音，地名和品牌用拼音，艺术题名译意。 / Chinese strings are the experimental input; English glosses are AI-translated for reading. Personal names use surname-first pinyin; places and brands use pinyin; artwork titles are translated by meaning.
-- **数值 / Numbers:** 日期写作YYYY-MM-DD；万、亿展开，人民币不换汇；人次译作attendances。 / Dates use YYYY-MM-DD; Chinese numeric multipliers are expanded without currency conversion; 人次 counts attendances rather than unique people.
-- **学历 / Education:** 大专为低于本科的高等教育文凭；中专为中等职业教育。 / College diploma (大专) is below bachelor’s level; secondary vocational education (中专) is at upper-secondary level.
+
 
 ## PERSON-01 · 胡飞建 / Hu Feijian
 
