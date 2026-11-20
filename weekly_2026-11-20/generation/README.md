@@ -2,7 +2,7 @@
 
 - **数据 / Data:** 70实体、380属性，每项原值＋四备选。 / 70 entities, 380 attributes, one original and four alternatives each.
 - **模型 / Model:** `gpt-6.1-sol`.
-- **例子 / Worked example:** 《双陵晨光图》 / Morning Light in Shuangling.
+- **例子 / Worked example:** 《双陵晨光图》 / Morning Light in Shuangling. 艺术作品示例；人物职业＋学历、身高＋体重的成对生成规则见步骤③。 / Artwork example; see step ③ for paired occupation–education and height–weight generation.
 
 ## ① 准备输入 / Prepare inputs
 

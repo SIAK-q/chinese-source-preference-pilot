@@ -83,7 +83,7 @@
 - [code/](code/)：运行、读概率、分析和核对脚本。 / Scripts for running, reading probabilities, analysis and checks.
 - [data/entities_zh.jsonl](data/entities_zh.jsonl)：70个实体。 / The 70 entities.
 - [prompts.jsonl](prompts.jsonl)：3040题原文，五个模型相同。 / The 3,040 prompts, identical for all five models.
-- [results/](results/)：每个模型的逐题概率、分析和摘要。 / Per-model probabilities, analysis and summary.
+- [results/](results/README.md)：每个模型的逐题概率、分析和摘要。 / Per-model probabilities, analysis and summary.
 - [checks/](checks/)：冲突行位置、表长和属性检查的脚本与结果。 / Script and results for the row-position, table-length and attribute checks.
 
 </details>
