@@ -1,3 +1,6 @@
+> **20 November 2026:** [Expanded 70-entity data: Chinese with AI-translated English glosses](weekly_2026-11-20/data/REVIEW_TABLE.md).
+> **2026-11-20：** [新70实体完整中英数据表](weekly_2026-11-20/data/REVIEW_TABLE.md)。
+
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
 > **最新数据（修订版 v1）**：[`conflict_pairs.md`](conflict_pairs.md) 和 [`conflict_pairs.csv`](conflict_pairs.csv) 列出全部 604 对冲突值，中英对照。[`generation/`](generation/) 是修订前的原始 pilot 记录。本页下方的已知问题针对原始 pilot 数据。
