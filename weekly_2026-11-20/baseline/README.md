@@ -70,7 +70,6 @@
 | Llama-3.1-8B | 92.5% | 47.5%–72.9% |
 | Qwen2.5-7B | 90.5% | 54.5%–69.9% |
 
-- **解释 / Interpretation:** 表长与实体类型重合，现有数据分不开两者的影响。 / Table length is tied to entity type; these data do not separate the two effects.
 
 </details>
 
