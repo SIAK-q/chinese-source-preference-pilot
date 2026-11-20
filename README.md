@@ -1,7 +1,7 @@
 > **6 November 2026 / 2026-11-06：** [数据、生成草稿与baseline / Data, generation drafts and baseline](weekly_2026-11-06/README.md).
 
-> **20 November 2026:** [Bilingual data table](weekly_2026-11-20/data/REVIEW_TABLE.md) · [Data-generation procedure](weekly_2026-11-20/generation/README.md) · [Source-free baseline](weekly_2026-11-20/baseline/README.md).
-> **2026-11-20：** [新70实体中英表](weekly_2026-11-20/data/REVIEW_TABLE.md) · [数据生成过程](weekly_2026-11-20/generation/README.md) · [无信源baseline](weekly_2026-11-20/baseline/README.md)。
+> **20 November 2026:** [Bilingual data table](weekly_2026-11-20/data/REVIEW_TABLE.md) · [Data-generation procedure](weekly_2026-11-20/generation/README.md) · [Source-free baseline](weekly_2026-11-20/baseline/README.md) · [Source-name protocol](weekly_2026-11-20/sources/SOURCE_GENERATION_PROTOCOL.md).
+> **2026-11-20：** [新70实体中英表](weekly_2026-11-20/data/REVIEW_TABLE.md) · [数据生成过程](weekly_2026-11-20/generation/README.md) · [无信源baseline](weekly_2026-11-20/baseline/README.md) · [信源名称生成规程](weekly_2026-11-20/sources/SOURCE_GENERATION_PROTOCOL.md)。
 
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
