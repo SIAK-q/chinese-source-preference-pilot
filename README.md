@@ -1,13 +1,12 @@
-> **6 November 2026 / 2026-11-06：** [数据、生成草稿与baseline / Data, generation drafts and baseline](weekly_2026-11-06/README.md).
-
-> **20 November 2026:** [Bilingual data table](weekly_2026-11-20/data/REVIEW_TABLE.md) · [Data-generation procedure](weekly_2026-11-20/generation/README.md) · [Source-free baseline](weekly_2026-11-20/baseline/README.md) · [Source-name protocol](weekly_2026-11-20/sources/SOURCE_GENERATION_PROTOCOL.md).
-> **2026-11-20：** [新70实体中英表](weekly_2026-11-20/data/REVIEW_TABLE.md) · [数据生成过程](weekly_2026-11-20/generation/README.md) · [无信源baseline](weekly_2026-11-20/baseline/README.md) · [信源名称生成规程](weekly_2026-11-20/sources/SOURCE_GENERATION_PROTOCOL.md)。
+> **每周材料 / Weekly materials**
+> - **2026-11-20：** [70个实体、生成过程、无信源baseline、信源规程 / 70 entities, generation, source-free baseline, source-name protocol](weekly_2026-11-20/README.md)
+> - **2026-11-06：** [数据、生成草稿与baseline / Data, generation drafts and baseline](weekly_2026-11-06/README.md)
 
 # 中文信源偏好 pilot：数据 / Chinese source-preference pilot: data
 
-> **最新数据（修订版 v1）**：[`conflict_pairs.md`](conflict_pairs.md) 和 [`conflict_pairs.csv`](conflict_pairs.csv) 列出全部 604 对冲突值，中英对照。[`generation/`](generation/) 是修订前的原始 pilot 记录。本页下方的已知问题针对原始 pilot 数据。
+> **早期pilot数据（修订版 v1，30个实体）**：[`conflict_pairs.md`](conflict_pairs.md) 和 [`conflict_pairs.csv`](conflict_pairs.csv) 列出全部 604 对冲突值，中英对照。[`generation/`](generation/) 是修订前的原始 pilot 记录。本页下方的已知问题针对原始 pilot 数据。
 >
-> **Latest data (revised v1):** [`conflict_pairs.md`](conflict_pairs.md) and [`conflict_pairs.csv`](conflict_pairs.csv) list all 604 conflict pairs, Chinese with English gloss. [`generation/`](generation/) records the original pilot before revision. The known issues below describe the original pilot data.
+> **Early pilot data (revised v1, 30 entities):** [`conflict_pairs.md`](conflict_pairs.md) and [`conflict_pairs.csv`](conflict_pairs.csv) list all 604 conflict pairs, Chinese with English gloss. [`generation/`](generation/) records the original pilot before revision. The known issues below describe the original pilot data.
 
 硕士论文 pilot 数据，研究语言模型面对两份相互冲突的中文材料时如何权衡政府、报纸、个人和社交媒体等不同类型的信源。实体、属性值和信源名称按中文语境构造。
 
