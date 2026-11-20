@@ -1,0 +1,20 @@
+{
+  "version": "person-prototype-v1",
+  "status": "demonstration only, not approved formal data",
+  "sampling_seed": 20261020,
+  "partition_seed": 20261021,
+  "pool_names": ["entity_people", "individual_sources", "attribute_people"],
+  "names_per_pool": 10,
+  "given_name_characters": 2,
+  "surname_weight_column": "n.1930_2008",
+  "given_character_weight_columns": {"male_usage": "n.male", "female_usage": "n.female"},
+  "balance": "equal male-usage and female-usage strata in the unified batch and within each pool; not verified perceived gender",
+  "given_character_rule": "two independent draws with replacement from the same gender-usage character distribution; not position-specific or full-name frequency",
+  "avoid_existing_pilot_full_names": true,
+  "max_sampling_attempts": 10000,
+  "max_wiki_rounds": 10,
+  "wiki_batch_size": 50,
+  "wiki_scope": "Chinese Wikipedia exact titles with redirects; page exists means exclude, missing title does not prove fictional",
+  "human_review": null,
+  "final_approved": false
+}

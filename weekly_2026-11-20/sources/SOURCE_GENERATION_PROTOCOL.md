@@ -87,3 +87,14 @@ Counts in 428 newspaper titles from the [2025 list of internet news sources](htt
 - 候选词来自[chinayin/random-nickname](https://github.com/chinayin/random-nickname)（Apache-2.0，commit 26f0b9c），只保留[SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch)（Cai & Brysbaert, 2010）收录的词：217个形容词、198个名词。<br>Words from [chinayin/random-nickname](https://github.com/chinayin/random-nickname) (Apache-2.0, commit 26f0b9c), kept only if listed in [SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch) (Cai & Brysbaert, 2010): 217 adjectives, 198 nouns.
 
 </details>
+
+## 附件 / Files
+
+<details>
+<summary>代码与输入 / Code and inputs</summary>
+
+- [source_names.py](source_names.py)：生成信源名称。 / Generates source names.
+- [sample_person_names.py](sample_person_names.py)：抽取个人姓名，由上一个脚本调用。 / Samples person names; called by the script above.
+- [inputs/](inputs/)：地名池、社媒词表、姓名抽样设置和三个人名池。ChineseNames原始数据未上传，见上方版本与许可。 / Place-name pool, social-media word lists, name-sampling settings and the three person-name pools. ChineseNames raw data are not included; see version and licence above.
+
+</details>

@@ -70,6 +70,20 @@
 | Llama-3.1-8B | 92.5% | 47.5%–72.9% |
 | Qwen2.5-7B | 90.5% | 54.5%–69.9% |
 
+- **解释 / Interpretation:** 表长与实体类型重合，现有数据分不开两者的影响。 / Table length is tied to entity type; these data do not separate the two effects.
 
 </details>
 
+
+## 附件 / Files
+
+<details>
+<summary>代码、数据与结果 / Code, data and results</summary>
+
+- [code/](code/)：运行、读概率、分析和核对脚本。 / Scripts for running, reading probabilities, analysis and checks.
+- [data/entities_zh.jsonl](data/entities_zh.jsonl)：70个实体。 / The 70 entities.
+- [prompts.jsonl](prompts.jsonl)：3040题原文，五个模型相同。 / The 3,040 prompts, identical for all five models.
+- [results/](results/)：每个模型的逐题概率、分析和摘要。 / Per-model probabilities, analysis and summary.
+- [checks/](checks/)：冲突行位置、表长和属性检查的脚本与结果。 / Script and results for the row-position, table-length and attribute checks.
+
+</details>

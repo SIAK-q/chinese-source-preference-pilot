@@ -1,0 +1,21 @@
+﻿model,rows_data,classes,pairs,entities,mean_p_alt,mean_p_table2,strong_orig,strong_alt,strong_share
+GLM-4-9B (Kaggle FP16),4,location,160,10,0.503,0.139,7,7,0.087
+GLM-4-9B (Kaggle FP16),5,event、organization、product,600,30,0.504,0.156,27,42,0.115
+GLM-4-9B (Kaggle FP16),6,art、building,440,20,0.503,0.142,15,18,0.075
+GLM-4-9B (Kaggle FP16),9,person,320,10,0.487,0.208,25,16,0.128
+Llama-3.1-8B (Kaggle FP16),4,location,160,10,0.507,0.925,0,0,0.0
+Llama-3.1-8B (Kaggle FP16),5,event、organization、product,600,30,0.498,0.563,70,71,0.235
+Llama-3.1-8B (Kaggle FP16),6,art、building,440,20,0.51,0.475,18,28,0.105
+Llama-3.1-8B (Kaggle FP16),9,person,320,10,0.497,0.729,35,28,0.197
+Qwen2.5-7B (Kaggle FP16),4,location,160,10,0.501,0.905,10,9,0.119
+Qwen2.5-7B (Kaggle FP16),5,event、organization、product,600,30,0.486,0.545,85,68,0.255
+Qwen2.5-7B (Kaggle FP16),6,art、building,440,20,0.501,0.644,31,32,0.143
+Qwen2.5-7B (Kaggle FP16),9,person,320,10,0.508,0.699,41,39,0.25
+Qwen2.5-14B (AutoDL BF16),4,location,160,10,0.512,0.868,16,20,0.225
+Qwen2.5-14B (AutoDL BF16),5,event、organization、product,600,30,0.512,0.566,115,139,0.423
+Qwen2.5-14B (AutoDL BF16),6,art、building,440,20,0.512,0.633,56,69,0.284
+Qwen2.5-14B (AutoDL BF16),9,person,320,10,0.467,0.536,70,48,0.369
+Qwen2.5-32B (AutoDL BF16),4,location,160,10,0.514,0.703,35,39,0.463
+Qwen2.5-32B (AutoDL BF16),5,event、organization、product,600,30,0.487,0.456,142,140,0.47
+Qwen2.5-32B (AutoDL BF16),6,art、building,440,20,0.54,0.406,84,130,0.486
+Qwen2.5-32B (AutoDL BF16),9,person,320,10,0.481,0.53,78,64,0.444
