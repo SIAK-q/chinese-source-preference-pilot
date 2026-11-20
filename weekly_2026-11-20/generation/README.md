@@ -2,7 +2,7 @@
 
 - **数据 / Data:** 70实体、380属性，每项原值＋四备选。 / 70 entities, 380 attributes, one original and four alternatives each.
 - **模型 / Model:** `gpt-6.1-sol`.
-- **贯穿例子 / Worked example:** 《双陵晨光图》 / Morning Light in Shuangling.
+- **例子 / Worked example:** 《双陵晨光图》 / Morning Light in Shuangling.
 
 ## ① 准备输入 / Prepare inputs
 
