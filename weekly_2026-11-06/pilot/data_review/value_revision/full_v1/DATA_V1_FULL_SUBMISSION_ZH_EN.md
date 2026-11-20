@@ -6,9 +6,9 @@
 
 - **相容性检查 / Compatibility check**：每次只改变一个属性，将各备选与同一实体的其他原值搭配检查；相关行保留检查时使用的具体原值。<br>Each item changes one attribute. Alternatives were checked against the same entity’s other original values; relevant rows list the specific original values used.
 
-604对值分别测试两种表序，共1208题。[修订过程](../PROMPTS_REVISION_SUBMISSION.md) · [五模型baseline结果](../../../../BASELINE_RESULTS_ZH_EN.md)。
+604对值分别测试两种表序，共1208题。[修订过程](../PROMPTS_REVISION_SUBMISSION.md) · [五模型baseline结果](../../../../baseline/README.md)。
 
-The 604 pairs are tested in both table orders, giving 1,208 items. [Revision process](../PROMPTS_REVISION_SUBMISSION.md) · [Five-model baseline results](../../../../BASELINE_RESULTS_ZH_EN.md).
+The 604 pairs are tested in both table orders, giving 1,208 items. [Revision process](../PROMPTS_REVISION_SUBMISSION.md) · [Five-model baseline results](../../../../baseline/README.md).
 
 <details>
 <summary>出生及发布日期的抽样规则 / Sampling rules for birth and release dates</summary>

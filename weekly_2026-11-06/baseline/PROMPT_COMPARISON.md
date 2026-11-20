@@ -1,9 +1,9 @@
 # WFW 与中文测试 prompt 对照 / WFW and Chinese test-prompt comparison
 
 下方展示无信源 baseline 使用的 system prompt 与题目结构。
-完整的中文实际输入、两种表序和模型输出见[真实例题](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_EXAMPLE.md)；全部 1208 题的输入见[全部题目输入](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl)。
+完整的中文实际输入、两种表序和模型输出见[真实例题](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/baseline/EXAMPLE.md)；全部 1208 题的输入见[全部题目输入](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl)。
 
-This page compares the system prompt and item structure used for the source-free baseline. See the [actual example](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/BASELINE_EXAMPLE.md) for the full Chinese input in both orders and model outputs, and [all test inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl) for the 1,208 items.
+This page compares the system prompt and item structure used for the source-free baseline. See the [actual example](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/baseline/EXAMPLE.md) for the full Chinese input in both orders and model outputs, and [all test inputs](https://github.com/SIAK-q/chinese-source-preference-pilot/blob/main/weekly_2026-11-06/pilot/results_baseline/Qwen2.5-7B-Instruct_full_v1/prompts.jsonl) for the 1,208 items.
 
 ## System prompt
 

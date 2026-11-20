@@ -1,5 +1,10 @@
 # 无信源 baseline 结果 / Source-free baseline results
 
+- [实际输入输出例题 / Worked input–output example](EXAMPLE.md)
+- [WFW与中文测试prompt / WFW–Chinese test prompts](PROMPT_COMPARISON.md)
+- [完整运行记录 / Full run records](RECORDS.md)
+
+
 五个模型使用同一份 v1 数据。每组原值和备选交换表序，各测一次；两张表均不标注信源。
 
 Five models were tested on the same v1 data. Each original–alternative pair was tested in both table orders, without source labels.
@@ -36,8 +41,8 @@ First tokens across 1,208 items per model:
 | Gemma-4-E4B | 790 | `(`: 418 |
 | Gemma-4-12B | 853 | unable: 170; `(`: 127; `thought`: 40; because: 10; `<\|channel>`: 4; `1`: 4 |
 
-- **E4B核对：** 418道先输出“(”的题中，有82道出现这种情况：首步A/B分数更偏向一个选项，但接着写出的字母却是另一个。[核对记录](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
-  **E4B check:** In 82 of the 418 items starting with “(”, the first-step A/B scores favoured one option, but the next letter indicated the other. [Check results](pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
+- **E4B核对：** 418道先输出“(”的题中，有82道出现这种情况：首步A/B分数更偏向一个选项，但接着写出的字母却是另一个。[核对记录](../pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
+  **E4B check:** In 82 of the 418 items starting with “(”, the first-step A/B scores favoured one option, but the next letter indicated the other. [Check results](../pilot/results_baseline/gemma-4-E4B-it_full_v1/second_token_check.json)
 
 ## 五个模型共同偏向同一值的 17 对 / The 17 pairs where all five models favour the same value
 
@@ -74,6 +79,6 @@ Across all five models, 17 pairs show a preference above 80% for the same value 
 
 </details>
 
-全部输入、逐题结果与分析文件见[文件入口](README.md)。
+全部输入、逐题结果与分析文件见[文件入口](../README.md)。
 
-See the [file index](README.md) for all inputs, item-level results and analysis files.
+See the [file index](../README.md) for all inputs, item-level results and analysis files.

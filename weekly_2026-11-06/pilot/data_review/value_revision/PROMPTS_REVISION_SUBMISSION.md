@@ -109,4 +109,4 @@ The original written forms were kept for Tongxi Gymnasium height (38 m), Qingsha
 - [原始数据 / Original data](../../data/entities_zh.jsonl) · [v1数据 / Revised v1 data](full_v1/entities_full_v1.jsonl)
 - [151项完整对照 / Full comparison of 151 attributes](full_v1/DATA_V1_FULL_SUBMISSION_ZH_EN.md)
 - [最终修订脚本 / Final revision script](full_v1/build_full_v1.py) · [变更记录 / Change record](full_v1/changes_from_draft.json)
-- [五模型baseline结果 / Five-model baseline results](../../../BASELINE_RESULTS_ZH_EN.md)
+- [五模型baseline结果 / Five-model baseline results](../../../baseline/README.md)
