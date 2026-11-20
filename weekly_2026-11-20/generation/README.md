@@ -175,6 +175,7 @@ Output only one JSON object containing id, name, entity_class and all tested fie
 
 - **模型 / Model:** 根据完整原表生成材料备选。 / Generate material alternatives from the complete original table.
 - **脚本 / Script:** 生成年份与尺寸备选，从预先分配名单取创作者。 / Generate year and dimension alternatives; take creators from the preassigned list.
+- **人物 / People:** 职业＋学历、身高＋体重的备选成对生成；每道题仍只改一个属性。 / Occupation–education and height–weight alternatives were generated as pairs; each question still changes only one attribute.
 
 <details>
 <summary>材料备选：实际中文prompt / Material-alternative task prompt</summary>
