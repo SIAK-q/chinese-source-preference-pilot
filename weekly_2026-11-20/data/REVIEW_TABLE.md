@@ -2,8 +2,12 @@
 
 - **规模 / Size:** 70实体 / entities；380属性项 / attribute instances；每项原值＋四备选 / one original + four alternatives.
 
+## 人物 / People（10）
 
-## PERSON-01 · 胡飞建 / Hu Feijian
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### PERSON-01 · 胡飞建 / Hu Feijian
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 男 / Male
@@ -19,7 +23,7 @@
 | 现居城市<br>Current city | 双陵<br>Shuangling | 长源<br>Changyuan | 龙泽<br>Longze | 白原<br>Baiyuan | 乐水<br>Leshui |
 | 出生地<br>Place of birth | 白原<br>Baiyuan | 双陵<br>Shuangling | 新定<br>Xinding | 龙泽<br>Longze | 乐水<br>Leshui |
 
-## PERSON-02 · 籍宗国 / Ji Zongguo
+### PERSON-02 · 籍宗国 / Ji Zongguo
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 男 / Male
@@ -35,7 +39,7 @@
 | 现居城市<br>Current city | 上泉<br>Shangquan | 惠明<br>Huiming | 白原<br>Baiyuan | 乐水<br>Leshui | 长源<br>Changyuan |
 | 出生地<br>Place of birth | 清山<br>Qingshan | 白原<br>Baiyuan | 新定<br>Xinding | 长源<br>Changyuan | 双陵<br>Shuangling |
 
-## PERSON-03 · 余琼英 / Yu Qiongying
+### PERSON-03 · 余琼英 / Yu Qiongying
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 女 / Female
@@ -51,7 +55,7 @@
 | 现居城市<br>Current city | 白原<br>Baiyuan | 上泉<br>Shangquan | 长源<br>Changyuan | 清山<br>Qingshan | 双陵<br>Shuangling |
 | 出生地<br>Place of birth | 通溪<br>Tongxi | 白原<br>Baiyuan | 新定<br>Xinding | 双陵<br>Shuangling | 长源<br>Changyuan |
 
-## PERSON-04 · 程光起 / Cheng Guangqi
+### PERSON-04 · 程光起 / Cheng Guangqi
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 男 / Male
@@ -67,7 +71,7 @@
 | 现居城市<br>Current city | 龙泽<br>Longze | 新定<br>Xinding | 白原<br>Baiyuan | 长源<br>Changyuan | 双陵<br>Shuangling |
 | 出生地<br>Place of birth | 上泉<br>Shangquan | 双陵<br>Shuangling | 新定<br>Xinding | 长源<br>Changyuan | 乐水<br>Leshui |
 
-## PERSON-05 · 万素敏 / Wan Sumin
+### PERSON-05 · 万素敏 / Wan Sumin
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 女 / Female
@@ -83,7 +87,7 @@
 | 现居城市<br>Current city | 乐水<br>Leshui | 通溪<br>Tongxi | 清山<br>Qingshan | 新定<br>Xinding | 长源<br>Changyuan |
 | 出生地<br>Place of birth | 长源<br>Changyuan | 乐水<br>Leshui | 惠明<br>Huiming | 新定<br>Xinding | 清山<br>Qingshan |
 
-## PERSON-06 · 徐华英 / Xu Huaying
+### PERSON-06 · 徐华英 / Xu Huaying
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 女 / Female
@@ -99,7 +103,7 @@
 | 现居城市<br>Current city | 通溪<br>Tongxi | 乐水<br>Leshui | 新定<br>Xinding | 清山<br>Qingshan | 惠明<br>Huiming |
 | 出生地<br>Place of birth | 新定<br>Xinding | 乐水<br>Leshui | 通溪<br>Tongxi | 上泉<br>Shangquan | 清山<br>Qingshan |
 
-## PERSON-07 · 张超颖 / Zhang Chaoying
+### PERSON-07 · 张超颖 / Zhang Chaoying
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 男 / Male
@@ -115,7 +119,7 @@
 | 现居城市<br>Current city | 清山<br>Qingshan | 双陵<br>Shuangling | 上泉<br>Shangquan | 乐水<br>Leshui | 惠明<br>Huiming |
 | 出生地<br>Place of birth | 龙泽<br>Longze | 双陵<br>Shuangling | 惠明<br>Huiming | 长源<br>Changyuan | 清山<br>Qingshan |
 
-## PERSON-08 · 张威菁 / Zhang Weijing
+### PERSON-08 · 张威菁 / Zhang Weijing
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 女 / Female
@@ -131,7 +135,7 @@
 | 现居城市<br>Current city | 新定<br>Xinding | 双陵<br>Shuangling | 惠明<br>Huiming | 通溪<br>Tongxi | 上泉<br>Shangquan |
 | 出生地<br>Place of birth | 惠明<br>Huiming | 长源<br>Changyuan | 上泉<br>Shangquan | 乐水<br>Leshui | 清山<br>Qingshan |
 
-## PERSON-09 · 何丹旭 / He Danxu
+### PERSON-09 · 何丹旭 / He Danxu
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 女 / Female
@@ -147,7 +151,7 @@
 | 现居城市<br>Current city | 长源<br>Changyuan | 乐水<br>Leshui | 新定<br>Xinding | 龙泽<br>Longze | 白原<br>Baiyuan |
 | 出生地<br>Place of birth | 双陵<br>Shuangling | 白原<br>Baiyuan | 龙泽<br>Longze | 长源<br>Changyuan | 新定<br>Xinding |
 
-## PERSON-10 · 刘四国 / Liu Siguo
+### PERSON-10 · 刘四国 / Liu Siguo
 
 - **类型 / Type:** 人物 / Person
 - **性别 / Gender（固定 / fixed）:** 男 / Male
@@ -163,7 +167,14 @@
 | 现居城市<br>Current city | 惠明<br>Huiming | 龙泽<br>Longze | 白原<br>Baiyuan | 通溪<br>Tongxi | 双陵<br>Shuangling |
 | 出生地<br>Place of birth | 乐水<br>Leshui | 新定<br>Xinding | 龙泽<br>Longze | 通溪<br>Tongxi | 清山<br>Qingshan |
 
-## ORG-01 · 嘉衡集团 / Jiaheng Group
+</details>
+
+## 机构 / Organisations（10）
+
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### ORG-01 · 嘉衡集团 / Jiaheng Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -175,7 +186,7 @@
 | 成立时间<br>Founding date | 2002年6月<br>2002-06 | 2001年9月<br>2001-09 | 2002年1月<br>2002-01 | 2002年8月<br>2002-08 | 2003年6月<br>2003-06 |
 | 总部所在地<br>Headquarters | 龙泽<br>Longze | 双陵<br>Shuangling | 白原<br>Baiyuan | 长源<br>Changyuan | 新定<br>Xinding |
 
-## ORG-02 · 顺达股份有限公司 / Shunda Company Limited by Shares
+### ORG-02 · 顺达股份有限公司 / Shunda Company Limited by Shares
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -187,7 +198,7 @@
 | 成立时间<br>Founding date | 2011年3月<br>2011-03 | 2010年6月<br>2010-06 | 2010年10月<br>2010-10 | 2011年7月<br>2011-07 | 2011年12月<br>2011-12 |
 | 总部所在地<br>Headquarters | 双陵<br>Shuangling | 长源<br>Changyuan | 惠明<br>Huiming | 新定<br>Xinding | 白原<br>Baiyuan |
 
-## ORG-03 · 恒卓实业集团 / Hengzhuo Industrial Group
+### ORG-03 · 恒卓实业集团 / Hengzhuo Industrial Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -199,7 +210,7 @@
 | 成立时间<br>Founding date | 1999年9月<br>1999-09 | 1999年2月<br>1999-02 | 1999年7月<br>1999-07 | 2000年3月<br>2000-03 | 2000年5月<br>2000-05 |
 | 总部所在地<br>Headquarters | 上泉<br>Shangquan | 清山<br>Qingshan | 惠明<br>Huiming | 双陵<br>Shuangling | 长源<br>Changyuan |
 
-## ORG-04 · 瑞成集团 / Ruicheng Group
+### ORG-04 · 瑞成集团 / Ruicheng Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -211,7 +222,7 @@
 | 成立时间<br>Founding date | 2005年11月<br>2005-11 | 2005年3月<br>2005-03 | 2005年9月<br>2005-09 | 2006年1月<br>2006-01 | 2006年7月<br>2006-07 |
 | 总部所在地<br>Headquarters | 白原<br>Baiyuan | 乐水<br>Leshui | 龙泽<br>Longze | 长源<br>Changyuan | 通溪<br>Tongxi |
 
-## ORG-05 · 宏益股份有限公司 / Hongyi Company Limited by Shares
+### ORG-05 · 宏益股份有限公司 / Hongyi Company Limited by Shares
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -223,7 +234,7 @@
 | 成立时间<br>Founding date | 2008年4月<br>2008-04 | 2007年7月<br>2007-07 | 2008年3月<br>2008-03 | 2008年6月<br>2008-06 | 2009年1月<br>2009-01 |
 | 总部所在地<br>Headquarters | 乐水<br>Leshui | 龙泽<br>Longze | 白原<br>Baiyuan | 通溪<br>Tongxi | 上泉<br>Shangquan |
 
-## ORG-06 · 嘉信实业集团 / Jiaxin Industrial Group
+### ORG-06 · 嘉信实业集团 / Jiaxin Industrial Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -235,7 +246,7 @@
 | 成立时间<br>Founding date | 2001年8月<br>2001-08 | 2000年10月<br>2000-10 | 2001年5月<br>2001-05 | 2001年12月<br>2001-12 | 2002年4月<br>2002-04 |
 | 总部所在地<br>Headquarters | 通溪<br>Tongxi | 白原<br>Baiyuan | 龙泽<br>Longze | 上泉<br>Shangquan | 清山<br>Qingshan |
 
-## ORG-07 · 丰顺集团 / Fengshun Group
+### ORG-07 · 丰顺集团 / Fengshun Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -247,7 +258,7 @@
 | 成立时间<br>Founding date | 2007年2月<br>2007-02 | 2006年4月<br>2006-04 | 2006年8月<br>2006-08 | 2007年7月<br>2007-07 | 2008年1月<br>2008-01 |
 | 总部所在地<br>Headquarters | 长源<br>Changyuan | 清山<br>Qingshan | 白原<br>Baiyuan | 龙泽<br>Longze | 上泉<br>Shangquan |
 
-## ORG-08 · 益达股份有限公司 / Yida Company Limited by Shares
+### ORG-08 · 益达股份有限公司 / Yida Company Limited by Shares
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -259,7 +270,7 @@
 | 成立时间<br>Founding date | 2014年5月<br>2014-05 | 2013年7月<br>2013-07 | 2014年3月<br>2014-03 | 2014年7月<br>2014-07 | 2015年5月<br>2015-05 |
 | 总部所在地<br>Headquarters | 新定<br>Xinding | 双陵<br>Shuangling | 白原<br>Baiyuan | 龙泽<br>Longze | 乐水<br>Leshui |
 
-## ORG-09 · 正和实业集团 / Zhenghe Industrial Group
+### ORG-09 · 正和实业集团 / Zhenghe Industrial Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -271,7 +282,7 @@
 | 成立时间<br>Founding date | 1997年10月<br>1997-10 | 1996年12月<br>1996-12 | 1997年9月<br>1997-09 | 1998年4月<br>1998-04 | 1998年7月<br>1998-07 |
 | 总部所在地<br>Headquarters | 清山<br>Qingshan | 长源<br>Changyuan | 乐水<br>Leshui | 通溪<br>Tongxi | 双陵<br>Shuangling |
 
-## ORG-10 · 华勤集团 / Huaqin Group
+### ORG-10 · 华勤集团 / Huaqin Group
 
 - **类型 / Type:** 机构 / Organisation
 
@@ -283,7 +294,14 @@
 | 成立时间<br>Founding date | 2009年7月<br>2009-07 | 2008年8月<br>2008-08 | 2009年4月<br>2009-04 | 2009年9月<br>2009-09 | 2010年4月<br>2010-04 |
 | 总部所在地<br>Headquarters | 惠明<br>Huiming | 白原<br>Baiyuan | 双陵<br>Shuangling | 通溪<br>Tongxi | 长源<br>Changyuan |
 
-## LOCATION-01 · 双陵市 / Shuangling City
+</details>
+
+## 地点 / Locations（10）
+
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### LOCATION-01 · 双陵市 / Shuangling City
 
 - **类型 / Type:** 地点 / Location
 
@@ -294,7 +312,7 @@
 | 海拔<br>Elevation | 86米<br>86 m | 82米<br>82 m | 84米<br>84 m | 88米<br>88 m | 90米<br>90 m |
 | 下辖乡镇数<br>Number of towns/townships | 14个<br>14 towns/townships | 12个<br>12 towns/townships | 13个<br>13 towns/townships | 15个<br>15 towns/townships | 16个<br>16 towns/townships |
 
-## LOCATION-02 · 上泉市 / Shangquan City
+### LOCATION-02 · 上泉市 / Shangquan City
 
 - **类型 / Type:** 地点 / Location
 
@@ -305,7 +323,7 @@
 | 海拔<br>Elevation | 24米<br>24 m | 22米<br>22 m | 23米<br>23 m | 25米<br>25 m | 26米<br>26 m |
 | 下辖乡镇数<br>Number of towns/townships | 22个<br>22 towns/townships | 20个<br>20 towns/townships | 21个<br>21 towns/townships | 23个<br>23 towns/townships | 24个<br>24 towns/townships |
 
-## LOCATION-03 · 白原市 / Baiyuan City
+### LOCATION-03 · 白原市 / Baiyuan City
 
 - **类型 / Type:** 地点 / Location
 
@@ -316,7 +334,7 @@
 | 海拔<br>Elevation | 420米<br>420 m | 399米<br>399 m | 409米<br>409 m | 431米<br>431 m | 441米<br>441 m |
 | 下辖乡镇数<br>Number of towns/townships | 10个<br>10 towns/townships | 8个<br>8 towns/townships | 9个<br>9 towns/townships | 11个<br>11 towns/townships | 12个<br>12 towns/townships |
 
-## LOCATION-04 · 龙泽市 / Longze City
+### LOCATION-04 · 龙泽市 / Longze City
 
 - **类型 / Type:** 地点 / Location
 
@@ -327,7 +345,7 @@
 | 海拔<br>Elevation | 56米<br>56 m | 54米<br>54 m | 55米<br>55 m | 57米<br>57 m | 58米<br>58 m |
 | 下辖乡镇数<br>Number of towns/townships | 28个<br>28 towns/townships | 26个<br>26 towns/townships | 27个<br>27 towns/townships | 29个<br>29 towns/townships | 30个<br>30 towns/townships |
 
-## LOCATION-05 · 乐水市 / Leshui City
+### LOCATION-05 · 乐水市 / Leshui City
 
 - **类型 / Type:** 地点 / Location
 
@@ -338,7 +356,7 @@
 | 海拔<br>Elevation | 165米<br>165 m | 157米<br>157 m | 161米<br>161 m | 169米<br>169 m | 173米<br>173 m |
 | 下辖乡镇数<br>Number of towns/townships | 17个<br>17 towns/townships | 15个<br>15 towns/townships | 16个<br>16 towns/townships | 18个<br>18 towns/townships | 19个<br>19 towns/townships |
 
-## LOCATION-06 · 通溪市 / Tongxi City
+### LOCATION-06 · 通溪市 / Tongxi City
 
 - **类型 / Type:** 地点 / Location
 
@@ -349,7 +367,7 @@
 | 海拔<br>Elevation | 680米<br>680 m | 646米<br>646 m | 663米<br>663 m | 697米<br>697 m | 714米<br>714 m |
 | 下辖乡镇数<br>Number of towns/townships | 12个<br>12 towns/townships | 10个<br>10 towns/townships | 11个<br>11 towns/townships | 13个<br>13 towns/townships | 14个<br>14 towns/townships |
 
-## LOCATION-07 · 清山市 / Qingshan City
+### LOCATION-07 · 清山市 / Qingshan City
 
 - **类型 / Type:** 地点 / Location
 
@@ -360,7 +378,7 @@
 | 海拔<br>Elevation | 1250米<br>1,250 m | 1188米<br>1,188 m | 1219米<br>1,219 m | 1281米<br>1,281 m | 1312米<br>1,312 m |
 | 下辖乡镇数<br>Number of towns/townships | 20个<br>20 towns/townships | 18个<br>18 towns/townships | 19个<br>19 towns/townships | 21个<br>21 towns/townships | 22个<br>22 towns/townships |
 
-## LOCATION-08 · 新定市 / Xinding City
+### LOCATION-08 · 新定市 / Xinding City
 
 - **类型 / Type:** 地点 / Location
 
@@ -371,7 +389,7 @@
 | 海拔<br>Elevation | 52米<br>52 m | 50米<br>50 m | 51米<br>51 m | 53米<br>53 m | 54米<br>54 m |
 | 下辖乡镇数<br>Number of towns/townships | 25个<br>25 towns/townships | 23个<br>23 towns/townships | 24个<br>24 towns/townships | 26个<br>26 towns/townships | 27个<br>27 towns/townships |
 
-## LOCATION-09 · 长源市 / Changyuan City
+### LOCATION-09 · 长源市 / Changyuan City
 
 - **类型 / Type:** 地点 / Location
 
@@ -382,7 +400,7 @@
 | 海拔<br>Elevation | 310米<br>310 m | 295米<br>295 m | 302米<br>302 m | 318米<br>318 m | 325米<br>325 m |
 | 下辖乡镇数<br>Number of towns/townships | 16个<br>16 towns/townships | 14个<br>14 towns/townships | 15个<br>15 towns/townships | 17个<br>17 towns/townships | 18个<br>18 towns/townships |
 
-## LOCATION-10 · 惠明市 / Huiming City
+### LOCATION-10 · 惠明市 / Huiming City
 
 - **类型 / Type:** 地点 / Location
 
@@ -393,7 +411,14 @@
 | 海拔<br>Elevation | 18米<br>18 m | 16米<br>16 m | 17米<br>17 m | 19米<br>19 m | 20米<br>20 m |
 | 下辖乡镇数<br>Number of towns/townships | 8个<br>8 towns/townships | 6个<br>6 towns/townships | 7个<br>7 towns/townships | 9个<br>9 towns/townships | 10个<br>10 towns/townships |
 
-## BUILDING-01 · 双陵体育馆 / Shuangling Sports Hall
+</details>
+
+## 建筑 / Buildings（10）
+
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### BUILDING-01 · 双陵体育馆 / Shuangling Sports Hall
 
 - **类型 / Type:** 建筑 / Building
 
@@ -406,7 +431,7 @@
 | 高度<br>Height | 28米<br>28 m | 26米<br>26 m | 27米<br>27 m | 29米<br>29 m | 30米<br>30 m |
 | 容纳人数<br>Capacity | 5200人<br>5,200 people | 4940人<br>4,940 people | 5070人<br>5,070 people | 5330人<br>5,330 people | 5460人<br>5,460 people |
 
-## BUILDING-02 · 上泉图书馆 / Shangquan Library
+### BUILDING-02 · 上泉图书馆 / Shangquan Library
 
 - **类型 / Type:** 建筑 / Building
 
@@ -419,7 +444,7 @@
 | 高度<br>Height | 32米<br>32 m | 30米<br>30 m | 31米<br>31 m | 33米<br>33 m | 34米<br>34 m |
 | 容纳人数<br>Capacity | 2100人<br>2,100 people | 1995人<br>1,995 people | 2047人<br>2,047 people | 2153人<br>2,153 people | 2205人<br>2,205 people |
 
-## BUILDING-03 · 白原文化馆 / Baiyuan Cultural Centre
+### BUILDING-03 · 白原文化馆 / Baiyuan Cultural Centre
 
 - **类型 / Type:** 建筑 / Building
 
@@ -432,7 +457,7 @@
 | 高度<br>Height | 20米<br>20 m | 18米<br>18 m | 19米<br>19 m | 21米<br>21 m | 22米<br>22 m |
 | 容纳人数<br>Capacity | 900人<br>900 people | 855人<br>855 people | 877人<br>877 people | 923人<br>923 people | 945人<br>945 people |
 
-## BUILDING-04 · 龙泽青少年活动中心 / Longze Youth Activity Centre
+### BUILDING-04 · 龙泽青少年活动中心 / Longze Youth Activity Centre
 
 - **类型 / Type:** 建筑 / Building
 
@@ -445,7 +470,7 @@
 | 高度<br>Height | 24米<br>24 m | 22米<br>22 m | 23米<br>23 m | 25米<br>25 m | 26米<br>26 m |
 | 容纳人数<br>Capacity | 1400人<br>1,400 people | 1330人<br>1,330 people | 1365人<br>1,365 people | 1435人<br>1,435 people | 1470人<br>1,470 people |
 
-## BUILDING-05 · 乐水会展中心 / Leshui Convention and Exhibition Centre
+### BUILDING-05 · 乐水会展中心 / Leshui Convention and Exhibition Centre
 
 - **类型 / Type:** 建筑 / Building
 
@@ -458,7 +483,7 @@
 | 高度<br>Height | 36米<br>36 m | 34米<br>34 m | 35米<br>35 m | 37米<br>37 m | 38米<br>38 m |
 | 容纳人数<br>Capacity | 9000人<br>9,000 people | 8550人<br>8,550 people | 8775人<br>8,775 people | 9225人<br>9,225 people | 9450人<br>9,450 people |
 
-## BUILDING-06 · 通溪市民服务中心 / Tongxi Citizen Service Centre
+### BUILDING-06 · 通溪市民服务中心 / Tongxi Citizen Service Centre
 
 - **类型 / Type:** 建筑 / Building
 
@@ -471,7 +496,7 @@
 | 高度<br>Height | 42米<br>42 m | 40米<br>40 m | 41米<br>41 m | 43米<br>43 m | 44米<br>44 m |
 | 容纳人数<br>Capacity | 2600人<br>2,600 people | 2470人<br>2,470 people | 2535人<br>2,535 people | 2665人<br>2,665 people | 2730人<br>2,730 people |
 
-## BUILDING-07 · 清山科技馆 / Qingshan Science and Technology Museum
+### BUILDING-07 · 清山科技馆 / Qingshan Science and Technology Museum
 
 - **类型 / Type:** 建筑 / Building
 
@@ -484,7 +509,7 @@
 | 高度<br>Height | 30米<br>30 m | 28米<br>28 m | 29米<br>29 m | 31米<br>31 m | 32米<br>32 m |
 | 容纳人数<br>Capacity | 2400人<br>2,400 people | 2280人<br>2,280 people | 2340人<br>2,340 people | 2460人<br>2,460 people | 2520人<br>2,520 people |
 
-## BUILDING-08 · 新定档案馆 / Xinding Archives
+### BUILDING-08 · 新定档案馆 / Xinding Archives
 
 - **类型 / Type:** 建筑 / Building
 
@@ -497,7 +522,7 @@
 | 高度<br>Height | 27米<br>27 m | 25米<br>25 m | 26米<br>26 m | 28米<br>28 m | 29米<br>29 m |
 | 容纳人数<br>Capacity | 500人<br>500 people | 475人<br>475 people | 487人<br>487 people | 513人<br>513 people | 525人<br>525 people |
 
-## BUILDING-09 · 长源音乐厅 / Changyuan Concert Hall
+### BUILDING-09 · 长源音乐厅 / Changyuan Concert Hall
 
 - **类型 / Type:** 建筑 / Building
 
@@ -510,7 +535,7 @@
 | 高度<br>Height | 25米<br>25 m | 23米<br>23 m | 24米<br>24 m | 26米<br>26 m | 27米<br>27 m |
 | 容纳人数<br>Capacity | 1800人<br>1,800 people | 1710人<br>1,710 people | 1755人<br>1,755 people | 1845人<br>1,845 people | 1890人<br>1,890 people |
 
-## BUILDING-10 · 惠明博物馆 / Huiming Museum
+### BUILDING-10 · 惠明博物馆 / Huiming Museum
 
 - **类型 / Type:** 建筑 / Building
 
@@ -523,7 +548,14 @@
 | 高度<br>Height | 22米<br>22 m | 20米<br>20 m | 21米<br>21 m | 23米<br>23 m | 24米<br>24 m |
 | 容纳人数<br>Capacity | 1600人<br>1,600 people | 1520人<br>1,520 people | 1560人<br>1,560 people | 1640人<br>1,640 people | 1680人<br>1,680 people |
 
-## EVENT-01 · 惠明国际马拉松赛 / Huiming International Marathon
+</details>
+
+## 活动 / Events（10）
+
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### EVENT-01 · 惠明国际马拉松赛 / Huiming International Marathon
 
 - **类型 / Type:** 活动 / Event
 
@@ -535,7 +567,7 @@
 | 参与人数<br>Participation count | 12000人<br>12,000 people | 11400人<br>11,400 people | 11700人<br>11,700 people | 12300人<br>12,300 people | 12600人<br>12,600 people |
 | 预算<br>Budget | 960万元<br>CNY 9,600,000 | 912万元<br>CNY 9,120,000 | 936万元<br>CNY 9,360,000 | 984万元<br>CNY 9,840,000 | 1008万元<br>CNY 10,080,000 |
 
-## EVENT-02 · 双陵图书文化节 / Shuangling Book and Culture Festival
+### EVENT-02 · 双陵图书文化节 / Shuangling Book and Culture Festival
 
 - **类型 / Type:** 活动 / Event
 
@@ -547,7 +579,7 @@
 | 参与人数<br>Participation count | 28000人次<br>28,000 attendances | 26600人次<br>26,600 attendances | 27300人次<br>27,300 attendances | 28700人次<br>28,700 attendances | 29400人次<br>29,400 attendances |
 | 预算<br>Budget | 150万元<br>CNY 1,500,000 | 143万元<br>CNY 1,430,000 | 146万元<br>CNY 1,460,000 | 154万元<br>CNY 1,540,000 | 157万元<br>CNY 1,570,000 |
 
-## EVENT-03 · 上泉农业科技展 / Shangquan Agricultural Science and Technology Exhibition
+### EVENT-03 · 上泉农业科技展 / Shangquan Agricultural Science and Technology Exhibition
 
 - **类型 / Type:** 活动 / Event
 
@@ -559,7 +591,7 @@
 | 参与人数<br>Participation count | 46000人次<br>46,000 attendances | 43700人次<br>43,700 attendances | 44850人次<br>44,850 attendances | 47150人次<br>47,150 attendances | 48300人次<br>48,300 attendances |
 | 预算<br>Budget | 380万元<br>CNY 3,800,000 | 361万元<br>CNY 3,610,000 | 370万元<br>CNY 3,700,000 | 390万元<br>CNY 3,900,000 | 399万元<br>CNY 3,990,000 |
 
-## EVENT-04 · 白原青年合唱节 / Baiyuan Youth Choral Festival
+### EVENT-04 · 白原青年合唱节 / Baiyuan Youth Choral Festival
 
 - **类型 / Type:** 活动 / Event
 
@@ -571,7 +603,7 @@
 | 参与人数<br>Participation count | 3600人次<br>3,600 attendances | 3420人次<br>3,420 attendances | 3510人次<br>3,510 attendances | 3690人次<br>3,690 attendances | 3780人次<br>3,780 attendances |
 | 预算<br>Budget | 85万元<br>CNY 850,000 | 81万元<br>CNY 810,000 | 83万元<br>CNY 830,000 | 87万元<br>CNY 870,000 | 89万元<br>CNY 890,000 |
 
-## EVENT-05 · 龙泽龙舟邀请赛 / Longze Dragon Boat Invitational
+### EVENT-05 · 龙泽龙舟邀请赛 / Longze Dragon Boat Invitational
 
 - **类型 / Type:** 活动 / Event
 
@@ -583,7 +615,7 @@
 | 参与人数<br>Participation count | 720人<br>720 people | 684人<br>684 people | 702人<br>702 people | 738人<br>738 people | 756人<br>756 people |
 | 预算<br>Budget | 140万元<br>CNY 1,400,000 | 133万元<br>CNY 1,330,000 | 136万元<br>CNY 1,360,000 | 144万元<br>CNY 1,440,000 | 147万元<br>CNY 1,470,000 |
 
-## EVENT-06 · 乐水手工艺博览会 / Leshui Handicrafts Expo
+### EVENT-06 · 乐水手工艺博览会 / Leshui Handicrafts Expo
 
 - **类型 / Type:** 活动 / Event
 
@@ -595,7 +627,7 @@
 | 参与人数<br>Participation count | 32000人次<br>32,000 attendances | 30400人次<br>30,400 attendances | 31200人次<br>31,200 attendances | 32800人次<br>32,800 attendances | 33600人次<br>33,600 attendances |
 | 预算<br>Budget | 240万元<br>CNY 2,400,000 | 228万元<br>CNY 2,280,000 | 234万元<br>CNY 2,340,000 | 246万元<br>CNY 2,460,000 | 252万元<br>CNY 2,520,000 |
 
-## EVENT-07 · 通溪校园戏剧展演 / Tongxi School Theatre Showcase
+### EVENT-07 · 通溪校园戏剧展演 / Tongxi School Theatre Showcase
 
 - **类型 / Type:** 活动 / Event
 
@@ -607,7 +639,7 @@
 | 参与人数<br>Participation count | 5200人次<br>5,200 attendances | 4940人次<br>4,940 attendances | 5070人次<br>5,070 attendances | 5330人次<br>5,330 attendances | 5460人次<br>5,460 attendances |
 | 预算<br>Budget | 72万元<br>CNY 720,000 | 69万元<br>CNY 690,000 | 70万元<br>CNY 700,000 | 74万元<br>CNY 740,000 | 75万元<br>CNY 750,000 |
 
-## EVENT-08 · 清山社区运动会 / Qingshan Community Sports Games
+### EVENT-08 · 清山社区运动会 / Qingshan Community Sports Games
 
 - **类型 / Type:** 活动 / Event
 
@@ -619,7 +651,7 @@
 | 参与人数<br>Participation count | 640人<br>640 people | 608人<br>608 people | 624人<br>624 people | 656人<br>656 people | 672人<br>672 people |
 | 预算<br>Budget | 16万元<br>CNY 160,000 | 14万元<br>CNY 140,000 | 15万元<br>CNY 150,000 | 17万元<br>CNY 170,000 | 18万元<br>CNY 180,000 |
 
-## EVENT-09 · 新定科普活动 / Xinding Science Outreach Event
+### EVENT-09 · 新定科普活动 / Xinding Science Outreach Event
 
 - **类型 / Type:** 活动 / Event
 
@@ -631,7 +663,7 @@
 | 参与人数<br>Participation count | 18000人次<br>18,000 attendances | 17100人次<br>17,100 attendances | 17550人次<br>17,550 attendances | 18450人次<br>18,450 attendances | 18900人次<br>18,900 attendances |
 | 预算<br>Budget | 110万元<br>CNY 1,100,000 | 105万元<br>CNY 1,050,000 | 107万元<br>CNY 1,070,000 | 113万元<br>CNY 1,130,000 | 115万元<br>CNY 1,150,000 |
 
-## EVENT-10 · 长源摄影艺术展 / Changyuan Photographic Art Exhibition
+### EVENT-10 · 长源摄影艺术展 / Changyuan Photographic Art Exhibition
 
 - **类型 / Type:** 活动 / Event
 
@@ -643,7 +675,14 @@
 | 参与人数<br>Participation count | 9600人次<br>9,600 attendances | 9120人次<br>9,120 attendances | 9360人次<br>9,360 attendances | 9840人次<br>9,840 attendances | 10080人次<br>10,080 attendances |
 | 预算<br>Budget | 65万元<br>CNY 650,000 | 62万元<br>CNY 620,000 | 63万元<br>CNY 630,000 | 67万元<br>CNY 670,000 | 68万元<br>CNY 680,000 |
 
-## PRODUCT-01 · W10 滚筒洗衣机 / W10 Drum Washing Machine
+</details>
+
+## 产品 / Products（10）
+
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### PRODUCT-01 · W10 滚筒洗衣机 / W10 Drum Washing Machine
 
 - **类型 / Type:** 产品 / Product
 
@@ -655,7 +694,7 @@
 | 重量<br>Weight | 68公斤<br>68 kg | 65公斤<br>65 kg | 66公斤<br>66 kg | 70公斤<br>70 kg | 71公斤<br>71 kg |
 | 保修期<br>Warranty duration | 24个月<br>24 months | 12个月<br>12 months | 18个月<br>18 months | 36个月<br>36 months | 48个月<br>48 months |
 
-## PRODUCT-02 · W20 波轮洗衣机 / W20 Pulsator Washing Machine
+### PRODUCT-02 · W20 波轮洗衣机 / W20 Pulsator Washing Machine
 
 - **类型 / Type:** 产品 / Product
 
@@ -667,7 +706,7 @@
 | 重量<br>Weight | 34.5公斤<br>34.5 kg | 32.8公斤<br>32.8 kg | 33.6公斤<br>33.6 kg | 35.4公斤<br>35.4 kg | 36.2公斤<br>36.2 kg |
 | 保修期<br>Warranty duration | 24个月<br>24 months | 12个月<br>12 months | 18个月<br>18 months | 36个月<br>36 months | 48个月<br>48 months |
 
-## PRODUCT-03 · D10 洗碗机 / D10 Dishwasher
+### PRODUCT-03 · D10 洗碗机 / D10 Dishwasher
 
 - **类型 / Type:** 产品 / Product
 
@@ -679,7 +718,7 @@
 | 重量<br>Weight | 45公斤<br>45 kg | 43公斤<br>43 kg | 44公斤<br>44 kg | 46公斤<br>46 kg | 47公斤<br>47 kg |
 | 保修期<br>Warranty duration | 24个月<br>24 months | 12个月<br>12 months | 18个月<br>18 months | 36个月<br>36 months | 48个月<br>48 months |
 
-## PRODUCT-04 · C10 滴滤咖啡机 / C10 Drip Coffee Maker
+### PRODUCT-04 · C10 滴滤咖啡机 / C10 Drip Coffee Maker
 
 - **类型 / Type:** 产品 / Product
 
@@ -691,7 +730,7 @@
 | 重量<br>Weight | 1.65公斤<br>1.65 kg | 1.57公斤<br>1.57 kg | 1.61公斤<br>1.61 kg | 1.69公斤<br>1.69 kg | 1.73公斤<br>1.73 kg |
 | 保修期<br>Warranty duration | 12个月<br>12 months | 3个月<br>3 months | 6个月<br>6 months | 18个月<br>18 months | 24个月<br>24 months |
 
-## PRODUCT-05 · C20 胶囊咖啡机 / C20 Capsule Coffee Machine
+### PRODUCT-05 · C20 胶囊咖啡机 / C20 Capsule Coffee Machine
 
 - **类型 / Type:** 产品 / Product
 
@@ -703,7 +742,7 @@
 | 重量<br>Weight | 2.85公斤<br>2.85 kg | 2.71公斤<br>2.71 kg | 2.78公斤<br>2.78 kg | 2.92公斤<br>2.92 kg | 2.99公斤<br>2.99 kg |
 | 保修期<br>Warranty duration | 18个月<br>18 months | 6个月<br>6 months | 12个月<br>12 months | 24个月<br>24 months | 36个月<br>36 months |
 
-## PRODUCT-06 · B10 通勤自行车 / B10 Commuter Bicycle
+### PRODUCT-06 · B10 通勤自行车 / B10 Commuter Bicycle
 
 - **类型 / Type:** 产品 / Product
 
@@ -715,7 +754,7 @@
 | 重量<br>Weight | 14.8公斤<br>14.8 kg | 14.1公斤<br>14.1 kg | 14.4公斤<br>14.4 kg | 15.2公斤<br>15.2 kg | 15.5公斤<br>15.5 kg |
 | 保修期<br>Warranty duration | 24个月<br>24 months | 12个月<br>12 months | 18个月<br>18 months | 36个月<br>36 months | 48个月<br>48 months |
 
-## PRODUCT-07 · H10 头戴式无线耳机 / H10 Wireless Over-Ear Headphones
+### PRODUCT-07 · H10 头戴式无线耳机 / H10 Wireless Over-Ear Headphones
 
 - **类型 / Type:** 产品 / Product
 
@@ -727,7 +766,7 @@
 | 重量<br>Weight | 285克<br>285 g | 271克<br>271 g | 278克<br>278 g | 292克<br>292 g | 299克<br>299 g |
 | 保修期<br>Warranty duration | 18个月<br>18 months | 6个月<br>6 months | 12个月<br>12 months | 24个月<br>24 months | 36个月<br>36 months |
 
-## PRODUCT-08 · L10 轻薄笔记本电脑 / L10 Thin-and-Light Laptop
+### PRODUCT-08 · L10 轻薄笔记本电脑 / L10 Thin-and-Light Laptop
 
 - **类型 / Type:** 产品 / Product
 
@@ -739,7 +778,7 @@
 | 重量<br>Weight | 1.42公斤<br>1.42 kg | 1.35公斤<br>1.35 kg | 1.38公斤<br>1.38 kg | 1.46公斤<br>1.46 kg | 1.49公斤<br>1.49 kg |
 | 保修期<br>Warranty duration | 24个月<br>24 months | 12个月<br>12 months | 18个月<br>18 months | 36个月<br>36 months | 48个月<br>48 months |
 
-## PRODUCT-09 · P10 智能手机 / P10 Smartphone
+### PRODUCT-09 · P10 智能手机 / P10 Smartphone
 
 - **类型 / Type:** 产品 / Product
 
@@ -751,7 +790,7 @@
 | 重量<br>Weight | 198克<br>198 g | 189克<br>189 g | 193克<br>193 g | 203克<br>203 g | 207克<br>207 g |
 | 保修期<br>Warranty duration | 12个月<br>12 months | 3个月<br>3 months | 6个月<br>6 months | 18个月<br>18 months | 24个月<br>24 months |
 
-## PRODUCT-10 · P20 智能手机 / P20 Smartphone
+### PRODUCT-10 · P20 智能手机 / P20 Smartphone
 
 - **类型 / Type:** 产品 / Product
 
@@ -763,7 +802,14 @@
 | 重量<br>Weight | 212克<br>212 g | 202克<br>202 g | 207克<br>207 g | 217克<br>217 g | 222克<br>222 g |
 | 保修期<br>Warranty duration | 18个月<br>18 months | 6个月<br>6 months | 12个月<br>12 months | 24个月<br>24 months | 36个月<br>36 months |
 
-## ART-01 · 《双陵晨光图》 / Morning Light in Shuangling
+</details>
+
+## 艺术作品 / Artworks（10）
+
+<details>
+<summary>展开10个实体 / Show 10 entities</summary>
+
+### ART-01 · 《双陵晨光图》 / Morning Light in Shuangling
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 架上绘画 / Easel painting
@@ -776,7 +822,7 @@
 | 高度<br>Height | 85厘米<br>85 cm | 81厘米<br>81 cm | 83厘米<br>83 cm | 87厘米<br>87 cm | 89厘米<br>89 cm |
 | 宽度<br>Width | 115厘米<br>115 cm | 110厘米<br>110 cm | 112厘米<br>112 cm | 118厘米<br>118 cm | 120厘米<br>120 cm |
 
-## ART-02 · 《上泉渡口图》 / Ferry Landing at Shangquan
+### ART-02 · 《上泉渡口图》 / Ferry Landing at Shangquan
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 架上绘画 / Easel painting
@@ -789,7 +835,7 @@
 | 高度<br>Height | 65厘米<br>65 cm | 62厘米<br>62 cm | 63厘米<br>63 cm | 67厘米<br>67 cm | 68厘米<br>68 cm |
 | 宽度<br>Width | 95厘米<br>95 cm | 91厘米<br>91 cm | 93厘米<br>93 cm | 97厘米<br>97 cm | 99厘米<br>99 cm |
 
-## ART-03 · 《白原山居图》 / Mountain Dwelling in Baiyuan
+### ART-03 · 《白原山居图》 / Mountain Dwelling in Baiyuan
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 架上绘画 / Easel painting
@@ -802,7 +848,7 @@
 | 高度<br>Height | 135厘米<br>135 cm | 129厘米<br>129 cm | 132厘米<br>132 cm | 138厘米<br>138 cm | 141厘米<br>141 cm |
 | 宽度<br>Width | 75厘米<br>75 cm | 72厘米<br>72 cm | 73厘米<br>73 cm | 77厘米<br>77 cm | 78厘米<br>78 cm |
 
-## ART-04 · 《龙泽远帆图》 / Distant Sails at Longze
+### ART-04 · 《龙泽远帆图》 / Distant Sails at Longze
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 架上绘画 / Easel painting
@@ -815,7 +861,7 @@
 | 高度<br>Height | 75厘米<br>75 cm | 72厘米<br>72 cm | 73厘米<br>73 cm | 77厘米<br>77 cm | 78厘米<br>78 cm |
 | 宽度<br>Width | 125厘米<br>125 cm | 119厘米<br>119 cm | 122厘米<br>122 cm | 128厘米<br>128 cm | 131厘米<br>131 cm |
 
-## ART-05 · 《乐水秋园图》 / Autumn Garden in Leshui
+### ART-05 · 《乐水秋园图》 / Autumn Garden in Leshui
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 架上绘画 / Easel painting
@@ -828,7 +874,7 @@
 | 高度<br>Height | 95厘米<br>95 cm | 91厘米<br>91 cm | 93厘米<br>93 cm | 97厘米<br>97 cm | 99厘米<br>99 cm |
 | 宽度<br>Width | 130厘米<br>130 cm | 124厘米<br>124 cm | 127厘米<br>127 cm | 133厘米<br>133 cm | 136厘米<br>136 cm |
 
-## ART-06 · 《通溪回望》 / Looking Back in Tongxi
+### ART-06 · 《通溪回望》 / Looking Back in Tongxi
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 人物雕塑 / Figurative sculpture
@@ -841,7 +887,7 @@
 | 高度<br>Height | 175厘米<br>175 cm | 167厘米<br>167 cm | 171厘米<br>171 cm | 179厘米<br>179 cm | 183厘米<br>183 cm |
 | 宽度<br>Width | 70厘米<br>70 cm | 67厘米<br>67 cm | 68厘米<br>68 cm | 72厘米<br>72 cm | 73厘米<br>73 cm |
 
-## ART-07 · 《清山相遇》 / Encounter in Qingshan
+### ART-07 · 《清山相遇》 / Encounter in Qingshan
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 人物雕塑 / Figurative sculpture
@@ -854,7 +900,7 @@
 | 高度<br>Height | 155厘米<br>155 cm | 148厘米<br>148 cm | 151厘米<br>151 cm | 159厘米<br>159 cm | 162厘米<br>162 cm |
 | 宽度<br>Width | 85厘米<br>85 cm | 81厘米<br>81 cm | 83厘米<br>83 cm | 87厘米<br>87 cm | 89厘米<br>89 cm |
 
-## ART-08 · 《新定行者》 / The Traveller of Xinding
+### ART-08 · 《新定行者》 / The Traveller of Xinding
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 人物雕塑 / Figurative sculpture
@@ -867,7 +913,7 @@
 | 高度<br>Height | 205厘米<br>205 cm | 195厘米<br>195 cm | 200厘米<br>200 cm | 210厘米<br>210 cm | 215厘米<br>215 cm |
 | 宽度<br>Width | 80厘米<br>80 cm | 76厘米<br>76 cm | 78厘米<br>78 cm | 82厘米<br>82 cm | 84厘米<br>84 cm |
 
-## ART-09 · 《长源听风》 / Listening to the Wind in Changyuan
+### ART-09 · 《长源听风》 / Listening to the Wind in Changyuan
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 人物雕塑 / Figurative sculpture
@@ -880,7 +926,7 @@
 | 高度<br>Height | 165厘米<br>165 cm | 157厘米<br>157 cm | 161厘米<br>161 cm | 169厘米<br>169 cm | 173厘米<br>173 cm |
 | 宽度<br>Width | 65厘米<br>65 cm | 62厘米<br>62 cm | 63厘米<br>63 cm | 67厘米<br>67 cm | 68厘米<br>68 cm |
 
-## ART-10 · 《惠明守望》 / Keeping Watch in Huiming
+### ART-10 · 《惠明守望》 / Keeping Watch in Huiming
 
 - **类型 / Type:** 艺术作品 / Artwork
 - **作品类型 / Artwork type（固定 / fixed）:** 人物雕塑 / Figurative sculpture
@@ -893,3 +939,4 @@
 | 高度<br>Height | 185厘米<br>185 cm | 176厘米<br>176 cm | 180厘米<br>180 cm | 190厘米<br>190 cm | 194厘米<br>194 cm |
 | 宽度<br>Width | 75厘米<br>75 cm | 72厘米<br>72 cm | 73厘米<br>73 cm | 77厘米<br>77 cm | 78厘米<br>78 cm |
 
+</details>
